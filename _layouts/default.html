@@ -12,7 +12,7 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper" style="font-family:georgia">
       <header>
         <div align = "right">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
@@ -30,7 +30,9 @@
 
       </section>
       <footer>
-        <p>Hosted through <a href="{{ site.github.owner_url }}">GitHub</a></p>
+        <div align = "right">
+          <p>hosted through <a href="{{ site.github.owner_url }}">GitHub</a> &mdash; <a href="https://github.com/pages-themes/minimal">minimal</a> pages theme</p>
+        </div>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
