@@ -14,12 +14,15 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <div align = "right">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <p>Episcopal Service Corps Fellow.<br>
+          Clerk in Refugee Medical Care.<br>
+          Aspiring Mathematician.</p>
 
-        <p><a href="mailto:coltoncgrainger@gmail.com">coltoncgrainger@gmail.com</a><br>
-        Twitter: <a href="https://twitter.com/coltongrainger">Twitter</a>
-
+          <p><a href="mailto:coltoncgrainger@gmail.com">coltoncgrainger@gmail.com</a><br>
+          Twitter: <a href="https://twitter.com/coltongrainger">@ColtonGrainger</a>
+        </div>
       </header>
       <section>
 
@@ -27,7 +30,7 @@
 
       </section>
       <footer>
-        <p>Hosted by <a href="{{ site.github.owner_url }}">GitHub</a></p>
+        <p>Hosted through <a href="{{ site.github.owner_url }}">GitHub</a></p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
