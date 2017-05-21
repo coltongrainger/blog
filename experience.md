@@ -1,11 +1,15 @@
-##Education
+---
+layout: default
+---
 
-##Professional Experience
+## Education
 
-##Community Involvement
+## Professional Experience
 
-##Additional Training
+## Community Involvement
 
-##Awards
+## Additional Training
 
-##References
+## Awards
+
+## References
