@@ -1,4 +1,4 @@
-<img src="images/portrait-5-20-17.jpg" style="float: right;" height="200" width="200">
+<img src="images/portrait-5-20-17.jpg" style="float: right; margin: 0px 0px 23px 23px" height="150" width="150" >
 
 ## Greetings!
 
