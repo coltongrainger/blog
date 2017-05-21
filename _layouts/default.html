@@ -14,13 +14,11 @@
   <body>
     <div class="wrapper">
       <header>
-        <img src="images/portrait-5-20-17.jpg" class="inline"/>
+        <img src="images/portrait-5-20-17.jpg" class="inline" height="72" width="72">
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.github.is_user_page %}
-          <p>I'm also on <a href="https://twitter.com/coltongrainger">Twitter</a> and <a href="{{ site.github.owner_url }}">GitHub</a>.</p>
-        {% endif %}
+        <p>Twitter<a href="https://twitter.com/coltongrainger">Twitter</a> and <a href="{{ site.github.owner_url }}">GitHub</a>.</p>
 
       </header>
       <section>
