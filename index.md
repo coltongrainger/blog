@@ -1,3 +1,5 @@
+<img src="images/portrait-5-20-17.jpg" height="128" width="128">
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ColtonGrainger/ColtonGrainger.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
