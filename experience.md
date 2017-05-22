@@ -1,15 +1,23 @@
 ---
 layout: default
+title: experience
+order: 3
 ---
 
-<h2> Education </h2>
+## Education
 
-<h2> Professional Experience </h2>
+**B.S. in Mathematics-Physics**, _May 2016_ <br>
+_The College of Idaho, Caldwell, ID_ **GPA: 3.49**<br> 
++ Senior Study: _Galois Theory for Differential Equations_
+	+ Advised by Dr. Jonny Comes
 
-<h2> Community Involvement </h2>
+<!-- ## Professional Experience
 
-<h2> Additional Training </h2>
+## Community Involvement
 
-<h2> Awards </h2>
+## Additional Training
 
-<h2> References </h2>
+## Awards
+
+## References -->
+
