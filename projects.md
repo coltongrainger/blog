@@ -20,6 +20,5 @@ order: 2
 <img src="images/contour-plots.jpg" style="float: right; margin: 0px 0px 23px 23px" width="150" >
 
 + Galois Theory for Differential Equations [(pdf)](documents/cgrainger_coursework_galois.pdf) [(poster)](documents/cgrainger_coursework_galois_poster.pdf)
-+ Voltaire's Philosophy and Worldview [(pdf)](documents/cgrainger_coursework_voltaire.pdf)
 + Practice, Project, Power: Journal Keeping with an Emphasis on Emperical Observation [(pdf)](documents/cgrainger_coursework_journalkeeping.pdf)
 
