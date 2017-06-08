@@ -8,7 +8,8 @@ order: 4
 
 + [Dave Rosoff](http://www.collegeofidaho.edu/directory/dave-w-rosoff-phd) (algebraic topology)
 + [Philip Guo](http://pgbovine.net/writings.htm) (cognitive science)
-+ [Matt Might](http://matt.might.net/) (computer science)
++ [Matt Might](http://matt.might.net/) (medicine)
++ [Lydia Riedel-Tramsek](http://www.sonnwendhof.de/) (permaculture)
 
 ## Texts
 
