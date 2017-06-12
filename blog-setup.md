@@ -16,3 +16,21 @@ order: 5
 	- Data Integrity in Excel & with RMS
 	- Resource Sharing (online)
 	
+- Resource Binder Presentation
+	- Gold Card Applications
+		- Days to process
+		- how to follow up
+		- writing an ROI
+	- Rental Assistance
+		- GCCSA policies
+		- contacts
+		- days to process
+		- how to follow up
+	- METRO Lift applications
+		- days to process
+		- how to follow up
+	- OneSight program
+	- Low cost dental
+	- Clinic maps
+		- mine vs. violet's
+		
