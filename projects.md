@@ -1,7 +1,7 @@
 ---
 layout: default
 title: projects
-order: 3
+order: 2
 ---
 
 ## Refugee Services in Houston 
