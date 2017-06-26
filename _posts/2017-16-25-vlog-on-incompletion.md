@@ -2,10 +2,17 @@
 layout: post
 title:  "VLOG: On Incompletion."
 date:   2017-25-06
-categories: vlog esc ymca
+categories: TX-ESC YMCA
 ---
 
 What I've noticed is that this year I have developed more incomplete work than any other year in my life. I spend a little time in a video to reflect on *incompleteness* and to outline a plan to conclude a year of service.
+
+<html>
+ <body>
+  <iframe src="https://www.youtube.com/watch?v=5WICtYLkxa0"
+   width="560" height="315" frameborder="0" allowfullscreen></iframe>
+ </body>
+</html>
 
 ## References:
 
