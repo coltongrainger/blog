@@ -1,7 +1,7 @@
 ---
 layout: default
 title: vitae
-order: 3
+order: 4
 ---
 ## Education
 
