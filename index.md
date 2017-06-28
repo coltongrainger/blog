@@ -4,7 +4,7 @@ title: home
 order: 1
 ---
 
-<img src="images/ccg-profile.jpg" style="float: right; margin: 0px 0px 23px 23px" height="175" width="175" > 
+<img src="images/ccg-profile.JPG" style="float: right; margin: 0px 0px 23px 23px" height="175" width="175" > 
 
 ## Greetings!
 
