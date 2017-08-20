@@ -4,12 +4,10 @@
   <header>
     <div align = "right">
       <h1>{{ site.title | default: site.github.repository_name }}</h1>
-      <p>
-        Clerk in Refugee Medical Care<br>
-        Texas Episcopal Service Corps<br><br>
-
+      <p>{{ site.description | default: site.github.project_tagline }}</p>
+      
         <a href="mailto:colton.grainger@gmail.com">colton.grainger@gmail.com</a><br>
-        Twitter: <a href="https://twitter.com/coltongrainger">@coltongrainger</a><br>
+        Twitter: <a href="https://twitter.com/coltongrainger">@coltongrainger</a>
 
         {% assign sorted_pages = site.pages | sort:"order" %} 
         {% for p in sorted_pages %}
@@ -21,6 +19,10 @@
               href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a><br>
         {% endfor %}
       </p>
+      <h2> Blog </h2>
+        {% for post in site.posts %}
+          <a href="{{ post.url }}">{{ post.title }}</a><br> {{ post.date | }}
+        {% endfor %}
     </div>
   </header>
   <section>
@@ -36,4 +38,4 @@
 </div>
 <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
-{% include head.html %}
+{% include foot.html %}
