@@ -1,7 +1,7 @@
 ---
 layout: default
 title: links
-order: 5
+order: 4
 ---
 
 ## People

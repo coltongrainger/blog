@@ -13,4 +13,4 @@ defaults:
     scope:
       path: "_posts"
     values:
-      permalink: slug
+      permalink: /:title:output_ext
