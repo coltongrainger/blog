@@ -19,9 +19,9 @@
               href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a><br>
         {% endfor %}
       </p>
-      <h2> Blog </h2>
+      <p style="font-weight:bold; font-size:20px"> recent posts </p>
         {% for post in site.posts %}
-          <a href="{{ post.url }}">{{ post.title }}</a><br> {{ post.date | date: "%Y-%m-%d"}}
+          <a href="{{ post.url }}">{{ post.title }}</a><br> {{ post.date | date: "%Y-%m-%d"}}<br><br>
         {% endfor %}
     </div>
   </header>

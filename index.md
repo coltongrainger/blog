@@ -8,11 +8,10 @@ order: 1
 
 ## Greetings!
 
-My professional interests include *social justice*, *permaculture*, and *ecological design*. 
+My professional interests include *mathematics*, *permaculture*, and *ecological design*. 
 
-I have academic enthusiasm for *Multiscale Analysis and Computations* to understand complex systems (e.g., aquifers) and *Numerical Methods* to model fluid flow and contaminant diffusion in porous media.
-
+I have academic enthusiasm for *Topology* and *Reproducible Research*. I am motivated by applications of mathematics to understand complex ecological processes. I presently learning how to use *Sage* and the *Jupyter Notebook*.
 
 ## My Current Position
 
-I am now a clerk at a refugee resettlement office in Houston. I work on a small team to support refugees with complex medical conditions. In this work, I help limited English proficiency clients navigate one of the nation's densest health-care bureaucracies, I coordinate health plans to ensure coverage of medical services, and I accompany clients to safety nets (e.g., shelters and food pantries) in emergency situations.
+I am now an AmeriCorps VISTA at a family homeless shelter in Olympia, WA. I work to coordinate the volunteer program and community events. We are passionate about strengthening families and preventing adverse childhood experiences. 

@@ -4,16 +4,20 @@ title: projects
 order: 2
 ---
 
-## Refugee Services in Houston 
-<img src="images/pcp-map.jpg" style="float: right; margin: 0px 0px 23px 23px" width="150">
+**2018: Volunteer Program Website** [(link)](https://github.com/ColtonGrainger/fscss-volunteers) <br>
+I built a website to coordinate volunteer recruitment and scheduling at Family Support Center of South Sound.
 
-+ [Case Management Bulletin Board](https://github.com/ColtonGrainger/ymca-resources)
-+ [Map of Primary Care Providers](https://drive.google.com/open?id=1kk9yn6-4nifHLIf2tGYbW_7PiYo&usp=sharing)
-+ [Map of Shelters](https://drive.google.com/open?id=1DlnGODIVZdoQ_O2P2CK_oXOZkZQ&usp=sharing)
+**2017: Case Management Bulletin Board** [(link)](https://github.com/ColtonGrainger/ymca-resources) <br>
+I created a repository for case managers at the YMCA International Services in Houston, TX. We supported refugees with complex medical conditions in one of the nation’s largest health-care centers.
 
-## Written Work
-<img src="images/contour-plots.jpg" style="float: right; margin: 0px 0px 23px 23px" width="150" >
+<img src="images/pcp-map.jpg" style="margin: 0px 0px 23px 23px" width="300">
 
-+ Galois Theory for Differential Equations [(pdf)](documents/cgrainger_coursework_galois.pdf) [(poster)](documents/cgrainger_coursework_galois_poster.pdf)
-+ Practice, Project, Power: Journal Keeping with an Emphasis on Emperical Observation [(pdf)](documents/cgrainger_coursework_journalkeeping.pdf)
+**2016: Galois Theory for Differential Equations** [(pdf)](documents/cgrainger_coursework_galois.pdf) [(poster)](documents/cgrainger_coursework_galois_poster.pdf)<br>
+Following Michio Kuga's analysis of Fuchsian-type differential equations, I parameterize the solution space of the hypergeometric equation. For interesting cases, I find the monodromy representation at singular points. Presented at the College of Idaho's Student Research Conference.
 
+<img src="images/contour-plots.jpg" style="margin: 0px 0px 23px 23px" width="300" >
+
+**2014: Animal Magnetism** [(pdf)](documents/cgrainger-animal-magnetism.pdf) <br>
+In a series of collages, I explore the human/animal bodies in William Faulkner's *As I Lay Dying*. Created for Dr. Scott Knickerbocker.
+
+<img src="images/animal-magnetism.png" style="margin: 0px 0px 23px 23px" width="300">

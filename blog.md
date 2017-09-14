@@ -4,8 +4,6 @@ title: blog
 order: 3
 ---
 
-## Blog
-
 <ul>
   {% for post in site.posts %}
     <li>
