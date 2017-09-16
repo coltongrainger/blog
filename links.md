@@ -24,5 +24,5 @@ Here're notes from Donald Knuth's 1980 course.
 - [CS 209, Mathematical Writing](http://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf)
 
 Polya's book contains a glossary of heuristic methods. 
-- [How to Solve it: A New Aspect of Mathematical Method](https://notendur.hi.is/hei2/teaching/Polya_HowToSolveIt.pdf) (by G. Polya) 
+- [How to Solve it: A New Aspect of Mathematical Method](https://notendur.hi.is/hei2/teaching/Polya_HowToSolveIt.pdf) 
 

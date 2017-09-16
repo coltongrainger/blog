@@ -18,3 +18,8 @@ I am coordinating the [volunteer program](http://coltongrainger.com/fscss-volunt
 
 Additionally, I'm studying [Probabilty](http://webpages.uidaho.edu/cremien/math451EO/) and [Ordinary Differential Equations](http://www.webpages.uidaho.edu/~barannyk/Teaching/Math310.html).
 
+## Contact
+
+- [colton.grainger@gmail.com](mailto:colton.grainger@gmail.com)
+- Twitter: [@coltongrainger](https://twitter.com/coltongrainger)
+
