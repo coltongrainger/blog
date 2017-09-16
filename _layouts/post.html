@@ -1,25 +1,19 @@
 {% include head.html %}
-
 <div class="wrapper">
   <header>
     <div align = "right">
-      <h1>{{ site.title | default: site.github.repository_name }}</h1>
-      <p>{{ site.description | default: site.github.project_tagline }}</p>
-      
-        <a href="mailto:colton.grainger@gmail.com">colton.grainger@gmail.com</a><br>
-        Twitter: <a href="https://twitter.com/coltongrainger">@coltongrainger</a>
-
-        {% assign sorted_pages = site.pages | sort:"order" %} 
-        {% for p in sorted_pages %}
-          <a 
-            {% if p.url == page.url %} 
-              style="font-weight:bold; font-size:20px" 
-            {% endif %} 
-              style="font-size:20px" 
-              href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a><br>
-        {% endfor %}
-      </p>
-      <p style="font-weight:bold; font-size:20px"> recent posts </p>
+      {% assign sorted_pages = site.html_pages | sort:"order" %} 
+      {% for p in sorted_pages %}
+      <a 
+        {% if p.url == page.url %} 
+          style="font-weight:bold; font-size:20px" 
+        {% endif %} 
+          style="font-size:20px" 
+          href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}
+      </a><br>
+      {% endfor %}
+      <br>
+      <h2> recent </h2>
         {% for post in site.posts %}
           <a href="{{ post.url }}">{{ post.title }}</a><br> {{ post.date | date: "%Y-%m-%d"}}<br><br>
         {% endfor %}
@@ -28,16 +22,17 @@
   <section>
 
   <h1> {{ page.title }} </h1>
+  <p> belief: {{page.belief}} | created: {{page.created}} | revised: {{page.revised}} </p>
 
   {{ content }}
 
   </section>
   <footer>
     <div align = "right">
-      <p>hosted on <a href="{{ site.github.owner_url }}">GitHub</a></p>
+      <p>hosted through <a href="{{ site.github.owner_url }}">GitHub</a></p>
     </div>
   </footer>
 </div>
 <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
-{% include head.html %}
+{% include foot.html %}

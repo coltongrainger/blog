@@ -1,15 +1,17 @@
 ---
 layout: post
+title: Journal Keeping
 author: Colton Grainger
 created: 2016-06-15
-title: Journal Keeping
+revised: 2017-09-13
+belief: likely
 ---
 
-This is a meditation on my own writing, from the end of my undergrad. First, I consider specifically *how* I wrote in my journal during a study abroad trip in Scotland, then at a WWOOF farm in Baden-Württemberg, Germany. Second, I share a few transcribed selections. 
+This is a meditation on my own writing, during a trip through Scotland, then at a WWOOF farm in Baden-Württemberg, Germany. I consider *how* I kept a journal, then I share writing samples. 
 
-1. [Methodology](#methodology)
-2. [Writing Samples](#writing-samples)
-3. [Reflection](#reflection)
+- [Methodology](#methodology)
+- [Writing Samples](#writing-samples)
+- [Reflection](#reflection)
 
 ## Methodology
 
@@ -23,7 +25,7 @@ Topics vary - perhaps entry carries forth a fantastic discussion with a dead rel
 
 I have now loosely defined two actions: *empirical observation* and *journal keeping*. What remains to do is (i) explain how empirical observation is useful in journal keeping, (ii) explain how journal keeping is useful in empirical observation, and (iii) explain how the two can be deliberately combined.
 
-\(i) What's the role of empirical observation in journal keeping? In overview: to detail experience; to locate the written word; to ground writing in context. 
+(i) What's the role of empirical observation in journal keeping? In overview: to detail experience; to locate the written word; to ground writing in context. 
 
 Empirical observation concretizes. Francis Bacon ostended “for the wit and mind of man, if it work upon the creatures of God, worketh according to the stuff and is limited thereby.”[^2] Keeping my mind to “stuff” has proven to be a creative limitation. When I write with an emphasis on empirical observations, I connect vocabulary firmly to the *Umwelt*. My words then are joined as fibers in thick cloth. 
 

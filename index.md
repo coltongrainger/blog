@@ -1,17 +1,20 @@
 ---
-layout: default
 title: home
+author: Colton Grainger
 order: 1
+# date: 2017-09-15
+# created: 2017-07-15
 ---
+# Colton Grainger
 
-<img src="images/ccg-profile.JPG" style="float: right; margin: 0px 0px 23px 23px" height="175" width="175" > 
+<img src="images/ccg-profile.JPG" style="float: right; margin: 0px 0px 23px 23px" height="150" width="150">
+This is the personal website of Colton Grainger.
 
-## Greetings!
+<hr>
 
-My professional interests include *mathematics*, *permaculture*, and *ecological design*. 
+## What I am working on: September 2017
 
-I have academic enthusiasm for *Topology* and *Reproducible Research*. I am motivated by applications of mathematics to understand complex ecological processes. I presently learning how to use *Sage* and the *Jupyter Notebook*.
+I am coordinating the [volunteer program](http://coltongrainger.com/fscss-volunteers) for a family homeless shelter in Olympia, WA. 
 
-## My Current Position
+Additionally, I'm studying [Probabilty](http://webpages.uidaho.edu/cremien/math451EO/) and [Ordinary Differential Equations](http://www.webpages.uidaho.edu/~barannyk/Teaching/Math310.html).
 
-I am now an AmeriCorps VISTA at a family homeless shelter in Olympia, WA. I work to coordinate the volunteer program and community events. We are passionate about strengthening families and preventing adverse childhood experiences. 
