@@ -12,11 +12,6 @@
           href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}
       </a><br>
       {% endfor %}
-      <br>
-      <h2> recent </h2>
-        {% for post in site.posts %}
-          <a href="{{ post.url }}">{{ post.title }}</a><br> {{ post.date | date: "%Y-%m-%d"}}<br><br>
-        {% endfor %}
     </div>
   </header>
   <section>

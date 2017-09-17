@@ -1,5 +1,5 @@
 ---
-title: posts
+title: blog
 author: Colton Grainger
 order: 3
 ---
