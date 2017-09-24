@@ -7,7 +7,7 @@ order: 1
 ---
 # Colton Grainger
 
-<img src="images/ccg-profile.JPG" style="float: right; margin: 0px 0px 23px 23px" height="150" width="150">
+<img src="images/ccg-dogs.JPG" style="float: right; margin: 0px 0px 23px 23px" height="150" width="150">
 This is the personal website of Colton Grainger.
 <hr>
 
@@ -27,4 +27,4 @@ Additionally, I'm studying [Probabilty](http://webpages.uidaho.edu/cremien/math4
 
 - Email: [colton.grainger@gmail.com](mailto:colton.grainger@gmail.com)
 - Twitter: [@coltongrainger](https://twitter.com/coltongrainger)
-
+- [identification photo](images/ccg-profile.JPG)
