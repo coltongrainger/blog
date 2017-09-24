@@ -14,6 +14,7 @@ I recently participated in a webinar (July 2017) hosted by Science Gateways Comm
 Dave Rosoff introduced me to SageMathCloud in 2014 for solving systems of differential equations, which was my first exposure to IPython notebooks. As I didn't know TeX then, I struggled tremendously to format my output. I didn't pry deep into python's libraries; I mostly stayed in the sage docs. 
 
 I was tasked to analyze resonance given different forcing functions for 2nd order linear DEs. At finish, I had a mish-mashed assemblage of sage commands and non-compiling markdown. I couldn't even plot a collection of functions without manually typing in new the parameters (as opposed to now, where I'd use plot a just plot a list of functions indexed by parameter values).
+
 `plot([exp(-3*x)*(x^2 + C) for C in [-1..2]], (-0.5, 0.5))`
 
 # Webinar Notes
