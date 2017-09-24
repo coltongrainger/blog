@@ -7,6 +7,8 @@ belief: likely
 status: notes
 ---
 
+I recently participated in a webinar (July 2017) hosted by Science Gateways Community Institute (which exists to facilitate community sharing of experiences, technologies, and practices at little or no cost!) These are my notes and reactions.
+
 # Background
 
 Dave Rosoff introduced me to SageMathCloud in 2014 for solving systems of differential equations, which was my first exposure to IPython notebooks. As I didn't know TeX then, I struggled tremendously to format my output. I didn't pry deep into python's libraries; I mostly stayed in the sage docs. 
@@ -15,8 +17,6 @@ I was tasked to analyze resonance given different forcing functions for 2nd orde
 `plot([exp(-3*x)*(x^2 + C) for C in [-1..2]], (-0.5, 0.5))`
 
 # Webinar Notes
-
-I recently participated in a webinar (July 2017) hosted by Science Gateways Community Institute (which exists to facilitate community sharing of experiences, technologies, and practices at little or no cost to community members!)
 
 Carol Willing presented a whirlwind tour of Jupyter's development out of IPython:
 - For information about IPython prior to 2011, see [Perez's historical ruminations](http://blog.fperez.org/2012/01/ipython-notebook-historical.html)])
