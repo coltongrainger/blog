@@ -2,10 +2,10 @@
 title: Research Interests
 author: Colton Grainger
 created: 2017-09-30
-status: possibly
+belief: possibly
 ---
 
-Finished speaking with Nikki Sanderson. Here's the bullet list:
+Finished speaking with Nikki Sanderson. Here's the bullet list.
 
 - What's in a PhD?
 	- for Jim Meiss, 2 papers
@@ -43,9 +43,12 @@ Software:
 	- great tutorial, works with MatLab
 - Persius 
 	- acts as a package for Python to call?
-	- [discrete morse theory]
+	- [discrete morse theory](https://en.wikipedia.org/wiki/Discrete_Morse_theory)
+	- simplifies complex while preserving homology (fast!)
 - Dionysus
 - PHAT
+	- works well with R?
 
 Then some more resources:
-http://amath.colorado.edu/faculty/jdm/research.html#Groundwater
+- [TDA for an environmental application](https://link.springer.com/chapter/10.1007/978-3-319-30379-6_22)
+- [Jim's research in contaminant clean-up](http://amath.colorado.edu/faculty/jdm/research.html#Groundwater)
