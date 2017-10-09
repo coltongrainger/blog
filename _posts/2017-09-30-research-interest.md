@@ -27,7 +27,7 @@ Finished speaking with Nikki Sanderson. Here's the bullet list.
 	- effecient algorithms
 	- TDA has different constraints comparatively
 		- not manifold learning
-	- image analysis
+	- [image analysis](https://youtu.be/GKlcY1bIYDk) Paul Hand's introduction
 	- materials, mining, etc
 	- ice-cap melting
 
