@@ -56,4 +56,4 @@ Then some more resources:
 - [Kathryn Hess Bellwald](https://hessbellwald-lab.epfl.ch/HessBellwald)
 	- [publications](https://hessbellwald-lab.epfl.ch/publications)
 	- some application to neuro-science, which loops around with potential treatments of MS
-
+	- blue brain project
