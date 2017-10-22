@@ -9,18 +9,15 @@ order: 1
    
 # Colton Grainger
 
-This is the personal website of Colton Grainger.
+This is the personal website of myself, Colton Grainger. I consider it to be an [open notebook](http://wcm1.web.rice.edu/open-notebook-history.html). This site has three main functions: (i) to share my notes and journal entries, (ii) to develop a relationship with an implied reader[^who], and (iii) to concentrate my effort on clearly delineated goals.
+
+[^who]: For [Wolfgang Iser](https://en.wikipedia.org/wiki/Wolfgang_Iser), the *implied reader* is "a textual structure anticipating the presence of a recipient without necessarily defining [them]…the concept of the implied reader designates a network of response-inviting structures, which impel the reader to grasp the text."
 <hr>
 
+## Fall 2017 Summary
 I am coordinating the [volunteer program](http://coltongrainger.com/fscss-volunteers) for a family homeless shelter in Olympia, WA. 
 
 Additionally, I am reviewing [Probabilty](http://webpages.uidaho.edu/cremien/math451EO/) and [Ordinary Differential Equations](http://www.webpages.uidaho.edu/~barannyk/Teaching/Math310.html).
-
-## Recent Posts
-
-{% for post in site.posts %}
-  <a href="{{ post.url }}">{{ post.title }}</a><br> {{ post.date | date: "%Y-%m-%d"}}<br>
-{% endfor %}
 
 ## Contact
 
