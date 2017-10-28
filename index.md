@@ -9,7 +9,7 @@ order: 1
    
 # Colton Grainger
 
-This is the personal website of myself, Colton Grainger. I consider it to be an [open notebook](http://wcm1.web.rice.edu/open-notebook-history.html). This site has three main functions: (i) to share my notes and journal entries, (ii) to develop a relationship with an implied reader[^who], and (iii) to concentrate my effort on clearly delineated goals.
+This is my (Colton Grainger's) personal website. I warmly appreciate other folks who've modeled online presence (see [links](/links)), and I am following in their footsteps. My site has three main functions: (i) to [share notes](http://wcm1.web.rice.edu/open-notebook-history.html) and [journal entries](/journal-keeping), (ii) to develop a relationship with an implied reader[^who], and (iii) to concentrate my effort on clearly delineated goals.
 
 [^who]: For [Wolfgang Iser](https://en.wikipedia.org/wiki/Wolfgang_Iser), the *implied reader* is "a textual structure anticipating the presence of a recipient without necessarily defining [them]…the concept of the implied reader designates a network of response-inviting structures, which impel the reader to grasp the text."
 <hr>
