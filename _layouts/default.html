@@ -1,30 +1,9 @@
 {% include head.html %}
-<div class="wrapper">
-  <header>
-    <div align = "right">
-      {% assign sorted_pages = site.html_pages | sort:"order" %} 
-      {% for p in sorted_pages %}
-      <a 
-        {% if p.url == page.url %} 
-          style="font-weight:bold; font-size:20px" 
-        {% endif %} 
-          style="font-size:20px" 
-          href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}
-      </a><br>
-      {% endfor %}
-    </div>
-  </header>
-  <section>
+
+  <main>
 
   {{ content }}
 
-  </section>
-  <footer>
-    <div align = "right">
-      <p>hosted through <a href="{{ site.github.owner_url }}">GitHub</a></p>
-    </div>
-  </footer>
-</div>
-<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </main>
 
 {% include foot.html %}
