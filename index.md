@@ -5,7 +5,6 @@ order: 1
 # date: 2017-09-15
 # created: 2017-07-15
 ---
-<img src="/images/ccg-dogs.jpg" style="float: right; margin: 0px 0px 23px 23px" height="150" width="150">
    
 # Colton Grainger
 
