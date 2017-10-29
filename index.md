@@ -5,7 +5,10 @@ order: 1
 modified: 2017-09-15
 date: 2017-07-15
 ---
+<<<<<<< HEAD
 <img src="/images/ccg-dogs.jpg" style="float: right; margin: 0px 0px 23px 23px" height="125" width="125">
+=======
+>>>>>>> master
    
 # Colton Grainger
 
