@@ -5,11 +5,9 @@ order: 1
 modified: 2017-09-15
 date: 2017-07-15
 ---
-<<<<<<< HEAD
+
 <img src="/images/ccg-dogs.jpg" style="float: right; margin: 0px 0px 23px 23px" height="125" width="125">
-=======
->>>>>>> master
-   
+
 # Colton Grainger
 
 This is my (Colton Grainger's) personal website. My intention here is to [share notes](http://wcm1.web.rice.edu/open-notebook-history.html) and [journal entries](/journal-keeping), to develop a relationship with an implied reader[^who], and to concentrate my efforts on clearly delinated goals. 
