@@ -10,17 +10,20 @@ Thanks to the following people for technical guidance.
 + [Philip Guo](http://pgbovine.net/)
 + [Matt Might](http://matt.might.net/)
 + [Issa Rice](http://issarice.com)
+	- *Much* credit to Issa Rice for forging ahead in creating a really crisp style sheet. I've pulled multiple features from his site (e.g., headers, CC0 licensing, and general modus operandi). 
 
-*Much* credit to Issa Rice for forging ahead in creating a really crisp style sheet. I've pulled multiple features from his site (e.g., headers, CC0 licensing, and general modus operandi). 
+These folks have encouraged me to create on online presence, to disregard categories imposed by gender, and to especially have hope for the future.
 
-These folks have encouraged me (i) to create on online presence, (ii) to disregard categories imposed by gender, and (iii) to especially have hope for the future.
 - [Vi Hart](http://vihart.com/vi-hart-faq/)
 - [Evelyn Eastmon](http://www.evelyneastmond.com/)
 - [Nikki Case](http://blog.ncase.me/)
 
-Folks at The College of Idaho.
+I thorougly enjoyed working with these faculty in Caldwell, ID. 
+
 + [Dave R.](https://www.collegeofidaho.edu/directory/david-rosoff)
 + [Megan D.](https://www.collegeofidaho.edu/directory/megan-dixon)
++ [Eric S.](https://www.collegeofidaho.edu/directory/eric-spencer)
++ [Steve M.](https://www.collegeofidaho.edu/directory/steve-maughan)
 
 ## References
 
