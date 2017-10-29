@@ -1,10 +1,10 @@
 ---
-layout: post
 title: Journal Keeping
 author: Colton Grainger
-created: 2016-06-15
-revised: 2017-09-13
+date: 2016-06-15
+modified: 2017-09-13
 belief: likely
+status: draft
 ---
 
 This is a meditation on my own writing, during a trip through Scotland, then at a WWOOF farm in Baden-Württemberg, Germany. I consider *how* I kept a journal, then I share writing samples. 
@@ -12,6 +12,15 @@ This is a meditation on my own writing, during a trip through Scotland, then at 
 - [Methodology](#methodology)
 - [Writing Samples](#writing-samples)
 - [Reflection](#reflection)
+
+~~~
+one application
+upon worked garden soil:
+to nap through an hour.
+stochastic rain
+monograms closed eyelids,
+skull cupped in dirt.
+~~~
 
 ## Methodology
 
@@ -29,11 +38,11 @@ I have now loosely defined two actions: *empirical observation* and *journal kee
 
 Empirical observation concretizes. Francis Bacon ostended “for the wit and mind of man, if it work upon the creatures of God, worketh according to the stuff and is limited thereby.”[^2] Keeping my mind to “stuff” has proven to be a creative limitation. When I write with an emphasis on empirical observations, I connect vocabulary firmly to the *Umwelt*. My words then are joined as fibers in thick cloth. 
 
-By the end of the 16th century, English natural philosophers had crept to a similar understanding. Bacon warned: “if \[the mind and wit of man\] work upon itself, as the spider worketh his web, then it is endless, and brings forth indeed cobwebs of learning, admirable for the fineness of thread and work, but of no substance or profit.” [^3] Thought without immediate referents is weak and uprooted. It follows that empirical observation, in forcing thought to referent yields a strong, vibrant vocabulary for both recognition and description.
+By the end of the 16th century, English natural philosophers had crept to a similar understanding. Bacon warned: “if the mind and wit of man work upon itself, as the spider worketh his web, then it is endless, and brings forth indeed cobwebs of learning, admirable for the fineness of thread and work, but of no substance or profit.” [^3] Thought without immediate referents is weak and uprooted. It follows that empirical observation, in forcing thought to referent yields a strong, vibrant vocabulary for both recognition and description.
 
 Empirical observation is attention registered. A baby step. Conversely, empirical observation forces an attention that fleshes out framework. Indeed, the scientific process is dependent on the non-interpretive attentiveness of empirical observation: “We can…only augur well for the sciences, when the ascent shall proceed by a true scale and successive steps, without interruption or breach, from particulars.” [^4] 
 
-\(ii) I can also characterize the role of journal keeping in empirical observation. In overview: To create a chronology; to reveal biases; to surround empirics in mental context. When I noticed… I was thinking? When I recognized… my mood was? 
+(ii) I can also characterize the role of journal keeping in empirical observation. In overview: To create a chronology; to reveal biases; to surround empirics in mental context. When I noticed… I was thinking? When I recognized… my mood was? 
 
 The “empiricist” ought to beware of coexistent motives. For example, a landworker’s vision of pasture is affected by what she believes is good for her sheep: poisonous flowers? easy to fence? accessible? Here are dangerous motives: the desire to be complete or to be consistent. Without a comfortable relationship with incompleteness or inconsistency, my empirical work suffers from distortions that attempt to present the world as both complete and consistent. Fortunately, a journal's tone carries - I hear corruption upon reading. 
 
@@ -41,7 +50,6 @@ A journal builds tolerance. How can I become familar with inconsistency? By conf
 
 Another exemplary benefit of keeping a journal: it can become a container of irrelevant, yet interrupting, notanda. For example, writing down a phone number saves me from holding a string of 10 digits in my memory. Similarly, writing down a goal saves me from worrying that I will forget it. Both are somewhat irrelevant at present, but useful (likely) in the future. So a journal compiles floating, perhaps highly interpretive, reactions along with substantial and digested observations: a log of empirics and their complements.
 
-\(iii) To interweave journal keeping and empirical observation. 
 
 I apply a few general rules. First, I strive for authenticity. In this way, I may roam between journal keeping and empirical observation. Both are honest representations of experience, despite the fact that journal keeping may be more figurative/grotesque/hyperbolic than empirical observation. 
 
@@ -71,32 +79,20 @@ The writing practice I have just described is not unique. But for me, it is just
 
 ## Writing Samples
 
-<hr>
+~~~
+Jonah and I find
+blushing granite, K-spar pink
+later, crack black rocks.
+~~~
 
-Jonah and I find<br>
-blushing granite, K-spar pink<br>
-later, crack black rocks.<br>
+~~~
+empty bubbles in the oozing pluton, 
+catching silicate dust. 
+Branching atoms hook and jag
+	covalent tetrahedrons.
+~~~
 
-<hr>
-
-like lambs’ fleece thins to<br>
-blinked open glassy eyes<br>
-snow melts around cairns.<br>
-
-<hr>
-
-one application:<br>
-upon worked garden soil<br>
-to nap through an hour<br>
-stochastic rain<br>
-monograms closed eyelids,<br>
-skull cupped in dirt.
-
-<hr> 
-
-empty bubbles in the oozing pluton, catching silicate dust. Branching ladders of weblike atoms hook and jag to form covalent bonds: tetrahedrons.
-
-<hr> 
+### Talisker Distillery
 
 Weary from the tour of Talisker Distillery (on the north west of Skye) and slouched — about to sleep — BBC Radio One announces a panel of three scientists: poised to discuss anthropological understandings of climate change. I believe the three gathered were (i) a nature journalist, Gaea Vince, (ii) a mathematician, and (iii) a professor of “social perceptions of science”[^9] Various methods to “know” climates were presented, defended, and analyzed. 
 
@@ -114,7 +110,14 @@ Cutting north then south again, staring at Mallach Carn on Scalpag, I rest my ba
 
 I am nearly asleep, the van gently humming. With time for one more question, Gaea Vince yields a final response: “speaking to human’s creative ingenuity, their local efforts to cool the planet… increasing the albedo… fruit grows in southern Spain reflecting the heat… panels on roofs… examples of humanity’s ability to evolve culturally to their climate.” Applause, the program ends, I sleep.
 
-<hr> 
+~~~
+like lambs’ fleece thins to
+blinked open glassy eyes
+snow melts around cairns.
+~~~
+
+
+### Lichen
 
 I am leaning back on a lichen covered tree stump. I am covering this journal with my polyester vest to prevent the light rain from wetting and metastasizing this ink. I am writing through the arm hole. There is a fence, of fresh pine lumber, crossing in front of me, preventing me from wandering up the hill. That hill extends, rough with dirty heather, shortly above the green canopies of loosely clustered deciduous trees. The rest of this journal entry will largely be dedicated to representing, without knowing its proper taxonomy, that particular species of tree.
 
@@ -122,28 +125,30 @@ A gross, crooked tree. Bark flaking into local patches of lichen like pale green
 
 Trunks and branches seem wet, ashy skeletons. Or damp marrow. The leaves are low chlorophyll clouds against the dusk. Another way to picture the leaves would be to construct them by iteration of fans. After, say 5 kinks in any auxiliary branch, little twig fans open out to a tight spread of some 30 fingernail sized leaves. But here, there are anomalies unaccounted for: vestiges of 3 or 5 or 8 leaves delicately clasped to the main trunk at merely a yard off the ground. An impressionistic rendering would disregard the quantity of leaves all together, wrapping detail into tones: light linens in shadow, encumbered by sporadic intrusions of convalescent blacks and blue greys. 
 
-<hr>
+### Braemar
 
 I am in the open lawn of a park in Braemar; a rectangle, ridged on three sides by sandstone-hewn buildings: a pub, a hotel, a church — each of them appearing to have fallen into disuse. Yet, on second inspection, each structure seems to be well kept: white curtains hanging inside the clean windows of the hotel’s guest rooms, healthy potted plants surrounding the church, light turned on in one wing of the pub. Perhaps I am noticing the creeping dandelions and the sprigs of some seed resembling dill and a peculiar sapling tree with fat pointed leaves. Next to me, centered in the park, rises a Neoclassical monument to some Elizabeth Louisa Oswald. The monument now is squatting—a gray concrete tower, buttressed by dirty maroon sandstone blocks, symmetric by quarter rotation (save the crouching panther on its summit). Smoke drifts from the forth side of the park; this direction is bordered by a slumped hedge, some low, thick bushes, and a basement of nettle. Perhaps it's not nettle. I am hungry, and my hunger rebounds against the odor of fire and imagined camaraderie.
 
-sandstone lion’s jaw gapes<br>
-emblematic eyes roll slack<br>
-chiseled with cold hands<br>
+~~~
+sandstone lion’s jaw gapes
+emblematic eyes roll slack
+chiseled with cold hands
+~~~
 
-<hr>
+### Ceilidh Place
 
 I am presently (to my great joy) sitting in the lobby proper of the Ceilidh Place and surrounded by green striped walls, wood for a fire, a fine sapphire, crimson and burnt orange rug, not to mention various portraits (all of them presumable Victorian and early Edwardian). Best of all, I have found a scarf that is hollow down the inside and therefore doubles as a long cap, slinking around my neck in solid black dyed wool and cuffed with floral golds, a silly teal, and sundry green and blue accents. Then, I see upon the wall, above the fireplace, in cross-stitched letters:
 
-From rising to sleeping,<br>
-spinning and weaving,<br>
-words in a garment,<br>
-loose round my life,<br>
-talking and singing,<br>
-eating and meeting,<br>
-such is the Ceilidh,<br>
-the joy of my life.<br>
-
-<hr> 
+~~~
+From rising to sleeping,
+spinning and weaving,
+words in a garment,
+loose round my life,
+talking and singing,
+eating and meeting,
+such is the Ceilidh,
+the joy of my life.
+~~~
 
 ## Reflection
 

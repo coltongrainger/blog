@@ -1,8 +1,9 @@
 ---
 title: Research Interest
 author: Colton Grainger
-created: 2017-09-30
+date: 2017-09-30
 belief: possibly
+status: notes
 ---
 
 Finished speaking with Nikki Sanderson. Here's the bullet list.

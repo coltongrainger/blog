@@ -1,7 +1,7 @@
 ---
 title: Superstition
 author: Colton Grainger
-created: 2015-12-15
+date: 2015-12-15
 modified: 2017-07-30
 belief: plausible
 status: poetry
@@ -47,7 +47,8 @@ to describe that which he observed:
 with the publication of the Novum Organum,
 Francis Bacon proclaimed 
 	the newness of a method availible to human thought, 
-	by which the species might establish progresive stages of certainty.
+	by which the species might establish 
+		progresive stages of certainty.
 
 Bacon differentiates his inductive method from Socratic midwifery 
 	in that Bacon retains the senses, 
@@ -58,8 +59,6 @@ Bacon differentiates his inductive method from Socratic midwifery
 	because he rejects 
 	the mental operation 
 	that follows an act of sense.
-
-Is Bacon's a method we to ought hunt and apprehend? 
 
 From Socrates:
 

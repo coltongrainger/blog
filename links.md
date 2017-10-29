@@ -4,18 +4,25 @@ author: Colton Grainger
 order: 4
 ---
 
-# People
+## People
 
-I list a few close influences.
-+ [Dave Rosoff](http://www.collegeofidaho.edu/directory/dave-w-rosoff-phd)
-+ [Lydia Riedel-Tramsek](http://www.sonnwendhof.de/)
-
-I ripped from these folks for design of this site.
+Thanks to the following people for technical guidance.
 + [Philip Guo](http://pgbovine.net/)
 + [Matt Might](http://matt.might.net/)
 + [Issa Rice](http://issarice.com)
 
-# References
+*Much* credit to Issa Rice for forging ahead in creating a really crisp style sheet. I've pulled multiple features from his site (e.g., headers, CC0 licensing, and general modus operandi). 
+
+These folks have encouraged me (i) to create on online presence, (ii) to disregard categories imposed by gender, and (iii) to especially have hope for the future.
+- [Vi Hart](http://vihart.com/vi-hart-faq/)
+- [Evelyn Eastmon](http://www.evelyneastmond.com/)
+- [Nikki Case](http://blog.ncase.me/)
+
+Folks at The College of Idaho.
++ [Dave R.](https://www.collegeofidaho.edu/directory/david-rosoff)
++ [Megan D.](https://www.collegeofidaho.edu/directory/megan-dixon)
+
+## References
 
 For sheer pleasure, here's Leslie Lamport's 1994 user manual.
 - [LaTeX, A Document Preparation System (2nd edition)](https://www.amazon.com/LaTeX-Document-Preparation-System-2nd/dp/0201529831)

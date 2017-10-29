@@ -2,8 +2,27 @@
   <main>
 
   <h1> {{ page.title }} </h1>
-  <p> belief: {{page.belief}} | created: {{page.created}} | revised: {{page.revised}} </p>
+  <p> 
+  	{% if page.date != nil %}
+  	created: <i> {{ page.date | date: "%Y-%m-%d" }} </i>|
+  	{% endif %}
+ 
+  	{% if page.modified != nil %}
+   	modified: <i> {{ page.modified }} </i>|
+  	{% endif %}
 
+  	{% if page.belief != nil %}
+   	belief:
+    <a href = "https://www.gwern.net/About#confidence-tags">
+      <i>{{ page.belief }}</i>
+    </a> |
+  	{% endif %}
+
+  	{% if page.status != nil %}
+   	status: <i> {{ page.status }} </i>
+  	{% endif %}
+  </p>
+  
   {{ content }}
 
   </main>

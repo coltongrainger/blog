@@ -1,9 +1,9 @@
 ---
-author: Colton Grainger
 title: Graduate Programs
-created: 2017-10-18
-revised: 2017-10-22
-status: rough notes
+author: Colton Grainger
+date: 2017-10-18
+modified: 2017-10-22
+status: notes
 belief: likely
 ---
 
