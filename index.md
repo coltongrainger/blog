@@ -10,7 +10,7 @@ date: 2017-07-15
 
 # Colton Grainger
 
-This is my (Colton Grainger's) personal website. My intention here is to [share notes](http://wcm1.web.rice.edu/open-notebook-history.html) and [journal entries](/journal-keeping), to develop a relationship with an implied reader[^who], and to concentrate my efforts on clearly delinated goals. 
+This is my (Colton Grainger's) personal website. My intention here is to [share notes](http://wcm1.web.rice.edu/open-notebook-history.html) and [journal entries](/journal-keeping), to develop a relationship with an implied reader[^who], and to concentrate my efforts on clearly delineated goals. 
 
 I warmly appreciate others who've modeled online presence; until I develop my own sufficiently, it's useful to note that I am largely following in their footsteps (see [people](/links)).
 
