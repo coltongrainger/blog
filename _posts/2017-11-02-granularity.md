@@ -46,9 +46,11 @@ So collapsing categories might not work if we use mutually exclusive sets.
 > I guess I'm not understanding your question. What do you mean [sic] make the case note streamlined? All of our staff provide services that cross over programs, so I wouldn't collapse services into one program. 
 
 > What do you mean so similar case notes are grouped together?
+
 For reporting and data collection, if we have fewer categories, then more case notes fit into each category ([pigeon hole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle)). What I'm suggesting is that we set up case notes to have low granularity.
 
 > Are you saying that the "reason for visit" list should become smaller? 
+
 Yes, for two reasons: 1. fewer categories are easier for new employees & contract monitors to understand. 2. Too many categories might lead to analysis paralysis. 
 
 ## Other sources
