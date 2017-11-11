@@ -2,11 +2,13 @@
 title: Research Interest
 author: Colton Grainger
 date: 2017-09-30
-belief: possibly
+belief: likely 
 status: notes
 ---
 
-Finished speaking with Nikki Sanderson. Here's the bullet list.
+I aim to study under one of the following disciplines: 
+	- topological data analysis, which seeks to take advantage of persistent homology in a computational setting
+	- Finished speaking with Nikki Sanderson. Here's the bullet list.
 
 - What's in a PhD?
 	- for Jim Meiss, 2 papers
