@@ -17,9 +17,9 @@ I warmly appreciate others who've modeled online presence; until I develop my ow
 [^who]: For [Wolfgang Iser](https://en.wikipedia.org/wiki/Wolfgang_Iser), the *implied reader* is "a textual structure anticipating the presence of a recipient without necessarily defining [them]…the concept of the implied reader designates a network of response-inviting structures, which impel the reader to grasp the text."
 
 ## Fall 2017 Summary
-I am coordinating the [volunteer program](http://coltongrainger.com/fscss-volunteers) for a family homeless shelter in Olympia, WA. 
+I am coordinating a [volunteer program](http://coltongrainger.com/fscss-volunteers) for a family homeless shelter in Olympia, WA. 
 
-Additionally, I am reviewing [Probabilty](http://webpages.uidaho.edu/cremien/math451EO/) and [Ordinary Differential Equations](http://www.webpages.uidaho.edu/~barannyk/Teaching/Math310.html).
+I am also reviewing [Probabilty](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/probability/) and [Ordinary Differential Equations](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/odes/).
 
 ## Contact
 
