@@ -42,7 +42,7 @@ Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's t
 ### People
 
 - [Jim Meiss](http://amath.colorado.edu/faculty/jdm/)
-- Lizz Bradley
+- [Liz Bradley](http://www.cs.colorado.edu/~lizb/)
 - [Anges Beadury](https://sites.google.com/view/agnesbeaudry)
 - [TDA for an environmental application](https://link.springer.com/chapter/10.1007/978-3-319-30379-6_22)
 - [Jim's research in contaminant clean-up](http://amath.colorado.edu/faculty/jdm/research.html#Groundwater)
