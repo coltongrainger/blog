@@ -22,7 +22,7 @@ I aim to study topological data analysis, which seeks to answer the question: *W
 
 ## Reflections
 
-### Vidit Nanda's [introduction](https://www.youtube.com/watch?v=JqajfI4-WnM)
+### Vidit Nanda's [Introduction to Persius](https://www.youtube.com/watch?v=JqajfI4-WnM)
 
 Nanda is "building filtered complexes around data points." Only imposes a nearest neighbor model on data points, which are vertices in Euclidean n-space. The filtered complexes provide computable topological invariants that "reveal underlying structure". Matrices record how boundaries in the graph are touched, from vertices to edges to triangles to tetrahedrons (etc). From these matrices (corresponding to different dimensions of the homology?) one may compute ranks, which are finite invariants. Nanda describes the process as a "very imperfect Fourier transform" (and emphasizes that it's not an invertible process). 
 
