@@ -21,7 +21,7 @@ Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's t
 		- is data science collaborative? not really
 	- dept & cultural differences
 	- Nikki has a preprint for a cross-disciplinary intro to TDA
-		- [time series in dynamical systems](https://arxiv.org/abs/1708.09359}
+		- [time series in dynamical systems](https://arxiv.org/abs/1708.09359)
 - regarding preliminaries
 	- Nikki bulked up on Riemannian Geometry (cool)
 	- differential geometry, algebra, topology
@@ -34,6 +34,10 @@ Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's t
 	- [image analysis](https://youtu.be/GKlcY1bIYDk) Paul Hand's introduction
 	- materials, mining, etc
 	- ice-cap melting
+- Nikki also mentioned collaboration in Switzerland with [Kathryn Hess Bellwald](https://hessbellwald-lab.epfl.ch/HessBellwald)
+	- [publications](https://hessbellwald-lab.epfl.ch/publications)
+	- some application to neuro-science, which loops around with potential treatments of MS
+	- blue brain project
 
 ### People
 
