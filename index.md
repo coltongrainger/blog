@@ -12,7 +12,7 @@ date: 2017-07-15
 
 This is my (Colton Grainger's) personal website; it's both an [open notebook](http://wcm1.web.rice.edu/open-notebook-history.html) and an ongoing conversation with an implied reader. 
 
-For [Wolfgang Iser](https://en.wikipedia.org/wiki/Wolfgang_Iser), the *implied reader* is 
+For [Wolfgang Iser](https://en.wikipedia.org/wiki/Wolfgang_Iser), an *implied reader* is 
 > a textual structure anticipating the presence of a recipient without necessarily defining [them]…the concept of the implied reader designates a network of response-inviting structures, which impel the reader to grasp the text.
 
 I appreciate others who've modeled online presence. For credit, see [people](/links).
