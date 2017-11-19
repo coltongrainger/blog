@@ -2,12 +2,12 @@
 title: Graduate Programs
 author: Colton Grainger
 date: 2017-10-18
-modified: 2017-10-22
+modified: 2017-11-18 
 status: notes
-belief: likely
+belief: plausible 
 ---
 
-These are notes on graduate schools and their respective faculty's research. I've isolated people who are broadly interested in algebriac and/or computational topology.
+These are notes on graduate schools and their respective faculty's research. I've isolated people who are broadly interested algebraic/computational topology. My intent is to survey and prune down a list of people I would like to work with.
 
 ## CU Boulder
 
