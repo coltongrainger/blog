@@ -48,7 +48,7 @@ Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's t
 - [Jim's research in contaminant clean-up](http://amath.colorado.edu/faculty/jdm/research.html#Groundwater)
 
 ## University of Utah
-
+Multiscale Analysis and Computations (MAC)
 ### People
 
 - [Bei Wang Phillips](http://www.sci.utah.edu/~beiwang/)
