@@ -9,7 +9,6 @@ status: poetry
 
 An excerpt of writing for Dr. Eric Spencer's *English Renaissance Literature*.
 
-([sources](documents/cgrainger-superstition-sources.pdf))
 
 <pre>
 In 1572, Tycho Brahe observed 
@@ -123,3 +122,5 @@ Superstition is
 		rhythmical, 
 		syntactical
 </pre>
+
+([sources](documents/cgrainger-superstition-sources.pdf))
