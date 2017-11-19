@@ -7,11 +7,11 @@ status: notes
 belief: likely
 ---
 
-These are my notes for applications to graduate schools. I may not include each school I apply to, but I'd like to have some record of the information I collect.
+These are notes on graduate schools and their respective faculty's research. I've isolated people who are broadly interested in algebriac and/or computational topology.
 
 ## CU Boulder
 
-Finished speaking with Nikki Sanderson. Here's the bullet list.
+Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's the bullet list.
 
 - What's in a PhD?
 	- for Jim Meiss, 2 papers
@@ -209,7 +209,14 @@ Additionally, the final exams of the courses of the req are *prelims*. The preli
 
 ## University of Oregon
 
+### People 
+
+- [Hal Sadofsky](http://pages.uoregon.edu/sadofsky/)
+- [Daniel Dugger](http://pages.uoregon.edu/ddugger/)
+
 ## Washington State University
+
+### People
 
 - [plant genome grant](https://nsf.gov/awardsearch/showAward?AWD_ID=1661348)
 
