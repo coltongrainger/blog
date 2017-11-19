@@ -9,6 +9,49 @@ belief: likely
 
 These are my notes for applications to graduate schools. I may not include each school I apply to, but I'd like to have some record of the information I collect.
 
+## CU Boulder
+
+Finished speaking with Nikki Sanderson. Here's the bullet list.
+
+- What's in a PhD?
+	- for Jim Meiss, 2 papers
+	- for Liz Bradley, the PhD is an organic experience
+	- When do I know that I have done enough work?
+		- members of the research community need to communicate
+		- is data science collaborative? not really
+	- dept & cultural differences
+	- Nikki has a preprint for a cross-disciplinary intro to TDA
+		- time series in dynamical systems
+
+- regarding preliminaries
+	- Nikki bulked up on Riemannian Geometry (cool)
+	- differential geometry, algebra, topology
+- comprehensive exams
+	- reading applied topology
+
+- applications
+	- effecient algorithms
+	- TDA has different constraints comparatively
+		- not manifold learning
+	- [image analysis](https://youtu.be/GKlcY1bIYDk) Paul Hand's introduction
+	- materials, mining, etc
+	- ice-cap melting
+
+People:
+- [Jim Meiss](http://amath.colorado.edu/faculty/jdm/)
+- Lizz Bradley
+- [Anges Beadury](https://sites.google.com/view/agnesbeaudry)
+- [TDA for an environmental application](https://link.springer.com/chapter/10.1007/978-3-319-30379-6_22)
+- [Jim's research in contaminant clean-up](http://amath.colorado.edu/faculty/jdm/research.html#Groundwater)
+
+## University of Utah
+
+- [Bei Wang Phillips](http://www.sci.utah.edu/~beiwang/)
+
+## WSU
+
+- [plant genome grant](https://nsf.gov/awardsearch/showAward?AWD_ID=1661348)
+
 ## University of Rochester
 
 I logged into a a question-answer webinar with Jonathan Pakianathan, Professor of Mathematics at the University of Rochester. Here's the summary.
