@@ -7,8 +7,7 @@ belief: likely
 status: draft 
 ---
 
-I aim to study topological data analysis, which seeks to answer the question: *What is the shape of data?*
-
+I aim to study topological data analysis, which seeks to answer the question: *What is the shape of data?* Conversely, I am motivated to understand particle flows in dynamical systems, given their utility for modeling contaminant diffusion.
 
 ## Software
 - JavaPlex
@@ -36,3 +35,17 @@ Nanda cites applications including sensor network coverage, granular force chain
 
 What's the goal? We need to perform persistent homology. We have a data set to represent as a simplicial complex. How to build? What're the parameters? What's the good radius? As we vary the radius (and some other parameters) how does the homology change?
 
+### Jim Meiss's [Chaotic Advection and Reaction](http://onlinelibrary.wiley.com/doi/10.1002/2013WR014057/full)
+
+Studies how Engineered Injection and Extraction methods can deform treatment solution emplaced in a contaminated aquifer. Numerical simulation implemented with [MODPATH/MODPATH-PLOT](https://pubs.usgs.gov/of/1994/0464/report.pdf) (a particle tracking post-processing package for MODFLOW, The U.S. Geological Survey finite-difference ground-water flow model). 
+
+Seems like some of the software that would be necessary to fulfill a promise I made in 2016 (in terms of modeling contaminants)
+> With the Army's decision not to grant an easement for the Dakota Access Pipeline (DAPL), I have a redoubled interest in contaminant dispersion. If I were contributing to an environmental impact statement for DAPL, I would (i) consider geomorphic stresses on the pipeline and (ii) *model hydrocarbon dispersion through sand, shale or clay at points of stress*. 
+
+Meiss's analysis extends beyond modeling, however, and focuses on the interface between the treatment solution and the contaminant. 
+> In heterogeneous aquifers, the heterogeneity causes local variations in the plume movement that result in deviations from radial flow.... For the heterogeneous aquifers, the interface is more irregular than the interface for the homogeneous aquifer. The deviation from the smooth three-branched shape increases as the variance of the random field increases and as the correlation length decrease.
+
+To gauge an aquifier's heterogeneity, one could bury some diodes to characterize homogeneous filaments (strands of sand, shale, or clay) then map the filaments as data for the numerical simulation. But burying the diodes seems tedious, right, if we're utlimately concerned with the probability that contaminant/treatment *does not* reach a source of drinking water? I'm not confident that sampling impedance across a handful of points would suffice to explicitly model the aquifier's heterogeneous composition. So relying on some sort of stochasitic analysis in the first place, then minimizing probability of extracting solution seems to be computationally parsimonious. 
+
+Meiss states
+>  A full optimization of the EIE sequence would be necessary to balance the trade-offs between reducing the probability of extracting treatment solution and maximizing the amount of degradation.
