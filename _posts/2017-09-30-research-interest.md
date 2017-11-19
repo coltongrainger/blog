@@ -11,12 +11,13 @@ I aim to study topological data analysis, which seeks to answer the question: *W
 
 Historically, I have been motivated to understand particle flows in dynamical systems, given their utility for modeling contaminant dispersion. However, I feel any policy recommendations to come from research in contaminant dispersion amounts to suggesting techniques for smearing some neutralizing agent through the contaminanted region. From a high level, it's tempting, but perhaps distracting, to devote too much mental effort towards cleaning up messes. On the other hand, neutralizing a contaminant by cleverly exploiting bending-and-folding seems praiseworthy.
 
-In 2016, as I applied to MS programs, I wrote:
+In 2016, as I applied to MS programs, I wrote
 > I would design and implement numerical methods to model ground water and aquifers.
 
-I had also boiled down cute scenerios for the fulfillment of this promise, one for *sediment transport* and another for *contaminant dispersion*. Here's the sediment transport scenerio.
-
+I had also boiled down cute scenerios for the fulfillment of this promise, for example, regarding sediment transport
 > In Idaho's Treasure Valley, farmers use a network of reservoirs and canals to suspend and divert the Boise river. To understand how this irrigation regime sweeps up and transports material, I would model water's energy in flood irrigated fields. Constrained by agricultural machinery and topography, I would search for furrow patterns that minimize water's turbidity. As a related project, I would consider canal geometries that interrupt high-velocity flows.
+
+A few months after declaring my intent to implement numerical methods, a former mentor mentioned he was concerned I "had quashed my own desires and interests out of a feeling of duty or a need to make more palpable, measurable contributions to society in general", so I will necessarily proceed cautiously as I express interest in applied topics. Maybe a study of contaminant diffusion is rooted too much in *application* and *analysis* (the middle sections of [Bloom's taxonomy](https://upload.wikimedia.org/wikipedia/commons/2/24/Blooms_rose.svg)) rather than *synthesis* and *evaluation*, which I relish as areas to suggest new approaches, then embark again into experimentation.
 
 ## Software
 - JavaPlex
