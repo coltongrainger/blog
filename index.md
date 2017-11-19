@@ -20,7 +20,6 @@ I appreciate others who've modeled online presence. For credit, see [people](/li
 
 ## Fall 2017 Summary
 I am coordinating a [volunteer program](http://coltongrainger.com/fscss-volunteers) for a family homeless shelter in Olympia, WA. 
-
 I am also reviewing [Probabilty](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/probability/) and [Ordinary Differential Equations](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/odes/).
 
 ## Contact
