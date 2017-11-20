@@ -68,7 +68,7 @@ __Quality of Community Life:__ *needs improvement*
 	
 I feel that the TX-ESC Houston site provided little structure for intentional community---this is in direct contrast to the first paragraph of the TX ESC handbook “The most important structure giving shape to this year is the relationship among the group of members…. The more you bring your sincerity, commitment and discernment to the experience of living together, the richer and more rewarding the year will be.” In Houston, my roommates reacted hostilely and with extreme agitation when I behaved in a way that aligned with my “sincerity, commitment and discernment.” 
 
-I simply believe that television has no place in intentional community.
+*I simply believe that television has no place in intentional community.*
 
 In turn, I found almost all of my community involvement outside of my house. For example, the most important pieces of my community were (i) the parish choir, (ii) Black Swan yoga studio, and (iii) my worksite. I heavily relied on the Austin community for peer support, which I felt was astonishingly lacking from the Houston site. 
 
@@ -99,6 +99,10 @@ While I did hope to come into an intentional community primarily and engage in s
 __What was your biggest challenge this year?__
 
 This year’s biggest challenge was to create an intentional community. I regret that I failed to to do so. I am angry that I was afraid to spend more time with my housemates. I am also pretty peeved that we had no community nights, only 2 community meetings, and rare community meals. I proposed that we create community by mutually trekking through a shared curriculum, but I came to understand that K and V had no interest in a shared curriculum (in fact, almost a visceral disinterest). K and V often invited me to watch television, as an opportunity to appreciate a dramatic creation. Coming from my background, watching television seems a secondary coping mechanism, so sitting infront any television is triggering. After just a few minutes, I feel irresponsible, angry, and helpless. I eventually defaulted to politely rejecting offers to watch TV.
+
+> [Given] the acceleration of addictiveness, then this kind of lonely squirming to avoid it will increasingly be the fate of anyone who wants to get things done. We'll increasingly be defined by what we say no to.[^addict]
+
+[^addict]: See Paul Graham, [The Acceleration of Addictiveness](http://www.paulgraham.com/addiction.html)
 
 By the Winter, I had shrugged off the responsibility to find shared experience. I would later discover, on a [retreat with Michael DeVoll](http://www.devollcounseling.com/html/superTeens.html), that intimacy is grounded in shared experience. The consequence/hidden caveat of shrugging off this responsibility would be that I felt disconnected from and apathetic with respect to my fellow service corps members.
 
