@@ -34,7 +34,10 @@ Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's t
 	- [image analysis](https://youtu.be/GKlcY1bIYDk) Paul Hand's introduction
 	- materials, mining, etc
 	- ice-cap melting
-- Nikki also mentioned collaboration in Switzerland with [Kathryn Hess Bellwald](https://hessbellwald-lab.epfl.ch/HessBellwald)
+	- [TDA for an environmental application](https://link.springer.com/chapter/10.1007/978-3-319-30379-6_22)
+    - [Jim's research in contaminant clean-up](http://amath.colorado.edu/faculty/jdm/research.html#Groundwater)
+
+- collaboration with [Kathryn Hess Bellwald](https://hessbellwald-lab.epfl.ch/HessBellwald)
 	- [publications](https://hessbellwald-lab.epfl.ch/publications)
 	- some application to neuro-science, which loops around with potential treatments of MS
 	- blue brain project
@@ -44,8 +47,6 @@ Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's t
 - [Jim Meiss](http://amath.colorado.edu/faculty/jdm/)
 - [Liz Bradley](http://www.cs.colorado.edu/~lizb/)
 - [Anges Beadury](https://sites.google.com/view/agnesbeaudry)
-- [TDA for an environmental application](https://link.springer.com/chapter/10.1007/978-3-319-30379-6_22)
-- [Jim's research in contaminant clean-up](http://amath.colorado.edu/faculty/jdm/research.html#Groundwater)
 
 ## University of Utah
 Multiscale Analysis and Computations (MAC)

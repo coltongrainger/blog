@@ -7,7 +7,7 @@ belief: plausible
 status: poetry
 ---
 
-An excerpt of writing for Dr. Eric Spencer's *English Renaissance Literature*.
+An excerpt of verse for Dr. Eric Spencer's *English Renaissance Literature*.
 
 
 <pre>

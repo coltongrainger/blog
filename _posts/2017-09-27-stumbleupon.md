@@ -1,5 +1,5 @@
 ---
-title: learning StumbleUpon with kids
+title: learning StumbleUpon
 author: Colton Grainger
 date: 2017-09-29
 belief: likely
@@ -22,14 +22,14 @@ A qualm against flash games: the kids can't save. And, without a framework to sa
 
 They'll be stuck in windown shopping mode if I can't load some software onto that computer: wandering as flaneurs between engaging content and family-friendly site blockers. The impacts on working memory seem to be apparent: frequently broken concentration, a sense of overwhelming futility, and a disregard of personal agency in "making the computer work".
 
+## Recommendation 
+
 When I was a 6th grader, I had installed LimeWire (to pirate the American Idiot album), Line Rider, and the N-game. And earlier, I had the Pokemon Saphire through Emerald as thick texts to follow along with and struggle against and build something out of. (But did I not miss out on Oblivion? the Legend of Zelda?)
 
 How can I create license for the kids here? How can I usher the kids into digital literacy (beyond button mashing)?
 
-1. I can suggest flash games that allow a user to create their *own* space. For me, two transitional games were
+1. I can suggest flash games that allow a user to create their *own* space. For me, two such games (both allowed a user to save their progress) were
 - Junkbot Undercover (which is no longer on lego.com) and 
 - Motherload (produced by XGen, of which I had pirated the Goldium edition)
 
-because both allowed a user to save their progress. 
-2. Also, I can push the kids to browse other sites  (i.e., isn't there another site outside of YouTube you'd like to visit?) and make referrals to "quality" flash games (as I define them).I might be able to usher the kids into digital literacy (beyond button mashing).
-
+2. Also, I can push the kids to browse other sites  (i.e., isn't there another site outside of YouTube you'd like to visit?) and make referrals to "quality" flash games (as I define them). I might be able to usher the kids into digital literacy (beyond button mashing).
