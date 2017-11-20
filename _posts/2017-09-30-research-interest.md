@@ -9,27 +9,7 @@ status: draft
 
 I aim to study topological data analysis, which seeks to answer the question: *What is the shape of data?* 
 
-Historically, I have been motivated to understand particle flows in dynamical systems, given their utility for modeling contaminant dispersion. However, I feel any policy recommendations to come from research in contaminant dispersion amounts to suggesting techniques for smearing some neutralizing agent through the contaminanted region. From a high level, it's tempting, but perhaps distracting, to devote too much mental effort towards cleaning up messes. On the other hand, neutralizing a contaminant by cleverly exploiting bending-and-folding seems praiseworthy.
-
-In 2016, as I applied to MS programs, I wrote
-> I would design and implement numerical methods to model ground water and aquifers.
-
-I had also boiled down cute scenerios for the fulfillment of this promise, for example, regarding sediment transport
-> In Idaho's Treasure Valley, farmers use a network of reservoirs and canals to suspend and divert the Boise river. To understand how this irrigation regime sweeps up and transports material, I would model water's energy in flood irrigated fields. Constrained by agricultural machinery and topography, I would search for furrow patterns that minimize water's turbidity. As a related project, I would consider canal geometries that interrupt high-velocity flows.
-
-A few months after declaring my intent to implement numerical methods, a former mentor mentioned he was concerned I "had quashed my own desires and interests out of a feeling of duty or a need to make more palpable, measurable contributions to society in general", so I will necessarily proceed cautiously as I express interest in applied topics. Maybe a study of contaminant diffusion is rooted too much in *application* and *analysis* (the middle sections of [Bloom's taxonomy](https://upload.wikimedia.org/wikipedia/commons/2/24/Blooms_rose.svg)) rather than *synthesis* and *evaluation*, which I relish as areas to suggest new approaches, then embark again into experimentation.
-
-## Software
-- JavaPlex
-	- great tutorial, works with MatLab
-- Persius 
-	- acts as a package for Python to call?
-	- [discrete morse theory](https://en.wikipedia.org/wiki/Discrete_Morse_theory)
-	- simplifies complex while preserving homology (fast!)
-- PHAT
-	- works well with R?
-
-## Reflections
+## Topological Data Analysis
 
 ### Vidit Nanda's [Introduction to Persius](https://www.youtube.com/watch?v=JqajfI4-WnM)
 
@@ -44,6 +24,29 @@ Nanda cites applications including sensor network coverage, granular force chain
 ### Nicole Sanderson's [Time Series in Dynamical Systems](https://arxiv.org/abs/1708.09359)
 
 What's the goal? We need to perform persistent homology. We have a data set to represent as a simplicial complex. How to build? What're the parameters? What's the good radius? As we vary the radius (and some other parameters) how does the homology change?
+
+### Software for TDA
+
+- JavaPlex
+	- great tutorial, works with MatLab
+- Persius 
+	- acts as a package for Python to call?
+	- [discrete morse theory](https://en.wikipedia.org/wiki/Discrete_Morse_theory)
+	- simplifies complex while preserving homology (fast!)
+- PHAT
+	- works well with R?
+
+## Contaminant Dispersion
+
+Historically, I have been motivated to understand particle flows in dynamical systems, given their utility for modeling contaminant dispersion. However, I feel any policy recommendations to come from research in contaminant dispersion amounts to suggesting techniques for smearing some neutralizing agent through the contaminanted region. From a high level, it's tempting, but perhaps distracting, to devote too much mental effort towards cleaning up messes. On the other hand, neutralizing a contaminant by cleverly exploiting bending-and-folding seems praiseworthy.
+
+In 2016, as I applied to MS programs, I wrote
+> I would design and implement numerical methods to model ground water and aquifers.
+
+I had also boiled down cute scenerios for the fulfillment of this promise, for example, regarding sediment transport
+> In Idaho's Treasure Valley, farmers use a network of reservoirs and canals to suspend and divert the Boise river. To understand how this irrigation regime sweeps up and transports material, I would model water's energy in flood irrigated fields. Constrained by agricultural machinery and topography, I would search for furrow patterns that minimize water's turbidity. As a related project, I would consider canal geometries that interrupt high-velocity flows.
+
+A few months after declaring my intent to implement numerical methods, a former mentor mentioned he was concerned I "had quashed my own desires and interests out of a feeling of duty or a need to make more palpable, measurable contributions to society in general", so I will necessarily proceed cautiously as I express interest in applied topics. Maybe a study of contaminant diffusion is rooted too much in *application* and *analysis* (the middle sections of [Bloom's taxonomy](https://upload.wikimedia.org/wikipedia/commons/2/24/Blooms_rose.svg)) rather than *synthesis* and *evaluation*, which I relish as areas to suggest new approaches, then embark again into experimentation.
 
 ### Roseanna Neupauer's [Chaotic Advection and Reaction](http://onlinelibrary.wiley.com/doi/10.1002/2013WR014057/full)
 
