@@ -7,11 +7,10 @@ belief: plausible
 status: poetry
 ---
 
-I sliced up a messy paper I'd written in 2015 for Dr. Eric Spencer's English Renaissance Literature. I wrote the paper off campus, in downtown Boise, which was challenging due to the cold, and BSU's limited library hours. Nevertheless, I am inspired by Bacon's treatment of scholastic superstition. I felt it necessary to boil down the paper to verse. 
+An excerpt of verse for Dr. Eric Spencer's *English Renaissance Literature*.
 
-([sources](documents/cgrainger-superstition-sources.pdf))
 
-~~~
+<pre>
 In 1572, Tycho Brahe observed 
 	a sudden and continuous rain of light 
 		eminating from the celestial realm of Cassiopeia. 
@@ -122,4 +121,6 @@ Superstition is
 		logical, 
 		rhythmical, 
 		syntactical
-~~~
+</pre>
+
+([sources](documents/cgrainger-superstition-sources.pdf))
