@@ -2,12 +2,57 @@
 title: Graduate Programs
 author: Colton Grainger
 date: 2017-10-18
-modified: 2017-10-22
+modified: 2017-11-18 
 status: notes
-belief: likely
+belief: plausible 
 ---
 
-These are my notes for applications to graduate schools. I may not include each school I apply to, but I'd like to have some record of the information I collect.
+These are notes on graduate schools and their respective faculty's research. I've isolated people who are broadly interested algebraic/computational topology. My intent is to survey and prune down a list of people I would like to work with.
+
+## CU Boulder
+
+Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's the bullet list.
+
+- What's in a PhD?
+	- for Jim Meiss, 2 papers
+	- for Liz Bradley, the PhD is an organic experience
+	- When do I know that I have done enough work?
+		- members of the research community need to communicate
+		- is data science collaborative? not really
+	- dept & cultural differences
+	- Nikki has a preprint for a cross-disciplinary intro to TDA
+		- [time series in dynamical systems](https://arxiv.org/abs/1708.09359)
+- regarding preliminaries
+	- Nikki bulked up on Riemannian Geometry (cool)
+	- differential geometry, algebra, topology
+- comprehensive exams
+	- reading applied topology
+- applications
+	- effecient algorithms
+	- TDA has different constraints comparatively
+		- not manifold learning
+	- [image analysis](https://youtu.be/GKlcY1bIYDk) Paul Hand's introduction
+	- materials, mining, etc
+	- ice-cap melting
+	- [TDA for an environmental application](https://link.springer.com/chapter/10.1007/978-3-319-30379-6_22)
+    - [Jim's research in contaminant clean-up](http://amath.colorado.edu/faculty/jdm/research.html#Groundwater)
+
+- collaboration with [Kathryn Hess Bellwald](https://hessbellwald-lab.epfl.ch/HessBellwald)
+	- [publications](https://hessbellwald-lab.epfl.ch/publications)
+	- some application to neuro-science, which loops around with potential treatments of MS
+	- blue brain project
+
+### People
+
+- [Jim Meiss](http://amath.colorado.edu/faculty/jdm/)
+- [Liz Bradley](http://www.cs.colorado.edu/~lizb/)
+- [Anges Beadury](https://sites.google.com/view/agnesbeaudry)
+
+## University of Utah
+Multiscale Analysis and Computations (MAC)
+### People
+
+- [Bei Wang Phillips](http://www.sci.utah.edu/~beiwang/)
 
 ## University of Rochester
 
@@ -17,7 +62,8 @@ UR is medium sized private school, 6k undergrad and 4k grad student population. 
 
 The mathematics department has 21 tenure track faculty, with 3 undergrad education permanent staff. It's a mathematically oriented campus, with 9/10 freshman taking math courses and 1/10 undergrads with a math major. Hence, they offer a full selection of topics in undergrad, which benefits the graduate program in terms of teaching.
 
-### Research Groups
+### People
+
 - Algebra & Number Theory
 	- 7 folks
 	- Steven Garneck
@@ -70,7 +116,8 @@ The mathematics department has 21 tenure track faculty, with 3 undergrad educati
 	- mathematical physics
 	- comp sci dept
 
-### Time line
+### Time Line
+
 Most people get PhD in 5-6 years (4--7 range); support for 5 years 18k stipend & full tuition. There are 8 required courses.
 
 - Year 1
@@ -91,13 +138,13 @@ I attend seminars, should develop a research interest, choose an advisor. There 
 	- research
 	- then PhD defense to general audience (5th or 6th year)
 
-### Questions
+### Webinar Questions
 
 - Q: Can you explain more about the collaboration between math and CS?
 - A: Brownian sheets. Computer networks with various connections, build a network. Propagation of problems in computer network.
 
-- Q: What applications are the topology group currently working on? Any topological data analysis?
-- A: Persistent homology, was popular. No longer interested. Many grad students to do joint work with CompSci for TDA. Lizz Maduer, postdoc. A little in flux. No permanent tenure faculty. All interested. Do a little work. Some courses. It would be joint work. New Data Analysis center ==> Data Analysis. Data science. 
+- What applications are the topology group currently working on? Any topological data analysis?
+- A: Persistent homology was popular. Faculty no longer interested. Many grad students to do joint work with CompSci for TDA. Lizz Maduer, postdoc. A little in flux. No permanent tenure faculty. All interested. Do a little work. Some courses. It would be joint work. New Data Analysis center ==> Data Analysis. Data science. 
 
 - Q: You mentioned many people in the department doing mathematical physics. To what degree does the mathematics department seek out people with strong physics backgrounds?
 - A: Many folks move from Physics to Mathematics. Common transition. Surprisingly large number of analysists have backgrounds in physics. Lee Theory & Lee Algebras. Schrodinger Eqns
@@ -164,3 +211,17 @@ Razeed = string theory. Joint work. Strong Icing model & statistical mechanics. 
 - A: Great. Any mathematical Master's work up to 30 credits will transfer. BTW, you'll need 90 credits of course work. 4 credits a course. 8 courses. 32 required credits. The rest are from reading courses & seminars. If you've already taken real analysis, we could waive it.
 Additionally, the final exams of the courses of the req are *prelims*. The prelims are additionally offered. Students need to complete prelims for the req'd subjects. Welcome to sit in for the courses.
 6 main courses. 6 exams for the courses to be passed by the end of the 2nd year.
+
+## University of Oregon
+
+### People 
+
+- [Hal Sadofsky](http://pages.uoregon.edu/sadofsky/)
+- [Daniel Dugger](http://pages.uoregon.edu/ddugger/)
+
+## Washington State University
+
+### People
+
+- [plant genome grant](https://nsf.gov/awardsearch/showAward?AWD_ID=1661348)
+

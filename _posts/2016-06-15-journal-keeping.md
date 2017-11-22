@@ -13,14 +13,14 @@ This is a meditation on my own writing, during a trip through Scotland, then at 
 - [Writing Samples](#writing-samples)
 - [Reflection](#reflection)
 
-~~~
+<pre>
 one application
 upon worked garden soil:
 to nap through an hour.
 stochastic rain
 monograms closed eyelids,
 skull cupped in dirt.
-~~~
+</pre>
 
 ## Methodology
 
@@ -79,18 +79,18 @@ The writing practice I have just described is not unique. But for me, it is just
 
 ## Writing Samples
 
-~~~
+<pre>
 Jonah and I find
 blushing granite, K-spar pink
 later, crack black rocks.
-~~~
+</pre>
 
-~~~
+<pre>
 empty bubbles in the oozing pluton, 
 catching silicate dust. 
 Branching atoms hook and jag
 	covalent tetrahedrons.
-~~~
+</pre>
 
 ### Talisker Distillery
 
@@ -110,11 +110,11 @@ Cutting north then south again, staring at Mallach Carn on Scalpag, I rest my ba
 
 I am nearly asleep, the van gently humming. With time for one more question, Gaea Vince yields a final response: “speaking to human’s creative ingenuity, their local efforts to cool the planet… increasing the albedo… fruit grows in southern Spain reflecting the heat… panels on roofs… examples of humanity’s ability to evolve culturally to their climate.” Applause, the program ends, I sleep.
 
-~~~
+<pre>
 like lambs’ fleece thins to
 blinked open glassy eyes
 snow melts around cairns.
-~~~
+</pre>
 
 
 ### Lichen
@@ -129,17 +129,17 @@ Trunks and branches seem wet, ashy skeletons. Or damp marrow. The leaves are low
 
 I am in the open lawn of a park in Braemar; a rectangle, ridged on three sides by sandstone-hewn buildings: a pub, a hotel, a church — each of them appearing to have fallen into disuse. Yet, on second inspection, each structure seems to be well kept: white curtains hanging inside the clean windows of the hotel’s guest rooms, healthy potted plants surrounding the church, light turned on in one wing of the pub. Perhaps I am noticing the creeping dandelions and the sprigs of some seed resembling dill and a peculiar sapling tree with fat pointed leaves. Next to me, centered in the park, rises a Neoclassical monument to some Elizabeth Louisa Oswald. The monument now is squatting—a gray concrete tower, buttressed by dirty maroon sandstone blocks, symmetric by quarter rotation (save the crouching panther on its summit). Smoke drifts from the forth side of the park; this direction is bordered by a slumped hedge, some low, thick bushes, and a basement of nettle. Perhaps it's not nettle. I am hungry, and my hunger rebounds against the odor of fire and imagined camaraderie.
 
-~~~
+<pre>
 sandstone lion’s jaw gapes
 emblematic eyes roll slack
 chiseled with cold hands
-~~~
+</pre>
 
 ### Ceilidh Place
 
 I am presently (to my great joy) sitting in the lobby proper of the Ceilidh Place and surrounded by green striped walls, wood for a fire, a fine sapphire, crimson and burnt orange rug, not to mention various portraits (all of them presumable Victorian and early Edwardian). Best of all, I have found a scarf that is hollow down the inside and therefore doubles as a long cap, slinking around my neck in solid black dyed wool and cuffed with floral golds, a silly teal, and sundry green and blue accents. Then, I see upon the wall, above the fireplace, in cross-stitched letters:
 
-~~~
+<pre>
 From rising to sleeping,
 spinning and weaving,
 words in a garment,
@@ -148,7 +148,7 @@ talking and singing,
 eating and meeting,
 such is the Ceilidh,
 the joy of my life.
-~~~
+</pre>
 
 ## Reflection
 
@@ -156,7 +156,7 @@ My written work is like a second self. If I want to return to some open ended qu
 
 It is arguably the case that encountering two images of self is a form of power. This double exposure is powerful because I am twice informed of my past state of being. I become fluid and refracted, breaking apart like a river and reconnecting. The joy of this power is in choosing which representation of self is most valid. Indeed, this also opens up space for self-conflict; my memory of an experience may differ from my written record of that same experience — how? what gives?
 
-The past becomes a place that is *accessible*, intimately connected to the present. In journal kkeeping, I participate in my own continuous history. Empirical observations interspersed in my journal guarantee that the symbolic meaning of certain words have not been overwritten in time. For example, my own understanding of the phrase “light footed” is likely to change over time; my understanding of the phrase “easily able to find traction on thirty five to forty degree Gabbro slopes” is not.[^8] In moments of either hum-drum or superlative experience, by writing what I observe in the world and in my self, I keep two memories. One traces through my biological organism; the other traces through the symbolic script of my writing.
+The past becomes a place that is *accessible*, intimately connected to the present. In journal keeping, I participate in my own continuous history. Empirical observations interspersed in my journal guarantee that the symbolic meaning of certain words have not been overwritten in time. For example, my own understanding of the phrase “light footed” is likely to change over time; my understanding of the phrase “easily able to find traction on thirty five to forty degree Gabbro slopes” is not.[^8] In moments of either hum-drum or superlative experience, by writing what I observe in the world and in my self, I keep two memories. One traces through my biological organism; the other traces through the symbolic script of my writing.
 
 <hr>
 

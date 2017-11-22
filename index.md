@@ -10,16 +10,17 @@ date: 2017-07-15
 
 # Colton Grainger
 
-This is my (Colton Grainger's) personal website. My intention here is to [share notes](http://wcm1.web.rice.edu/open-notebook-history.html) and [journal entries](/journal-keeping), to develop a relationship with an implied reader[^who], and to concentrate my efforts on clearly delineated goals. 
+This is my (Colton Grainger's) personal website; it's both an [open notebook](http://wcm1.web.rice.edu/open-notebook-history.html) and an ongoing conversation with an implied reader. 
 
-I warmly appreciate others who've modeled online presence; until I develop my own sufficiently, it's useful to note that I am largely following in their footsteps (see [people](/links)).
+For [Wolfgang Iser](https://en.wikipedia.org/wiki/Wolfgang_Iser), an *implied reader* is 
+> a textual structure anticipating the presence of a recipient without necessarily defining [them]…the concept of the implied reader designates a network of response-inviting structures, which impel the reader to grasp the text.
 
-[^who]: For [Wolfgang Iser](https://en.wikipedia.org/wiki/Wolfgang_Iser), the *implied reader* is "a textual structure anticipating the presence of a recipient without necessarily defining [them]…the concept of the implied reader designates a network of response-inviting structures, which impel the reader to grasp the text."
+I appreciate others who've modeled online presence. For credit, see [people](/links).
+
 
 ## Fall 2017 Summary
-I am coordinating the [volunteer program](http://coltongrainger.com/fscss-volunteers) for a family homeless shelter in Olympia, WA. 
-
-Additionally, I am reviewing [Probabilty](http://webpages.uidaho.edu/cremien/math451EO/) and [Ordinary Differential Equations](http://www.webpages.uidaho.edu/~barannyk/Teaching/Math310.html).
+I am coordinating a [volunteer program](http://coltongrainger.com/fscss-volunteers) for a family homeless shelter in Olympia, WA. 
+I am also reviewing [Probabilty](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/probability/) and [Ordinary Differential Equations](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/odes/).
 
 ## Contact
 
