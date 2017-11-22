@@ -35,6 +35,11 @@ What's the goal? We need to perform persistent homology. We have a data set to r
 	- simplifies complex while preserving homology (fast!)
 - PHAT
 	- works well with R?
+## See Also
+
+- Peter Bubenik's [An Introduction to Topological Data Analysis](https://people.clas.ufl.edu/peterbubenik/files/abacus_1.pdf)
+- Herbert Edelsbrunner and John Harer's [Computational Topology](http://www.ee.oulu.fi/research/imag/courses/Vaccarino/Edels_Book.pdf)
+- Jesse Johnson's [The Shape of Data](https://shapeofdata.wordpress.com/introduction/)
 
 ## Contaminant Dispersion
 
