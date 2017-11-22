@@ -49,10 +49,13 @@ Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's t
 - [Anges Beadury](https://sites.google.com/view/agnesbeaudry)
 
 ## University of Utah
+
 Multiscale Analysis and Computations (MAC)
+
 ### People
 
 - [Bei Wang Phillips](http://www.sci.utah.edu/~beiwang/)
+	- [Topological Data Analysis: The Frontier of Data Science](http://www.sci.utah.edu/~beiwang/teaching/cs6170-spring-2017/Lecture01.pdf)
 
 ## University of Rochester
 
