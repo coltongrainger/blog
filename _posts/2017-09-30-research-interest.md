@@ -37,9 +37,14 @@ What's the goal? We need to perform persistent homology. We have a data set to r
 	- works well with R?
 ## See Also
 
+For computational topology.
 - Peter Bubenik's [An Introduction to Topological Data Analysis](https://people.clas.ufl.edu/peterbubenik/files/abacus_1.pdf)
 - Herbert Edelsbrunner and John Harer's [Computational Topology](http://www.ee.oulu.fi/research/imag/courses/Vaccarino/Edels_Book.pdf)
 - Jesse Johnson's [The Shape of Data](https://shapeofdata.wordpress.com/introduction/)
+
+For algebraic topology.
+- [reference request for learning topology](https://mathoverflow.net/questions/8445/learning-topology/8571#8571)
+- Peter May's [Concise Introduction](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)
 
 ## Contaminant Dispersion
 
