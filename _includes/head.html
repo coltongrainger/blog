@@ -7,7 +7,6 @@
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments)};
 	  gtag('js', new Date());
-
 	  gtag('config', 'UA-108889969-1');
 	</script>
     <meta charset="utf-8">
@@ -105,7 +104,7 @@ footer { margin: auto;
 
 
 <body>
-  <header style="font-family: Open Sans Helvetica, sans-serif; text-decoration: none">
+  <header style="font-family: Open Sans, Helvetica, sans-serif; text-decoration: none">
     <div align = "left">
       {% assign sorted_pages = site.html_pages | sort:"order" %} 
       {% for p in sorted_pages %}
@@ -113,8 +112,7 @@ footer { margin: auto;
         {% if p.url == page.url %} 
           style="font-weight:bold" 
         {% endif %} 
-          href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}
-      </a> | 
+          href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a> | 
       {% endfor %}
       <a href="https://github.com/coltongrainger/coltongrainger.github.io">source</a></p>
   </header>
