@@ -35,6 +35,7 @@ What's the goal? We need to perform persistent homology. We have a data set to r
 	- simplifies complex while preserving homology (fast!)
 - PHAT
 	- works well with R?
+
 ## See Also
 
 For computational topology.
