@@ -47,61 +47,23 @@ I began to build an [GitHub repository](https://github.com/coltongrainger/ymca-r
 	- personal transparency
 	- coltongrainger.com
 
-## Outline
+## Pedagogy
 
-- chronology
-	- 2014
-		- coupled oscillating pendula
-		- putnam
-	- 2015
-		- Putnam
-		- fourier series for heat equation
-		- COMAP: SIRS model for Ebola in Africa
-		- academic withdrawal (?)
-	- 2016
-		- rigourous coursework in Analysis and Topology
-		- modelling HIV in Houston
-		- logistic equation
-		- tutoring and grading 
-		- putnam
-		- Galois Theory & Fuchsian Equations 
-		- Igneous Dikes in Scotland
-	- 2017 
-		- year of service in refugee case management
-			- data management
-			- vetted data during the implementation of 3 refugee databases
-		- novel, scalable resources for social workers
-			- case notes as narratives
-			- google maps API
-			- attemping to crowd source cultural knowledge
-				- native language speakers
-				- clinics 
-				- bus routes
-			- refugee health needs assessment with medical students at Baylor
-		- git, web design
-			- coordinating volunteer program for family homeless shelter
-		- supplemental coursework
-			- probability 
-			- differential equations
-			- numerical methods
-		- personal transparency
-		- coltongrainger.com
-- pedagogy
-	- computationally intensive
-		- TeX, Markdown, MathJax, Mathbook
-		- programming, algorithm design
-		- Sage, SciPy, plotting
-		- examples first!
-	- emphasis on literacy
-		- G. Polya
-		- R. L. Moore
-		- exposition as a social activity
-			- writing for an audience
-			- presentations as karaoke
-	- learning math at scale
-		- nbgrader
-		- WebWork
-		- to publish small deck of Calculus review anki card
+- computationally intensive
+	- TeX, Markdown, MathJax, Mathbook
+	- programming, algorithm design
+	- Sage, SciPy, plotting
+	- examples first!
+- emphasis on literacy
+	- G. Polya
+	- R. L. Moore
+	- exposition as a social activity
+		- writing for an audience
+		- presentations as karaoke
+- learning math at scale
+	- nbgrader
+	- WebWork
+	- to publish small deck of Calculus review anki card
 
 Meta-understanding of maths. Metaphorically a journey through an unfamilar domain. From [Eliezer Yudkowsky](http://lesswrong.com/lw/31/what_do_we_mean_by_rationality/)
 > believing, and updating on evidence, so as to systematically improve the correspondence between your map and the territory
