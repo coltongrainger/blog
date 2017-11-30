@@ -3,6 +3,7 @@ title: Personal Statement
 author: Colton Grainger
 date: 2017-11-23
 status: draft
+use_math: true
 ---
 
 I aim to pursue a PhD in mathematics, and my career aspiration is to become an applied mathematician.
