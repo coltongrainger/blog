@@ -20,11 +20,12 @@ Advised by Dr. Jonny Comes, my senior independent study[^study] examined how Gal
 
 At the same time, I studied point-set topology under Dr. Dave Rosoff. He led a small, discussion-based class in a modified Moore method: no textbook, no lecture, only student presentations. Three classmates and I discovered there exists a topological space $X$, a set $A\subset X$, and an $X$-limit point $x \in A$ for which there is no sequence $x_i \in A$, $i \in \mathrm{N}$ such that $x_i \to x$. One such space is the space whose open sets are exactly those sets with countable complements. We had found a counter example to show the converse[^converse] of the following theorem is false: "Let $A \subseteq X$ be a subset of the topological space $X$. If $x_i \in A$ for each $i \in \mathrm{N}$ and $x_i \to x$, then $x$ is in the closure of $A$." 
 
+[^converse]: However, the converse holds if $X$ is a second countable topology.
+
 By Fall 2018, I will have completed a two years of service: in Houston,TX at a refugee resettlement agency, and in Olympia, WA at a family homeless shelter. 
 In Houston, I developed novel, scalable [resources](https://github.com/coltongrainger/ymca-resources) for persistent issues in refugee case management. I created and distributed a [map of clinics](https://drive.google.com/open?id=1kk9yn6-4nifHLIf2tGYbW_7PiYo&usp=sharing). I participated in a refugee health needs assessment with medical students at Baylor. I even was fortunate to be invited to contribute to the design of a data management plan for the next refugee social service database.
 
-
-I began to build an [GitHub repository](https://github.com/coltongrainger/ymca-resources) of forms and instructions for low income healthcare applications and rental assistance. I established contact with and solicited feedback from staff in the Harris Health System, at the Islamic Society of Greater Houston, and at Gulf Coast Community Services Association. I incorporated my experience in direct service with the higher-level feedback from each organization. I found the best way for case managers to submit applications and detailed exactly what is expected of the client during the application process. Because our clients have limited English proficiency, I emphasized that case managers need to be aggressive and “get the job done” when faced with unnecessarily complicated release of information constraints. I also learned more about Shaoli’s Refugee Health Working Group. I created and distributed a [map of clinics](https://drive.google.com/open?id=1kk9yn6-4nifHLIf2tGYbW_7PiYo&usp=sharing).
+U.S. Committee for Refugees and Immigrants to ensure that clients were effectively rolled out of the Texas Medicaid \& Healthcare Partnership database into the RMA portal
 
 - 2017 
 	- year of service in refugee case management
@@ -75,6 +76,3 @@ From [Philip Guo](https://www.oreilly.com/ideas/code-carabiners-essential-protec
 From [How People Learn](https://www.colorado.edu/MCDB/LearningBiology/readings/How-people-learn.pdf) 
 > The new science of learning does not deny that facts are important for thinking and problem solving. Research on expertise in areas such as chess, history, science, and mathematics demonstrate that experts’ abilities to think and solve problems depend strongly on a *rich body of knowledge about subject matter* (e.g., Chase and Simon, 1973; Chi et al., 1981; deGroot, 1965).  However, the research also shows clearly that “usable knowledge” is not the same as a mere list of disconnected facts. Experts’ knowledge is connected and organized around important concepts (e.g., Newton’s second law of motion); it is “conditionalized” to specify the contexts in which it is applicable; it supports understanding and transfer (to other contexts) rather than only the ability to remember.
 
-- U.S. Committee for Refugees and Immigrants to ensure that clients were effectively rolled out of the Texas Medicaid \& Healthcare Partnership database into the RMA portal
-
-[^converse]: However, the converse holds if $X$ is a second countable topology.
