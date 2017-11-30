@@ -3,31 +3,14 @@ title: Personal Statement
 author: Colton Grainger
 date: 2017-11-23
 status: draft
-use_math: true
+mathjax: true
 ---
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: {
-      equationNumbers: {
-        autoNumber: "AMS"
-      }
-    },
-    tex2jax: {
-      inlineMath: [ ['$','$'], ['\(', '\)'] ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-    }
-  });
-</script>
-<script type="text/javascript"
-        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
 
 I aim to pursue a PhD in mathematics, and my career aspiration is to become an applied mathematician.
 
-The robustness of a mathematical method determines its ability to address complex problems. Just imagine modeling an epidemic with strictly deterministic differential equations, or drawing plans for a communication network that fail to account for small dynamical perturbations. My goal is to research topological tools for data analysis and physical applied mathematics. My interests include algebraic topology, dynamical systems, and scientific computation.
+The robustness of a mathematical method determines its utility in applications. Just imagine designing a communication network that fails to account for dynamical perturbations, or modeling an epidemic with strictly deterministic differential equations. My goal is to research robust topological methods for data analysis and physical applied mathematics. My interests include algebraic topology, dynamical systems, and scientific computation.
 
-For example, consider training a computer to distinguish the tone signature of different musical instruments. One can associate the persistence of holes in an audio recording's time delay phase space with a sample statistic: the persistent rank function (PRF). In correspondence with Nikki Sanderson, I learned a computer trained on PRFs more accurately classifies musical instruments than one trained on FFTs. In this case a topological invariant answers the question "which instrument?" with higher fidelity than frequency analysis.
+Consider training a computer to distinguish the tone signature of different musical instruments. One can associate the persistence of holes in an audio recording's time delay phase space with a sample statistic: the persistent rank function (PRF). In correspondence with Nikki Sanderson, I learned a computer trained on PRFs more accurately classifies musical instruments than one trained on FFTs. In this case a topological invariant answers the question "which instrument?" with higher fidelity than frequency analysis.
 
 My research interest stems from (i) my exposure to topology and its applications as a senior, and (ii) challenges I am facing in my second year of work in social services. 
 
