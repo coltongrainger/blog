@@ -6,50 +6,29 @@ status: draft
 mathjax: true
 ---
 
-The robustness of a mathematical method determines its utility. Just imagine designing a communication network that fails accounting for dynamical perturbations, or modeling an epidemic with strictly deterministic differential equations. My goal, then, is to research robust topological methods for data analysis and physical applied mathematics. My interests, from abstract to concrete, include algebraic topology, dynamical systems, and scientific computation.
+The robustness of a mathematical method determines its utility. Just imagine designing a communication network that fails to account for dynamical perturbations, or modeling an epidemic with strictly deterministic differential equations. My goal, then, is to research robust topological methods for data analysis and physical applied mathematics. My interests, from abstract to concrete, include algebraic topology, dynamical systems, and scientific computation.
 
 Consider training an AI to distinguish the tone signature of different musical instruments. Applying persistent homology, we associate holes in an audio recording's time-delay phase-space with a sample statistic: the persistent rank function. Corresponding with Nikki Sanderson, I learned a computer trained on such PRFs will more accurately classify tone signatures than one trained on FFTs. Here, a topological invariant answers "which instrument?" with higher fidelity than frequency analysis, demonstrating topology's robustness in application.
 
 My research interest stems from (i) my exposure to topology and its applications as a college senior, and (ii) insight from two years of service work since graduating.
 
-Advised by Dr. Jonny Comes, my senior independent study[^study] examined how Galois theory constrains the solution space $V$ of Fuchian-type DiffEq's. Following Michio Kuga, I developed a the correspondence between the fundamental group on $D = \mathbf{C}\setminus\\{x_1,\ldots,x_n\\}$ and this region's universal covering space $\tilde{D}$. Exploiting the monodromy representation of the group of covering transformations $\Gamma(\tilde{D} \to \tilde{D})$ as the group of linear automorphisms of $V$, I parameterized solutions to the hypergeometric DiffEq. For interesting cases, I found the monodromy representation at singular points, and generated plots. I presented my method, its history, and an application to fluid flow at The College of Idaho's 2016 student research conference.
+Advised by Dr. Jonny Comes, my senior independent study[^study] examined how Galois theory constrains the solution space $V$ of Fuchsian-type DiffEqs. Following Michio Kuga, I developed a correspondence between the fundamental group on $D = \mathbf{C}\setminus\\{x_1,\ldots,x_n\\}$ and this region's universal covering space $\tilde{D}$. Exploiting the representation of the group of covering transformations $\Gamma(\tilde{D} \to \tilde{D})$ as a group of linear automorphisms of $V$, I parameterized solutions to the hypergeometric DiffEq. For interesting cases, I found the monodromy representation at singular points, and generated plots. I presented my method, its history, and an application to fluid flow at The College of Idaho's 2016 student research conference.
 
 [^study]: C. Grainger, [Applications of Galois Theory: Monodromy Groups and Fuchsian Differential Equation](http://coltongrainger.com/documents/cgrainger_coursework_galois_poster.pdf), The College of Idaho Student Research Conference, 2016.
 
-At the same time, I studied point-set topology under Dr. Dave Rosoff. He led a small, discussion-based class in a modified Moore method: no textbook, no lecture, only student presentations. Three classmates and I discovered there exists a topological space $X$, a set $A\subset X$, and an $X$-limit point $x \in A$ for which there is no sequence $x_i \in A$, $i \in \mathrm{N}$ such that $x_i \to x$. One such space is the space whose open sets are exactly those sets with countable complements. We had found a counter example to show the converse[^converse] of the following theorem is false: "Let $A \subseteq X$ be a subset of the topological space $X$. If $x_i \in A$ for each $i \in \mathrm{N}$ and $x_i \to x$, then $x$ is in the closure of $A$." 
+At the same time, I studied point-set topology under Dr. Dave Rosoff. He led a small class in a modified Moore method: no lecture, only assigned theorems and student presentations. I built foundations from counter examples, often finding erratum in our notes by discovering non-intuitive spaces, e.g., consider a space $X$ whose open sets are exactly those sets with countable complements. Let $A \subset X$. For a every topological space, it is known "if $x_i \in A$ for each $i \in \mathrm{N}$ and $x_i \to x$, then $x$ is in the closure of $A$", but in our case, the converse fails to hold, as $X$ is not a second countable topology. We sampled category theory and progressed upto connectivity and compactness. I am enthusiastic to build from these *Grundlagen* upto higher applications, one of which I reached in my senior study, another of which Nikki Sanderson demonstrated ahead of me.
 
-[^converse]: However, the converse holds if $X$ is a second countable topology.
-
-By Fall 2018, I will have completed a two years of voluntary service: in Houston, TX at a refugee resettlement agency, and in Olympia, WA at a shelter for families.
+I have gained insight on the necessity of *applications* (esp. ones with positive societal impact) by completing two years of voluntary service: in Houston, TX at a refugee resettlement agency and in Olympia, WA at a homeless shelter for families.
  
 In Houston, under Shaoli Bhadra, I developed novel, scalable [resources](https://github.com/coltongrainger/ymca-resources) for refugee case management. I learned to query Google Maps API and created a [map of clinics and languages spoken](https://drive.google.com/open?id=1kk9yn6-4nifHLIf2tGYbW_7PiYo&usp=sharing). I wrote bug reports for the implementation of a SQL case-notes database, and, when Texas cut funding for Refugee Medical Assistance, I contributed to a data management plan for the transition from state to federal indigent medical care.
 
-In Olympia I am coordinating a volunteer program for a 24/7 homeless shelter. I cleave to a distributed workflow. I built [volunteer.fscss.org](https://volunteer.fscss.org) to manage a schedule of community events and to "reply all" to FAQs. As we rely on academic internships and work-studies, I am also collaborating with Dr. Catalino Ocampo at the Evergreen State College to write service-learning syllabi. In the coming year, I intent to apply for \\$90,000 in grant funding for shelter operation.
+In Olympia I am coordinating a volunteer program for a 24-hour homeless shelter. I cleave to a distributed workflow. I built [volunteer.fscss.org](https://volunteer.fscss.org) to manage a schedule of community events and to "reply all" to FAQs. As we rely on academic internships and work-studies, I am also collaborating with Dr. Catalino Ocampo at the Evergreen State College to write service-learning syllabi. In the coming year, I intend to apply for \\$90,000 in grant funding for shelter operation.
 
-I am serious, however, to continue my studies in pursuit of my vocation; I have enrolled part-time in continuing education through the University of Idaho's Engineering Outreach program. I will complete courses in Probabilty, Differential Equations, and Numerical Methods by May 2018. Independently, I am studying scientific computation, linear algebra, and programming languages.
+I am serious, however, to continue my studies in pursuit of my vocation. While I am grateful for learning to manage multiple projects and work with collaborators, I find myself constrained in social service agencies as an end-user of inefficient systems, and bound to idiosyncratic best practices. To sharpen the saw, I have enrolled part-time in continuing education through the University of Idaho's Engineering Outreach program. I will complete courses in Probabilty, Differential Equations, and Numerical Methods by May 2018. Independently, I am learning to chew on data with UNIX tools and to write interactive expositions with Juptyer notebooks.
 
-Though I am open to a wide variety of research in applied mathematics, my experience with messy data sets and my appetite for topology leads naturally into topological data analysis. I would be enthusiastic to work with Professors Meiss (APPM), Bradley (CS) and  Agnes (MTH). From reading papers and surveying project websites, I intent to apply TDA to signal processing and network analysis. Ultimately, I would like to work in an research laboratory making positive social and environmental impact.
+Though I am open to a wide variety of research in applied mathematics, my experience with messy data sets and my appetite for topology leads naturally into topological data analysis. I would be enthusiastic to work with Professors Meiss (APPM), Bradley (CS) and  Agnes (MTH). From reading papers and surveying project websites, I see fruitful application of TDA in signal processing and network analysis, but I believe TDA could weigh in optimization problems material science and studies of contaminant dispersion. Upon obtaining a PhD, I imagine myself working in a research laboratory in the Western US.
 
-- 2017 
-	- year of service in refugee case management
-		- data management
-		- vetted data during the implementation of 3 refugee databases
-	- novel, scalable resources for social workers
-		- case notes as narratives
-		- google maps API
-		- attemping to crowd source cultural knowledge
-			- native language speakers
-			- clinics 
-			- bus routes
-		- refugee health needs assessment with medical students at Baylor
-	- git, web design
-		- coordinating volunteer program for family homeless shelter
-	- supplemental coursework
-		- probability 
-		- differential equations
-		- numerical methods
-	- personal transparency
-	- coltongrainger.com
+Thank you for your consideration.
 
 ## Pedagogy
 
