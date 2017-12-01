@@ -6,9 +6,7 @@ status: draft
 mathjax: true
 ---
 
-I aim to pursue a PhD in mathematics, and my career aspiration is to become a quantitative scientist. 
-
-The robustness of a mathematical method determines its utility. Just imagine designing a communication network that fails accounting for perturbations, or modeling an epidemic with strictly deterministic differential equations. My goal, then, is to research robust topological methods for data analysis and physical applied mathematics. My interests, from abstract to concrete, include algebraic topology, dynamical systems, and scientific computation.
+The robustness of a mathematical method determines its utility. Just imagine designing a communication network that fails accounting for dynamical perturbations, or modeling an epidemic with strictly deterministic differential equations. My goal, then, is to research robust topological methods for data analysis and physical applied mathematics. My interests, from abstract to concrete, include algebraic topology, dynamical systems, and scientific computation.
 
 Consider training an AI to distinguish the tone signature of different musical instruments. Applying persistent homology, we associate holes in an audio recording's time-delay phase-space with a sample statistic: the persistent rank function. Corresponding with Nikki Sanderson, I learned a computer trained on such PRFs will more accurately classify tone signatures than one trained on FFTs. Here, a topological invariant answers "which instrument?" with higher fidelity than frequency analysis, demonstrating topology's robustness in application.
 
@@ -22,12 +20,15 @@ At the same time, I studied point-set topology under Dr. Dave Rosoff. He led a s
 
 [^converse]: However, the converse holds if $X$ is a second countable topology.
 
-By Fall 2018, I will have completed a two years of voluntary service: in Houston, TX at a refugee resettlement, and in Olympia, WA at a family homeless shelter.
+By Fall 2018, I will have completed a two years of voluntary service: in Houston, TX at a refugee resettlement agency, and in Olympia, WA at a shelter for families.
  
-In Houston, under Shaoli Bhadra, I developed novel, scalable [resources](https://github.com/coltongrainger/ymca-resources) for refugee case management. I learned to query Google Maps API and created a [map of clinics and languages spoken](https://drive.google.com/open?id=1kk9yn6-4nifHLIf2tGYbW_7PiYo&usp=sharing). I wrote bug reports for the implementation of a SQL case notes database, and, when Texas cut funding for Refugee Medical Assistance, I contributed to a data management plan for the transition from state to federal indigent medical care.
+In Houston, under Shaoli Bhadra, I developed novel, scalable [resources](https://github.com/coltongrainger/ymca-resources) for refugee case management. I learned to query Google Maps API and created a [map of clinics and languages spoken](https://drive.google.com/open?id=1kk9yn6-4nifHLIf2tGYbW_7PiYo&usp=sharing). I wrote bug reports for the implementation of a SQL case-notes database, and, when Texas cut funding for Refugee Medical Assistance, I contributed to a data management plan for the transition from state to federal indigent medical care.
 
-In Olympia I am coordinating a volunteer program for a 24/7 homeless shelter. In the chaos of a shelter, I cleave to a distributed workflow. I built [volunteer.fscss.org](https://volunteer.fscss.org) to manage a schedule of community events and "reply all" to FAQs. To attract more work-studies and interns, I am collaborating with the Evergreen State College to write service-learning syllabi. Paired with a colloquium on special topics a colloquium for the learning sylllabwork-studies and interns from 4 l college
-U.S. Committee for Refugees and Immigrants to ensure that clients were effectively rolled out of the Texas Medicaid \& Healthcare Partnership database into the RMA portal
+In Olympia I am coordinating a volunteer program for a 24/7 homeless shelter. I cleave to a distributed workflow. I built [volunteer.fscss.org](https://volunteer.fscss.org) to manage a schedule of community events and to "reply all" to FAQs. As we rely on academic internships and work-studies, I am also collaborating with Dr. Catalino Ocampo at the Evergreen State College to write service-learning syllabi. In the coming year, I intent to apply for \\$90,000 in grant funding for shelter operation.
+
+I am serious, however, to continue my studies in pursuit of my vocation; I have enrolled part-time in continuing education through the University of Idaho's Engineering Outreach program. I will complete courses in Probabilty, Differential Equations, and Numerical Methods by May 2018. Independently, I am studying scientific computation, linear algebra, and programming languages.
+
+Though I am open to a wide variety of research in applied mathematics, my experience with messy data sets and my appetite for topology leads naturally into topological data analysis. I would be enthusiastic to work with Professors Meiss (APPM), Bradley (CS) and  Agnes (MTH). From reading papers and surveying project websites, I intent to apply TDA to signal processing and network analysis. Ultimately, I would like to work in an research laboratory making positive social and environmental impact.
 
 - 2017 
 	- year of service in refugee case management
