@@ -4,7 +4,7 @@ author: Colton Grainger
 date: 2017-10-18
 modified: 2017-11-18 
 status: notes
-belief: plausible 
+belief: likely 
 ---
 
 These are notes on graduate schools and their respective faculty's research. I've isolated people who are broadly interested algebraic/computational topology. My intent is to survey and prune down a list of people I would like to work with.
@@ -50,7 +50,9 @@ Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's t
 
 ## University of Utah
 
-Multiscale Analysis and Computations (MAC)
+For modelling sea ice and fluid flow through porous materials, see the [Multiscale Analysis and Computations](http://www.math.utah.edu/applied-math/) (MAC) research group. Here's the corresponding [seminar](http://www.math.utah.edu/applied-math/seminar/) for Applied Maths. 
+
+Personal goals I think could be actionable here: to reduce contaminant dispersion, to design sustainable industrial processes, and to contribute to biomimicry in architecture.
 
 ### People
 
