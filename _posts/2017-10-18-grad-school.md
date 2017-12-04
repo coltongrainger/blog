@@ -56,6 +56,9 @@ Personal goals I think could be actionable here: to reduce contaminant dispersio
 
 ### People
 
+- [Grad Students](http://www.math.utah.edu/applied-math/grads/)
+    - [Jason Albright](http://www.math.utah.edu/~albright/)
+- [Yekaterina Epshteyn](http://www.math.utah.edu/~epshteyn/)
 - [Bei Wang Phillips](http://www.sci.utah.edu/~beiwang/)
 	- [Topological Data Analysis: The Frontier of Data Science](http://www.sci.utah.edu/~beiwang/teaching/cs6170-spring-2017/Lecture01.pdf)
 
