@@ -1,22 +1,25 @@
 ---
-title:  
+title: Content Creation
 author: Colton Grainger
 date: 2017-12-03
-status: log
+status: draft
 belief: emotional 
 ---
 
-Comparing two schools of thought on the creative process: who am *I* chasing after?  
+Two schools of thought on the creative process: who am *I* chasing after?  
 
 Inés Estrada, aka [inechi](http://inechi.com/), reps the "I do it for myself" perspective.
 > *There's been some recent discussion about balancing art and business, which when you talked about not compromising your art, I was reminded of. What are your objectives? Do you have an audience in mind, and think about salability, or does that come second-after production?*
+
 > I make art because I need to, it's something I do for fun and also for release. If people like it, that's very rewarding,  but in the end the only person I try to please with it is myself. I love the idea of making money out of what I do (and I'm lucky to be able to) but I don't plan my comics considering my audience as customers. I feel like, for me, it's mostly worked out not because I think "I should do shit that sells" but more like "How do I sell this shit I just did?!"
 
 On the other hand, [Philip Guo](http://pgbovine.net/writings.htm) reps "make it new"
-> One heuristic I use when deciding what to write is to ask myself: *Will at least 100 people care about this topic three years from now?* The following don't qualify, so I rarely write about them:
+> One heuristic I use when deciding what to write is to ask myself: *Will at least 100 people care about this topic three years from now?* 
+
+> The following don't qualify, so I rarely write about them:
 commentary on news events or fads, reactions to someone else's article, personal notes that only my friends would care about. Also, if I see many people writing about a topic, then I avoid it unless I have a drastically different perspective.
 
-If I know where I stood on this spectrum, I'd have nothing more to say. In fact, if [the message is the medium](https://en.wikipedia.org/wiki/The_medium_is_the_message), then this blog should err towards Philip's conservative heuristic (or creative limitation, depending on your viewpoint). But as Inés gives compelling counter-examples---florid .gif art, self-declaration of intent, and apparent *success* as an artist---I am motivated to draw a comparision.
+If I know where I stood on this spectrum, I'd have nothing more to say. In fact, if [the message is the medium](https://en.wikipedia.org/wiki/The_medium_is_the_message), then this blog should err towards Philip's conservative heuristic (or creative limitation, depending on your viewpoint). But as Inés gives [compelling counter-examples](http://gatosaurio.com/)---florid .gif art, self-declaration of intent, and apparent *success* as an artist---I am motivated to draw a comparision.
 
 ## applied to long-content
 
@@ -27,6 +30,7 @@ If I wrote conversatively, I wouldn't need to worry about "severe edits" (deleti
 
 Here's an alternative. [Issa Rice](https://issarice.com/long-content) defines 
 > Long Content is a style of content creation where one has “perpetual drafts” that one improves over time. This is in contrast to a style where one publishes once and in the long term does not come back to edit/maintain the content.
+
 (In fact, inechi's deletions might just have been rather drastic edits; the viewpoints may permute.)
 
 Issa quotes [Bertrand Russell](http://www.personal.kent.edu/~rmuhamma/Philosophy/RBwritings/howWrite.htm) in defense of *not* rewriting
@@ -34,20 +38,22 @@ Issa quotes [Bertrand Russell](http://www.personal.kent.edu/~rmuhamma/Philosophy
 
 But I'm generally coming at writing/rewriting from an ecological perspective, akin to Gary Synder's "[writing as tracks](https://terebess.hu/zen/mesterek/The-Practice-of-the-Wild-by-Gary-Snyder.pdf), rather than gwern's "[writing as convergence](https://www.gwern.net/About)". 
 
-## thoughts on publishing
+## on publishing
 
 So what's at stake? Why not commit to more relentless publication and, consequently, transparency and personal disclosure? Why focus on advancing new ideas (rather than signing karaoke on the old ones)? 
-- the degree to which I am comfortable with an obscure death
 - thinking ecologically, where I stand wrt the [redundancy hyphothesis](https://en.wikipedia.org/wiki/Ecosystem_services#Redundancy_hypothesis)
 	- species redundancy enhances ecosystem resilience
 	- deletion/link-rot/dying in an abundance ecosystem is legit
 	- other players fill my niche, producing a "variation on a theme"
 	- relieves anxiety, pressure to "save face"/"defend my ego"
-- the size of my identity
+- commitment to an identity 
 	- Paul Graham's [Keep Your Identity Small](http://www.paulgraham.com/identity.html)
-	- [The Way of Reticence](https://www.google.com/search?q=Gold+and+jade+endanger+the+house+of+their+possessor)
+	- from [The Way of Reticence](https://www.google.com/search?q=Gold+and+jade+endanger+the+house+of+their+possessor)
 > Gold and jade endanger the house of their possessor. Wealth and honors lead to arrogance and envy, and bring ruin. Is thy way famous and thy name becoming distinguished? Withdraw, thy work once done, into obscurity; this is the way of Heaven.
 - the duration of my conscious experience
+	- Peter Theil's anti-aging
+	- dying obscure
+	- theological considerations?
 - how feasible are the permutations?
 	- writing/rewriting could *either* converge or diverge
 	- why not assume convergence? 
@@ -63,7 +69,7 @@ So what's at stake? Why not commit to more relentless publication and, consequen
 	- "don't touch me"
 	- "don't care"
 	- "no more humans"
-- shame (and its manifestations)
+- fear that writing is shameful 
 	- unworthy (that's a moderately religious fear)
 	- inappropriate (which is social, cultural)
-	- *giftig*, viral (linguistic, even physical)
+	- *giftig*, viral (linguistic, even sexual)
