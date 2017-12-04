@@ -52,15 +52,17 @@ Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's t
 
 For modelling sea ice and fluid flow through porous materials, see the [Multiscale Analysis and Computations](http://www.math.utah.edu/applied-math/) (MAC) research group. Here's the corresponding [seminar](http://www.math.utah.edu/applied-math/seminar/) for Applied Maths. 
 
-Personal goals I think could be actionable here: to reduce contaminant dispersion, to design sustainable industrial processes, and to contribute to biomimicry in architecture.
+Personal infinitives I think could be actionable here: to reduce contaminant dispersion, to design sustainable industrial processes, and to contribute to biomimicry in architecture.
+
+For more abstract maths, see the [Algebraic Geometry](https://www.math.utah.edu/agseminar/) seminar. (Maybe applications to mathematical physics?)
 
 ### People
 
-- [Grad Students](http://www.math.utah.edu/applied-math/grads/)
-    - [Jason Albright](http://www.math.utah.edu/~albright/)
+- [Applied Grad Students](http://www.math.utah.edu/applied-math/grads/)
 - [Yekaterina Epshteyn](http://www.math.utah.edu/~epshteyn/)
 - [Bei Wang Phillips](http://www.sci.utah.edu/~beiwang/)
 	- [Topological Data Analysis: The Frontier of Data Science](http://www.sci.utah.edu/~beiwang/teaching/cs6170-spring-2017/Lecture01.pdf)
+- [Y.P. Lee](http://www.math.utah.edu/~yplee/research/#area)
 
 ## University of Rochester
 
