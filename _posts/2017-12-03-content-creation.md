@@ -70,6 +70,7 @@ So what's at stake? Why not commit to more relentless publication and, consequen
 	- "don't care"
 	- "no more humans"
 - fear that writing is shameful 
-	- unworthy (that's a moderately religious fear)
-	- inappropriate (which is social, cultural)
-	- *giftig*, viral (linguistic, even sexual)
+	- how is content evaluated by an implied reader?
+	- worthless (philosophically)
+	- inappropriate (socially, culturally)
+	- poisonous (materially, linguistically)
