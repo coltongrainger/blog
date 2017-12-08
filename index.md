@@ -26,4 +26,4 @@ I am also reviewing [Probabilty](https://nbviewer.jupyter.org/github/coltongrain
 
 - Email: [colton.grainger@gmail.com](mailto:colton.grainger@gmail.com)
 - Twitter: [@coltongrainger](https://twitter.com/coltongrainger)
-- Here's my <a href="images/ccg-profile.png">photo</a>.
+- Here's my <a href="images/ccg-profile.jpg">photo</a>.
