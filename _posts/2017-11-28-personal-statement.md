@@ -6,6 +6,10 @@ status: draft
 mathjax: true
 ---
 
+I aim to obtain a PhD in Mathematics, and my career aspiration is to become an applied mathematician. 
+
+## Experience 
+
 The robustness of a mathematical method determines its utility. Just imagine designing a communication network that fails to account for dynamical perturbations, or modeling an epidemic with strictly deterministic differential equations. My goal, then, is to research robust topological methods for data analysis and physical applied mathematics. My interests, from abstract to concrete, include algebraic topology, dynamical systems, and scientific computation.
 
 Consider training an AI to distinguish the tone signature of different musical instruments. Applying persistent homology, we associate holes in an audio recording's time-delay phase-space with a sample statistic: the persistent rank function. Corresponding with Nikki Sanderson, I learned a computer trained on such PRFs will more accurately classify tone signatures than one trained on FFTs. Here, a topological invariant answers "which instrument?" with higher fidelity than frequency analysis, demonstrating topology's robustness in application.
@@ -16,9 +20,9 @@ Advised by Dr. Jonny Comes, my senior independent study[^study] examined how Gal
 
 [^study]: C. Grainger, [Applications of Galois Theory: Monodromy Groups and Fuchsian Differential Equation](http://coltongrainger.com/documents/cgrainger_coursework_galois_poster.pdf), The College of Idaho Student Research Conference, 2016.
 
-At the same time, I studied point-set topology under Dr. Dave Rosoff. He led a small class in a modified Moore method: no lecture, only assigned theorems and student presentations. I built foundations from counter examples, often finding erratum in our notes by discovering non-intuitive spaces, e.g., consider a space $X$ whose open sets are exactly those sets with countable complements. Let $A \subset X$. For a every topological space, it is known "if $x_i \in A$ for each $i \in \mathrm{N}$ and $x_i \to x$, then $x$ is in the closure of $A$", but in our case, the converse fails to hold, as $X$ is not a second countable topology. We sampled category theory and progressed upto connectivity and compactness. I am enthusiastic to build from these *Grundlagen* upto higher applications, one of which I reached in my senior study, another of which Nikki Sanderson demonstrated ahead of me.
+At the same time, I studied point-set topology under Dr. Dave Rosoff. He led a small class in a modified Moore method: no lecture, only assigned theorems and student presentations. I built foundations from counter examples, often finding erratum in our notes by discovering non-intuitive spaces, e.g., consider a space $X$ whose open sets are exactly those sets with countable complements. Let $A \subset X$. For a every topological space, it is known "if $x_i \in A$ for each $i \in \mathrm{N}$ and $x_i \to x$, then $x$ is in the closure of $A$", but in our case, the converse fails to hold, as $X$ is not a second countable topology. We sampled category theory and progressed upto connectivity and compactness. I am enthusiastic to build from these *Grundlagen* up to higher results, one of which I reached in my senior study, another of which Nikki Sanderson demonstrated ahead of me.
 
-I have gained insight on the necessity of *applications* (esp. ones with positive societal impact) by completing two years of voluntary service: in Houston, TX at a refugee resettlement agency and in Olympia, WA at a homeless shelter for families.
+I have gained insight on the necessity of *applications* (esp. with positive societal impact) by completing two years of voluntary service: in Houston, TX at a refugee resettlement agency and in Olympia, WA at a homeless shelter for families.
  
 In Houston, under Shaoli Bhadra, I developed novel, scalable [resources](https://github.com/coltongrainger/ymca-resources) for refugee case management. I learned to query Google Maps API and created a [map of clinics and languages spoken](https://drive.google.com/open?id=1kk9yn6-4nifHLIf2tGYbW_7PiYo&usp=sharing). I wrote bug reports for the implementation of a SQL case-notes database, and, when Texas cut funding for Refugee Medical Assistance, I contributed to a data management plan for the transition from state to federal indigent medical care.
 
@@ -26,11 +30,9 @@ In Olympia I am coordinating a volunteer program for a 24-hour homeless shelter.
 
 I am serious, however, to continue my studies in pursuit of my vocation. While I am grateful for learning to manage multiple projects and work with collaborators, I find myself constrained in social service agencies as an end-user of inefficient systems, and bound to idiosyncratic best practices. To sharpen the saw, I have enrolled part-time in continuing education through the University of Idaho's Engineering Outreach program. I will complete courses in Probabilty, Differential Equations, and Numerical Methods by May 2018. Independently, I am learning to chew on data with UNIX tools and to write interactive expositions with Juptyer notebooks.
 
-Though I am open to a wide variety of research in applied mathematics, my experience with messy data sets and my appetite for topology leads naturally into topological data analysis. I would be enthusiastic to work with Professors Meiss (APPM), Bradley (CS) and  Agnes (MTH). From reading papers and surveying project websites, I see fruitful application of TDA in signal processing and network analysis, but I believe TDA could weigh in optimization problems material science and studies of contaminant dispersion. Upon obtaining a PhD, I imagine myself working in a research laboratory in the Western US.
+Though I am open to a wide variety of research in applied math, my experience with messy data sets and my appetite for topology leads naturally into topological data analysis. I would be enthusiastic to collaborate with Professors Meiss (APPM), Bradley (CSCI) and Agnes (MATH). I see fruitful application of TDA in signal processing and network analysis; I am also curious to research the shape of data in material science and to understand contaminant dispersion in watersheds. Upon obtaining a PhD, I imagine myself working in a research laboratory in the Western United States.
 
-Thank you for your consideration.
-
-## Pedagogy
+## Teaching 
 
 - computationally intensive
 	- TeX, Markdown, MathJax, Mathbook
@@ -48,8 +50,9 @@ Thank you for your consideration.
 	- WebWork
 	- to publish small deck of Calculus review anki card
 
-Meta-understanding of maths. Metaphorically a journey through an unfamilar domain. From [Eliezer Yudkowsky](http://lesswrong.com/lw/31/what_do_we_mean_by_rationality/)
+What's my meta-understanding of math? It's a journey through an unfamilar domain. From [Eliezer Yudkowsky](http://lesswrong.com/lw/31/what_do_we_mean_by_rationality/)
 > believing, and updating on evidence, so as to systematically improve the correspondence between your map and the territory
+
 As an occasional rock climber, I really enjoy the play between "math improves one's map of territory" and "programming is climbing a mountain". Rosoff once commented that a meta-theorem of math was to prove useful theorems alone, and once for all, so that higher level math can be done. Which amounts to having explored (either in detail or with breadth) common features and routes in the foundational territory of mathematical knowledge. I think of theorems and installations, then, as signposts in a domain. When performing mathematical research, or a long computation, theorems are like carabiners.
 
 From [Philip Guo](https://www.oreilly.com/ideas/code-carabiners-essential-protection-tools-for-safe-programming)
