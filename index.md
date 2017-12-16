@@ -2,7 +2,7 @@
 title: home
 author: Colton Grainger
 order: 1
-modified: 2017-09-15
+modified: 2017-12-15 
 date: 2017-07-15
 ---
 
@@ -17,14 +17,13 @@ For [Wolfgang Iser](https://en.wikipedia.org/wiki/Wolfgang_Iser), an *implied re
 
 I appreciate others who've modeled online presence. For credit, see [people](/links).
 
-
 ## December 2017 Summary
-- I coordinate a [volunteer program](http://coltongrainger.com/fscss-volunteers) for a family shelter in Olympia, WA. 
-- I wrapped up coursework in [Probabilty](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/probability/) and [Ordinary Differential Equations](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/odes/). 
 
-## About
+- I coordinated a [volunteer program](http://coltongrainger.com/fscss-volunteers) for a family shelter in Olympia, WA. 
+- I completed coursework in [Probabilty](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/probability/) and [Ordinary Differential Equations](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/odes/). 
+
+## Contact 
 
 - Email: [colton.grainger@gmail.com](mailto:colton.grainger@gmail.com)
 - Twitter: [@coltongrainger](https://twitter.com/coltongrainger)
-- Here's my <a href="images/ccg-profile.jpg">photo</a>.
-- [#nowplaying](https://hypem.com/coltongrainger)
+- My <a href="images/ccg-profile.jpg">photo</a>.
