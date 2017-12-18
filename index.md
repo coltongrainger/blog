@@ -13,17 +13,20 @@ date: 2017-07-15
 This is my (Colton Grainger's) personal website; it's both an [open notebook](http://wcm1.web.rice.edu/open-notebook-history.html) and an ongoing conversation with an implied reader. 
 
 For [Wolfgang Iser](https://en.wikipedia.org/wiki/Wolfgang_Iser), an *implied reader* is 
-> a textual structure anticipating the presence of a recipient without necessarily defining [them]…the concept of the implied reader designates a network of response-inviting structures, which impel the reader to grasp the text.
+> a textual structure anticipating the presence of a recipient without necessarily defining [them] ... the concept of the implied reader designates a network of response-inviting structures, which impel the reader to grasp the text.
 
 I appreciate others who've modeled online presence. For credit, see [people](/links).
 
 ## December 2017 Summary
 
-- I coordinated a [volunteer program](http://coltongrainger.com/fscss-volunteers) for a family shelter in Olympia, WA. 
-- I completed coursework in [Probabilty](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/probability/) and [Ordinary Differential Equations](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/odes/). 
+- I am coordinating a [volunteer program](http://coltongrainger.com/fscss-volunteers) for a family homeless shelter.
+- I wrote up my Fall coursework as [Jupyter notebooks](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html):
+  - [Math 451: Probabilty](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/probability/)
+  - [MATH 310: Ordinary Differential Equations](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/odes/)
+- I also started a [music log](/music-log).
 
 ## Contact 
 
-- Email: [colton.grainger@gmail.com](mailto:colton.grainger@gmail.com)
-- Twitter: [@coltongrainger](https://twitter.com/coltongrainger)
-- My <a href="images/ccg-profile.jpg">photo</a>.
+- [colton.grainger@gmail.com](mailto:colton.grainger@gmail.com)
+- [@coltongrainger](https://twitter.com/coltongrainger)
+- <a href="images/ccg-profile.jpg">my photo</a>
