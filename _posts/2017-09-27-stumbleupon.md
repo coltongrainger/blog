@@ -5,6 +5,7 @@ date: 2017-09-29
 belief: likely
 status: draft
 ---
+
 I reflect on how kids at the shelter are using the public computer. I propose two moves towards digital literacy.
 
 ## Experience at Shelter
@@ -12,9 +13,9 @@ I reflect on how kids at the shelter are using the public computer. I propose tw
 I've noticed the kids weren't actually playing computer games, but rather watching YouTube videos of other users playing. So, after having enough YouTube, I introduced 4 of the kids to StumbleUpon. We choose interest categories, including, namely, *fashion* (an immediate and nearly unianimous decision), *drawing*, *New York*, *cooking*, *music*, and *pets*.
 
 I'm particularly proud we found:
-- [typedrummer.com](www.typedrummer.com) (an ascii text beat machine)
-- [redrabbit7.com](redrabbit7.org) (oil paintings of cityscapes)
-- [weavesilk.com](weavesilk.com) (a symmetric interactive sketch pad)
+- [typedrummer.com](http://www.typedrummer.com) (an ascii text beat machine)
+- [redrabbit7.com](http://redrabbit7.org) (oil paintings of cityscapes)
+- [weavesilk.com](http://weavesilk.com) (a symmetric interactive sketch pad)
 
 With the hope from a positive experience branching out into the wider internet, I now have to goal to ween the kids off of YouTube and flash games.
 
