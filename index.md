@@ -27,6 +27,6 @@ I appreciate others who've modeled online presence. For credit, see [people](/li
 
 ## Contact 
 
-- [colton.grainger@gmail.com](mailto:colton.grainger@gmail.com)
+- [coltongrainger@gmail.com](mailto:coltongrainger@gmail.com)
 - [@coltongrainger](https://twitter.com/coltongrainger)
 - <a href="images/ccg-profile.jpg">my photo</a>
