@@ -23,7 +23,7 @@ I appreciate others who've modeled online presence. For credit, see [people](/li
 - I wrote up my Fall coursework as [Jupyter notebooks](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html):
   - [Math 451: Probabilty](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/probability/)
   - [MATH 310: Ordinary Differential Equations](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/odes/)
-- I also started a [music log](/music-log) and an [art log](/art-log).
+- I started a [music log](/music-log) and an [art log](/art-log).
 
 ## Contact 
 
