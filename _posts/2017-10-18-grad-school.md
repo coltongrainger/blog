@@ -2,7 +2,7 @@
 title: Graduate Programs
 author: Colton Grainger
 date: 2017-10-18
-modified: 2017-11-18 
+modified: 2017-12-31 
 status: notes
 belief: likely 
 ---
