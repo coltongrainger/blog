@@ -74,3 +74,45 @@ So what's at stake? Why not commit to more relentless publication and, consequen
 	- worthless (philosophically)
 	- inappropriate (socially, culturally)
 	- poisonous (materially, linguistically)
+
+## Choice of venue
+
+I'm cautious of personal websites as isolated repositories. (If it wasn't for the learning curve (and fun) in getting onto the independent web, I'd be more interested in posting to Wikipedia.) But, again, *this is not a blog*, it's a set of notes (and an exercise in categorization). 
+
+I don't need (or want) a chronology. As a spontaneous person, my day-to-day life has a low [signal-to-noise ratio](). Keeping a blog would violate both of Paul Halmos' rules:
+> 1. Do organize content.
+> 2. Do not distract the reader.[^halmos]
+
+[^halmos]: Donald E. Knuth, Tracy Larrabee, Paul M. Roberts, [Mathematical Writing](https://books.google.com/books?id=dDOehHMbUMcC&q="do%20not%20distract%20the%20reader"), 1989 pp. 106
+
+From [Issa Rice](https://issarice.com/egoism-of-personal-websites)
+> In general I prefer openness, and an attitude of having "nothing to hide" rather than a standard of secrecy about one's thoughts.
+> 
+> There is some content that can be justified being sorted chronologically (as in a blog), though I think there should be a presumption in favor of topic-centric organization.
+Likewise I think it can be justified to collect content by author of the piece (as in a personal site or CV), though again by the presumption in favor of topic-centric organization of content, it would be more useful *in a larger number of cases* to have topic-specific sites instead.
+> 
+> What are some possible publishing venues?
+> 
+> - Wikipedia, for general overviews of topics (but also see pages like [this one](http://groupprops.subwiki.org/wiki/Groupprops:Groupprops_versus_Wikipedia))
+> - wikiHow, for how-to guides
+> - LessWrong
+> - reddit, which has a wiki feature for some subreddits now
+> - EA Forum
+> - Facebook
+> - Quora, Stack Exchange sites
+> - Topic-specific sites
+> - discussion forums? -- and more ephemeral forms of communication ...
+> - there are some other content creation sites, like erowid and everything2.
+> - personal site, for everything else
+
+## Organizational Principles?
+
+- <https://indieweb.org/principles>
+- <https://indieweb.org/Category:building-blocks>
+- <https://indieweb.org/POSSE>
+- <http://contentcreation.issarice.com/standardized-sections/>
+
+## Data Management Plans
+
+- [International Research on Permanent Authentic Records in Electronic Systems](http://www.interpares.org/ip2/book.cfm)
+- [Research Data Management: File Organization](https://libraries.mit.edu/data-management/files/2014/05/file-organization-july2014.pdf)
