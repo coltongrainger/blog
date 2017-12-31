@@ -1,12 +1,10 @@
 ---
 title: projects
 author: Colton Grainger
-order: 2
+order: 3 
 ---
 
-# Projects
-
-[Volunteer Website](http://coltongrainger.com/fscss-volunteers), *Aug 2018*
+[Volunteer Website](http://coltongrainger.com/fscss-volunteers), *Aug 2017*
 - To coordinate recruitment and scheduling in Olympia, WA.
 
 [Case Management Repository](https://github.com/ColtonGrainger/ymca-resources), *Mar 2017*
