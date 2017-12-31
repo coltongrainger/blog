@@ -56,6 +56,8 @@ Personal infinitives I think could be actionable here: to reduce contaminant dis
 
 For more abstract maths, see the [Algebraic Geometry](https://www.math.utah.edu/agseminar/) seminar. (Maybe applications to mathematical physics?)
 
+The [PCMI](https://pcmi.ias.edu/) is nearby, here's the [TOC](http://bookstore.ams.org/pcms-23/~~FreeAttachments/pcms-23-toc.pdf) from the 2016 summer school.
+
 ### People
 
 - [Applied Grad Students](http://www.math.utah.edu/applied-math/grads/)
