@@ -1,8 +1,10 @@
 ---
-title: links
+title: see also 
 author: Colton Grainger
 order: 4
 ---
+
+Few of my ideas are original. This pages lists the people most influential on both the material design and organizational structure of this website.
 
 ## People
 
@@ -26,15 +28,4 @@ Faculty at the College of Idaho.
 + [Megan D.](https://www.collegeofidaho.edu/directory/megan-dixon)
 + [Eric S.](https://www.collegeofidaho.edu/directory/eric-spencer)
 + [Steve M.](https://www.collegeofidaho.edu/directory/steve-maughan)
-
-## Math References 
-
-For sheer pleasure, here's Leslie Lamport's 1994 user manual.
-- [LaTeX, A Document Preparation System (2nd edition)](https://www.amazon.com/LaTeX-Document-Preparation-System-2nd/dp/0201529831)
-
-Here're notes from Donald Knuth's 1980 course.
-- [CS 209, Mathematical Writing](http://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf)
-
-Polya's book contains a glossary of heuristic methods. 
-- [How to Solve it: A New Aspect of Mathematical Method](https://notendur.hi.is/hei2/teaching/Polya_HowToSolveIt.pdf) 
 

@@ -1,10 +1,8 @@
 ---
-title: blog
+title: wiki 
 author: Colton Grainger
-order: 3
+order: 2
 ---
-
-# All Posts
 
 <dl>
   {% for post in site.posts %}
