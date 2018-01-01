@@ -51,21 +51,46 @@ Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's t
 
 ## University of Utah
 
-For modelling sea ice and fluid flow through porous materials, see the [Multiscale Analysis and Computations](http://www.math.utah.edu/applied-math/) (MAC) research group. Here's the corresponding [seminar](http://www.math.utah.edu/applied-math/seminar/) for Applied Maths. 
+Here's their [research group overview](https://www.math.utah.edu/research/research_groups.php). 
 
-Personal infinitives I think could be actionable here: to reduce contaminant dispersion, to design sustainable industrial processes, and to contribute to biomimicry in architecture.
+My prospective applied research goals could include reducing contaminant dispersion, designing sustainable industrial processes, or promoting biomimicry in architecture.
 
-For more abstract maths, see the [Algebraic Geometry](https://www.math.utah.edu/agseminar/) seminar. (Maybe applications to mathematical physics?)
+The [Multiscale Analysis and Computations](http://www.math.utah.edu/applied-math/) (MAC) research group contains smaller projects (I assume which depend on funding, faculty and student interest).
+- [numerical analysis and scientific computing](https://www.math.utah.edu/applied-math/na/)
+- [material sciences](https://www.math.utah.edu/applied-math/composites/)
+- [fluid dynamics](https://www.math.utah.edu/applied-math/fluids/)
+- [stochastic computations](https://www.math.utah.edu/applied-math/stochastic/)
+- [Applied Maths seminar](http://www.math.utah.edu/applied-math/seminar/) 
+	- 2017 had Stegner's attempted proof of the Reimann hypothesis
 
-The [PCMI](https://pcmi.ias.edu/) is nearby, here's the [TOC](http://bookstore.ams.org/pcms-23/~~FreeAttachments/pcms-23-toc.pdf) from the 2016 summer school.
+Depending on the culture, I could code PDE solvers (scientific computing).
+- [Varun Shankar](http://www.math.utah.edu/~vshankar/)
+- [Akil Narayan](http://www.sci.utah.edu/~akil/research.html)
+
+It seems the math dept works interdisciplinary with computer science and [biology](https://www.math.utah.edu/research/mathbio/).
+- e.g., the [Alder lab group](http://www.math.utah.edu/~adler/) studies urban ecology
+- understanding complex fluids for biological applications
+
+On the other hand, my abstract research goals could include a better understanding of Riemannian geometry (e.g., Dynamics, geometry, and the moduli space of Riemann surfaces). See both the [Algebraic Geometry seminar](https://www.math.utah.edu/agseminar/) and the [math department colloquium](http://www.math.utah.edu/research/colloquia/).
+
+From [Alex Wright](https://web.stanford.edu/~amwright/)'s [colloquium talk](https://www.youtube.com/watch?v=4mY1k4mBi3s)
+> The moduli space of Riemann surfaces of fixed genus is one of the hubs of modern mathematics and physics. We will tell the story of how simple sounding problems about polygons, some of which arose as toy models in physics, became intertwined with problems about the geometry of moduli space, and how the study of these problems in Teichmuller dynamics lead to connections with homogeneous spaces, algebraic geometry, dynamics, and other areas. The talk will mention joint works with Alex Eskin, Simion Filip, Curtis McMullen, Maryam Mirzakhani, and Ronen Mukamel.
+
+The [Park City Mathematics Institute](https://pcmi.ias.edu/) is nearby.
+- [yearly archive of topics](https://pcmi.ias.edu/archives)
+- [2016 lectures: materials](http://bookstore.ams.org/pcms-23/~~FreeAttachments/pcms-23-toc.pdf) 
 
 ### People
 
-- [Applied Grad Students](http://www.math.utah.edu/applied-math/grads/)
-- [Yekaterina Epshteyn](http://www.math.utah.edu/~epshteyn/)
-- [Bei Wang Phillips](http://www.sci.utah.edu/~beiwang/)
-	- [Topological Data Analysis: The Frontier of Data Science](http://www.sci.utah.edu/~beiwang/teaching/cs6170-spring-2017/Lecture01.pdf)
-- [Y.P. Lee](http://www.math.utah.edu/~yplee/research/#area)
+- applied faculty
+	- [Yekaterina Epshteyn](http://www.math.utah.edu/~epshteyn/)
+	- [Christel Hohenegger](http://www.math.utah.edu/~choheneg/)
+	- [Aaron Folgeson](https://www.math.utah.edu/~fogelson/research.html)
+	- [Andrej Cherkaev](http://www.math.utah.edu/~cherk/)
+- algebraic geometry faculty 
+	- [Y.P. Lee](http://www.math.utah.edu/~yplee/research/#area)
+- interdisciplinary
+	- [Bei Wang Phillips](http://www.sci.utah.edu/~beiwang/), in [Topological Data Analysis: The Frontier of Data Science](http://www.sci.utah.edu/~beiwang/teaching/cs6170-spring-2017/Lecture01.pdf)
 
 ## University of Rochester
 
