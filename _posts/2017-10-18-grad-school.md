@@ -1,10 +1,11 @@
 ---
-title: Graduate Programs
+title: Mathematics PhD Programs
 author: Colton Grainger
 date: 2017-10-18
 modified: 2017-12-31 
-status: notes
-belief: likely 
+status: notes 
+tags:
+  - math
 ---
 
 These are notes on graduate schools and their respective faculty's research. I've isolated people who are broadly interested algebraic/computational topology. My intent is to survey and prune down a list of people I would like to work with.
@@ -46,7 +47,7 @@ Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's t
 
 - [Jim Meiss](http://amath.colorado.edu/faculty/jdm/)
 - [Liz Bradley](http://www.cs.colorado.edu/~lizb/)
-- [Anges Beadury](https://sites.google.com/view/agnesbeaudry)
+- [Agnes Beadury](https://sites.google.com/view/agnesbeaudry)
 
 ## University of Utah
 
@@ -237,3 +238,6 @@ Additionally, the final exams of the courses of the req are *prelims*. The preli
 
 - [plant genome grant](https://nsf.gov/awardsearch/showAward?AWD_ID=1661348)
 
+## Meta
+
+- [Carrie Cai on pivoting into CS after college](http://pgbovine.net/PG-Podcast-14-Carrie-Cai.htm)

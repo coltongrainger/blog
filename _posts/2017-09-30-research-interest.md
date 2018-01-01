@@ -1,13 +1,15 @@
 ---
-title: Research Interest
+title: research interests 
 author: Colton Grainger
 date: 2017-09-30
 modified: 2017-11-18
-belief: likely 
-status: draft 
+belief: possible 
+status: notes 
+tags:
+  - math
 ---
 
-I aim to study topological data analysis, which seeks to answer the question: *What is the shape of data?* 
+These are notes from a survey of potential research topics in mathematics. I am broadly interested in topological data analysis, which seeks to answer the question: *What is the shape of data?* 
 
 ## Topological Data Analysis
 

@@ -3,12 +3,16 @@ title: Personal Statement
 author: Colton Grainger
 date: 2017-11-23
 status: draft
+belief: highly likely
 mathjax: true
+tags: 
+  - math
+  - 
 ---
 
 I aim to obtain a PhD in Mathematics, and my career aspiration is to become an applied mathematician. 
 
-## Experience 
+## My Motivation 
 
 The robustness of a mathematical method determines its utility. Just imagine designing a communication network that fails to account for dynamical perturbations, or modeling an epidemic with strictly deterministic differential equations. My goal, then, is to research robust topological methods for data analysis and physical applied mathematics. My interests, from abstract to concrete, include algebraic topology, dynamical systems, and scientific computation.
 
@@ -30,7 +34,7 @@ In Olympia I am coordinating a volunteer program for a 24-hour homeless shelter.
 
 I am serious, however, to continue my studies in pursuit of my vocation. While I am grateful for learning to manage multiple projects and work with collaborators, I find myself constrained in social service agencies as an end-user of inefficient systems, and bound to idiosyncratic best practices. To sharpen the saw, I have enrolled part-time in continuing education through the University of Idaho's Engineering Outreach program. I will complete courses in Probabilty, Differential Equations, and Numerical Methods by May 2018. Independently, I am learning to chew on data with UNIX tools and to write interactive expositions with Juptyer notebooks.
 
-Though I am open to a wide variety of research in applied math, my experience with messy data sets and my appetite for topology leads naturally into topological data analysis. I would be enthusiastic to collaborate with Professors Meiss (APPM), Bradley (CSCI) and Agnes (MATH). I see fruitful application of TDA in signal processing and network analysis; I am also curious to research the shape of data in material science and to understand contaminant dispersion in watersheds. Upon obtaining a PhD, I imagine myself working in a research laboratory in the Western United States.
+Though I am open to a wide variety of research in applied math, my experience with messy data sets and my appetite for topology leads naturally into topological data analysis. I would be enthusiastic to collaborate with Professors Meiss (APPM), Bradley (CSCI) and Beaudry (MATH). I see fruitful application of TDA in signal processing and network analysis; I am also curious to research the shape of data in material science and to understand contaminant dispersion in watersheds. Upon obtaining a PhD, I imagine myself working in a research laboratory in the Western United States.
 
 ## Teaching 
 

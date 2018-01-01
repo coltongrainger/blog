@@ -1,10 +1,12 @@
 ---
-title: Jupyter notebook webinar
+title: jupyter notebook webinar
 author: Colton Grainger
 created: 2017-07-20
 revised: 2017-09-23
-belief: likely
 status: notes
+tags:
+  - computing
+  - data management
 ---
 
 I recently participated in a webinar (July 2017) hosted by Science Gateways Community Institute (which exists to facilitate community sharing of experiences, technologies, and practices at little or no cost!) These are my notes and reactions.

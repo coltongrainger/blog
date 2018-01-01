@@ -3,7 +3,10 @@ title: learning StumbleUpon
 author: Colton Grainger
 date: 2017-09-29
 belief: likely
-status: draft
+status: finished
+tags:
+  - service work
+  - computing
 ---
 
 I reflect on how kids at the shelter are using the public computer. I propose two moves towards digital literacy.
