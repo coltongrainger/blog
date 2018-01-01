@@ -2,8 +2,11 @@
 title: Content Creation
 author: Colton Grainger
 date: 2017-12-03
-status: draft
-belief: emotional 
+status: in process 
+belief: likely
+tags: 
+  - writing
+  - data management
 ---
 
 Two schools of thought on the creative process: who am *I* chasing after?  

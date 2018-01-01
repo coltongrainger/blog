@@ -3,7 +3,9 @@ title: Texas Episcopal Service Corps
 author: Colton Grainger
 date: 2017-07-15
 belief: emotional
-status: review
+status: finished 
+tags:
+  - service work
 ---
 
 Two reflections on service work (TX ESC) in Houston, TX.

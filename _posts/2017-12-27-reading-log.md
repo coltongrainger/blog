@@ -1,8 +1,10 @@
 ---
 title: Reading Log 
 author: Colton Grainger
+date: 2017-12-27
 belief: log
-status: in progress
+tags:
+  - personal
 ---
 
 Books and papers, thematically arranged, with some comments.
