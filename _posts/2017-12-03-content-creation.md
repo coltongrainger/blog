@@ -6,7 +6,7 @@ status: in process
 belief: likely
 tags: 
   - writing
-  - data management
+  - data-management
 ---
 
 Two schools of thought on the creative process: who am *I* chasing after?  
