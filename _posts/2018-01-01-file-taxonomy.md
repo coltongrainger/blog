@@ -5,7 +5,7 @@ date: 2018-01-01
 status: draft
 belief: possible
 tags:
-  - data management
+  - data-management
   - computing
 ---
 
