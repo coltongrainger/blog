@@ -58,7 +58,7 @@ order: 2
 {% endfor %}
 </ul>
 
-### Chronological
+## Chronological
 <dl>
   {% for post in site.posts %}
       <dt>
