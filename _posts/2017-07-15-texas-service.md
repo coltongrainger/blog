@@ -5,7 +5,7 @@ date: 2017-07-15
 belief: emotional
 status: finished 
 tags:
-  - service work
+  - service-work
 ---
 
 Two reflections on service work (TX ESC) in Houston, TX.

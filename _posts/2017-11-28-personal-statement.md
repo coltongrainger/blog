@@ -1,13 +1,12 @@
 ---
-title: Personal Statement
+title: Personal Statement for Grad School Apps 
 author: Colton Grainger
 date: 2017-11-23
 status: draft
-belief: highly likely
+belief: likely
 mathjax: true
 tags: 
   - math
-  - 
 ---
 
 I aim to obtain a PhD in Mathematics, and my career aspiration is to become an applied mathematician. 

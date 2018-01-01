@@ -15,7 +15,11 @@
   <meta name="viewport" content="width=device-width">
 
   <title>{{ site.title | default: site.github.repository_name }}</title>
- 
+  
+  {% if site.tags != "" %}
+    {% include collecttags.html %}
+  {% endif %} 
+
   <link rel="icon" 
     type="image/png" 
     href="{{ site.baseurl }}/images/favicon.png">

@@ -6,7 +6,6 @@ revised: 2017-09-23
 status: notes
 tags:
   - computing
-  - data management
 ---
 
 I recently participated in a webinar (July 2017) hosted by Science Gateways Community Institute (which exists to facilitate community sharing of experiences, technologies, and practices at little or no cost!) These are my notes and reactions.

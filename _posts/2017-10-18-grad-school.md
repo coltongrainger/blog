@@ -1,5 +1,5 @@
 ---
-title: Mathematics PhD Programs
+title: Survey of Math PhD Programs in the Northwest US 
 author: Colton Grainger
 date: 2017-10-18
 modified: 2017-12-31 
@@ -8,7 +8,7 @@ tags:
   - math
 ---
 
-These are notes on graduate schools and their respective faculty's research. I've isolated people who are broadly interested algebraic/computational topology. My intent is to survey and prune down a list of people I would like to work with.
+My notes on grad schools (all but one in the Northwest US) and their faculty's research. I aim to get a feel for each school's academic environment, then narrow down a list of people I would like to work with. I've focused on folks involved in computational topology, algebraic topology, and numerical analysis.
 
 ## CU Boulder
 

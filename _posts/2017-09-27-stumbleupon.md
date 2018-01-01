@@ -1,12 +1,11 @@
 ---
-title: learning StumbleUpon
+title: Learning StumbleUpon
 author: Colton Grainger
 date: 2017-09-29
 belief: likely
 status: finished
 tags:
-  - service work
-  - computing
+  - service-work
 ---
 
 I reflect on how kids at the shelter are using the public computer. I propose two moves towards digital literacy.

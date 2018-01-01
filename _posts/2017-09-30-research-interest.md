@@ -1,5 +1,5 @@
 ---
-title: research interests 
+title: Research Interests 
 author: Colton Grainger
 date: 2017-09-30
 modified: 2017-11-18

@@ -11,7 +11,6 @@ tags:
 
 An excerpt of verse for Dr. Eric Spencer's *English Renaissance Literature*.
 
-
 <pre>
 In 1572, Tycho Brahe observed 
 	a sudden and continuous rain of light 

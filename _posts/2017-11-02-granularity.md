@@ -1,12 +1,11 @@
 ---
-title: Case notes need big categories 
+title: Case Notes and Granular Categories 
 author: Colton Grainger
 date: 2017-11-02
 status: draft 
 belief: highly likely
 tags: 
-  - data management
-  - service work
+  - service-work
 ---
 
 Could electronic case notes in social service agencies be streamlined?
