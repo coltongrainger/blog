@@ -71,12 +71,22 @@ It seems the math dept works interdisciplinary with computer science and [biolog
 - e.g., the [Alder lab group](http://www.math.utah.edu/~adler/) studies urban ecology
 - understanding complex fluids for biological applications
 
-On the other hand, my abstract research goals could include a better understanding of Riemannian geometry (e.g., Dynamics, geometry, and the moduli space of Riemann surfaces). See both the [Algebraic Geometry seminar](https://www.math.utah.edu/agseminar/) and the [math department colloquium](http://www.math.utah.edu/research/colloquia/).
+On the other hand, my abstract research goals could include a better understanding of algebraic geometry (e.g., Dynamics, geometry, and the moduli space of Riemann surfaces). See both the [Algebraic Geometry seminar](https://www.math.utah.edu/agseminar/) (organized by [Katrina Honigs](http://www.math.utah.edu/~honigs/)) and the [math department colloquium](http://www.math.utah.edu/research/colloquia/).
 
 From [Alex Wright](https://web.stanford.edu/~amwright/)'s [colloquium talk](https://www.youtube.com/watch?v=4mY1k4mBi3s)
 > The moduli space of Riemann surfaces of fixed genus is one of the hubs of modern mathematics and physics. We will tell the story of how simple sounding problems about polygons, some of which arose as toy models in physics, became intertwined with problems about the geometry of moduli space, and how the study of these problems in Teichmuller dynamics lead to connections with homogeneous spaces, algebraic geometry, dynamics, and other areas. The talk will mention joint works with Alex Eskin, Simion Filip, Curtis McMullen, Maryam Mirzakhani, and Ronen Mukamel.
 
-The [Park City Mathematics Institute](https://pcmi.ias.edu/) is nearby.
+See quora [what are the differences between ... ?](https://www.quora.com/What-are-the-differences-between-differential-topology-differential-geometry-algebraic-topology-and-algebraic-geometry-In-what-order-does-one-usually-go-about-learning-them) for distinctions between algebraic *topology* and algebraic *geometry*.
+
+> At the most basic level, algebraic geometry is the study of algebraic varieties---sets of solutions to polynomial equations. Modern algebraic geometry, however, is much wider than this innocent statement seems to imply. It is notoriously complex and requires a very deep understanding of a wide variety of disciplines and domains. 
+>
+> However you choose to learn algebraic geometry, you would want to have some very, very good grounding in commutative algebra, Galois theory, some number theory (especially algebraic number theory), complex function theory, category theory, and a serving of algebraic topology wouldn't hurt. General topology is sort-of required; algebraic geometry uses the notion of "Zariski topology" but, honestly, this topology is so different from the things most analysts and topologists talk about that it's hard for me to see how a basic course in topology would be of any help.
+> 
+> Don't let this deter you. Algebraic Geometry is awe-inspiringly beautiful, and there do exist more gentle approaches to it than Hartshorne or Shafarevich. Fulton's Algebraic Curves ([Page on Umich](http://www.math.lsa.umich.edu/~wfulton/CurveBook.pdf)) is a great starting point.
+
+[Drew Johnson]() studied at Utah under Aaron Betram. Drew recommends [Ravi Vakil](http://math.stanford.edu/~vakil/216blog/index.html)'s *The Rising Sea: Foundations of Algebraic Geometry* for introductory notes. Also see the [student algebraic geometry seminar](http://www.math.utah.edu/~filipazz/seminar_fall_2017.html).
+
+The [Park City Mathematics Institute](https://pcmi.ias.edu/) is nearby, with relevance to both applied & pure math.
 - [yearly archive of topics](https://pcmi.ias.edu/archives)
 - [2016 lectures: materials](http://bookstore.ams.org/pcms-23/~~FreeAttachments/pcms-23-toc.pdf) 
 
