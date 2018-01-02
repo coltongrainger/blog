@@ -92,15 +92,20 @@ The [Park City Mathematics Institute](https://pcmi.ias.edu/) is nearby, with rel
 
 ### People
 
-- applied faculty
-	- [Yekaterina Epshteyn](http://www.math.utah.edu/~epshteyn/)
-	- [Christel Hohenegger](http://www.math.utah.edu/~choheneg/)
-	- [Aaron Folgeson](https://www.math.utah.edu/~fogelson/research.html)
-	- [Andrej Cherkaev](http://www.math.utah.edu/~cherk/)
-- algebraic geometry faculty 
-	- [Y.P. Lee](http://www.math.utah.edu/~yplee/research/#area)
-- interdisciplinary
-	- [Bei Wang Phillips](http://www.sci.utah.edu/~beiwang/), in [Topological Data Analysis: The Frontier of Data Science](http://www.sci.utah.edu/~beiwang/teaching/cs6170-spring-2017/Lecture01.pdf)
+applied faculty
+- [Yekaterina Epshteyn](http://www.math.utah.edu/~epshteyn/)
+- [Christel Hohenegger](http://www.math.utah.edu/~choheneg/)
+- [Aaron Folgeson](https://www.math.utah.edu/~fogelson/research.html)
+- [Andrej Cherkaev](http://www.math.utah.edu/~cherk/)
+algebraic geometry faculty 
+- [Y.P. Lee](http://www.math.utah.edu/~yplee/research/#area)
+- [Aaron Betram](http://www.math.utah.edu/~bertram/)
+- [Karl Schwede](http://www.math.utah.edu/~schwede/)
+- [Christopher Hacon](http://www.math.utah.edu/~hacon/)
+interdisciplinary
+- [Bei Wang Phillips](http://www.sci.utah.edu/~beiwang/), in [Topological Data Analysis: The Frontier of Data Science](http://www.sci.utah.edu/~beiwang/teaching/cs6170-spring-2017/Lecture01.pdf)
+- whatever legacy Matt Might left here...
+- [Neda Netagh](https://visionlab.ece.utah.edu/) in computer vision
 
 ## University of Rochester
 
