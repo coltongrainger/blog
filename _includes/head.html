@@ -1,6 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-
 <head>
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108889969-1"></script>
@@ -13,106 +12,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <meta name="viewport" content="width=device-width">
-
   <title>{{ site.title | default: site.github.repository_name }}</title>
-  
-  {% if site.tags != "" %}
-    {% include collecttags.html %}
-  {% endif %} 
-
   <link rel="icon" 
     type="image/png" 
     href="{{ site.baseurl }}/images/favicon.png">
-
   {% include mathjax.html %}
 </head>
-
 <style type="text/css">
-/* License: CC0 */
-
-body {
-  background-color: #B1B1AF;
-  padding: 20px; 
-  font-family: Georgia, serif;
-  color: #333333 ;
-}
-
-a { text-decoration: none; }
-
-a:hover {text-decoration: underline; }
-
-li {
-  margin-top: 0.3em;
-  margin-bottom: 0.3em; 
-}
-
-h1 {
-  font-size: 120%;
-  text-transform: uppercase;
-}
-
-h2 { border-bottom: 1px solid #93a1a1; }
-
-h2, h3, h4, h5, h6 { font-size: 110%; }
-h1, h2, h3, h4, h5, h6 { font-family: Open Sans, Helvetica, sans-serif; }
-
-main {
-    line-height: 1.4;
-    margin: auto;
-    max-width: 35rem;
-    text-align: left;
-    word-wrap: break-word;
-    background: #ffffff;
-    margin-left: auto ;
-    margin-right: auto ;
-    margin-bottom: 20px ;
-    padding: 20px ;
-    padding-left: 40px ;
-    padding-right: 40px ;
-    border-radius: 9px ;
-}
-
-@media screen and (max-width: 600px) {
-    html { 
-      font-size: 16px; 
-    }
-    main { 
-      padding: 5px ;
-      padding-left: 5px ;
-      padding-right: 5px ;
-      border-radius: 0px ; 
-    }
-    body { 
-      padding: 0px; 
-      background-color: white; 
-    }
-}
-
-blockquote {
-    border-left: 4px solid #ccc;
-    margin: 0px;
-    padding-left: 16px;
-}
-
-pre {
-    font-family: Georgia, serif;
-    display: block;
-    line-height: 1.2;
-    overflow: auto;
-    padding: 10px;
-}
-
-footer { margin: auto;
-    max-width: 35rem;
-    margin-left: auto ;
-    margin-right: auto ;
-    margin-bottom: 20px ;
-    font-size: 80%; }
+  {% include default.css %}
 </style>
-
 <body>
-  <header style="font-family: Open Sans, Helvetica, sans-serif; text-decoration: none">
-    <div align = "left">
+
+  <header style="font-size: 80%">
       {% assign sorted_pages = site.html_pages | sort:"order" %} 
       {% for p in sorted_pages %}
       <a 
