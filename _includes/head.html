@@ -22,9 +22,15 @@
     {% include default.css %}
   </style>
 </head>
-<body>
 
-  <header style="font-size: 80%">
+<body>
+<nav id="site_navigation">
+  <!--
+    See
+      http://stackoverflow.com/questions/37103/css-make-divs-align-horizontally
+    for how the div elements are managed.
+  -->
+  <div style="float:left;">
       {% assign sorted_pages = site.html_pages | sort:"order" %} 
       {% for p in sorted_pages %}
       <a 
@@ -33,5 +39,22 @@
         {% endif %} 
           href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a> | 
       {% endfor %}
-      <a href="https://github.com/coltongrainger/coltongrainger.github.io">source</a></p>
-  </header>
+      <a href="https://raw.githubusercontent.com/coltongrainger/coltongrainger.github.io/master/{{ page.path }}">view source</a>
+     | <a href="https://github.com/coltongrainger/coltongrainger.github.io/commits/master/{{ page.path }}">view history</a>
+  </div>
+  <div style="float:right;">
+    <!--
+      See
+        - http://stackoverflow.com/a/13379065/3422337
+        - http://kaspars.net/blog/wordpress/how-to-add-google-site-search
+        - http://www.vanderbilt.edu/searchsupport/code-samples.php
+    -->
+    <form name="google-search" action="https://google.com/search" method="get">
+      <fieldset style="border:0;">
+        <input type="hidden" name="sitesearch" value="http://coltongrainger.com" />
+        <input name="q" type="text" />
+        <input type="submit" name="btnG" value="Search site" />
+      </fieldset>
+    </form>
+  </div>
+</nav>
