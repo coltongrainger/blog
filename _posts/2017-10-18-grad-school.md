@@ -121,7 +121,7 @@ WSU has two campuses, in Pullman and in Vancouver.
 Seems like Vancouver has the computational topology classes. I might need to travel to Pullman to start/finish the degree.
 
 Krishnamoorthy also works with "landmarks" to speed up computation. For example, from the abstract of [Topological Features in Cancer Gene Expression Data](https://arxiv.org/pdf/1410.3198.pdf),
-> Our method selects a small relevant subset from tens of thousands of genes while simultaneously identifying nontrivial higher order topological features, i.e., holes, in the data. We first circumvent the problem of high dimensionality by dualizing the data, i.e., by studying genes as points in the sample space. Then we select a small subset of the genes as *landmarks* to construct topological structures that capture persistent, i.e., topologically significant, features of the data set in its first homology group. Furthermore, we demonstrate that many members of these loops have been implicated for cancer biogenesis in scientific literature. We illustrate our method on five different data sets belonging to brain, breast, leukemia, and ovarian cancers.
+> Our method selects a small relevant subset from tens of thousands of genes while simultaneously identifying nontrivial higher order topological features, i.e., holes, in the data. We first circumvent the problem of high dimensionality by dualizing the data, i.e., by studying genes as points in the sample space. Then we select a small subset of the genes as *landmarks* to construct topological structures that capture persistent, i.e., topologically significant, features of the data set in its first homology group.
 
 ### People
 
