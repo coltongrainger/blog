@@ -113,18 +113,27 @@ interdisciplinary
 
 WSU has two campuses, in Pullman and in Vancouver. 
 
-There's an interdeptartmental project to study [phenomics](https://wsuvresearchnow.com/2017/11/20/making-sense-of-big-data/) under [NSF grant DBI-1661348](https://nsf.gov/awardsearch/showAward?AWD_ID=1661348). [Bei Wang](http://www.sci.utah.edu/~beiwang/) at the University of Utah is also a collaborator (advised by [Edelsbrunner](http://pub.ist.ac.at/~edels/).
+There's an interdeptartmental project to study [phenomics](https://wsuvresearchnow.com/2017/11/20/making-sense-of-big-data/) with topological data analysis under [NSF grant DBI-1661348](https://nsf.gov/awardsearch/showAward?AWD_ID=1661348). The "deluge" of data associated with [corn crops](https://news.wsu.edu/2017/08/07/big-data-and-crops/) motivates "find[ing] possible hypotheses out of a large amount of data, and conduct[ing] tests in a more targeted fashion." [Bei Wang](http://www.sci.utah.edu/~beiwang/) at the University of Utah collaborates  for the visualization. (Wang studied under [Edelsbrunner](http://pub.ist.ac.at/~edels/).)
 
 Seems like Vancouver has the computational topology classes. Probably would need to travel to Pullman to finish the degree.
+
+Krishnamoorthy also works with "landmarks" to speed up computation. For example, from the abstract of [Topological Features in Cancer Gene Expression Data](https://arxiv.org/pdf/1410.3198.pdf)
+> Our method selects a small relevant subset from tens of thousands of genes while simultaneously identifying nontrivial higher order topological features, i.e., holes, in the data. We first circumvent the problem of high dimensionality by dualizing the data, i.e., by studying genes as points in the sample space. Then we select a small subset of the genes as *landmarks* to construct topological structures that capture persistent, i.e., topologically significant, features of the data set in its first homology group. Furthermore, we demonstrate that many members of these loops have been implicated for cancer biogenesis in scientific literature. We illustrate our method on five different data sets belonging to brain, breast, leukemia, and ovarian cancers.
 
 ### People
 
 - [Kevin Vixie](http://geometricanalysis.org/KevinVixie)
   - runs an [analysis seminar](http://geometricanalysis.org/KevinVixie/WSUAnalysisSeminar)
+  - Vixie advised [Sharif Ibrahim](http://geometricanalysis.org/SharifIbrahim), who's dissertation addresses [geometric measure theory](https://arxiv.org/pdf/1408.5954.pdf) between [simplical complexes](https://en.wikipedia.org/wiki/Simplicial_complex)
+- [Tom Asaki](http://www.math.wsu.edu/faculty/tasaki/)
+  - works in derivative free optimization 
 - [Elissa Schwartz](http://www.math.wsu.edu/faculty/schwartz/)
   - epidemiology
+- [Alexander Khapalov](http://www.math.wsu.edu/faculty/khapala/)
+  - applied analysis, control theory for linear and nonlinear PDEs
 - [Bala Krishnamoorthy](http://www.math.wsu.edu/math/faculty/bkrishna/)
   - computational topology
+  - completed [NSF grant DBI-1064600](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1064600) to develop algorithms for persistent homology
 
 ## University of Rochester
 
