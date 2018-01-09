@@ -113,11 +113,14 @@ interdisciplinary
 
 WSU has two campuses, in Pullman and in Vancouver. 
 
-There's an interdeptartmental project to study [phenomics](https://wsuvresearchnow.com/2017/11/20/making-sense-of-big-data/) with topological data analysis under [NSF grant DBI-1661348](https://nsf.gov/awardsearch/showAward?AWD_ID=1661348). The "deluge" of data associated with [corn crops](https://news.wsu.edu/2017/08/07/big-data-and-crops/) motivates "find[ing] possible hypotheses out of a large amount of data, and conduct[ing] tests in a more targeted fashion." [Bei Wang](http://www.sci.utah.edu/~beiwang/) at the University of Utah collaborates  for the visualization. (Wang studied under [Edelsbrunner](http://pub.ist.ac.at/~edels/).)
+[NSF grant DBI-1661348](https://nsf.gov/awardsearch/showAward?AWD_ID=1661348) funds an [interdepartmental project](http://tdaphenomics.eecs.wsu.edu/) to study (tda)[phenomics](http://tdaphenomics.eecs.wsu.edu/). The "deluge" of data associated with [corn crops](https://news.wsu.edu/2017/08/07/big-data-and-crops/) motivates "find[ing] possible hypotheses out of a large amount of data, and conduct[ing] tests in a more targeted fashion." 
+- PI [Ananth Kalyanaraman](http://eecs.wsu.edu/~ananth/) studies "data-intensive problems in computational genomics and proteomics"
+- [Bei Wang](http://www.sci.utah.edu/~beiwang/) at the University of Utah collaborates for visualization. (Wang studied under [Edelsbrunner](http://pub.ist.ac.at/~edels/).)
+- [Bala Krishnamoorthy](http://www.math.wsu.edu/math/faculty/bkrishna/) handles the algebraic topology?
 
-Seems like Vancouver has the computational topology classes. Probably would need to travel to Pullman to finish the degree.
+Seems like Vancouver has the computational topology classes. I might need to travel to Pullman to start/finish the degree.
 
-Krishnamoorthy also works with "landmarks" to speed up computation. For example, from the abstract of [Topological Features in Cancer Gene Expression Data](https://arxiv.org/pdf/1410.3198.pdf)
+Krishnamoorthy also works with "landmarks" to speed up computation. For example, from the abstract of [Topological Features in Cancer Gene Expression Data](https://arxiv.org/pdf/1410.3198.pdf),
 > Our method selects a small relevant subset from tens of thousands of genes while simultaneously identifying nontrivial higher order topological features, i.e., holes, in the data. We first circumvent the problem of high dimensionality by dualizing the data, i.e., by studying genes as points in the sample space. Then we select a small subset of the genes as *landmarks* to construct topological structures that capture persistent, i.e., topologically significant, features of the data set in its first homology group. Furthermore, we demonstrate that many members of these loops have been implicated for cancer biogenesis in scientific literature. We illustrate our method on five different data sets belonging to brain, breast, leukemia, and ovarian cancers.
 
 ### People
@@ -254,7 +257,7 @@ Razeed = string theory. Joint work. Strong Icing model & statistical mechanics. 
 - A: Relatively small, 6-8 students accepted. Sometimes, we accept a larger pool.
 
 - Q: How about publications on average per PhD student to make a competitive thesis defense?
-- A: in areas like alg top or alg geometry, you don't even need *one*! It's excepted that the stuff gets written up in a postdoc. the abstract side of the research takes a fucking long time to learn. OTOH, with combinatorics, it's good to have at least 2 or 3 publications. Advisors will help. Alg Top has a *very high* build up (~0 publications). We want at least one paper submitted regarding thesis material for summer prior to graduation. Then the job search is easier?
+- A: in areas like alg top or alg geometry, you don't even need *one*! It's excepted that the stuff gets written up in a postdoc. the abstract side of the research takes a f-ing long time to learn. OTOH, with combinatorics, it's good to have at least 2 or 3 publications. Advisors will help. Alg Top has a *very high* build up (~0 publications). We want at least one paper submitted regarding thesis material for summer prior to graduation. Then the job search is easier?
 
 - Q: How often are outside speakers brought in to give talks for the department as a whole on current research topics?
 - A: Speakers every 2 weeks. 6 seminars, 1 for each research group. 1 monthly colloquium, for larger topics. The Wing lectures in applied mathematics have 4 major speakers each year. Math in industry. Mathematics in Pixar's animation industry = 2000 folks in auditorium. General applied math in lectures.
