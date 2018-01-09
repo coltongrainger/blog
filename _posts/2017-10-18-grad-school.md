@@ -97,15 +97,34 @@ applied faculty
 - [Christel Hohenegger](http://www.math.utah.edu/~choheneg/)
 - [Aaron Folgeson](https://www.math.utah.edu/~fogelson/research.html)
 - [Andrej Cherkaev](http://www.math.utah.edu/~cherk/)
+
 algebraic geometry faculty 
 - [Y.P. Lee](http://www.math.utah.edu/~yplee/research/#area)
 - [Aaron Betram](http://www.math.utah.edu/~bertram/)
 - [Karl Schwede](http://www.math.utah.edu/~schwede/)
 - [Christopher Hacon](http://www.math.utah.edu/~hacon/)
+
 interdisciplinary
 - [Bei Wang Phillips](http://www.sci.utah.edu/~beiwang/), in [Topological Data Analysis: The Frontier of Data Science](http://www.sci.utah.edu/~beiwang/teaching/cs6170-spring-2017/Lecture01.pdf)
 - whatever legacy Matt Might left here...
 - [Neda Netagh](https://visionlab.ece.utah.edu/) in computer vision
+
+## Washington State University
+
+WSU has two campuses, in Pullman and in Vancouver. 
+
+There's an interdeptartmental project to study [phenomics](https://wsuvresearchnow.com/2017/11/20/making-sense-of-big-data/) under [NSF grant DBI-1661348](https://nsf.gov/awardsearch/showAward?AWD_ID=1661348). [Bei Wang](http://www.sci.utah.edu/~beiwang/) at the University of Utah is also a collaborator (advised by [Edelsbrunner](http://pub.ist.ac.at/~edels/).
+
+Seems like Vancouver has the computational topology classes. Probably would need to travel to Pullman to finish the degree.
+
+### People
+
+- [Kevin Vixie](http://geometricanalysis.org/KevinVixie)
+  - runs an [analysis seminar](http://geometricanalysis.org/KevinVixie/WSUAnalysisSeminar)
+- [Elissa Schwartz](http://www.math.wsu.edu/faculty/schwartz/)
+  - epidemiology
+- [Bala Krishnamoorthy](http://www.math.wsu.edu/math/faculty/bkrishna/)
+  - computational topology
 
 ## University of Rochester
 
@@ -271,12 +290,6 @@ Additionally, the final exams of the courses of the req are *prelims*. The preli
 
 - [Hal Sadofsky](http://pages.uoregon.edu/sadofsky/)
 - [Daniel Dugger](http://pages.uoregon.edu/ddugger/)
-
-## Washington State University
-
-### People
-
-- [plant genome grant](https://nsf.gov/awardsearch/showAward?AWD_ID=1661348)
 
 ## Meta
 
