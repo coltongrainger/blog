@@ -75,6 +75,8 @@ Over the holidays 2017, I cleaned out the book shelf at my folks' house and star
 - [As I Lay Dying](https://en.wikipedia.org/wiki/As_I_Lay_Dying), William Faulkner
 - [The Unbearable Lightness of Being](https://en.wikipedia.org/wiki/The_Unbearable_Lightness_of_Being), Milan Kundera
 - [Franny and Zooey](https://en.wikipedia.org/wiki/Franny_and_Zooey), also [Raise High the Roof Beam, Carpenters](https://en.wikipedia.org/wiki/Raise_High_the_Roof_Beam,_Carpenters_and_Seymour:_An_Introduction), J.D. Salinger
+- [Demian](https://en.wikipedia.org/wiki/Demian), Hermann Hesse
+- [The Master and Margarita](https://en.wikipedia.org/wiki/The_Master_and_Margarita), Mikhail Bulgakov
 
 ## Meta 
 
