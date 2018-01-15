@@ -140,65 +140,48 @@ Krishnamoorthy also works with "landmarks" to speed up computation. For example,
 
 ## University of Rochester
 
-I logged into a a question-answer webinar with Jonathan Pakianathan, Professor of Mathematics at the University of Rochester. Here's the summary.
+I logged into a question-answer webinar with Jonathan Pakianathan, Professor of Mathematics at the University of Rochester. Here's the summary.
 
 UR is medium sized private school, 6k undergrad and 4k grad student population. Strengths in optics, music, some film industry. 9 Nobel prizes from alumni/faculty, with Thaler winning the Nobel prize this year for behavioral economics. 
 
 The mathematics department has 21 tenure track faculty, with 3 undergrad education permanent staff. It's a mathematically oriented campus, with 9/10 freshman taking math courses and 1/10 undergrads with a math major. Hence, they offer a full selection of topics in undergrad, which benefits the graduate program in terms of teaching.
 
+### Research 
+
+Start with the [research overview](https://web.math.rochester.edu/research/). 
+
+I'll focus on [Analysis](https://web.math.rochester.edu/research/analysis/), [Probability](https://web.math.rochester.edu/research/probability/), and [Topology](https://web.math.rochester.edu/research/topology/).
+
 ### People
 
-- Algebra & Number Theory
-	- 7 folks
-	- Steven Garneck
-		- Reimann Hypothesis 
-	- Doug Hasick 
-		- p-adic homology
-	- Saul 
-		- Classic 
-	- Denisk
-		- Alg to number theory
-	- Thomas Tucker
-		- arithmetic geometry & dynamics
-	- John Teliar
-		- prob methods for num theory
-- Analysis
-	- diffeqs, schrodinger eqn
-	- Chen
-		- PDEs, heat, schrodinger
-	- Kinga
-		- wave maps, einstein eqns
-	- Greenleaf
-		- Harmonic analysis
-	- Iyosovich
-		- geometric number theory
-	- Gauge
-		- minimal surfaces
-- Geometry
-	- 3 faculty
-	- Gauge & Kleiny
-		- fluid to form with surface tension
-	- Saluer
-		- simplex & compact geometry
-		- G2 geometry
-- Prob
-	- 4 faculty
-	- McKurtecion
-		- rand matrix
-	- Ardjun
-		- class prob work
-	- Muler
-		- Ido integral
-- Topology
-	- very strong
-	- homotopy theory
-	- Cohen
-		- homotopy
-	- Cromell
-		- **stable homotopy theory**
-- Combinatorics
-	- mathematical physics
-	- comp sci dept
+
+Analysis
+- Dan-Andrei Geba[^webmaster]
+  - Partial differential equations, mathematical physics (wave maps, Einstein equations)
+- Alex Iosevich
+  - Harmonic analysis, geometric measure theory, geometric combinatorics, analytic number theory.
+
+Probability
+- Arjun
+  - "classical" probability and statistical physics
+  - [probabilistic models for fluid flow through a porous medium](http://web.math.rochester.edu/people/faculty/akrish11//fpp/polymers/2015/10/18/variational-formula.html)
+- Carl Mueller
+  - Ido integrals, stochastic PDEs
+
+Topology (strong in homotopy theory)
+- Fred Cohen
+  - algebraic topology, specifically homotopy theory.
+  - cohomology of groups.
+  - braid groups, function spaces, simplicial groups, configuration spaces and interconnections.
+- Jonathan Pakianathan
+  - group actions on complexes. cohomology of groups. Lie groups and Lie algebras.
+  - Hochschild cohomology of blocks and modular representations. braid groups and configuration spaces.
+- Doug Ravenel
+  - algebraic topology specifically problems related to homotopy groups of spheres, the Adams-Novikov spectral sequence, and its connections with number theory. 
+  - *Complex Cobordism and Stable Homotopy Groups of Spheres* 
+  - *Nilpotence and Periodicity in Stable Homotopy Theory*
+
+[webmaster]: They're the "page owner" for their research group. (I believe anyone who's updating a website has already made an serious investment of time to recruit new students).
 
 ### Time Line
 
