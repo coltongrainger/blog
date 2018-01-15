@@ -148,134 +148,126 @@ The mathematics department has 21 tenure track faculty, with 3 undergrad educati
 
 ### Research 
 
-Start with the [research overview](https://web.math.rochester.edu/research/). 
-
-I'll focus on [Analysis](https://web.math.rochester.edu/research/analysis/), [Probability](https://web.math.rochester.edu/research/probability/), and [Topology](https://web.math.rochester.edu/research/topology/).
-
-### People
-
+Start with the [research overview](https://web.math.rochester.edu/research/). I'll focus on [Analysis](https://web.math.rochester.edu/research/analysis/), [Probability](https://web.math.rochester.edu/research/probability/), and [Topology](https://web.math.rochester.edu/research/topology/).  
 
 Analysis
-- Dan-Andrei Geba[^webmaster]
+- [Dan-Andrei Geba](https://web.math.rochester.edu/people/faculty/dangeba/)[^webmaster]
   - Partial differential equations, mathematical physics (wave maps, Einstein equations)
-- Alex Iosevich
+- [Alex Iosevich](http://web.math.rochester.edu/people/faculty/iosevich/cvweb.html#Research)
   - Harmonic analysis, geometric measure theory, geometric combinatorics, analytic number theory.
 
 Probability
-- Arjun
+- [Arjun Krishnan](https://web.math.rochester.edu/people/faculty/akrish11/)[^webmaster]
   - "classical" probability and statistical physics
   - [probabilistic models for fluid flow through a porous medium](http://web.math.rochester.edu/people/faculty/akrish11//fpp/polymers/2015/10/18/variational-formula.html)
-- Carl Mueller
+- [Carl Mueller](https://web.math.rochester.edu/people/faculty/cmlr/)
   - Ido integrals, stochastic PDEs
+  - [advice column](https://web.math.rochester.edu/people/faculty/cmlr/advice.md)
 
 Topology (strong in homotopy theory)
 - Fred Cohen
   - algebraic topology, specifically homotopy theory.
   - cohomology of groups.
   - braid groups, function spaces, simplicial groups, configuration spaces and interconnections.
-- Jonathan Pakianathan
+- Jonathan Pakianathan[^webmaster]
   - group actions on complexes. cohomology of groups. Lie groups and Lie algebras.
   - Hochschild cohomology of blocks and modular representations. braid groups and configuration spaces.
-- Doug Ravenel
+- [Doug Ravenel](https://web.math.rochester.edu/people/faculty/doug/)
   - algebraic topology specifically problems related to homotopy groups of spheres, the Adams-Novikov spectral sequence, and its connections with number theory. 
   - *Complex Cobordism and Stable Homotopy Groups of Spheres* 
   - *Nilpotence and Periodicity in Stable Homotopy Theory*
 
-[webmaster]: They're the "page owner" for their research group. (I believe anyone who's updating a website has already made an serious investment of time to recruit new students).
+[^webmaster]: They're the "page owner" for their research group. (I believe anyone who's updating a website has already made an serious investment of time to recruit new students).
 
 ### Time Line
 
-Most people get PhD in 5-6 years (4--7 range); support for 5 years 18k stipend & full tuition. There are 8 required courses.
+Most people get a PhD in 5--6 years (4--7 range). There's  support for 5 years at a 18k stipend with full tuition. 
 
-- Year 1
-	- real analysis
-	- complex analysis
-	- alg I
-	- alg II 
-	- gen topology
-	- manifolds
-- Year 2
-	- alg topology (semester)
-	- func analysis (semester)
+There are 8 required courses (completed by end of Year 2).
+- real analysis
+- complex analysis
+- alg I
+- alg II 
+- gen topology
+- manifolds
+- alg topology
+- func analysis
 
-I attend seminars, should develop a research interest, choose an advisor. There are 5 grad topic courses (offered randomly each semester).
-- Year 3 
-	- to give a qualifying talk about research interest
-- Years 4,5
-	- research
-	- then PhD defense to general audience (5th or 6th year)
+I should also attend seminars, develop a research interest, and choose an advisor by the end of Year 2. 
+
+After the required courses, faculty randomly offer 5 topic courses each semester.
+
+In Year 3, I should give a qualifying talk about my research interest, then, in Years 4 and 5, complete substantial research towards a dissertation. I'd defend my PhD before a general audience at the end of Year 5.
 
 ### Webinar Questions
 
-- Q: Can you explain more about the collaboration between math and CS?
-- A: Brownian sheets. Computer networks with various connections, build a network. Propagation of problems in computer network.
+Can you explain more about the collaboration between math and CS?
+- Brownian sheets. Computer networks with various connections, build a network. Propagation of problems in computer network.
 
 - What applications are the topology group currently working on? Any topological data analysis?
-- A: Persistent homology was popular. Faculty no longer interested. Many grad students to do joint work with CompSci for TDA. Lizz Maduer, postdoc. A little in flux. No permanent tenure faculty. All interested. Do a little work. Some courses. It would be joint work. New Data Analysis center ==> Data Analysis. Data science. 
+- Persistent homology was popular. Faculty no longer interested. Many grad students to do joint work with CompSci for TDA. Lizz Maduer, postdoc. A little in flux. No permanent tenure faculty. All interested. Do a little work. Some courses. It would be joint work. New Data Analysis center ==> Data Analysis. Data science. 
 
-- Q: You mentioned many people in the department doing mathematical physics. To what degree does the mathematics department seek out people with strong physics backgrounds?
-- A: Many folks move from Physics to Mathematics. Common transition. Surprisingly large number of analysists have backgrounds in physics. Lee Theory & Lee Algebras. Schrodinger Eqns
-Razeed = string theory. Joint work. Strong Icing model & statistical mechanics. Mathematical Physics seminar. No formal connection.
+You mentioned many people in the department doing mathematical physics. To what degree does the mathematics department seek out people with strong physics backgrounds?
+- Many folks move from Physics to Mathematics. Common transition. Surprisingly large number of analysists have backgrounds in physics. Lee Theory & Lee Algebras. Schrodinger Eqns. String theory. Joint work. Strong Icing model & statistical mechanics. Mathematical Physics seminar. No formal connection.
 
-- Q: Enrollment requirements?
-	- .2 on subject GRE
-	- .2 on undergrad GPA
-	- .2 on recommendations
-	- .2 on past experiences in mathematics
-	- .2 other (overall application)
-	- Expected background: 
-		- group theory
-		- solid calc 
-		- Linear Algebra
-		- gen topology
-		- some analysis
-		- basic familiarity for logical analysis & proofs
-	- some students admitted with physics
-	- do take the subject GRE (600 & above)
+Enrollment requirements?
+- .2 on subject GRE 
+- .2 on undergrad GPA
+- .2 on recommendations
+- .2 on past experiences in mathematics
+- .2 other (overall application)
+- Expected background: 
+  - group theory
+  - solid calc 
+  - linear algebra
+  - gen topology
+  - some analysis
+  - basic familiarity for logical analysis & proofs
+- some students admitted with physics
+- do take the subject GRE (600 & above)
 
-- Q: Some physical intuition?
-- A: Topology developed separately, but now comes back. Geometry does come from physics, but feeds back?
+Some physical intuition?
+- Topology developed separately, but now comes back. Geometry does come from physics, but feeds back?
 
-- Q: How many folks apply? How many accepted?
-- A: Relatively small, 6-8 students accepted. Sometimes, we accept a larger pool.
+How many folks apply? How many accepted?
+- Relatively small, 6--8 students accepted. Sometimes, we accept a larger pool.
 
-- Q: How about publications on average per PhD student to make a competitive thesis defense?
-- A: in areas like alg top or alg geometry, you don't even need *one*! It's excepted that the stuff gets written up in a postdoc. the abstract side of the research takes a f-ing long time to learn. OTOH, with combinatorics, it's good to have at least 2 or 3 publications. Advisors will help. Alg Top has a *very high* build up (~0 publications). We want at least one paper submitted regarding thesis material for summer prior to graduation. Then the job search is easier?
+How about publications on average per PhD student to make a competitive thesis defense?
+- in areas like alg top or alg geometry, you don't even need *one*! It's excepted that the stuff gets written up in a postdoc. the abstract side of the research takes a f-ing long time to learn. OTOH, with combinatorics, it's good to have at least 2 or 3 publications. Advisors will help. Alg Top has a *very high* build up (~0 publications). We want at least one paper submitted regarding thesis material for summer prior to graduation. Then the job search is easier. 
 
-- Q: How often are outside speakers brought in to give talks for the department as a whole on current research topics?
-- A: Speakers every 2 weeks. 6 seminars, 1 for each research group. 1 monthly colloquium, for larger topics. The Wing lectures in applied mathematics have 4 major speakers each year. Math in industry. Mathematics in Pixar's animation industry = 2000 folks in auditorium. General applied math in lectures.
+How often are outside speakers brought in to give talks for the department as a whole on current research topics?
+- Speakers every 2 weeks. 6 seminars, 1 for each research group. 1 monthly colloquium, for larger topics. The Wing lectures in applied mathematics have 4 major speakers each year. Math in industry. Mathematics in Pixar's animation industry = 2000 folks in auditorium. General applied math in lectures.
 
-- Q: How do you consider industry work experience in a technical industry (software development, biotechnology etc.) vs. mathematical research experience in an REU or similar?
-- A: Experience is pretty good. Industry experience shows initiative. What math REUs are useful? Well, the REUs are directly corresponding. What's the weighting factor? We like most all experiences.
+How do you consider industry work experience in a technical industry (software development, biotechnology etc.) vs. mathematical research experience in an REU or similar?
+- Experience is pretty good. Industry experience shows initiative. What math REUs are useful? Well, the REUs are directly corresponding. What's the weighting factor? We like most all experiences.
 
-- Q: What about funding for grad students to go to research conferences?
-- A: Small fund, but the advisors and students can apply for grants. $500 per student per month.
+What about funding for grad students to go to research conferences?
+- Small fund, but the advisors and students can apply for grants. $500 per student per month.
 
-- Q: Do you have an idea of what your PhD students end up doing? I'm thinking primarily academia vs industry.
-- A: look on alumni page. mostly 50/50.
+Do you have an idea of what your PhD students end up doing? I'm thinking primarily academia vs industry.
+- look on alumni page. mostly 50/50.
 
-- Q: What computer algebra software is incorporated in the undergraduate curriculum? I'm thinking in terms of a TA-ship. Python? SAGE?
-- A: Mathematics only works with discrete mathematics. WebWork invented at UR. MATLAB & Mathematica. Basically free. Perl, Python, Sage. Used as needed. For examples, we have fractals and numerical methods. We tend to concentrate more on the mathematics.
+What computer algebra software is incorporated in the undergraduate curriculum? I'm thinking in terms of a TA-ship. Python? SAGE?
+- With regards to CompSci, the math dept only teaches discrete mathematics. However, WebWork was invented at UR. Some students use MATLAB & Mathematica, basically for free. Perl, Python, and Sage are used as needed. For example, we'll generate fractals with numerical methods. We tend to concentrate more on the mathematics.
 
-- Q: What other schools do you see students most commonly collaborating with, if at all? I ask because RIT, where I currently am, loves to promote their relationships with other schools, especially UoR.
-- A: usually amongst individual folks.
+What other schools do you see students most commonly collaborating with, if at all? I ask because RIT, where I currently am, loves to promote their relationships with other schools, especially UoR.
+- usually amongst individual folks.
 
-- Q: How close do graduate students tend to live to campus and how do they get around?
-- A: Eastman school of music downtown. We have a free shuttle from main campus to downtown. Most students live on campus. We also have
+How close do graduate students tend to live to campus and how do they get around?
+- Eastman school of music downtown. We have a free shuttle from main campus to downtown. Most students live on campus. We also have
 
-- Q: What is the average ratio of domestic students to international students?
-- A: It's 50/50. It used to be further 70/30 international. Students mostly apply from China, India, Japan and Turkey.
+What is the average ratio of domestic students to international students?
+- It's 50/50. It used to be further 70/30 international. Students mostly apply from China, India, Japan and Turkey.
 
-- Q: In this train of thought, do you have many students from the Buffalo/Rochester area?
-- A: A few.
+In this train of thought, do you have many students from the Buffalo/Rochester area?
+- A few.
 
-- Q: Role teaching and TA-ship?
-- A: If you have the std tuition waiver, 10 hours work/week as a TA or GA. 3 recitations each week. Some grading of exams. Prep for recitations, grading, and teaching/tutoring should come to about 10 hours/week.
-
+Role teaching and TA-ship?
+- If you have the std tuition waiver, 10 hours work/week as a TA or GA. 3 recitations each week. Some grading of exams. Prep for recitations, grading, and teaching/tutoring should come to about 10 hours/week.
 - Folks who get good TA evals can enter good courses earlier. It's competitive during the semester. It's important that every grad student gets some teaching exp. Will be scheduled to teach a course *in the summer*. Summer courses are paid extra 2,800 per summer course (w00t extra money). We require students to have some teaching experience. We actively set each student up. We want to outline a program so that by the time.
 
-- Q: How does already having a math MS affect admission chances?
-- A: Great. Any mathematical Master's work up to 30 credits will transfer. BTW, you'll need 90 credits of course work. 4 credits a course. 8 courses. 32 required credits. The rest are from reading courses & seminars. If you've already taken real analysis, we could waive it.
+How does already having a math MS affect admission chances?
+- Great. Any mathematical Master's work up to 30 credits will transfer. BTW, you'll need 90 credits of course work. 4 credits a course. 8 courses. 32 required credits. The rest are from reading courses & seminars. If you've already taken real analysis, we could waive it.
 Additionally, the final exams of the courses of the req are *prelims*. The prelims are additionally offered. Students need to complete prelims for the req'd subjects. Welcome to sit in for the courses.
 6 main courses. 6 exams for the courses to be passed by the end of the 2nd year.
 
