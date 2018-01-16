@@ -275,8 +275,15 @@ Additionally, the final exams of the courses of the req are *prelims*. The preli
 
 ### People 
 
-- [Hal Sadofsky](http://pages.uoregon.edu/sadofsky/)
+- [Robert Lipshitz](http://pages.uoregon.edu/lipshitz/)
+  - Geometric Topology
+  - Floer homology
+  - [DMS-1642067](https://nsf.gov/awardsearch/showAward?AWD_ID=1642067)
+  > Heegaard Floer homology is family of invariants of objects studied in low-dimensional topology, including closed 3-manifolds, 4-dimensional cobordisms, knots and links in 3-manifolds, and contact structures on 3-manifolds. Bordered Heegaard Floer homology is an extension of Heegaard Floer homology to 3-manifolds with boundary, with good gluing properties. (Roughly, Heegaard Floer homology forms a (3+1)-dimensional topological field theory, and bordered Heegaard Floer homology is a (2+1+1)-dimensional extension of this field theory.) This project seeks to further develop bordered Heegaard Floer homology. The ultimate goals are to find practical ways of computing Heegaard Floer homology (and the Seiberg-Witten invariant); an axiomatic characterization of Heegaard Floer theory; and variants on Heegaard Floer theory capable of answering other topological questions.
 - [Daniel Dugger](http://pages.uoregon.edu/ddugger/)
+- [Hal Sadofsky](http://pages.uoregon.edu/sadofsky/)
+- [Dev Prakash Sinha](http://pages.uoregon.edu/dps)
+  - advised [Safia Chettih](https://scholarsbank.uoregon.edu/xmlui/handle/1794/20728)
 
 ## Meta
 
