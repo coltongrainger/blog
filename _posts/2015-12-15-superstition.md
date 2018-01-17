@@ -5,8 +5,6 @@ date: 2015-12-15
 modified: 2017-07-30
 belief: fiction
 status: poetry
-tags: 
-  - writing
 ---
 
 An excerpt of verse for Dr. Eric Spencer's *English Renaissance Literature*.

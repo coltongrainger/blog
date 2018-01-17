@@ -2,10 +2,7 @@
 title: jupyter notebook webinar
 author: Colton Grainger
 created: 2017-07-20
-revised: 2017-09-23
-status: notes
-tags:
-  - computing
+modified: 2017-09-23
 ---
 
 I recently participated in a webinar (July 2017) hosted by Science Gateways Community Institute (which exists to facilitate community sharing of experiences, technologies, and practices at little or no cost!) These are my notes and reactions.
@@ -18,7 +15,7 @@ I was tasked to analyze resonance given different forcing functions for 2nd orde
 
 `plot([exp(-3*x)*(x^2 + C) for C in [-1..2]], (-0.5, 0.5))`
 
-## Webinar Notes
+## Webinar
 
 Carol Willing presented a whirlwind tour of Jupyter's development out of IPython:
 - For information about IPython prior to 2011, see [Perez's historical ruminations](http://blog.fperez.org/2012/01/ipython-notebook-historical.html)
@@ -30,9 +27,9 @@ Carol Willing presented a whirlwind tour of Jupyter's development out of IPython
 
 Following, Carol mentioned that Project Jupyter is determined to reach wider audience (not just mathematicians and computer scientics). This bears similarity to SageMathCloud's [rebranding](https://cocalc.com/). To increase cross-disciplinary collaboration, Carol emphasized the notebook interface's strengths in *data exploration, visualization, and analysis*. 
 
-## What's new with Jupyter?
+### What's new with Jupyter?
 
-- One could look at [trending notebooks](github.com/trending/juptyer-notebook).
+- One could look at [trending notebooks](https://github.com/trending/juptyer-notebook).
 - I can compile and share my notebooks with [Binder](https://beta.mybinder.org/).
 	- to build github repos into live notebooks with the python kernel
 	- won't work for notebooks running on a sagemath kernel

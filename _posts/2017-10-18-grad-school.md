@@ -1,14 +1,13 @@
 ---
-title: Survey of Math PhD Programs in the Northwest US 
+title: Survey of Grad Schools in the NW US 
 author: Colton Grainger
 date: 2017-10-18
-modified: 2017-12-31 
-status: notes 
-tags:
-  - math
+modified: 2018-01-15
 ---
 
 My notes on grad schools (all but one in the Northwest US) and their faculty's research. I aim to get a feel for each school's academic environment, then narrow down a list of people I would like to work with. I've focused on folks involved in computational topology, algebraic topology, and numerical analysis.
+
+Update: My [grad apps](https://github.com/coltongrainger/grad-apps) are finished. This document will date quickly, but I think it's a good rubric for the sort of mental canvassing necessary to find interesting research groups.
 
 ## CU Boulder
 

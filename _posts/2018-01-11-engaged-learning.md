@@ -2,8 +2,6 @@
 title: Engaged Learning and Job Development in Western Washington 
 author: Colton Grainger
 status: draft 
-tags:
-  - service-work
 ---
 
 For now, this is a rough collection of thoughts and statistics on early education, "engaged learning" and job development in [Western Washington](https://en.wikipedia.org/wiki/Western_Washington) (specifically the PacMtn region, i.e., Thurston, Lewis, Grays Harbor, Pacific, and Mason counties).

@@ -3,9 +3,7 @@ title: Research Interest
 author: Colton Grainger
 date: 2017-09-30
 modified: 2018-01-16 
-tags:
-  - math
-  - grad-apps
+belief: somewhat
 ---
 
 These are notes from a survey of potential research topics in mathematics. I am broadly interested in topological data analysis, which seeks to answer the question: *What is the shape of data?* 
@@ -26,7 +24,7 @@ Nanda cites applications including sensor network coverage, granular force chain
 
 What's the goal? We need to perform persistent homology. We have a data set to represent as a simplicial complex. How to build? What're the parameters? What's the good radius? As we vary the radius (and some other parameters) how does the homology change?
 
-### Software for TDA
+#### Software for TDA
 
 - JavaPlex
 	- great tutorial, works with MatLab
@@ -37,7 +35,7 @@ What's the goal? We need to perform persistent homology. We have a data set to r
 - PHAT
 	- works well with R?
 
-## See Also
+#### See Also
 
 For computational topology.
 - Peter Bubenik's [An Introduction to Topological Data Analysis](https://people.clas.ufl.edu/peterbubenik/files/abacus_1.pdf)
