@@ -62,6 +62,8 @@ From a student at UO
 - [list of computop software](https://faculty.math.illinois.edu/~nmd/computop/)
 - [an introduction to SnapPy](http://www.cornell.edu/video/nathan-dunfield-practical-computation-hyperbolic-3-manifolds)
 
+## Numerical Analysis
+
 ### Contaminant Dispersion
 
 Historically, I have been motivated to understand particle flows in dynamical systems, given their utility for modeling contaminant dispersion. However, I feel any policy recommendations to come from research in contaminant dispersion amounts to suggesting techniques for smearing some neutralizing agent through the contaminanted region. From a high level, it's tempting, but perhaps distracting, to devote too much mental effort towards cleaning up messes. On the other hand, neutralizing a contaminant by cleverly exploiting bending-and-folding seems praiseworthy.
