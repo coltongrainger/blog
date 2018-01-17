@@ -1,12 +1,11 @@
 ---
-title: Research Interests 
+title: Research Interest
 author: Colton Grainger
 date: 2017-09-30
-modified: 2017-11-18
-belief: possible 
-status: notes 
+modified: 2018-01-16 
 tags:
   - math
+  - grad-apps
 ---
 
 These are notes from a survey of potential research topics in mathematics. I am broadly interested in topological data analysis, which seeks to answer the question: *What is the shape of data?* 
@@ -49,7 +48,7 @@ For algebraic topology.
 - [reference request for learning topology](https://mathoverflow.net/questions/8445/learning-topology/8571#8571)
 - Peter May's [Concise Introduction](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)
 
-## Contaminant Dispersion
+### Contaminant Dispersion
 
 Historically, I have been motivated to understand particle flows in dynamical systems, given their utility for modeling contaminant dispersion. However, I feel any policy recommendations to come from research in contaminant dispersion amounts to suggesting techniques for smearing some neutralizing agent through the contaminanted region. From a high level, it's tempting, but perhaps distracting, to devote too much mental effort towards cleaning up messes. On the other hand, neutralizing a contaminant by cleverly exploiting bending-and-folding seems praiseworthy.
 
