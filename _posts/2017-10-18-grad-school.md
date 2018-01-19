@@ -2,8 +2,8 @@
 title: Survey of Math PhD Programs in the Northwest US 
 author: Colton Grainger
 date: 2017-10-18
-modified: 2017-12-31 
-status: notes 
+modified: 2018-01-15
+status: complete 
 tags:
   - math
 ---
