@@ -4,14 +4,63 @@ author: Colton Grainger
 date: 2017-07-15
 belief: emotional
 status: finished 
-tags:
-  - service-work
 ---
 
-Two reflections on service work (TX ESC) in Houston, TX.
+Two reflections on service work in Houston, TX.
 
-- [Year-in-Review](/texas-service#year-in-review)
 - [Mid-Year](/texas-service#mid-year)
+- [Year-in-Review](/texas-service#year-in-review)
+
+## Mid-Year
+
+I joined the service corps to "know myself" is the sense of 
+
+<pre>
+to thine own self be true,
+and it must follow, as the night the day,
+Thou canst not then be false to any man
+</pre>
+
+and
+
+<pre>
+Runnin' through the 6 with my woes
+Countin' money, you know how it goes
+Pray the real live forever, man
+Pray the fakes get exposed.
+</pre>
+
+Upon moving to Houston, I invested most of my time and physical energy into "self-care." Three examples. I learned how to budget (in Google sheets) and tithe (setting aside part of my grocery money for others). I joined a [parish choir](http://www.christchurchcathedral.org/choirs/). I found safe spaces downtown with my METRO pass (the [Tellepsen YMCA](https://www.google.com/maps/place/Tellepsen+Family+Downtown+YMCA/@29.7525802,-95.3707456,15z/data=!4m5!3m4!1s0x0:0xcacd8d78e30ead63!8m2!3d29.7525802!4d-95.3707456) for exercise and the [Julia Ideson Library](https://www.google.com/maps/place/Julia+Ideson+Building/@29.7589504,-95.3713409,17z/data=!3m1!4b1!4m5!3m4!1s0x8640bf39a28e84e9:0xdfaa0a310ac8bb2a!8m2!3d29.7589504!4d-95.3691522) for reading).
+
+In August I waited, then petitioned, for placement at a service site. After two free weeks I interviewed with my supervisors, Shaoli and Salimah. I was hired onto the case management team at a refugee social service office.
+
+Leading up to November, I challenged myself to study for the GRE mathematics subject test. Every Saturday through September and October, I dragged myself to [UH](https://www.google.com/maps/place/University+of+Houston/@29.7199489,-95.3422334,15z/data=!4m2!3m1!1s0x0:0xc9f387eca8247e7?sa=X&ved=0ahUKEwii4qX_sszXAhVNwmMKHX5pAYoQ_BIIhwEwDw) for practice questions (on limits & series, differentiation & integration, and groups & rings). In the middle of October, I shaved my head in anxiety. At work, Shaoli joked that I got caught up with Hare Krishnas. But yes, after I sat for the test, I was free---running outside and cartwheeling across the lawn.
+
+As cooler weather crept in, my service work fleshed out. Salimah needed her old clients archived and fresh clients uploaded to a new database. Shaoli needed her clients to be arranged with medical appointments, transportation, interpretation and pre-authorized health coverage. I biked (and bused) to work earlier in the morning (red light blooming over me) and stayed later at night. I chewed on the play of words "for myself, unto others; for others, unto myself." 
+
+Waiting for the bus at the transit center, nestled against the curving circuit of the freeway exchange, I felt that I was turning inside out. 
+
+<pre>
+At this time, I was mainly 
+	serving clients 
+	by scheduling their medical appointments and 
+	by accompanying them as they learned to catch a bus. 
+
+I also applied for 
+	health care benefits and 
+	rental assistance, 
+while instructing clients 
+	what I was doing, 
+	how they could do the same for themselves, and 
+	encouraging them to do so 
+		as soon as they built up enough English proficieny. 
+</pre>
+
+Administratively, I helped transition our case files out of Microsoft Office and into a standardized database. I also parsed the storage room to shred old case files and bring our archives up to grant compliance. (As I learned about a person on paper, they appeared in the office to ask for help: rental assistance, translation, et cetera.)
+
+Since I joined the service corps I have left Texas twice, for Thanksgiving and Christmas. During Thanksgiving I stayed in my old room, but it was too familiar: steeped in luke-warm nostalgia, apparently unchanging, almost menacing. Over Christmas, I slept in my family's computer room. The uncomfortable pull-out couch reminded me of my bed Houston: it was small, a little lumpy, and I stumbled into things when I walked around at night.
+
+I'm back in Houston, again pushed out into its metropolitan flatland, again stranded to pedal back and forth to work on my bike, while the un-neutered cats lounge about on their roof-tops and houses of the Near Northside settle into the bayou, all of which is slow-flowing to the ocean.
 
 ## Year-in-Review
 
@@ -96,55 +145,4 @@ Spiritually, I found myself grounded in the [liturgical calendar](https://en.wik
 Get a yoga membership at [Black Swan](https://blackswanyoga.com/houston/)! Take classes with these teachers:
 - [Alicia Tillman](https://blackswanyoga.com/teacher/aliciat/)
 - [Ash Agnite](https://blackswanyoga.com/teacher/ashag/)
-
-## Mid-Year
-
-I joined the service corps to "know myself" is the sense of 
-
-<pre>
-to thine own self be true,
-and it must follow, as the night the day,
-Thou canst not then be false to any man
-</pre>
-
-and
-
-<pre>
-Runnin' through the 6 with my woes
-Countin' money, you know how it goes
-Pray the real live forever, man
-Pray the fakes get exposed.
-</pre>
-
-Upon moving to Houston, I invested most of my time and physical energy into "self-care." Three examples. I learned how to budget (in Google sheets) and tithe (setting aside part of my grocery money for others). I joined a [parish choir](http://www.christchurchcathedral.org/choirs/). I found safe spaces downtown with my METRO pass (the [Tellepsen YMCA](https://www.google.com/maps/place/Tellepsen+Family+Downtown+YMCA/@29.7525802,-95.3707456,15z/data=!4m5!3m4!1s0x0:0xcacd8d78e30ead63!8m2!3d29.7525802!4d-95.3707456) for exercise and the [Julia Ideson Library](https://www.google.com/maps/place/Julia+Ideson+Building/@29.7589504,-95.3713409,17z/data=!3m1!4b1!4m5!3m4!1s0x8640bf39a28e84e9:0xdfaa0a310ac8bb2a!8m2!3d29.7589504!4d-95.3691522) for reading).
-
-In August I waited, then petitioned, for placement at a service site. After two free weeks I interviewed with my supervisors, Shaoli and Salimah. I was hired onto the case management team at a refugee social service office.
-
-Leading up to November, I challenged myself to study for the GRE mathematics subject test. Every Saturday through September and October, I dragged myself to [UH](https://www.google.com/maps/place/University+of+Houston/@29.7199489,-95.3422334,15z/data=!4m2!3m1!1s0x0:0xc9f387eca8247e7?sa=X&ved=0ahUKEwii4qX_sszXAhVNwmMKHX5pAYoQ_BIIhwEwDw) for practice questions (on limits & series, differentiation & integration, and groups & rings). In the middle of October, I shaved my head in anxiety. At work, Shaoli joked that I got caught up with Hare Krishnas. But yes, after I sat for the test, I was free---running outside and cartwheeling across the lawn.
-
-As cooler weather crept in, my service work fleshed out. Salimah needed her old clients archived and fresh clients uploaded to a new database. Shaoli needed her clients to be arranged with medical appointments, transportation, interpretation and pre-authorized health coverage. I biked (and bused) to work earlier in the morning (red light blooming over me) and stayed later at night. I chewed on the play of words "for myself, unto others; for others, unto myself." 
-
-Waiting for the bus at the transit center, nestled against the curving circuit of the freeway exchange, I felt that I was turning inside out. 
-
-<pre>
-At this time, I was mainly 
-	serving clients 
-	by scheduling their medical appointments and 
-	by accompanying them as they learned to catch a bus. 
-
-I also applied for 
-	health care benefits and 
-	rental assistance, 
-while instructing clients 
-	what I was doing, 
-	how they could do the same for themselves, and 
-	encouraging them to do so 
-		as soon as they built up enough English proficieny. 
-</pre>
-
-Administratively, I helped transition our case files out of Microsoft Office and into a standardized database. I also parsed the storage room to shred old case files and bring our archives up to grant compliance. (As I learned about a person on paper, they appeared in the office to ask for help: rental assistance, translation, et cetera.)
-
-Since I joined the service corps I have left Texas twice, for Thanksgiving and Christmas. During Thanksgiving I stayed in my old room, but it was too familiar: steeped in luke-warm nostalgia, apparently unchanging, almost menacing. Over Christmas, I slept in my family's computer room. The uncomfortable pull-out couch reminded me of my bed Houston: it was small, a little lumpy, and I stumbled into things when I walked around at night.
-
-I'm back in Houston, again pushed out into its metropolitan flatland, again stranded to pedal back and forth to work on my bike, while the un-neutered cats lounge about on their roof-tops and houses of the Near Northside settle into the bayou, all of which is slow-flowing to the ocean.
 

@@ -4,21 +4,18 @@ author: Colton Grainger
 date: 2017-12-03
 status: in process 
 belief: likely
-tags: 
-  - writing
-  - data-management
 ---
 
-Two schools of thought on the creative process: who am *I* chasing after?  
+Two schools of thought on the creative process: who am I chasing after?  
 
 Inés Estrada, aka [inechi](http://inechi.com/), reps the "I do it for myself" perspective.
 > *There's been some recent discussion about balancing art and business, which when you talked about not compromising your art, I was reminded of. What are your objectives? Do you have an audience in mind, and think about salability, or does that come second-after production?*
-
+> 
 > I make art because I need to, it's something I do for fun and also for release. If people like it, that's very rewarding,  but in the end the only person I try to please with it is myself. I love the idea of making money out of what I do (and I'm lucky to be able to) but I don't plan my comics considering my audience as customers. I feel like, for me, it's mostly worked out not because I think "I should do shit that sells" but more like "How do I sell this shit I just did?!"
 
 On the other hand, [Philip Guo](http://pgbovine.net/writings.htm) reps "make it new"
 > One heuristic I use when deciding what to write is to ask myself: *Will at least 100 people care about this topic three years from now?* 
-
+> 
 > The following don't qualify, so I rarely write about them:
 commentary on news events or fads, reactions to someone else's article, personal notes that only my friends would care about. Also, if I see many people writing about a topic, then I avoid it unless I have a drastically different perspective.
 
