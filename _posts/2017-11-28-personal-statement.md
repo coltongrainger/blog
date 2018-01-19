@@ -4,90 +4,92 @@ author: Colton Grainger
 date: 2017-11-23
 modified: 2018-01-04
 status: draft
-belief: likely
+belief: somewhat 
 mathjax: true
-tags: 
-  - math
 ---
 
 The robustness of a mathematical method determines its utility. Just
 imagine designing a communication network that fails to account for
 topological perturbations, or modeling an epidemic with strictly
-deterministic differential equations. My goal, then, is to study robust
-methods in algebraic topology and apply them in abstract and
-computational settings.
+deterministic differential equations. My goal, then, is to research
+robust methods in algebraic topology that can be applied in both
+abstract and computational settings.
 
 For example, consider training an AI to distinguish the tone signature
 of different musical instruments. Applying persistent homology, we
-associate holes in an audio recording’s time-delay phase-space with a
-sample statistic: the persistent rank function (PRF). Corresponding with
-Nikki Sanderson, I learned a computer trained on PRFs more accurately
-classifies tone signatures than one trained on Fast Fourier Transforms.
-Here, a topological invariant answers the question “which instrument?”
-with higher fidelity than the Fourier Transform.
+associate “holes” in an audio recording’s time-delay phase-space with a
+sample statistic: the persistent rank function (PRF). Corresponding
+informally with [Nikki Sanderson](https://arxiv.org/abs/1708.09359), 
+I learned a computer
+trained on PRFs more accurately classifies tones than one trained on
+Fast Fourier Transforms. Here a topological invariant answers the
+question “which instrument?” with higher fidelity than a recording’s
+frequency transform.
 
-My research interest stems from (i) my exposure to topology and its
-applications as a college senior, and (ii) insight from two years of
-service work since graduating.
+My research interest stems from my exposure to homotopy theory as an
+undergraduate, my grounding in point-set topology, and insight from two
+years of service work since graduating.
 
-Advised by Dr. Jonny Comes, my senior independent study[^1] examined how
-Galois theory constrains the solution space of Fuchsian-type DiffEqs.
-Following Michio Kuga, we developed a correspondence between the
-fundamental group on $D = \mathbf{C}\setminus\{x_1,\ldots,x_n\}$ and
-this region’s universal covering space $\tilde{D}$. Exploiting the
-representation of the group of covering transformations
-$\Gamma(\tilde{D} \to \tilde{D})$ as a group of linear automorphisms, I
-parameterized solutions to the hypergeometric DiffEq. For interesting
-cases, I found the monodromy representation at singular points, and
-generated plots. I presented my method, its history, and an application
-to fluid flow at The College of Idaho’s 2016 student research
-conference. At the same time, I studied point-set topology under
-Dr. Dave Rosoff. He led seminar in a modified Moore method. I reasoned
-from topological counter examples, finding errata in our notes by
-discovering non-intuitive spaces, e.g., the space whose open sets are
-those sets with countable complements. Further, we drew out analogies
-from topology to introduce category theory. I am enthusiastic to build
-from this ground to higher results, one of which I reached in my senior
-study, another of which Nikki Sanderson demonstrated ahead of me.
+Advised by Dr. Jonny Comes, my senior independent study examined how
+Galois theory constrains the solution space of Fuchsian-type
+differential equations. Following Michio Kuga, we developed a
+correspondence between the fundamental group of
+$D = \mathbf{C}\setminus\{x_1,\ldots,x_n\}$ and this surface’s universal
+covering space $\tilde{D}$. Exploiting the representation of the group
+of covering transformations $\Gamma(\tilde{D} \to \tilde{D})$ as a group
+of linear automorphisms, I parameterized solutions to the hypergeometric
+DE. For interesting cases, I found the monodromy representation at
+singular points, and generated plots. My [conference poster](http://coltongrainger.com/docs/galois.pdf)
+summarizes our method, its history, and discusses applications to
+mathematical physics. At the same time, I studied point-set topology
+under Dr. Dave Rosoff, who led a seminar in the Moore method. I reasoned
+from counter examples, occasionally contributing a stronger hypothesis
+to our notes to account for spaces not so well behaved. We had enough
+time to abstract spaces to objects and maps to morphisms as a means of
+analogously introducing category theory from topology. I am enthusiastic
+to build from this ground to higher results, one of which I reached in
+my senior study, another of which Nikki Sanderson demonstrated ahead of
+me.
 
-I gained insight to the necessity of *applications* (especially with
-positive societal impact) by completing two years of service work. In
+After graduating, I took two years to perform stipended service work. In
 Houston, under Shaoli Bhadra, I developed scalable
 [resources](https://github.com/coltongrainger/ymca-resources) for
-refugee case management. I crowd-sourced a [map of clinics and languages
+refugee case management, which included crowd-sourcing a [map of clinics
+and languages
 spoken](https://drive.google.com/open?id=1kk9yn6-4nifHLIf2tGYbW_7PiYo&usp=sharing)
-with the Google Maps API. I wrote bug reports for the implementation of
-a SQL case-notes database, and, when Texas cut funding for Refugee
-Medical Assistance, I contributed to a data management plan for the
-small refugee population transitioning from state to federal medical
-care. In Olympia, I am coordinating the volunteer program for a 24/7
-homeless shelter. I rely on a distributed workflow—with `git` for
-version control and pandoc markdown for administrivia. I built
-[volunteer.fscss.org](http://volunteer.fscss.org) to maintain a schedule
-of events and to “reply all” to volunteers. As we rely on interns and
-work-studies, I am also collaborating with the Evergreen State College
-to write service-learning syllabi.
+through the Google Maps API. I wrote bug reports for the implementation
+three databases, and, when Texas cut funding for Refugee Medical
+Assistance, I contributed to a data management plan for the small
+refugee population transitioning from state to federal medical care. In
+Olympia, I am a community organizer at a 24/7 homeless shelter. I rely
+on distributed version control, and have therefore become a staunch
+advocate for “deploying early and often”. For example, I built to host a
+schedule of events, but it now doubles as a wiki. As I have begun
+mentoring interns and work-study students who are preparing to embark on
+careers in social work, I am mindful to develop skill that will transfer
+neatly into a teaching assistantship. In all, I believe I have
+cultivated valuable habits for collaborative research, e.g., focusing my
+effort on tasks where I have a comparative advantage, surveying the
+field and working where others have left off, and keeping a transparent
+workflow by maintaining open notebooks.
 
-I am serious, however, to pursue math as my vocation. To prepare for
+My career aspiration, however, is to become a research mathematician,
+and to that end, I am ambitious to return to academia. To prepare for
 graduate study, I have enrolled in correspondence courses at the
-University of Idaho. By May 2018, I will have reviewed Differential
-Equations, Probability and Numerical Analysis. I am also reading from
-Hatcher’s *Algebraic Topology*, surveying topics in Gower’s *Companion
-to Mathematics*, and building a base of computing skills in the UNIX
-philosophy.
+University of Idaho. I am also reading from Hatcher’s *Algebraic
+Topology*, referencing topics in Gower’s *Companion to Mathematics*, and
+“sharpening the saw” with UNIX, the Jupyter notebooks, and Hal Abelson’s
+*Structure and Interpretation of Computer Programs*.
 
-While I am open to a breadth of mathematical inquiry at CU Boulder, I am
-most motivated to develop a rigorous foundation in algebraic
-topology. My career aspiration is to become an applied mathematician, working
-in machine learning or environmental preservation. I would be glad to
-collaborate with Profs Beaudry, Farsi, or Pflaum, potentially also with
-Profs Meiss and Bradley across departments. Having surveyed their recent
-publications and seminar webpages, I believe the doctoral program in
-mathematics at CU Boulder would be a great fit for my interests.
-
-Thank you for your consideration.
-
-[^1]: C. Grainger, [Applications of Galois Theory: Monodromy Groups and Fuchsian DiffEqs](http://coltongrainger.com/documents/cgrainger_coursework_galois_poster.pdf), College of Idaho SRC, 2016.
+While I am open to the breadth of mathematical inquiry at the University
+of Oregon, my experience manipulating homotopy groups and my topological
+intuition leads naturally towards algebraic topology—specifically
+homology and homotopy theory—with computational topology in mind for
+applications. I would be glad to collaborate with Profs Lipshitz,
+Dugger, Sadofsky, or Sinha. Having surveyed their teaching and recent
+publications on the arXiv, I believe that the doctoral program in
+Mathematics at the University of Oregon would be a great fit for my
+interests.
 
 ## meta 
 

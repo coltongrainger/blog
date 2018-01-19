@@ -1,12 +1,9 @@
 ---
-title: Research Interests 
+title: Research Interest
 author: Colton Grainger
 date: 2017-09-30
-modified: 2017-11-18
-belief: possible 
-status: notes 
-tags:
-  - math
+modified: 2018-01-16 
+belief: somewhat
 ---
 
 These are notes from a survey of potential research topics in mathematics. I am broadly interested in topological data analysis, which seeks to answer the question: *What is the shape of data?* 
@@ -27,7 +24,7 @@ Nanda cites applications including sensor network coverage, granular force chain
 
 What's the goal? We need to perform persistent homology. We have a data set to represent as a simplicial complex. How to build? What're the parameters? What's the good radius? As we vary the radius (and some other parameters) how does the homology change?
 
-### Software for TDA
+#### Software for TDA
 
 - JavaPlex
 	- great tutorial, works with MatLab
@@ -38,7 +35,7 @@ What's the goal? We need to perform persistent homology. We have a data set to r
 - PHAT
 	- works well with R?
 
-## See Also
+#### See Also
 
 For computational topology.
 - Peter Bubenik's [An Introduction to Topological Data Analysis](https://people.clas.ufl.edu/peterbubenik/files/abacus_1.pdf)
@@ -49,7 +46,25 @@ For algebraic topology.
 - [reference request for learning topology](https://mathoverflow.net/questions/8445/learning-topology/8571#8571)
 - Peter May's [Concise Introduction](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)
 
-## Contaminant Dispersion
+## Algebraic Topology
+
+### low dimensional topology 
+
+What sort of computations are done in low-dimensional topology?  I've seen references to SnapPy and Regina.  Looking at their documentation, I don't get why one would want to study 3-manifold triangulations.  
+
+From a student at UO
+> [see] Hatcher's [background on 3-manifolds](https://www.math.cornell.edu/~hatcher/3M/3Mdownloads.html) 
+> 
+> [also with] some reference about hyperbolic geometry, and why triangulations of 3-manifolds are the right thing to consider, Ratcliffe has a book 'Foundations of Hyperbolic Geometry' which is quite comprehensive, and there are some [notes by Thurston](http://library.msri.org/books/gt3m/) which are quite good but assume a bit more knowledge about topology/geometry. 
+> 
+> in reality all of these 'computations' are not that feasible by hand. So while computing hyperbolic volume, or other things for 3-manifolds is very useful for checking conjectures, in practice you'll always just have the computer do it. Snappy is pretty fun to play around with though. 
+
+- [list of computop software](https://faculty.math.illinois.edu/~nmd/computop/)
+- [an introduction to SnapPy](http://www.cornell.edu/video/nathan-dunfield-practical-computation-hyperbolic-3-manifolds)
+
+## Numerical Analysis
+
+### Contaminant Dispersion
 
 Historically, I have been motivated to understand particle flows in dynamical systems, given their utility for modeling contaminant dispersion. However, I feel any policy recommendations to come from research in contaminant dispersion amounts to suggesting techniques for smearing some neutralizing agent through the contaminanted region. From a high level, it's tempting, but perhaps distracting, to devote too much mental effort towards cleaning up messes. On the other hand, neutralizing a contaminant by cleverly exploiting bending-and-folding seems praiseworthy.
 
