@@ -15,13 +15,11 @@ This is my personal website; it's an [open notebook](http://wcm1.web.rice.edu/op
 
 I appreciate others who've modeled online presence. For credit, see [people](/see-also#people).
 
-## December 2017 Summary
+## January 2018 Summary
 
-- I am coordinating a [volunteer program](http://coltongrainger.com/fscss-volunteers) for a family homeless shelter.
-- I wrote up my Fall coursework in [Jupyter notebooks](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html):
-  - [Math 451: Probabilty](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/probability/)
-  - [MATH 310: Ordinary Differential Equations](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/odes/)
-- I started a [music log](/music-log) and an [art log](/art-log).
+- I am serving as a community organizer for a [family shelter](http://volunteer.fscss.org) in Olympia, WA.
+- I have begun correspondence coursework in [Numerical Methods](/math-428).
+- I completed a [music log](/music-log) from 2005 to the present.
 
 ## Contact 
 
