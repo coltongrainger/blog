@@ -3,8 +3,8 @@ title: Personal statement for grad apps
 author: Colton Grainger
 date: 2017-11-23
 modified: 2018-01-04
-status: draft
-belief: somewhat 
+status: finished
+belief: likely 
 mathjax: true
 ---
 
@@ -34,7 +34,7 @@ Advised by Dr. Jonny Comes, my senior independent study examined how
 Galois theory constrains the solution space of Fuchsian-type
 differential equations. Following Michio Kuga, we developed a
 correspondence between the fundamental group of
-$D = \mathbf{C}\setminus\{x_1,\ldots,x_n\}$ and this surface’s universal
+$D = \mathbf{C}\setminus\\{x_1,\ldots,x_n\\}$ and this surface’s universal
 covering space $\tilde{D}$. Exploiting the representation of the group
 of covering transformations $\Gamma(\tilde{D} \to \tilde{D})$ as a group
 of linear automorphisms, I parameterized solutions to the hypergeometric
