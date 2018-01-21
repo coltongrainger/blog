@@ -10,19 +10,19 @@ date: 2017-07-15
 
 # Colton Grainger
 
-This is my personal website; it's an [open notebook](http://wcm1.web.rice.edu/open-notebook-history.html) and an ongoing conversation with, what [Wolfgang Iser](https://en.wikipedia.org/wiki/Wolfgang_Iser) calls, an *implied reader*:
-> a textual structure anticipating the presence of a recipient without necessarily defining [them] ... the concept of the implied reader designates a network of response-inviting structures, which impel the reader to grasp the text.
+This is my personal website; it's an [open notebook](http://wcm1.web.rice.edu/open-notebook-history.html) and an ongoing conversation with, what [Wolfgang Iser](https://en.wikipedia.org/wiki/Wolfgang_Iser) calls, an *implied reader*, i.e.,
+> a textual structure anticipating the presence of a recipient without necessarily defining [them] .... The concept of the implied reader designates a network of response-inviting structures, which impel the reader to grasp the text.
 
 I appreciate others who've modeled online presence. For credit, see [people](/see-also#people).
 
 ## January 2018 Summary
 
-- I am serving as a community organizer for a [family shelter](http://volunteer.fscss.org) in Olympia, WA.
-- I have begun correspondence coursework in [Numerical Methods](/math-428).
-- I completed a [music log](/music-log) from 2005 to the present.
+- I doing [service work](https://github.com/coltongrainger/work) at a [family shelter](http://volunteer.fscss.org) in Olympia, WA.
+- I'm studying [numerical methods](/math-428).
+- I created a personal [music log](/music-log).
 
 ## Contact 
 
 - [coltongrainger@gmail.com](mailto:coltongrainger@gmail.com)
 - [@coltongrainger](https://twitter.com/coltongrainger)
-- [my photo](/images/identification-photo.jpg)
+- [photo](/images/identification-photo.jpg)
