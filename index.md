@@ -15,14 +15,14 @@ This is my personal website; it's an [open notebook](http://wcm1.web.rice.edu/op
 
 I appreciate others who've modeled online presence. For credit, see [people](/see-also#people).
 
-## January 2018 Summary
+## January 2018
 
-- I doing [service work](https://github.com/coltongrainger/work) at a [family shelter](http://volunteer.fscss.org) in Olympia, WA.
+- I'm doing [service work](https://github.com/coltongrainger/work) at a [family shelter](http://volunteer.fscss.org) in Olympia, WA.
 - I'm studying [numerical methods](/math-428).
-- I created a personal [music log](/music-log).
+- I created a [music log](/music-log) from 2005 to the present.
 
 ## Contact 
 
 - [coltongrainger@gmail.com](mailto:coltongrainger@gmail.com)
 - [@coltongrainger](https://twitter.com/coltongrainger)
-- [photo](/images/identification-photo.jpg)
+- [my photo](/images/identification-photo.jpg)
