@@ -3,12 +3,11 @@ title: Superstition
 author: Colton Grainger
 date: 2015-12-15
 modified: 2017-07-30
-belief: plausible
+belief: fiction
 status: poetry
 ---
 
 An excerpt of verse for Dr. Eric Spencer's *English Renaissance Literature*.
-
 
 <pre>
 In 1572, Tycho Brahe observed 

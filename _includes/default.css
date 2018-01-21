@@ -1,0 +1,101 @@
+/* License: CC0 */
+
+body {
+  font-family: 'Lucida Grande', helvetica, arial, verdana, sans-serif; 
+  color: #333333 ;
+}
+
+main, footer {
+    line-height: 1.4;
+    margin: auto;
+    max-width: 40rem;
+    text-align: left;
+    width: 93%;
+    word-wrap: break-word;
+}
+
+footer { font-size: 80%; }
+
+nav#site_navigation {
+    font-size: 80%;
+    /* See http://stackoverflow.com/a/324553 ; this ensures that the
+     navigation links (left side) and search bar (right side) play
+     nicely */
+    overflow: hidden;
+}
+
+h1 { text-transform: uppercase; }
+h2 { border-bottom: 1px solid #ccc; }
+h1, h2, h3, h4, h5, h6 { 
+  font-size: 120%; 
+  font-weight: normal; }
+
+a { text-decoration: none; }
+a:hover, a:active { text-decoration:underline; }
+a.anchorjs-link:hover, a.anchorjs-link:active { text-decoration: none; }
+
+blockquote {
+    border-left: 4px solid #ccc;
+    margin: 0px;
+    padding-left: 16px;
+}
+
+code {
+    font-family: monospace;
+    font-size: 120%;
+    background-color: #f6f6f6;
+    padding-left: 4px;
+    padding-right: 4px;
+    word-wrap: normal;
+}
+
+pre code {
+    font-family: monospace;
+    display: block;
+    line-height: 1.2;
+    max-height: 400px;
+    overflow: auto;
+    padding: 10px;
+}
+
+pre {
+    font-family: inherit;
+    line-height: 1.4;
+}
+
+table {
+    border-bottom: 2px solid #333;
+    border-collapse: collapse;
+    border-top: 2px solid #333;
+    margin: 0px auto; /* center table */
+}
+
+table th {
+    border-bottom: 1px solid #333;
+    font-weight: normal;
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+table td {
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em; 
+}
+
+@media screen and (max-width: 40rem) {
+    html { 
+      font-size: 80%; 
+    }
+    main { 
+      padding-left: 5px ;
+      padding-right: 5px ;
+    }
+    body { 
+      padding: 0px; 
+    }
+}

@@ -1,8 +1,8 @@
 ---
-title: Granularity in data collection
+title: Case Notes and Granular Categories 
 author: Colton Grainger
 date: 2017-11-02
-status: email
+status: draft 
 belief: likely
 ---
 

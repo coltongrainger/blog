@@ -1,38 +1,97 @@
 ---
-title: Personal Statement
+title: Personal statement for grad apps
 author: Colton Grainger
 date: 2017-11-23
-status: draft
+modified: 2018-01-04
+status: finished
+belief: likely 
 mathjax: true
 ---
 
-I aim to obtain a PhD in Mathematics, and my career aspiration is to become an applied mathematician. 
+The robustness of a mathematical method determines its utility. Just
+imagine designing a communication network that fails to account for
+topological perturbations, or modeling an epidemic with strictly
+deterministic differential equations. My goal, then, is to research
+robust methods in algebraic topology that can be applied in both
+abstract and computational settings.
 
-## Experience 
+For example, consider training an AI to distinguish the tone signature
+of different musical instruments. Applying persistent homology, we
+associate “holes” in an audio recording’s time-delay phase-space with a
+sample statistic: the persistent rank function (PRF). Corresponding
+informally with [Nikki Sanderson](https://arxiv.org/abs/1708.09359), 
+I learned a computer
+trained on PRFs more accurately classifies tones than one trained on
+Fast Fourier Transforms. Here a topological invariant answers the
+question “which instrument?” with higher fidelity than a recording’s
+frequency transform.
 
-The robustness of a mathematical method determines its utility. Just imagine designing a communication network that fails to account for dynamical perturbations, or modeling an epidemic with strictly deterministic differential equations. My goal, then, is to research robust topological methods for data analysis and physical applied mathematics. My interests, from abstract to concrete, include algebraic topology, dynamical systems, and scientific computation.
+My research interest stems from my exposure to homotopy theory as an
+undergraduate, my grounding in point-set topology, and insight from two
+years of service work since graduating.
 
-Consider training an AI to distinguish the tone signature of different musical instruments. Applying persistent homology, we associate holes in an audio recording's time-delay phase-space with a sample statistic: the persistent rank function. Corresponding with Nikki Sanderson, I learned a computer trained on such PRFs will more accurately classify tone signatures than one trained on FFTs. Here, a topological invariant answers "which instrument?" with higher fidelity than frequency analysis, demonstrating topology's robustness in application.
+Advised by Dr. Jonny Comes, my senior independent study examined how
+Galois theory constrains the solution space of Fuchsian-type
+differential equations. Following Michio Kuga, we developed a
+correspondence between the fundamental group of
+$D = \mathbf{C}\setminus\\{x_1,\ldots,x_n\\}$ and this surface’s universal
+covering space $\tilde{D}$. Exploiting the representation of the group
+of covering transformations $\Gamma(\tilde{D} \to \tilde{D})$ as a group
+of linear automorphisms, I parameterized solutions to the hypergeometric
+DE. For interesting cases, I found the monodromy representation at
+singular points, and generated plots. My [conference poster](http://coltongrainger.com/docs/galois.pdf)
+summarizes our method, its history, and discusses applications to
+mathematical physics. At the same time, I studied point-set topology
+under Dr. Dave Rosoff, who led a seminar in the Moore method. I reasoned
+from counter examples, occasionally contributing a stronger hypothesis
+to our notes to account for spaces not so well behaved. We had enough
+time to abstract spaces to objects and maps to morphisms as a means of
+analogously introducing category theory from topology. I am enthusiastic
+to build from this ground to higher results, one of which I reached in
+my senior study, another of which Nikki Sanderson demonstrated ahead of
+me.
 
-My research interest stems from (i) my exposure to topology and its applications as a college senior, and (ii) insight from two years of service work since graduating.
+After graduating, I took two years to perform stipended service work. In
+Houston, under Shaoli Bhadra, I developed scalable
+[resources](https://github.com/coltongrainger/ymca-resources) for
+refugee case management, which included crowd-sourcing a [map of clinics
+and languages
+spoken](https://drive.google.com/open?id=1kk9yn6-4nifHLIf2tGYbW_7PiYo&usp=sharing)
+through the Google Maps API. I wrote bug reports for the implementation
+three databases, and, when Texas cut funding for Refugee Medical
+Assistance, I contributed to a data management plan for the small
+refugee population transitioning from state to federal medical care. In
+Olympia, I am a community organizer at a 24/7 homeless shelter. I rely
+on distributed version control, and have therefore become a staunch
+advocate for “deploying early and often”. For example, I built to host a
+schedule of events, but it now doubles as a wiki. As I have begun
+mentoring interns and work-study students who are preparing to embark on
+careers in social work, I am mindful to develop skill that will transfer
+neatly into a teaching assistantship. In all, I believe I have
+cultivated valuable habits for collaborative research, e.g., focusing my
+effort on tasks where I have a comparative advantage, surveying the
+field and working where others have left off, and keeping a transparent
+workflow by maintaining open notebooks.
 
-Advised by Dr. Jonny Comes, my senior independent study[^study] examined how Galois theory constrains the solution space $V$ of Fuchsian-type DiffEqs. Following Michio Kuga, I developed a correspondence between the fundamental group on $D = \mathbf{C}\setminus\\{x_1,\ldots,x_n\\}$ and this region's universal covering space $\tilde{D}$. Exploiting the representation of the group of covering transformations $\Gamma(\tilde{D} \to \tilde{D})$ as a group of linear automorphisms of $V$, I parameterized solutions to the hypergeometric DiffEq. For interesting cases, I found the monodromy representation at singular points, and generated plots. I presented my method, its history, and an application to fluid flow at The College of Idaho's 2016 student research conference.
+My career aspiration, however, is to become a research mathematician,
+and to that end, I am ambitious to return to academia. To prepare for
+graduate study, I have enrolled in correspondence courses at the
+University of Idaho. I am also reading from Hatcher’s *Algebraic
+Topology*, referencing topics in Gower’s *Companion to Mathematics*, and
+“sharpening the saw” with UNIX, the Jupyter notebooks, and Hal Abelson’s
+*Structure and Interpretation of Computer Programs*.
 
-[^study]: C. Grainger, [Applications of Galois Theory: Monodromy Groups and Fuchsian Differential Equation](http://coltongrainger.com/documents/cgrainger_coursework_galois_poster.pdf), The College of Idaho Student Research Conference, 2016.
+While I am open to the breadth of mathematical inquiry at the University
+of Oregon, my experience manipulating homotopy groups and my topological
+intuition leads naturally towards algebraic topology—specifically
+homology and homotopy theory—with computational topology in mind for
+applications. I would be glad to collaborate with Profs Lipshitz,
+Dugger, Sadofsky, or Sinha. Having surveyed their teaching and recent
+publications on the arXiv, I believe that the doctoral program in
+Mathematics at the University of Oregon would be a great fit for my
+interests.
 
-At the same time, I studied point-set topology under Dr. Dave Rosoff. He led a small class in a modified Moore method: no lecture, only assigned theorems and student presentations. I built foundations from counter examples, often finding erratum in our notes by discovering non-intuitive spaces, e.g., consider a space $X$ whose open sets are exactly those sets with countable complements. Let $A \subset X$. For a every topological space, it is known "if $x_i \in A$ for each $i \in \mathrm{N}$ and $x_i \to x$, then $x$ is in the closure of $A$", but in our case, the converse fails to hold, as $X$ is not a second countable topology. We sampled category theory and progressed upto connectivity and compactness. I am enthusiastic to build from these *Grundlagen* up to higher results, one of which I reached in my senior study, another of which Nikki Sanderson demonstrated ahead of me.
-
-I have gained insight on the necessity of *applications* (esp. with positive societal impact) by completing two years of voluntary service: in Houston, TX at a refugee resettlement agency and in Olympia, WA at a homeless shelter for families.
- 
-In Houston, under Shaoli Bhadra, I developed novel, scalable [resources](https://github.com/coltongrainger/ymca-resources) for refugee case management. I learned to query Google Maps API and created a [map of clinics and languages spoken](https://drive.google.com/open?id=1kk9yn6-4nifHLIf2tGYbW_7PiYo&usp=sharing). I wrote bug reports for the implementation of a SQL case-notes database, and, when Texas cut funding for Refugee Medical Assistance, I contributed to a data management plan for the transition from state to federal indigent medical care.
-
-In Olympia I am coordinating a volunteer program for a 24-hour homeless shelter. I cleave to a distributed workflow. I built [volunteer.fscss.org](https://volunteer.fscss.org) to manage a schedule of community events and to "reply all" to FAQs. As we rely on academic internships and work-studies, I am also collaborating with Dr. Catalino Ocampo at the Evergreen State College to write service-learning syllabi. In the coming year, I intend to apply for \\$90,000 in grant funding for shelter operation.
-
-I am serious, however, to continue my studies in pursuit of my vocation. While I am grateful for learning to manage multiple projects and work with collaborators, I find myself constrained in social service agencies as an end-user of inefficient systems, and bound to idiosyncratic best practices. To sharpen the saw, I have enrolled part-time in continuing education through the University of Idaho's Engineering Outreach program. I will complete courses in Probabilty, Differential Equations, and Numerical Methods by May 2018. Independently, I am learning to chew on data with UNIX tools and to write interactive expositions with Juptyer notebooks.
-
-Though I am open to a wide variety of research in applied math, my experience with messy data sets and my appetite for topology leads naturally into topological data analysis. I would be enthusiastic to collaborate with Professors Meiss (APPM), Bradley (CSCI) and Agnes (MATH). I see fruitful application of TDA in signal processing and network analysis; I am also curious to research the shape of data in material science and to understand contaminant dispersion in watersheds. Upon obtaining a PhD, I imagine myself working in a research laboratory in the Western United States.
-
-## Teaching 
+## meta 
 
 - computationally intensive
 	- TeX, Markdown, MathJax, Mathbook
