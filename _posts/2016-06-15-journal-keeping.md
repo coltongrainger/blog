@@ -3,8 +3,8 @@ title: Journal Keeping
 author: Colton Grainger
 date: 2016-06-15
 modified: 2017-09-13
-belief: likely
-status: draft
+belief: possible 
+status: finished 
 ---
 
 This is a meditation on my own writing, during a trip through Scotland, then at a WWOOF farm in Baden-Württemberg, Germany. I consider *how* I kept a journal, then I share writing samples. 
