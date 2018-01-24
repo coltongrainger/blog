@@ -10,10 +10,7 @@ date: 2017-07-15
 
 # Colton Grainger
 
-This is my personal website; it's an [open notebook](http://wcm1.web.rice.edu/open-notebook-history.html) and an ongoing conversation with, what [Wolfgang Iser](https://en.wikipedia.org/wiki/Wolfgang_Iser) calls, an *implied reader*, i.e.,
-> a textual structure anticipating the presence of a recipient without necessarily defining [them] .... The concept of the implied reader designates a network of response-inviting structures, which impel the reader to grasp the text.
-
-I appreciate others who've modeled online presence. For credit, see [people](/see-also#people).
+This is my personal website. It's an [open notebook](http://wcm1.web.rice.edu/open-notebook-history.html), a personal wiki, and a collection of links to other sites. For a blog roll, see [people](/see-also#people).
 
 ## January 2018
 
