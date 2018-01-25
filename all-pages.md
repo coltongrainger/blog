@@ -1,5 +1,5 @@
 ---
-title: notes 
+title: all pages 
 author: Colton Grainger
 order: 2
 ---
@@ -17,7 +17,7 @@ order: 2
 
 ## meta
 
-Right now I'm not using a tag cloud (doing so would be an example of [premature optimization](http://wiki.c2.com/?PrematureOptimization)). That is, until I have momentum in a career/field of research, I see tags as a noncritical part of my writing. Analogously, from Knuth,
+Right now I'm not using a tag cloud (doing so would be [premature optimization](http://wiki.c2.com/?PrematureOptimization)). That is, until I have momentum in a career/field of research, I see tags as a noncritical part of my writing. Analogously, from Knuth,
 > Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered.
 
 For me, the "debugging and maintenance" is as revising and moving around old information. So no tag cloud.
