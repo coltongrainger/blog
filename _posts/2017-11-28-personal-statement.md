@@ -44,8 +44,8 @@ summarizes our method, its history, and discusses applications to
 mathematical physics. At the same time, I studied point-set topology
 under Dr. Dave Rosoff, who led a seminar in the Moore method. I reasoned
 from counter examples, occasionally contributing a stronger hypothesis
-to our notes to account for spaces not so well behaved. We had enough
-time to abstract spaces to objects and maps to morphisms as a means of
+to our notes to account for non-intuitive spaces. We had enough time to
+abstract spaces to objects and maps to morphisms as a means of
 analogously introducing category theory from topology. I am enthusiastic
 to build from this ground to higher results, one of which I reached in
 my senior study, another of which Nikki Sanderson demonstrated ahead of
@@ -63,33 +63,32 @@ Assistance, I contributed to a data management plan for the small
 refugee population transitioning from state to federal medical care. In
 Olympia, I am a community organizer at a 24/7 homeless shelter. I rely
 on distributed version control, and have therefore become a staunch
-advocate for “deploying early and often”. For example, I built to host a
-schedule of events, but it now doubles as a wiki. As I have begun
-mentoring interns and work-study students who are preparing to embark on
-careers in social work, I am mindful to develop skill that will transfer
-neatly into a teaching assistantship. In all, I believe I have
-cultivated valuable habits for collaborative research, e.g., focusing my
-effort on tasks where I have a comparative advantage, surveying the
-field and working where others have left off, and keeping a transparent
-workflow by maintaining open notebooks.
+advocate for “deploying early and often”. For example, I built 
+[volunteer.fscss.org](http://volunteer.fscss.org) to
+maintain a schedule of events, but it now doubles as a wiki. As I have
+begun mentoring interns and work-study students who are preparing to
+embark on careers in social work, I am noticing skills I think will
+transfer neatly to a teaching assistantship. In all, I have cultivated
+working methods I believe to be of value in the scientific disciplines:
+collaboration allows me to focus my effort on tasks where I have a
+comparative advantage, cumulation allows me to work where others have
+left off, and transparency allows others to work off of me.
 
-My career aspiration, however, is to become a research mathematician,
-and to that end, I am ambitious to return to academia. To prepare for
-graduate study, I have enrolled in correspondence courses at the
-University of Idaho. I am also reading from Hatcher’s *Algebraic
-Topology*, referencing topics in Gower’s *Companion to Mathematics*, and
-“sharpening the saw” with UNIX, the Jupyter notebooks, and Hal Abelson’s
-*Structure and Interpretation of Computer Programs*.
+I am serious, however, to pursue a career in mathematics. To prepare for
+graduate study, I have enrolled in an affordable selection of
+correspondence courses: Probability, Differential Equations, and
+Numerical Analysis. I am also reading from Hatcher’s *Algebraic
+Topology*, surveying topics in Gower’s *Companion to Mathematics*, and
+building a base of computing skills in the UNIX philosophy.
 
 While I am open to the breadth of mathematical inquiry at the University
-of Oregon, my experience manipulating homotopy groups and my topological
-intuition leads naturally towards algebraic topology—specifically
-homology and homotopy theory—with computational topology in mind for
-applications. I would be glad to collaborate with Profs Lipshitz,
-Dugger, Sadofsky, or Sinha. Having surveyed their teaching and recent
-publications on the arXiv, I believe that the doctoral program in
-Mathematics at the University of Oregon would be a great fit for my
-interests.
+of Rochester, I would like to “push hard on a clear signal” and study
+algebraic topology — specifically homotopy theory and homology groups — with
+computational topology in mind for applications. I would be glad to
+collaborate with Profs Pakianathan, Iosevich, or Ravenel. Having
+surveyed these folks’ recent publications and webpages, I believe the
+doctoral program in mathematics at the University of Rochester would be
+a great fit for my interests.
 
 ## meta 
 
