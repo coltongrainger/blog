@@ -6,7 +6,6 @@ modified: 2017-12-15
 date: 2017-07-15
 ---
 
-<img src="/images/identification-photo.jpg" style="float: right; margin: 0px 0px 23px 23px" width="125">
 
 # Colton Grainger
 
@@ -14,13 +13,13 @@ This is my personal website. It's an [open notebook](http://wcm1.web.rice.edu/op
 
 ## January 2018 Summary
 
-- I'm doing [service work](https://github.com/coltongrainger/work) at a [family shelter](http://volunteer.fscss.org) in Olympia, WA.
-- I made a podcast with coworker [Mindy B](https://coltongrainger.bandcamp.com/album/mindy-b).
+- I'm a [community organizer](https://github.com/coltongrainger/work) for a [family shelter](http://volunteer.fscss.org) in Olympia, WA (service term ends 2018-08-17).
+- I've been interviewing my coworkers to make [podcasts](https://coltongrainger.bandcamp.com/album/mindy-b) about social work.
 - I'm studying [numerical methods](/math-428).
-- I created a [music log](/music-log) from 2005 to the present.
 
 ## Contact 
 
 - coltongrainger [at] gmail [dot] com
+- [scheduling for work](https://meetme.so/coltongrainger)
+- [my photo](images/identification-photo.jpg)
 - [@coltongrainger](https://twitter.com/coltongrainger)
-- [scheduling](https://meetme.so/coltongrainger) for work
