@@ -13,7 +13,7 @@ This is my personal website. It's an [open notebook](http://wcm1.web.rice.edu/op
 
 ## January 2018 Summary
 
-I am a [community organizer](https://github.com/coltongrainger/work) for a [family shelter](http://volunteer.fscss.org) in Olympia, WA.  My service term ends 2018-08-17. My coworkers and I are making [podcasts](https://coltongrainger.bandcamp.com/album/mindy-b) about social work.
+I am a [community organizer](https://github.com/coltongrainger/work) for a [family shelter](fscss-volunteers) in Olympia, WA.  My service term ends 2018-08-17. My coworkers and I are making [podcasts](https://coltongrainger.bandcamp.com/album/mindy-b) about social work.
 
 I'm studying [numerical methods](/math-428) to prepare for graduate school. See also my [personal statement](/personal-statement) for applications to doctoral programs.
 
