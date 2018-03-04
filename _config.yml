@@ -1,6 +1,6 @@
 theme: jekyll-theme-primer
 title: [Colton Grainger]
-description: [Olympia&#44; WA]
+description: [personal site]
 
 defaults:
   -
@@ -13,3 +13,5 @@ defaults:
       path: "_posts"
     values:
       permalink: /:title:output_ext
+
+
