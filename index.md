@@ -10,25 +10,25 @@ date: 2017-07-15
 
 This is my personal website. It's an [open
 notebook](http://wcm1.web.rice.edu/open-notebook-history.html) and a collection
-of links to other sites. For a blogroll, see [people](/see-also#people).
+of links to other sites. For a "blog-roll" see [people](/see-also#people).
 
 ## February 2018 Summary
 
 I am a [community organizer](https://github.com/coltongrainger/work) for a
-family shelter in Olympia, WA. My current projects include
-- coordinating [farm day care](fscss-volunteers/farm-day-care),
-- developing volunteer [training curriculum](fscss-volunteers/wiki), and
-- and improving our [internship program](fscss-volunteers/practicum).
+family shelter in Olympia, WA. This month's projects included
+ - coordinating [farm day care](fscss-volunteers/farm-day-care),
+ - developing volunteer [training curriculum](fscss-volunteers/wiki), and
+ - improving our [internship program](fscss-volunteers/practicum).
 
-My service term ends August 2018, at which point I aim to start a PhD in
-Mathematics. In this direction, my recent work includes
- - a [survey of schools](/grad-schools) and my [personal statement](/personal-statement)
- - notes on correspondence courses I've taken this year
-  - [numerical methods](/math-428)
-  - [probability](/math-451)
-  - [ordinary differential equations](/math-310)
- - my jupyter notebook [activity
-   feed](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/)
+My service term ends August 2018, after which I aim to get more involved in
+Applied Mathematics (see [schools I applied to](/grad-schools) and my
+[personal statement](/personal-statement)). In this direction, my recent work
+includes
+ - starting a jupyter notebook [activity
+   feed](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/),
+ - configuring relevant [dotfiles](https://github.com/coltongrainger/dotfiles),
+ - migrating to Emacs Org-mode, and
+ - studying [numerical methods](/math-428).
 
 ## Contact
 

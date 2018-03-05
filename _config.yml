@@ -1,6 +1,7 @@
 theme: jekyll-theme-primer
 title: [Colton Grainger]
 description: [personal site]
+highlighter: rouge
 
 defaults:
   -
