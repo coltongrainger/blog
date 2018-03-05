@@ -16,7 +16,7 @@ all my Jupyter notebooks. (See [“Unofficial Jupyter Notebook Extensions — ju
 
 I discovered that Sage uses its own version of the Jupyter notebook, whence I
 needed to [install sagemath as a kernel in Jupyter](https://stackoverflow.com/questions/39296020/how-to-install-sagemath-kernel-in-jupyter). I followed [Samuel Lelièvre](https://stackoverflow.com/users/3827575/samuel-leli%c3%a8vre)'s advice
-```
+```shell
 sudo jupyter kernelspec install ./SageMath/local/share/jupyter/kernels/sagemath
 ```
 > Where SageMath is your root sagemath directory.
@@ -27,10 +27,9 @@ In my case `/Applications/SageMath/`. Further, they advised
 >
 > You will find the location of `kernel.json` by executing `jupyter kernelspec list`.
 
-I found this file in `/usr/local/share/jupyter/kernels/sagemath`.
-`kernel.json` required admin permissions to write. My `kernel.json` now reads
+My `kernel.json` now reads
 
-```
+```JSON
 {
  "display_name": "SageMath 8.0", 
  "argv": [
@@ -71,11 +70,11 @@ Consequently, I'm following [Tim Saley](http://timstaley.co.uk/posts/making-git-
 
 Because I occasionally run `sagemath` and `mit-scheme` as kernels for REPL style computations, I'll only remove metadata from the individual cells.
 
-I've set a [filter](https://git-scm.com/docs/gitattributes#__code_filter_code) to clean `*.ipynd` files in any of my git repos with [jq](https://stedolan.github.io/jq/).
+I've set a [filter](https://git-scm.com/docs/gitattributes#__code_filter_code) to clean `*.ipynb` files in any of my git repos with [jq](https://stedolan.github.io/jq/).
 
 In my `~/.gitconfig`
 
-```
+```config
 [core]
 attributesfile = ~/.gitattributes_global
 
@@ -91,13 +90,13 @@ required = true
 
 and then in my `~/.gitattributes_global`
 
-```
+```config
 *.ipynb filter=nbstrip_full
 ```
 
 ## meta
 
-Similar to activities feeds, I'm also going to flatten the directory tree for my notebooks. I have no doubt an organization beyond a chronology will fall out.
+Similar to my activities feeds, I've flattened the directory tree for notebooks. I have no doubt an organization beyond chronology will fall out.
 
 In a sociological analog, from [Why Workers Can Suffer in Bossless Companies
 Like GitHub](https://www.wired.com/2014/03/tyranny-flatness/), we have
