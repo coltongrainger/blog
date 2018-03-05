@@ -4,7 +4,7 @@ author: Colton Grainger
 date: 2018-03-04
 ---
 
-I treat Jupyter notebooks as if they were [journal entries](), and therefore have adopted a configuration with multiple kernels and jq-filters for version control.
+I treat Jupyter notebooks as if they were [journal entries](journal-keeping), and therefore have adopted a configuration with multiple kernels and jq-filters for version control.
 
 ## Sage Kernel Installation
 
