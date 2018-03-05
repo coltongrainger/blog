@@ -16,16 +16,16 @@ This site is an activity feed and an [open notebook](http://wcm1.web.rice.edu/op
 
 ## February 2018 Summary
 
-As part of my service work, I helped run [farm day care](fscss-volunteers/farm-day-care), added safety and de-escalation to our [volunteer training](fscss-volunteers/wiki), and continued to develop a [internship program](fscss-volunteers/practicum) with Evergreen and St. Martin University.
+As part of my service work, I helped run [farm day care](fscss-volunteers/farm-day-care), added safety and de-escalation to our [volunteer training](fscss-volunteers/wiki), and continued to develop a [internship program](fscss-volunteers/practicum) with Evergreen and St. Martin's University.
 
-Related to mathematics/scientific computing
- - I started a [journal of Jupyter notebooks](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/),
+Related to mathematics and scientific computing
+ - I started a technical [Jupyter journal](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/),
  - I continued to study [numerical methods](/math-428),
  - I migrated to Emacs Org-mode, and configured necessary [dotfiles](https://github.com/coltongrainger/dotfiles).
 
 ## Contact
 
-- coltongrainger [at] gmail [dot] com
+- `coltongrainger [at] gmail [dot] com`
 - [@coltongrainger](https://twitter.com/coltongrainger)
 - [scheduling for work](https://meetme.so/coltongrainger)
 - [my photo](images/identification-photo.jpg)
