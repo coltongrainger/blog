@@ -29,7 +29,7 @@ In my case `/Applications/SageMath/`. Further, they advised
 
 My `kernel.json` now reads
 
-```JSON
+```json
 {
  "display_name": "SageMath 8.0", 
  "argv": [
@@ -74,7 +74,7 @@ I've set a [filter](https://git-scm.com/docs/gitattributes#__code_filter_code) t
 
 In my `~/.gitconfig`
 
-```config
+```shell
 [core]
 attributesfile = ~/.gitattributes_global
 
