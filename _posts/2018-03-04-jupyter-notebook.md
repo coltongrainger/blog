@@ -4,19 +4,18 @@ author: Colton Grainger
 date: 2018-03-04
 ---
 
-How I use the Jupyter notebook, and kernel installation notes (on macOS).
+I treat Jupyter notebooks as if they were [journal entries](), and therefore have adopted a configuration with multiple kernels and jq-filters for version control.
 
-## Sage Installation
+## Sage Kernel Installation
 
-I compiled Sage from binary. Using the command `sage -n jupyter` was fine for
-opening the Jupyter notebook interface.
+In 2016, I compiled Sage from binary. I generally opened the Jupyter notebook interface with `sage -n jupyter`.
 
-Later, I realized I wanted `nbextensions` (namely, the
+By 2018, I realized I wanted `nbextensions` (namely, the
 [jupyter-vim-binding](https://github.com/lambdalisue/jupyter-vim-binding)) for
-all my Jupyter notebooks. (See [“Unofficial Jupyter Notebook Extensions — jupyter_contrib_nbextensions 0.4.0 documentation”](http://jupyter-contrib-nbextensions.readthedocs.io/en/latest/) Retrieved March 4, 2018.)
+all my Jupyter notebooks. (See [“Unofficial Jupyter Notebook Extensions — jupyter_contrib_nbextensions 0.4.0 documentation”](http://jupyter-contrib-nbextensions.readthedocs.io/en/latest/).)
 
 I discovered that Sage uses its own version of the Jupyter notebook, whence I
-needed to [install sagemath as a kernel in Jupyter](https://stackoverflow.com/questions/39296020/how-to-install-sagemath-kernel-in-jupyter). I followed [Samuel Lelièvre](https://stackoverflow.com/users/3827575/samuel-leli%c3%a8vre)'s edited process
+needed to [install sagemath as a kernel in Jupyter](https://stackoverflow.com/questions/39296020/how-to-install-sagemath-kernel-in-jupyter). I followed [Samuel Lelièvre](https://stackoverflow.com/users/3827575/samuel-leli%c3%a8vre)'s advice
 ```
 sudo jupyter kernelspec install ./SageMath/local/share/jupyter/kernels/sagemath
 ```
@@ -28,8 +27,8 @@ In my case `/Applications/SageMath/`. Further, they advised
 >
 > You will find the location of `kernel.json` by executing `jupyter kernelspec list`.
 
-In my case, I find this file in `/usr/local/share/jupyter/kernels/sagemath`.
-`kernel.json` requires admin permissions to write. My `kernel.json` now reads
+I found this file in `/usr/local/share/jupyter/kernels/sagemath`.
+`kernel.json` required admin permissions to write. My `kernel.json` now reads
 
 ```
 {
@@ -47,7 +46,7 @@ In my case, I find this file in `/usr/local/share/jupyter/kernels/sagemath`.
 
 whence SageMath is loaded as a kernel in the (standard) Jupyter Notebook.
 
-## Version Control paradigm 
+## Version Control paradigm
 
 How should I curate individual notebooks? By subject? By date? By most
 recently updated?
@@ -96,9 +95,25 @@ and then in my `~/.gitattributes_global`
 *.ipynb filter=nbstrip_full
 ```
 
+## meta
+
+Similar to activities feeds, I'm also going to flatten the directory tree for my notebooks. I have no doubt an organization beyond a chronology will fall out.
+
+In a sociological analog, from [Why Workers Can Suffer in Bossless Companies
+Like GitHub](https://www.wired.com/2014/03/tyranny-flatness/), we have
+> Critics say flat organizations can conceal power structures and shield
+> individuals from accountability. This idea dates to the 1972 essay *[The
+> Tyranny of Structurelessness](http://www.jofreeman.com/joreen/tyranny.htm)*
+> by Jo Freeman, who describes her experiences in "leaderless" feminist
+> organizations in the 1960s. "There is no such thing as a structureless
+> group," Freeman wrote. "Any group of people of whatever nature that comes
+> together for any length of time for any purpose will inevitably structure
+> itself in some fashion."
+
 ## see also
 
+- [file save hooks](http://jupyter-notebook.readthedocs.io/en/latest/extending/savehooks.html) to pretty print "deliverable" notebooks.
 - [Installing the SageMath Jupyter Kernel and Extensions](http://doc.sagemath.org/html/en/reference/repl/sage/repl/ipython_kernel/install.html)
 - [Making Kernels for
   Jupyter](http://jupyter-client.readthedocs.io/en/stable/kernels.html)
-- Ch. 2, [“Sage Installation Guide - installation.pdf”](http://doc.sagemath.org/pdf/en/installation/installation.pdf) Retrieved March 4, 2018.
+- Ch. 2, [“Sage Installation Guide - installation.pdf”](http://doc.sagemath.org/pdf/en/installation/installation.pdf)
