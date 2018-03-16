@@ -122,4 +122,4 @@ Superstition is
 		syntactical
 </pre>
 
-([sources](documents/cgrainger-superstition-sources.pdf))
+([sources](docs/superstition.pdf))
