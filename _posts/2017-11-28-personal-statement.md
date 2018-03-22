@@ -63,7 +63,7 @@ refugee population transitioning from state to federal medical care. In
 Olympia, I am a community organizer at a 24/7 homeless shelter. I rely
 on distributed version control, and have therefore become a staunch
 advocate for “deploying early and often”. For example, I built 
-[volunteer.fscss.org](http://volunteer.fscss.org) to
+[volunteer.fscss.org](http://coltongrainger.com/fscss-volunteers) to
 maintain a schedule of events, but it now doubles as a wiki. As I have
 begun mentoring interns and work-study students who are preparing to
 embark on careers in social work, I am noticing skills I think will
