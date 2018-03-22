@@ -2,7 +2,7 @@
 title: Personal statement for grad apps
 author: Colton Grainger
 date: 2017-11-23
-modified: 2018-01-04
+modified: 2018-03-21
 status: finished
 belief: likely 
 mathjax: true
@@ -26,9 +26,8 @@ Fast Fourier Transforms. Here a topological invariant answers the
 question “which instrument?” with higher fidelity than a recording’s
 frequency transform.
 
-My research interest stems from my exposure to homotopy theory as an
-undergraduate, my grounding in point-set topology, and insight from two
-years of service work since graduating.
+My research interest stems from my exposure to topology and its applications as
+an undergraduate, a base of computational skill, and insight from two years of service work since graduating.
 
 Advised by Dr. Jonny Comes, my senior independent study examined how
 Galois theory constrains the solution space of Fuchsian-type
@@ -81,41 +80,16 @@ Numerical Analysis. I am also reading from Hatcher’s *Algebraic
 Topology*, surveying topics in Gower’s *Companion to Mathematics*, and
 building a base of computing skills in the UNIX philosophy.
 
-While I am open to the breadth of mathematical inquiry at the University
-of Rochester, I would like to “push hard on a clear signal” and study
-algebraic topology — specifically homotopy theory and homology groups — with
-computational topology in mind for applications. I would be glad to
-collaborate with Profs Pakianathan, Iosevich, or Ravenel. Having
-surveyed these folks’ recent publications and webpages, I believe the
-doctoral program in mathematics at the University of Rochester would be
-a great fit for my interests.
+(CU Boulder) Though I am open to a variety of research at CU Boulder,
+my experience with messy data-sets and my appetite for topology leads
+naturally into topological data analysis. I would be enthusiastic to
+collaborate with Profs Meiss (APPM), Bradley (CSCI) or Beaudry 
+(MATH). I see fruitful work to be done with TDA in signal processing and
+network analysis; I am also curious to study higher-dimensional data in
+material science.
 
-## meta 
-
-- computationally intensive
-	- TeX, Markdown, MathJax, Mathbook
-	- programming, algorithm design
-	- Sage, SciPy, plotting
-	- examples first!
-- emphasis on literacy
-	- G. Polya
-	- R. L. Moore
-	- exposition as a social activity
-		- writing for an audience
-		- presentations as karaoke
-- learning math at scale
-	- nbgrader
-	- WebWork
-	- to publish small deck of Calculus review anki card
-
-What's my meta-understanding of math? It's a journey through an unfamilar domain. From [Eliezer Yudkowsky](http://lesswrong.com/lw/31/what_do_we_mean_by_rationality/)
-> believing, and updating on evidence, so as to systematically improve the correspondence between your map and the territory
-
-As an occasional rock climber, I really enjoy the play between "math improves one's map of territory" and "programming is climbing a mountain". Rosoff once commented that a meta-theorem of math was to prove useful theorems alone, and once for all, so that higher level math can be done. Which amounts to having explored (either in detail or with breadth) common features and routes in the foundational territory of mathematical knowledge. I think of theorems and installations, then, as signposts in a domain. When performing mathematical research, or a long computation, theorems are like carabiners.
-
-From [Philip Guo](https://www.oreilly.com/ideas/code-carabiners-essential-protection-tools-for-safe-programming)
-> Somewhere around a few hundred lines of code, your code base becomes too large to fit inside your head; you start to forget why you wrote certain code in a quirky way; and you don’t quite remember what you were trying to do last week, or what assumptions about your internal data structures still hold true. Is that snippet of documentation from last month still valid? What about this TODO note? And how come this function used to work so well but doesn’t anymore? What made it suddenly break? Wait, how did this other module ever work? ARGH!!!
-
-From [How People Learn](https://www.colorado.edu/MCDB/LearningBiology/readings/How-people-learn.pdf) 
-> The new science of learning does not deny that facts are important for thinking and problem solving. Research on expertise in areas such as chess, history, science, and mathematics demonstrate that experts’ abilities to think and solve problems depend strongly on a *rich body of knowledge about subject matter* (e.g., Chase and Simon, 1973; Chi et al., 1981; deGroot, 1965).  However, the research also shows clearly that “usable knowledge” is not the same as a mere list of disconnected facts. Experts’ knowledge is connected and organized around important concepts (e.g., Newton’s second law of motion); it is “conditionalized” to specify the contexts in which it is applicable; it supports understanding and transfer (to other contexts) rather than only the ability to remember.
-
+(University of Rochester) While I am open to the breadth of mathematical
+inquiry at the University of Rochester, I would like to “push hard on a clear
+signal” and study algebraic topology — specifically homotopy theory and
+homology groups — with computational topology in mind for applications. I would
+be glad to collaborate with Profs Pakianathan, Iosevich, or Ravenel.
