@@ -16,7 +16,8 @@ Consider the shape of the solution space.
 > 
 > The second part has to do with the solution space. I would say that this part is half indulgent. I should really enjoy working in that solution space. By that, I mean the sort of subproblems that need to be solved on the path to addressing the original problem. They should be fun to do. I should not be able to go to bed at night because of I am working on one of them and I just can’t give up. Naturally, things don’t always pan out like that, but by aiming for that, at least about thirty percent of my work ends up being pure joy for me.
 
-Also recognize frontier exploration could be a bit of a fad.
+Also recognize frontier exploration, while fringe, could just be easier
+because standards don't yet exist.
 
 > ...publishing in a new problem space is often (but not always) easier because standards are not yet established for what really counts as a contribution there, and in contrast, things very easily get labeled as “incremental” in an established problem area. I really love how broad POPL is. The same broadness also hinders efforts, from the community, to come together and identify the top problems in PL and define standards of (scientific ways of) measuring progress towards these common goals. I wish we could put more of an effort in this as a community, even if it is a challenge, considering how broad POPL is.
 
