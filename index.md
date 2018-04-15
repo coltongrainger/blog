@@ -21,7 +21,7 @@ Service work
 - coordinating [farm day care](fscss-volunteers/farm-day-care) 
 - improving shelter [safety](fscss-volunteers/wiki#safety) and
   [privacy](https://github.com/coltongrainger/work/blob/master/public/curriculum/2018-04-12-privacy.md)
-- refining the [internship program](fscss-volunteers/practicum) with Evergreen
+- refining an [internship program](fscss-volunteers/practicum) with Evergreen
   and St. Martin's University.
 
 Related to mathematics and scientific computing
