@@ -8,9 +8,11 @@ date: 2017-07-15
 
 # Colton Grainger
 
-I am Fall 2018 entrant to the PhD program in Mathematics at CU Boulder, currently finishing 2 years of service work as a [community organizer](https://github.com/coltongrainger/work) in Olympia, WA. I received my bachelor's degree from The College of Idaho in 2016.
+I am an entrant to the Fall 2018 PhD program in Mathematics at CU Boulder. I received my bachelor's degree from The College of Idaho in 2016.
 
 My research interests are in algebraic topology, the design of algorithms for topological data analysis, and collaborative data science. See also my [personal statement](/personal-statement).
+
+I am currently finishing 2 years of service work as a [community organizer](https://github.com/coltongrainger/work) in Olympia, WA.
 
 This site is an activity feed and an [open notebook](http://wcm1.web.rice.edu/open-notebook-history.html). I post under [all-pages](all-pages).
 
