@@ -8,13 +8,13 @@ date: 2017-07-15
 
 # Colton Grainger
 
-I am an entrant to the Fall 2018 PhD program in Mathematics at CU Boulder. I received my bachelor's degree from The College of Idaho in 2016.
+This is the personal website of myself, Colton Grainger. It is an activity feed and an [open notebook](http://wcm1.web.rice.edu/open-notebook-history.html). I post under [all-pages](all-pages).
 
-My research interests are in algebraic topology, the design of algorithms for topological data analysis, and collaborative data science. See also my [personal statement](/personal-statement).
+I will be joining the University of Colorado in Boulder as a PhD student in Mathematics in fall 2018. I received my bachelor's degree from The College of Idaho in 2016.
 
-I am currently finishing 2 years of service work as a [community organizer](https://github.com/coltongrainger/work) in Olympia, WA.
+My research interests are in algebraic topology, namely homotopy theory and the design of algorithms for topological data analysis, and collaborative data science. See also my [personal statement](/personal-statement).
 
-This site is an activity feed and an [open notebook](http://wcm1.web.rice.edu/open-notebook-history.html). I post under [all-pages](all-pages).
+I am presently finishing my second year of service work as a [community organizer](https://github.com/coltongrainger/work) in Olympia, WA.
 
 ## March 2018 Summary
 
@@ -28,9 +28,9 @@ Service work
 
 Related to mathematics and scientific computing
 
- - tooling around with [Jupyter notebooks](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/),
- - continuing to study [numerical methods](/math-428),
- - configuring a Debian on a new machine (see my [dotfiles](https://github.com/coltongrainger/dotfiles), [software](/software)).
+ - my [Jupyter notebooks](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/)
+ - coursework in [numerical methods](/math-428)
+ - configuration (see my [dotfiles](https://github.com/coltongrainger/dotfiles), [software](/software))
 
 ## Contact
 
