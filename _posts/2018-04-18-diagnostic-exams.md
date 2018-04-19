@@ -43,3 +43,87 @@ for an initial diagnostic exam in algebra and analysis.
 > semester in which the student passes the Comprehensive Exam, which must happen
 > by the end of the seventh semester.
 
+## Algebra resources
+
+On stack exchange: 
+
+- [“Choosing an abstract algebra text”](https://math.stackexchange.com/questions/198373/choosing-an-abstract-algebra-text?noredirect=1), 
+- [“How does Dummit and Foote's abstract algebra text compare to others?”](https://math.stackexchange.com/questions/1017434/how-does-dummit-and-footes-abstract-algebra-text-compare-to-others?noredirect=1), 
+- [“Requesting abstract algebra book recommendations”](https://math.stackexchange.com/questions/49253/requesting-abstract-algebra-book-recommendations?noredirect=1).
+
+References (most of these are available to torrent): 
+
+- V. Katz, *Taming the Unknown*
+- Axler, *Linear Algebra Done Right*
+- Hungerford, *Abstract Algebra*
+- Artin, *Algebra*
+- Herstein, *Topics*
+- T. Judson, *[Abstract Algebra: Theory and Applications](http://abstract.ups.edu/aata)*
+
+
+Open courses: 
+
+- [“Abstract Algebra Open Learning
+Course”](https://www.extension.harvard.edu/open-learning-initiative/abstract-algebra).
+Harvard Extension School. December 7, 2015. 
+
+
+## Analysis Resources
+
+Placeholder for now.
+
+## meta
+
+I'm inspired foremost by Michael Pacer, who I understand to have taken up the
+challenge of "producing something of potential worth for others" with gusto in
+his own preparations for qualifying exams in cognitive science.
+
+[“Explaining this collection”](https://mpacer.org/explaining-this-collection/).
+Michael Pacer.
+
+> Knowing myself, I knew that I would be more motivated by the idea of
+> producing something that is of potential worth for others than I would be by
+> the mere prospect of perfunctorily checking a bureaucrats' box. However
+> important it may be, filling forms, checking those boxes has never been a
+> particularly appealing prospect.My secret assumption has always been that
+> everyone agrees with me (even the stuffy bureaucrats), but that others are
+> better able to see past the grid into which they are placing themselves to
+> the real purpose of whatever exercise is being conducted. I make the
+> assumption of my own myopathy before I assume that the world truly revels in
+> forcing people to do things that have a tenuous relation to what matters in
+> the long run. ”
+
+Pacer scanned 19 field notebooks of responses to each article on an ambitious
+reading list.
+
+![](https://static1.squarespace.com/static/5415d6d6e4b09de883251c2f/541faed5e4b0ff88564851a0/541fb487e4b09194f7694010/1411363991191/Splitting+the+cost+of+thought+47.png?format=750w){:width="100%"}
+
+![](https://static1.squarespace.com/static/5415d6d6e4b09de883251c2f/542105a7e4b042b085c88779/542124ece4b0462bd0f5b7b3/1411458298501/Cracken+the+Hull+03.png?format=750w){:width="100%"}
+
+Tangible.
+
+I imagine purchasing a large scanner (50-page capacity) to drop my sheets of
+notes into at the end of each day. I think scanning in notes would be a bit
+more chronological than organizing the notebooks from memory by hand. 
+
+If I'm going to ape Pacer, I want to be explicit that I want the records to
+*look good* after the fact. I think keeping a flat hierarchy of between
+different low-barrier media would be sufficient as a "product" of value to
+others. 
+
+Media to use:
+
+- jupyter notebooks for computational examples
+- podcasts? interviews? (transcribed)
+- text files in pandoc markdown
+- dated scans of handwritten notes
+  - letter paper, folded long into 2 columns
+
+I'm missing a $\TeX$ formatting template, especially for bibliographies.
+
+One remedy would be to import administrative skill from [Matt
+Might](http://matt.might.net/articles/books-papers-materials-for-graduate-students/).
+-
+
+- computational examples?
+-
