@@ -123,7 +123,7 @@ I'm missing a $\TeX$ formatting template, especially for bibliographies.
 
 One remedy would be to import administrative skill from [Matt
 Might](http://matt.might.net/articles/books-papers-materials-for-graduate-students/).
--
+
 
 - computational examples?
 -
