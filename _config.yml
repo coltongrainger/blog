@@ -14,5 +14,3 @@ defaults:
       path: "_posts"
     values:
       permalink: /:title:output_ext
-
-
