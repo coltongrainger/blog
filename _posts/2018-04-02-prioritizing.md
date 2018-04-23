@@ -22,3 +22,16 @@ because standards don't yet exist.
 > ...publishing in a new problem space is often (but not always) easier because standards are not yet established for what really counts as a contribution there, and in contrast, things very easily get labeled as “incremental” in an established problem area. I really love how broad POPL is. The same broadness also hinders efforts, from the community, to come together and identify the top problems in PL and define standards of (scientific ways of) measuring progress towards these common goals. I wish we could put more of an effort in this as a community, even if it is a challenge, considering how broad POPL is.
 
 [Interview with Azadeh Farzan. Jean Yang. [“People of Programming Languages”](https://www.cs.cmu.edu/~popl-interviews/farzan.html). Retrieved April 3, 2018.]
+
+## structured procrastination
+
+["I feel like my life is just one giant structured procrastination."](https://youtu.be/fIsYCSP6lUs?t=22m31s)
+
+From <http://structuredprocrastination.com/>
+
+> Procrastinators often follow exactly the wrong tack. They try to minimize their commitments, assuming that if they have only a few things to do, they will quit procrastinating and get them done. But this goes contrary to the basic nature of the procrastinator and destroys his most important source of motivation. The few tasks on his list will be by definition the most important, and the only way to avoid doing them will be to do nothing. This is a way to become a couch potato, not an effective human being.
+>
+> At this point you may be asking, "How about the important tasks at the top of the list, that one never does?" Admittedly, there is a potential problem here.
+>
+> The trick is to pick the right sorts of projects for the top of the list. The ideal sorts of things have two characteristics, First, they seem to have clear deadlines (but really don't). Second, they seem awfully important (but really aren't). Luckily, life abounds with such tasks. In universities the vast majority of tasks fall into this category, and I'm sure the same is true for most other large institutions. Take for example the item right at the top of my list right now. This is finishing an essay for a volume in the philosophy of language. It was supposed to be done eleven months ago. I have accomplished an enormous number of important things as a way of not working on it. A couple of months ago, bothered by guilt, I wrote a letter to the editor saying how sorry I was to be so late and expressing my good intentions to get to work. Writing the letter was, of course, a way of not working on the article. It turned out that I really wasn't much further behind schedule than anyone else. And how important is this article anyway? Not so important that at some point something that seems more important won't come along. Then I'll get to work on it.
+
