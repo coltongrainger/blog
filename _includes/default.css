@@ -1,14 +1,14 @@
 /* License: CC0 */
 
 body {
-  font-family: 'Lucida Grande', helvetica, arial, verdana, sans-serif; 
+  font-family: Verdana, Arial, Helvetica, sans-serif;
   color: #333333 ;
 }
 
 main, footer {
     line-height: 1.4;
     margin: auto;
-    max-width: 40rem;
+    max-width: 35rem;
     text-align: left;
     width: 93%;
     word-wrap: break-word;
@@ -24,11 +24,21 @@ nav#site_navigation {
     overflow: hidden;
 }
 
+div#toc {
+    font-size: 80%;
+}
+
+dl#yaml_header_data {
+    font-size: 80%;
+}
+
 h1 { text-transform: uppercase; }
 h2 { border-bottom: 1px solid #ccc; }
 h1, h2, h3, h4, h5, h6 { 
-  font-size: 120%; 
-  font-weight: normal; }
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 120%;
+  font-weight: normal;
+}
 
 a { color: #268bd2; text-decoration: none; }
 a:visited { color: #b58900; }
@@ -42,7 +52,7 @@ blockquote {
 }
 
 code {
-    font-family: Courier,monospace;
+    font-family: monospace;
     color: #586e75;
     background-color: #f6f6f6;
     padding-left: 0.1em;

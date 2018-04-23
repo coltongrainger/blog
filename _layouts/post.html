@@ -2,25 +2,26 @@
   <main>
 
   <h1> {{ page.title }} </h1>
-  <dl style="font-size: 80%;"> 
-  	{% if page.date != nil %}
-        <dt>created: {{ page.date | date: "%Y-%m-%d" }}</dt>
-  	{% endif %}
+  <dl id="yaml_header_data">
+    {% if page.date != nil %}
+      <dt>created: {{ page.date | date: "%Y-%m-%d" }}</dt>
+    {% endif %}
 
-  	{% if page.modified != nil %}
-        <dt>modified: {{ page.modified }}</dt>
-  	{% endif %}
+    {% if page.modified != nil %}
+      <dt>revised: {{ page.modified }}</dt>
+    {% endif %}
 
-  	{% if page.belief != nil %}
-        <dt>belief: <a href = "https://www.gwern.net/About#confidence-tags">{{ page.belief }}</a></dt>
-  	{% endif %}
+    {% if page.belief != nil %}
+      <dt>belief: <a href = "https://www.gwern.net/About#confidence-tags">{{ page.belief }}</a></dt>
+    {% endif %}
 
-  	{% if page.status != nil %}
-        <dt>status: {{ page.status }}</dt>
-  	{% endif %}
+    {% if page.status != nil %}
+      <dt>status: {{ page.status }}</dt>
+    {% endif %}
   </dl>
-
+  <div id="toc">
   {% include toc.html html=content h_min=2 h_max=3 %}
+  </div>
 
   {{ content }}
 

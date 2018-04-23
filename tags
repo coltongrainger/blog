@@ -6,6 +6,7 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 _applyRemainingDefaultOptions	_site/assets/javascript/anchor-js/anchor.js	/^    function _applyRemainingDefaultOptions(opts) {$/;"	f	function:AnchorJS
 add	_site/assets/javascript/anchor-js/anchor.js	/^    this.add = function(selector) {$/;"	m	class:AnchorJS
+gtag	_includes/_site/head.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_includes/head.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/all-pages.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/art-log.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
