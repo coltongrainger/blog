@@ -6,7 +6,7 @@
   	{% if page.date != nil %}
         <dt>created: {{ page.date | date: "%Y-%m-%d" }}</dt>
   	{% endif %}
- 
+
   	{% if page.modified != nil %}
         <dt>modified: {{ page.modified }}</dt>
   	{% endif %}
@@ -19,6 +19,8 @@
         <dt>status: {{ page.status }}</dt>
   	{% endif %}
   </dl>
+
+  {% include toc.html html=content h_min=2 h_max=3 %}
 
   {{ content }}
 
