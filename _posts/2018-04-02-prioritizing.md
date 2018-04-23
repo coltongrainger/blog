@@ -34,4 +34,15 @@ From <http://structuredprocrastination.com/>
 > At this point you may be asking, "How about the important tasks at the top of the list, that one never does?" Admittedly, there is a potential problem here.
 >
 > The trick is to pick the right sorts of projects for the top of the list. The ideal sorts of things have two characteristics, First, they seem to have clear deadlines (but really don't). Second, they seem awfully important (but really aren't). Luckily, life abounds with such tasks. In universities the vast majority of tasks fall into this category, and I'm sure the same is true for most other large institutions. Take for example the item right at the top of my list right now. This is finishing an essay for a volume in the philosophy of language. It was supposed to be done eleven months ago. I have accomplished an enormous number of important things as a way of not working on it. A couple of months ago, bothered by guilt, I wrote a letter to the editor saying how sorry I was to be so late and expressing my good intentions to get to work. Writing the letter was, of course, a way of not working on the article. It turned out that I really wasn't much further behind schedule than anyone else. And how important is this article anyway? Not so important that at some point something that seems more important won't come along. Then I'll get to work on it.
+>
+> ...
+>
+> The observant reader may feel at this point that structured procrastination requires a certain amount of self-deception, since one is in effect constantly perpetrating a pyramid scheme on oneself. Exactly. One needs to be able to recognize and commit oneself to tasks with inflated importance and unreal deadlines, while making oneself feel that they are important and urgent. 
 
+## see also
+
+avoiding stress
+
+- [“On Avoiding Stress Culture”](https://jxyzabc.blogspot.com/2016/09/on-avoiding-stress-culture.html). Retrieved April 23, 2018.
+- Gregory Mone. [“Radhika Nagpal built a thousand bots to find out how they would behave as a swarm”](https://www.technologyreview.com/s/602100/robo-swarm/). MIT Technology Review. Retrieved April 23, 2018.
+- Radhika Nagpal. [“The Awesomest 7-Year Postdoc or: How I Learned to Stop Worrying and Love the Tenure-Track Faculty Life”](https://blogs.scientificamerican.com/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/). Scientific American Blog Network. Retrieved April 23, 2018.
