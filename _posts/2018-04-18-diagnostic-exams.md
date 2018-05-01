@@ -58,11 +58,10 @@ References (most of these are available to torrent):
 - Hungerford, *Abstract Algebra*
 - Artin, *Algebra*
 - Herstein, *Topics*
-- T. Judson, *[Abstract Algebra: Theory and Applications](http://abstract.ups.edu/aata)*
-
 
 Open courses: 
 
+- T. Judson, *[Abstract Algebra: Theory and Applications](http://abstract.ups.edu/aata)*
 - [“Abstract Algebra Open Learning
 Course”](https://www.extension.harvard.edu/open-learning-initiative/abstract-algebra).
 Harvard Extension School. December 7, 2015. 
@@ -70,7 +69,16 @@ Harvard Extension School. December 7, 2015.
 
 ## Analysis Resources
 
-Placeholder for now.
+On stack exchange:
+
+- [“Rudin against Pugh for Textbook for First Course in Real Analysis”](https://math.stackexchange.com/questions/252705/rudin-against-pugh-for-textbook-for-first-course-in-real-analysis). Retrieved May 1, 2018.
+
+References: 
+
+- T. Tao, *Analysis I* & *Analysis II*
+- G. Polland, *Real Analysis*
+- L. Loomis and S. Sternberg[“Advanced Calculus”](http://www.math.harvard.edu/~shlomo/docs/Advanced_Calculus.pdf).
+Retrieved May 1, 2018.
 
 ## meta
 
