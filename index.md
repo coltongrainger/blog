@@ -22,7 +22,6 @@ Related to mathematics and scientific computing, see my [Jupyter notebooks](http
 
 ## Contact
 
-- colton.grainger [at] colorado [dot] edu
-- [@coltongrainger](https://twitter.com/coltongrainger)
-- [my meeting availability](https://meetme.so/coltongrainger)
+- `colton.grainger [at] colorado [dot] edu`
+- [meeting times](https://meetme.so/coltongrainger)
 - [my photo](images/identification-photo.jpg)
