@@ -18,7 +18,7 @@ My research interests are in algebraic topology, namely persistent homology and 
 
 With the end of cold weather shelter, I finished my service as a [community organizer](https://github.com/coltongrainger/work) in Olympia, WA. Some highlights included piloting [farm day care](fscss-volunteers/farm-day-care), improving shelter [safety](fscss-volunteers/wiki#safety) and [privacy](https://github.com/coltongrainger/fscss/blob/master/curriculum/2018-04-12-privacy.md), and setting up a framework for a [work-study/internship program](fscss-volunteers/practicum) with Evergreen and St. Martin's University.
 
-Related to mathematics and scientific computing, see my [Jupyter notebooks](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/), coursework in [numerical methods](/math-428), and my technical configuration ([dotfiles](https://github.com/coltongrainger/dotfiles), [software](/software)).
+Related to mathematics and scientific computing, see my [Jupyter notebooks](https://nbviewer.jupyter.org/github/coltongrainger/notebooks/tree/master/), my course review of [numerical methods](/math-428), or my current technical configuration ([dotfiles](https://github.com/coltongrainger/dotfiles), [software](/software)).
 
 ## Contact
 
