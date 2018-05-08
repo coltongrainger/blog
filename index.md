@@ -12,7 +12,7 @@ This is the personal website of myself, Colton Grainger. It is an activity feed 
 
 Fall 2018, I will be joining the University of Colorado in Boulder as a PhD student in Mathematics. I received my bachelor's degree from The College of Idaho in 2016.
 
-My research interests are in algebraic topology, namely persistent homology and the design of algorithms for topological data analysis. See also my [personal statement](/personal-statement).
+My research interests are in algebraic topology, namely applications of persistent homology and the design of algorithms for topological data analysis. See also my [personal statement](/personal-statement).
 
 ## Summary of What I Worked on: April 2018
 
