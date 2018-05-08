@@ -1,5 +1,5 @@
 ---
-title: Citation Styles
+title: Citation Style
 author: Colton Grainger
 date: 2018-05-07
 status: notes
@@ -47,6 +47,8 @@ Perhaps one of the following?
 - [AMS Style Guide](https://www.ams.org/publications/authors/AMS-StyleGuide-print.pdf). Retrieved May 7, 2018.
 - [MAA Reference Guide](https://www.maa.org/sites/default/files/pdf/pubs/Ref_Guide.pdf).
 Retrieved May 7, 2018.
+- [SIAM Style Manual: For Journals and Books](https://www.siam.org/journals/pdf/stylemanual.pdf).
+Retrieved May 8, 2018.
 
 Or just to look at exemplar formatting: T. Tao, [What is good mathematics?](https://arxiv.org/pdf/math/0702396.pdf) (2007).
 
