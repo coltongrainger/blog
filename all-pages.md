@@ -24,7 +24,7 @@ For me, the "debugging and maintenance" is as revising and moving around old inf
 
 But, just to sketch an idea of what themes I *would like* to write on, here some exemplar tag clouds (all of which, I think, were carefully designed well after the initial seed to write for a general audience had germinated).
 
-[Matt Might](matt.might.net/articles/)'s tag cloud
+[Matt Might](https://matt.might.net/articles/)'s tag cloud
 > Functional Programming; Graduate School; Productivity; iPhone, iPad, iPod; HOWTOs; Undergraduate Computer Science; Parsing; Compilation; Mathematics; Writing; Giving Presentations; Lambda Calculus; C; C++; Scheme; Racket; JavaScript; Swift; Python; Perl; Java; Scala; LaTeX; ML; SQL; Haskell; Scripting; Lambda; Apple; Unix; Web servers; Security; Hacks; Travel; Academia; Teaching; Science; Health; Gadgets; Gaming; Home Improvement; Rants
 
 [Jean Yang](http://jxyzabc.blogspot.com/)'s tag cloud

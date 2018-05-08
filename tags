@@ -10,6 +10,7 @@ gtag	_includes/_site/head.html	/^    function gtag(){dataLayer.push(arguments)};
 gtag	_includes/head.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/all-pages.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/art-log.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
+gtag	_site/citation-style.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/content-creation.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/diagnostic-exams.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/engaged-learning.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
