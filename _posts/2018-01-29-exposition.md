@@ -2,7 +2,7 @@
 title: aids to exposition
 author: Colton Grainger
 date: 2018-01-29
-status: draft
+status: notes
 belief: plausible 
 ---
 

@@ -6,17 +6,15 @@ status: notes
 mathjax: true
 ---
 
-To collect my thoughts on citation styles in different contexts.
-
-I'll list the contexts where I want to cite effectively (and quickly dagnabit!).
+To collect my thoughts on citation styles in different contexts. I'll list the contexts where I want to cite effectively (and quickly dagnabit!).
 
 - pandoc markdown
-  - notes on this site
+  - notes
   - blog posts
   - informal letters
   - problem sets
 - mediawiki
-  - wiki articles
+  - articles
 - jupyter notebooks
 - twitter
   - *[guck mal!](https://german.stackexchange.com/questions/36810/sieh-mal-vs-guck-mal)* moments
@@ -58,7 +56,7 @@ Or just to look at exemplar formatting: T. Tao, [What is good mathematics?](http
   - `.cls` for [LaTeX document class](https://tex.stackexchange.com/questions/7770/file-extensions-related-to-latex-etc)
     - [elsarticle.cls](https://www.elsevier.com/__data/assets/pdf_file/0008/56843/elsdoc-1.pdf)
   - `.csl` for [citation style language](https://github.com/citation-style-language/styles) 
-    - [chicaog-note-bibliography.csl](https://github.com/jgm/pandoc-citeproc/blob/master/tests/chicago-note-bibliography.csl)
+    - [chicago-note-bibliography.csl](https://github.com/jgm/pandoc-citeproc/blob/master/tests/chicago-note-bibliography.csl)
 
 ## meta
 
