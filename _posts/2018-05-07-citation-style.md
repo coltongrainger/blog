@@ -49,9 +49,9 @@ Joseph Reagle gives a stellar example for marking up a curriculum vitae ([markdo
 In undergrad, I was comfortable using
 [Biber](https://en.wikipedia.org/wiki/Biber_(LaTeX)) and $\rm\LaTeX$ for papers in the [Chicago footnote style](https://tex.stackexchange.com/questions/30287/get-biblatex-chicago-working) and in the [elsarticle.cls](https://tex.stackexchange.com/questions/110515/elsarticle-cls-and-biblatex-incompatibility) document class. I never really moved beyond `\footnote{https://math.dartmouth.edu}` for references in my mathematics problem sets.
 
-And yes, it seems these two conventions remain my best choices. Chicago (as footnotes or inline author-date) for informal writing and "numeric (or mnemonic), with titles, sorted alphabetically"  for mathematical writing.
+And yes, it seems Chicago (as footnotes or inline author-date) for informal writing and "numeric (or mnemonic), with titles, sorted alphabetically"  for mathematical writing remain the best choices for my intended audience.
 
-There's also
+There're also the 
 [IEEE](https://github.com/citation-style-language/styles/blob/master/ieee.csl)
 and ACM proceedings styles, but these are further out of my scope. (Although I
 see the advantage to IEEE in handling mixed media and link rot.)
