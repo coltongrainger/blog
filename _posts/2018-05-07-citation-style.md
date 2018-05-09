@@ -38,9 +38,6 @@ understanding of the compilation process from whatever plain text source to the 
 
 Kieran Healy models this workflow [here](https://kieranhealy.org/resources/). And I've taken the [Makefile](https://raw.githubusercontent.com/kjhealy/pandoc-templates/master/makefile/Makefile) (see also [discussion here](http://plain-text.co/pull-it-together.html)) from his [pandoc-templates repo](https://github.com/kjhealy/pandoc-templates).
 
-![the sausage
-factory](https://kieranhealy.org/files/misc/workflow-wide-tx.png){:width="%100"}
-
 Joseph Reagle gives a stellar example for marking up a curriculum vitae ([markdown](http://reagle.org/joseph/2003/cv/cv.md) and corresponding [html](http://reagle.org/joseph/2003/cv/cv.html)). Reagle opened two relevant issues (which are interesting forums to read for anyone trying to incorporate `.csl` files with a `pandoc-citeproc` workflow):
 
 1. [Including styles with inline-references (instead of bibliography) for
@@ -76,7 +73,7 @@ Opportunities](http://pgbovine.net/publications/non-native-english-speakers-lear
 
 ### mathematics
 
-[elsevier-with-tiles-alphabetical,csl](https://github.com/citation-style-language/styles/blob/master/elsevier-with-titles-alphabetical.csl) (i.e., numeric)
+[elsevier-with-tiles-alphabetical.csl](https://github.com/citation-style-language/styles/blob/master/elsevier-with-titles-alphabetical.csl) (i.e., numeric)
 : T. Tao, [What is good mathematics?](https://arxiv.org/pdf/math/0702396.pdf) (2007).
 
 Mnemonic
@@ -86,11 +83,7 @@ I fear, in general, mnemonic bibliographies are formatted by hand. For example,
 from the front matter of [“[1801.07530] A Guide for Computing Stable Homotopy Groups”](https://arxiv.org/abs/1801.07530), we find
 
 ```
-\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
-\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
 % \MRhref is called by the amsart/book/proc definition of \MR.
-\providecommand{\MRhref}[2]{ \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2} }
-\providecommand{\href}[2]{#2}
 \begin{thebibliography}{EKMM97}
 
 \bibitem[Ada58]{adams_cohomology}
@@ -109,9 +102,10 @@ which, unfortunately, matches the colloquial instructions given in math departme
 - [LaTeX Tips: Bibliographies](https://faculty.math.illinois.edu/~hildebr/tex/bibliographies.html). Retrieved May 8, 2018.
 
 Some Definitive Style Guides
-: [AMS Style Guide](https://www.ams.org/publications/authors/AMS-StyleGuide-print.pdf). Retrieved May 7, 2018.
-: [MAA Reference Guide](https://www.maa.org/sites/default/files/pdf/pubs/Ref_Guide.pdf). Retrieved May 7, 2018.
-: [SIAM Style Manual: For Journals and Books](https://www.siam.org/journals/pdf/stylemanual.pdf). Retrieved May 8, 2018.
+
+- [AMS Style Guide](https://www.ams.org/publications/authors/AMS-StyleGuide-print.pdf). Retrieved May 7, 2018.
+- [MAA Reference Guide](https://www.maa.org/sites/default/files/pdf/pubs/Ref_Guide.pdf). Retrieved May 7, 2018.
+- [SIAM Style Manual: For Journals and Books](https://www.siam.org/journals/pdf/stylemanual.pdf). Retrieved May 8, 2018.
 
 ## trivia
 
@@ -140,8 +134,7 @@ quirks, but it also evinces that the mathematical canon, for many
 professionals, develops much slower than the spit-fire developments in, say,
 programming language research. I suspect, also, to lower the signal to noise
 ratio, professional mathematicians might regard parts of the canon as
-immutable, which means all those `\bibitem`s will make just *fine* references
-a tacitly agreed upon body of knowledge.)
+immutable.)
 
 I think Rosoff exposed me to Spivak's *Differential Geometry* at a point in my
 life where the text didn't make much sense. I'm grateful for the introduction,
