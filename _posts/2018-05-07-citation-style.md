@@ -89,9 +89,7 @@ from the front matter of [“[1801.07530] A Guide for Computing Stable Homotopy 
 \providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
 \providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
 % \MRhref is called by the amsart/book/proc definition of \MR.
-\providecommand{\MRhref}[2]{%
-  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
-}
+\providecommand{\MRhref}[2]{ \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2} }
 \providecommand{\href}[2]{#2}
 \begin{thebibliography}{EKMM97}
 
@@ -102,6 +100,8 @@ J.~F. Adams, \emph{On the structure and applications of the {S}teenrod
 \bibitem[Ada60]{adams_hopf_inv_one}
 \bysame, \emph{On the non-existence of elements of {H}opf invariant one}, Ann.
   of Math. (2) \textbf{72} (1960), 20--104. \MR{0141119}
+
+% and so on
 ```
 
 which, unfortunately, matches the colloquial instructions given in math departments and recapitulated here:
