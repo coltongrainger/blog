@@ -26,6 +26,7 @@ gtag	_site/math-310.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/math-428.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/math-451.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/music-log.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
+gtag	_site/nakba-critique.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/personal-statement.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/prioritizing.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/reading-log.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
@@ -35,6 +36,7 @@ gtag	_site/see-also.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/software.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/stumbleupon.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/superstition.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
+gtag	_site/test.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/texas-service.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/undergrad-projects.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 isTouchDevice	_site/assets/javascript/anchor-js/anchor.js	/^    this.isTouchDevice = function() {$/;"	m	class:AnchorJS
