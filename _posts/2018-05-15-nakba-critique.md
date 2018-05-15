@@ -1,12 +1,12 @@
-﻿---
+---
 title: Nakba Critique
 author: Colton Grainger
 date: 2018-05-15
 status: draft
 ---
 
-This is a rough outline of a critique for the Rachel Corrie Foundation's commemoration
-of the Nakba.
+This is a rough outline of a critique for the Rachel Corrie Foundation's 2018
+commemoration of the Nakba.
 
 ## Links
 
