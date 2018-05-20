@@ -116,3 +116,26 @@ Likewise I think it can be justified to collect content by author of the piece (
 
 - [International Research on Permanent Authentic Records in Electronic Systems](http://www.interpares.org/ip2/book.cfm)
 - [Research Data Management: File Organization](https://libraries.mit.edu/data-management/files/2014/05/file-organization-july2014.pdf)
+
+## necrobumping example
+
+Taken from the [Arch Linux
+Wiki](https://bbs.archlinux.org/viewtopic.php?id=47795)
+
+> > 2016-01-02 14:24:21
+> > cmcaine
+> >
+> > This is still the top search result for this problem, so resurrecting for the benefit of others:
+> > 
+> > The name of the option urlLauncher has changed to url-launcher. See woman urxvt, or this thread:
+> > 
+> > https://bbs.archlinux.org/viewtopic.php?id=155850
+> > 
+> 2016-01-02 19:21:32
+> WorMzy
+>
+> Please don't do that. The wiki should be updated if need be, dead threads should be left in peace.
+> 
+> https://wiki.archlinux.org/index.php/Forum_etiquette#Old_threads.2F.22necro-bumping.22
+>
+> Closing.
