@@ -4,11 +4,11 @@
   <h1> {{ page.title }} </h1>
   <dl id="yaml_header_data">
     {% if page.date != nil %}
-      <dt>created: {{ page.date | date: "%Y-%m-%d" }}</dt>
+      <dt>date: {{ page.date | date: "%Y-%m-%d" }}</dt>
     {% endif %}
 
     {% if page.modified != nil %}
-      <dt>revised: {{ page.modified }}</dt>
+      <dt>last modified: {{ page.modified }}</dt>
     {% endif %}
 
     {% if page.belief != nil %}
