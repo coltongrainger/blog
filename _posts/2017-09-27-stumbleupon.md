@@ -13,6 +13,7 @@ I reflect on how kids at the shelter are using the public computer. I propose tw
 I've noticed the kids weren't actually playing computer games, but rather watching YouTube videos of other users playing. So, after having enough YouTube, I introduced 4 of the kids to StumbleUpon. We choose interest categories, including, namely, *fashion* (an immediate and nearly unianimous decision), *drawing*, *New York*, *cooking*, *music*, and *pets*.
 
 I'm particularly proud we found:
+
 - [typedrummer.com](http://www.typedrummer.com) (an ascii text beat machine)
 - [redrabbit7.com](http://redrabbit7.org) (oil paintings of cityscapes)
 - [weavesilk.com](http://weavesilk.com) (a symmetric interactive sketch pad)
@@ -30,6 +31,7 @@ When I was a 6th grader, I had installed LimeWire (to pirate the American Idiot 
 How can I create license for the kids here? How can I usher the kids into digital literacy (beyond button mashing)?
 
 1. I can suggest flash games that allow a user to create their *own* space. For me, two such games (both allowed a user to save their progress) were
+
 - Junkbot Undercover (which is no longer on lego.com) and 
 - Motherload (produced by XGen, of which I had pirated the Goldium edition)
 
