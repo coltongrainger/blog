@@ -1,23 +1,19 @@
 ---
-title: Reading Log 
+title: Undergrad paper trail
 author: Colton Grainger
 date: 2017-12-27
 belief: log
 ---
 
-Books and papers, thematically arranged, with some comments.
+Over the holidays 2017, I cleaned out the book shelf at my folks' house and started this list. (I can't lug around the weight anymore---most of these are going to the used bookstore. update: thrift store. I should stop destroying books with graffiti.)
 
-## Desk References 
+## Desk References
 
 - [LaTeX, A Document Preparation System (2nd edition)](https://www.amazon.com/LaTeX-Document-Preparation-System-2nd/dp/0201529831), Leslie Lamport
 - [Mathematical Writing](http://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf), Donald Knuth
 - [How to Solve it: A New Aspect of Mathematical Method](https://notendur.hi.is/hei2/teaching/Polya_HowToSolveIt.pdf), George Pólya
 
-## recommended reading from undergrad 
-
-Over the holidays 2017, I cleaned out the book shelf at my folks' house and started this section. (I can't lug around the weight anymore---most of these are going to the thrift store.)
-
-### Environmental studies
+## Environmental studies
 
 - [The Practice of the Wild](https://terebess.hu/zen/mesterek/The-Practice-of-the-Wild-by-Gary-Snyder.pdf), Gary Synder
 - [Walden](https://en.wikipedia.org/wiki/Walden), Thoreau ([intro](http://assets.press.princeton.edu/chapters/i10729.pdf) by John Updike)
@@ -28,13 +24,13 @@ Over the holidays 2017, I cleaned out the book shelf at my folks' house and star
 - [Danger on Peaks](https://www.amazon.com/Danger-Peaks-Deluxe-Gary-Snyder/dp/1619024519), Gary Snyder
 - [The Living Mountain](https://www.amazon.com/Living-Mountain-Celebration-Cairngorm-Mountains/dp/0857861832), Nan Shepherd
 
-### Mathematics & Physics
+## Mathematics & Physics
 
 - [Understanding Analysis](http://www.springer.com/us/book/9781493927111), Stephen Abbott
 - [An Introduction to Thermal Physics](http://physics.weber.edu/thermal/overview.html), Daniel V. Shroeder
 - [Classical Mechanics](https://archive.org/details/JohnTaylorClassicalMechanics), John R. Taylor
 
-### Anthologies and History 
+## Anthologies and History 
 
 - [The Norton Anthology of English Literature: 16th / early 17th century](http://media.wwnorton.com/cms/contents/NAEL9_Complete_TOC.pdf)
 - [The Enlightenment Reader](https://www.amazon.com/Portable-Enlightenment-Reader-Library/dp/0140245669), edited by Isaac Kramnick
@@ -48,7 +44,7 @@ Over the holidays 2017, I cleaned out the book shelf at my folks' house and star
 	- The Civil War in France
 	- [Economic and Philosophic Manuscripts of 1844](https://en.wikipedia.org/wiki/Economic_and_Philosophic_Manuscripts_of_1844)
 
-### Philosophy 
+## Philosophy 
 
 - [The Republic of Plato](https://www.amazon.com/Republic-Plato-Francis-Macdonald-Cornford/dp/B007GAHDFC), translated by Francis MacDonald Cornford
 - [Basic Writings of Nietzsche](https://www.amazon.com/Writings-Nietzsche-Modern-Library-Classics/dp/0679783393)
@@ -58,17 +54,17 @@ Over the holidays 2017, I cleaned out the book shelf at my folks' house and star
 - [Be Here Now](https://en.wikipedia.org/wiki/Be_Here_Now_(book)), Ram Dass
 - [The Tao of Physics](https://en.wikipedia.org/wiki/The_Tao_of_Physics), Fritjof Capra
 
-### Literary Criticism
+## Literary Criticism
 
 - [Anti-Oedipus](https://en.wikipedia.org/wiki/Anti-Oedipus), Giles Deleuze and Felix Guattari
 - [Of Grammatology](https://en.wikipedia.org/wiki/Of_Grammatology), Jacques Derrida
 
-### Psychology
+## Psychology
 
 - [The Art of Time](https://www.amazon.com/Art-Time-English-French/dp/020107978X), Jean-Louis Servan-Screiber (thanks Ruth!)
 - [Flow: The Psychology of Optimal Experience](https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202/)
 
-### Novels
+## Novels
 
 - [As I Lay Dying](https://en.wikipedia.org/wiki/As_I_Lay_Dying), William Faulkner
 - [The Unbearable Lightness of Being](https://en.wikipedia.org/wiki/The_Unbearable_Lightness_of_Being), Milan Kundera

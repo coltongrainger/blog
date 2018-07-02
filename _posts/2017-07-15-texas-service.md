@@ -8,27 +8,24 @@ status: finished
 
 Two reflections on service work in Houston, TX.
 
-- [Mid-Year](/texas-service#mid-year)
-- [Year-in-Review](/texas-service#year-in-review)
-
 ## Mid-Year
 
 I joined the service corps to "know myself" is the sense of 
 
-<pre>
+```
 to thine own self be true,
 and it must follow, as the night the day,
 Thou canst not then be false to any man
-</pre>
+```
 
 and
 
-<pre>
+```
 Runnin' through the 6 with my woes
 Countin' money, you know how it goes
 Pray the real live forever, man
 Pray the fakes get exposed.
-</pre>
+```
 
 Upon moving to Houston, I invested most of my time and physical energy into "self-care." Three examples. I learned how to budget (in Google sheets) and tithe (setting aside part of my grocery money for others). I joined a [parish choir](http://www.christchurchcathedral.org/choirs/). I found safe spaces downtown with my METRO pass (the [Tellepsen YMCA](https://www.google.com/maps/place/Tellepsen+Family+Downtown+YMCA/@29.7525802,-95.3707456,15z/data=!4m5!3m4!1s0x0:0xcacd8d78e30ead63!8m2!3d29.7525802!4d-95.3707456) for exercise and the [Julia Ideson Library](https://www.google.com/maps/place/Julia+Ideson+Building/@29.7589504,-95.3713409,17z/data=!3m1!4b1!4m5!3m4!1s0x8640bf39a28e84e9:0xdfaa0a310ac8bb2a!8m2!3d29.7589504!4d-95.3691522) for reading).
 
@@ -40,21 +37,9 @@ As cooler weather crept in, my service work fleshed out. Salimah needed her old 
 
 Waiting for the bus at the transit center, nestled against the curving circuit of the freeway exchange, I felt that I was turning inside out. 
 
-<pre>
-At this time, I was mainly 
-	serving clients 
-	by scheduling their medical appointments and 
-	by accompanying them as they learned to catch a bus. 
+At this time, I was mainly serving clients by scheduling their medical appointments and by accompanying them as they learned to catch a bus.
 
-I also applied for 
-	health care benefits and 
-	rental assistance, 
-while instructing clients 
-	what I was doing, 
-	how they could do the same for themselves, and 
-	encouraging them to do so 
-		as soon as they built up enough English proficieny. 
-</pre>
+I also applied for health care benefits and rental assistance, while instructing clients what I was doing, how they could do the same for themselves, and encouraging them to do so as soon as they built up enough English proficiency.
 
 Administratively, I helped transition our case files out of Microsoft Office and into a standardized database. I also parsed the storage room to shred old case files and bring our archives up to grant compliance. (As I learned about a person on paper, they appeared in the office to ask for help: rental assistance, translation, et cetera.)
 
@@ -65,7 +50,7 @@ I'm back in Houston, again pushed out into its metropolitan flatland, again stra
 ## Year-in-Review
 
 ### quality of community life: *needs improvement*
-	
+
 I feel that the TX ESC Houston site provided little structure for intentional community---this is in direct contrast to the TX ESC handbook “The most important structure giving shape to this year is the relationship among the group of members…. The more you bring your sincerity, commitment and discernment to the experience of living together, the richer and more rewarding the year will be.” In Houston, my roommates reacted hostilely and with extreme agitation when I behaved in a way that aligned with my “sincerity, commitment and discernment.” 
 
 *I simply believe that television has no place in intentional community.*
@@ -87,13 +72,18 @@ My 2 direct supervisors, Shaoli and Salimah, were consistent in their separate d
 ### overall experience in texas esc: *exceeds expectations*
 
 While I did hope to come into an intentional community primarily and engage in service work secondarily, my expectations were surprisingly reversed. I felt “home” while I was at the YMCA and “out of place” while I was in the TX ESC house. Ironically, I suspect that many of the YMCA’s clients feel the same way. I am grateful to have been slightly unsettled (feathers ruffled) at home because I then had ample space for self-reflection. Some highlights of my independent experience in TX ESC included 
+
 - purchasing and riding a fixed gear bicycle, 
+
 - catching bands on tour
-	- Crystal Castles, 
-	- Odesza, 
-	- Marie Davidson, 
-	- Japanese Breakfast, 
+
+  - Crystal Castles, 
+  - Odesza, 
+  - Marie Davidson, 
+  - Japanese Breakfast, 
+
 - taking the GRE Subject Test in Mathematics, and 
+
 - adopting a diet with a smaller carbon footprint.
 
 ### What was my biggest challenge this year?
@@ -142,7 +132,9 @@ Spiritually, I found myself grounded in the [liturgical calendar](https://en.wik
 
 ### What advice would you give to August 2016 you?
 
-Get a yoga membership at [Black Swan](https://blackswanyoga.com/houston/)! Take classes with these teachers:
+Get a yoga membership at [Black Swan](https://blackswanyoga.com/houston/)! 
+
+Take classes with these teachers:
+
 - [Alicia Tillman](https://blackswanyoga.com/teacher/aliciat/)
 - [Ash Agnite](https://blackswanyoga.com/teacher/ashag/)
-
