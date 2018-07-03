@@ -1,7 +1,10 @@
 /* License: CC0 */
 
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
 body {
-  font-family: sans-serif ;
+  font-family: "Fira Sans", sans-serif ;
   color: #333333 ;
 }
 
@@ -52,7 +55,7 @@ blockquote {
 }
 
 code {
-    font-family: monospace;
+    font-family: "Inconsolata",monospace;
     color: #586e75;
     background-color: #f6f6f6;
     padding-left: 0.1em;
