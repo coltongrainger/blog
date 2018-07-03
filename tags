@@ -31,6 +31,7 @@ gtag	_site/see-also.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/software.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/stumbleupon.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/superstition.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
+gtag	_site/tags.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/texas-service.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/undergrad-paper-trail.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 isTouchDevice	_site/assets/javascript/anchor-js/anchor.js	/^    this.isTouchDevice = function() {$/;"	m	class:AnchorJS
