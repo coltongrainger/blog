@@ -2,7 +2,7 @@
 title: moving away from numerical analysis
 author: Colton Grainger 
 date: 2017-09-30
-modified: 2018-01-16 
+revised: 2018-01-16 
 belief: somewhat 
 ---
 

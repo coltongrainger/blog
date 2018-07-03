@@ -17,9 +17,7 @@
     type="image/png" 
     href="{{ site.baseurl }}/images/favicon.png">
   {% include mathjax.html %}
-  <script src="/assets/js/anchor.min.js"></script>
   <style type="text/css">
-    {% include cmun-typewriter.css %}
     {% include default.css %}
     {% include syntax.css %}
   </style>
@@ -41,8 +39,8 @@
         {% endif %} 
           href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a> | 
       {% endfor %}
-      <a href="https://raw.githubusercontent.com/coltongrainger/coltongrainger.github.io/master/{{ page.path }}">source</a>
-     | <a href="https://github.com/coltongrainger/coltongrainger.github.io/commits/master/{{ page.path }}">history</a>
+      <a href="https://raw.githubusercontent.com/coltongrainger/blog/master/{{ page.path }}">source</a>
+     | <a href="https://github.com/coltongrainger/blog/commits/master/{{ page.path }}">history</a>
   </div>
   <div style="float:right;">
     <!--
@@ -53,7 +51,7 @@
     -->
     <form name="google-search" action="https://google.com/search" method="get">
       <fieldset style="border:0;">
-        <input type="hidden" name="sitesearch" value="http://coltongrainger.com" />
+        <input type="hidden" name="sitesearch" value="http://coltongrainger.com/blog/" />
         <input name="q" type="text" />
         <input type="submit" name="btnG" value="search" />
       </fieldset>

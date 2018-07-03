@@ -1,4 +1,5 @@
 {% include head.html %}
+  <script src="/assets/js/anchor.min.js"></script>
   <main>
 
   <h1> {{ page.title }} </h1>
@@ -7,8 +8,8 @@
       <dt>date: {{ page.date | date: "%Y-%m-%d" }}</dt>
     {% endif %}
 
-    {% if page.modified != nil %}
-      <dt>last modified: {{ page.modified }}</dt>
+    {% if page.revised != nil %}
+      <dt>revised: {{ page.revised }}</dt>
     {% endif %}
 
     {% if page.belief != nil %}
@@ -19,9 +20,6 @@
       <dt>status: {{ page.status }}</dt>
     {% endif %}
   </dl>
-  <div id="toc">
-  {% include toc.html html=content h_min=2 h_max=3 %}
-  </div>
 
   {{ content }}
 
