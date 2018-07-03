@@ -2,7 +2,7 @@
 title: Personal statement for grad apps
 author: Colton Grainger
 date: 2017-11-23
-modified: 2018-03-21
+revised: 2018-03-21
 status: finished
 belief: likely 
 mathjax: true

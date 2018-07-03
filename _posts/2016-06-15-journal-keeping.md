@@ -2,7 +2,7 @@
 title: Journal Keeping
 author: Colton Grainger
 date: 2016-06-15
-modified: 2017-09-13
+revised: 2017-09-13
 belief: possible 
 status: finished 
 ---

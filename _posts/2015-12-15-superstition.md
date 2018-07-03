@@ -2,7 +2,7 @@
 title: Superstition
 author: Colton Grainger
 date: 2015-12-15
-modified: 2017-07-30
+revised: 2017-07-30
 belief: fiction
 status: poetry
 ---

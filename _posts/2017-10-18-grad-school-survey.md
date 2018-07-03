@@ -2,7 +2,7 @@
 title: Survey of Grad Schools in the Northwest US 
 author: Colton Grainger
 date: 2017-10-18
-modified: 2018-01-15
+revised: 2018-01-15
 status: finished
 ---
 
