@@ -23,6 +23,7 @@ gtag	_site/jupyter-notes.html	/^    function gtag(){dataLayer.push(arguments)};$
 gtag	_site/math-310.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/math-428.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/math-451.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
+gtag	_site/music.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/nakba-critique.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/personal-statement.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/prioritizing.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
