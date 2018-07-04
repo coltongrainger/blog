@@ -7,7 +7,7 @@ order: 1
 
 `{{ post.date | date: "%Y-%m-%d" }}` [{{ post.title }}]({{ post.url }})
 
-{{ post.excerpt }}
+ {{ post.excerpt }}
 
 {% endfor %}
 
