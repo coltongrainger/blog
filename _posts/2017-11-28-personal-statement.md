@@ -5,7 +5,7 @@ date: 2017-11-23
 revised: 2018-03-21
 status: finished
 belief: likely 
-mathjax: true
+math: true
 ---
 
 The robustness of a mathematical method determines its utility. Just
