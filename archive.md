@@ -1,5 +1,6 @@
 ---
 title: archive
+permalink: archive
 order: 2
 ---
 

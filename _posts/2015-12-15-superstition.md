@@ -1,7 +1,6 @@
 ---
 title: Superstition
 author: Colton Grainger
-date: 2015-12-15
 revised: 2017-07-30
 belief: fiction
 status: poetry
@@ -9,7 +8,7 @@ status: poetry
 
 An excerpt of verse for Dr. Eric Spencer's *English Renaissance Literature*.
 
-```
+<pre>
 In 1572, Tycho Brahe observed 
 a sudden and continuous rain of light 
 emanating from the celestial realm of Cassiopeia. 
@@ -115,4 +114,6 @@ but erroneous relation to God.
    logical, 
    rhythmical, 
    syntactical
-```
+</pre>
+
+*[sources](/attached/superstition.pdf)*

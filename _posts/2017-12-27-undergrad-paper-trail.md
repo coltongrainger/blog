@@ -1,11 +1,9 @@
 ---
 title: Undergrad paper trail
 author: Colton Grainger
-date: 2017-12-27
 belief: log
 ---
 
-Over the holidays 2017, I cleaned out the book shelf at my folks' house and started this list. (I can't lug around the weight anymore---most of these are going to the used bookstore. update: thrift store. I should stop destroying books with graffiti.)
 
 ## Desk References
 
@@ -80,7 +78,8 @@ For example,
 
 - W Caleb's [wiki](http://wiki.wcaleb.rice.edu/Reading%20List)
 - Zhen Zhang's [wiki](https://zhenzhang.me/wiki/booklist.html)
-- Matt Might's [Reading for graduate students](http://matt.might.net/articles/books-papers-materials-for-graduate-students/) and [what ever CS major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
+- Matt Might's [Reading for graduate students](http://matt.might.net/articles/books-papers-materials-for-graduate-students/) 
+  and [what ever CS major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
 - gwern's [book reviews](https://www.gwern.net/Book-reviews)
 - cognito mentoring's [core reading recommendations](https://info.cognitomentoring.org/wiki/Core_reading_recommendations)
 - Issa Rice's [advice for young people](https://issarice.com/advice-for-young-people#books)

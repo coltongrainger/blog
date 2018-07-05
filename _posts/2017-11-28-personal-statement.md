@@ -1,7 +1,6 @@
 ---
 title: Personal statement for grad apps
 author: Colton Grainger
-date: 2017-11-23
 revised: 2018-03-21
 status: finished
 belief: likely 
@@ -15,19 +14,19 @@ deterministic differential equations. My goal, then, is to research
 robust methods in algebraic topology that can be applied in both
 abstract and computational settings.
 
-For example, consider training an AI to distinguish the tone signature
-of different musical instruments. Applying persistent homology, we
-associate “holes” in an audio recording’s time-delay phase-space with a
-sample statistic: the persistent rank function (PRF). Corresponding
-informally with [Nikki Sanderson](https://arxiv.org/abs/1708.09359), 
-I learned a computer
-trained on PRFs more accurately classifies tones than one trained on
-Fast Fourier Transforms. Here a topological invariant answers the
-question “which instrument?” with higher fidelity than a recording’s
-frequency transform.
+For example, consider training an AI to distinguish the tone signature of
+different musical instruments. Applying persistent homology, we associate
+“holes” in an audio recording’s time-delay phase-space with a sample statistic:
+the persistent rank function (PRF). Corresponding informally with 
+[Nikki Sanderson](https://arxiv.org/abs/1708.09359), 
+I learned a computer trained on PRFs more accurately classifies tones than one
+trained on Fast Fourier Transforms. Here a topological invariant answers the
+question “which instrument?” with higher fidelity than a recording’s frequency
+transform.
 
 My research interest stems from my exposure to topology and its applications as
-an undergraduate, a base of computational skill, and insight from two years of service work since graduating.
+an undergraduate, a base of computational skill, and insight from two years of
+service work since graduating.
 
 Advised by Dr. Jonny Comes, my senior independent study examined how
 Galois theory constrains the solution space of Fuchsian-type
@@ -53,9 +52,8 @@ me.
 After graduating, I took two years to perform stipended service work. In
 Houston, under Shaoli Bhadra, I developed scalable
 [resources](https://github.com/coltongrainger/ymca-resources) for
-refugee case management, which included crowd-sourcing a [map of clinics
-and languages
-spoken](https://drive.google.com/open?id=1kk9yn6-4nifHLIf2tGYbW_7PiYo&usp=sharing)
+refugee case management, which included crowd-sourcing a 
+[map of clinics and languages spoken](https://drive.google.com/open?id=1kk9yn6-4nifHLIf2tGYbW_7PiYo&usp=sharing)
 through the Google Maps API. I wrote bug reports for the implementation
 three databases, and, when Texas cut funding for Refugee Medical
 Assistance, I contributed to a data management plan for the small
@@ -63,15 +61,15 @@ refugee population transitioning from state to federal medical care. In
 Olympia, I am a community organizer at a 24/7 homeless shelter. I rely
 on distributed version control, and have therefore become a staunch
 advocate for “deploying early and often”. For example, I built 
-[volunteer.fscss.org](http://coltongrainger.com/fscss-volunteers) to
-maintain a schedule of events, but it now doubles as a wiki. As I have
-begun mentoring interns and work-study students who are preparing to
-embark on careers in social work, I am noticing skills I think will
-transfer neatly to a teaching assistantship. In all, I have cultivated
-working methods I believe to be of value in the scientific disciplines:
-collaboration allows me to focus my effort on tasks where I have a
-comparative advantage, cumulation allows me to work where others have
-left off, and transparency allows others to work off of me.
+[volunteer.fscss.org](https://web.archive.org/web/20171223032857/http://volunteer.fscss.org:80/) 
+to maintain a schedule of events, but it now doubles as a wiki. As I have begun
+mentoring interns and work-study students who are preparing to embark on
+careers in social work, I am noticing skills I think will transfer neatly to a
+teaching assistantship. In all, I have cultivated working methods I believe to
+be of value in the scientific disciplines: collaboration allows me to focus my
+effort on tasks where I have a comparative advantage, cumulation allows me to
+work where others have left off, and transparency allows others to work off of
+me.
 
 I am serious, however, to pursue a career in mathematics. To prepare for
 graduate study, I have enrolled in an affordable selection of

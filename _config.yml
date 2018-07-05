@@ -11,6 +11,11 @@ defaults:
       layout: "default"
 
     scope:
+      path: "attachments"
+    values:
+      permalink: /:name
+
+    scope:
       path: "_posts"
     values:
-      permalink: /:title:output_ext
+      permalink: /:title

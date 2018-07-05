@@ -1,7 +1,6 @@
 ---
 title: Case Notes and Granular Categories 
 author: Colton Grainger
-date: 2017-11-02
 status: draft 
 belief: likely
 ---
@@ -22,25 +21,25 @@ For example:
 
 - Homeless Family Services
 
-	- Coordinated Entry
-	- Shelter
-	- Basic needs
-	- Housing search & placement
-	- crisis intervention
+    - Coordinated Entry
+    - Shelter
+    - Basic needs
+    - Housing search & placement
+    - crisis intervention
 
 - Family Justice Center
 
-	- Advocacy / Court Accompaniment
-	- Legal assistance (from attorney)
-	- DV shelter
-	- Elder abuse
-	- file police report
-	- fleeing DV
-	- human trafficking advocacy
-	- protection order
-	- safety planning
-	- sexual assualt advocacy
-	- stalking
+    - Advocacy / Court Accompaniment
+    - Legal assistance (from attorney)
+    - DV shelter
+    - Elder abuse
+    - file police report
+    - fleeing DV
+    - human trafficking advocacy
+    - protection order
+    - safety planning
+    - sexual assault advocacy
+    - stalking
 
 I proposed the changes (pruning down to 10 meta fields max per program) and
 solicited feedback. Here's what I heard.
@@ -69,9 +68,9 @@ So collapsing categories might not work if we use mutually exclusive sets.
 > What do you mean so similar case notes are grouped together?
 
 For reporting and data collection, if we have fewer categories, then more case
-notes fit into each category ([pigeon hole
-principle](https://en.wikipedia.org/wiki/Pigeonhole_principle)). What I'm
-suggesting is that we set up case notes to have low granularity.
+notes fit into each category 
+([pigeon hole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle)). 
+What I'm suggesting is that we set up case notes to have low granularity.
 
 > Are you saying that the "reason for visit" list should become smaller? 
 

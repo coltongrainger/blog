@@ -1,54 +1,55 @@
 ---
 title: Survey of Grad Schools in the Northwest US 
 author: Colton Grainger
-date: 2017-10-18
 revised: 2018-01-15
 status: finished
 ---
 
-My notes on grad schools (all but one in the Northwest US) and their faculty's research. I aim to get a feel for each school's academic environment, then narrow down a list of people I would like to work with. I've focused on folks involved in computational topology, algebraic topology, and numerical analysis.
-
-Update: My [grad apps](https://github.com/coltongrainger/grad-apps) are finished. This document will date quickly, but I think it's a good rubric for the sort of mental canvassing necessary to find interesting research groups.
+My notes on grad schools (all but one in the Northwest US) and their faculty's
+research. I aim to get a feel for each school's academic environment, then
+narrow down a list of people I would like to work with. I've focused on folks
+involved in computational topology, algebraic topology, and numerical analysis.
 
 ## CU Boulder
 
-Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's the bullet list.
+Finished speaking with [Nikki Sanderson](nikkisanderson.wordpress.com). Here's
+the bullet list.
 
 - What's in a PhD?
 
-	- for Jim Meiss, 2 papers
-	- for Liz Bradley, the PhD is an organic experience
-	- When do I know that I have done enough work?
+    - for Jim Meiss, 2 papers
+    - for Liz Bradley, the PhD is an organic experience
+    - When do I know that I have done enough work?
 
 - members of the research community need to communicate
 - is data science collaborative? not really?
 
 - dept & cultural differences
 
-	- Nikki has a preprint for a cross-disciplinary intro to TDA: [time series in dynamical systems](https://arxiv.org/abs/1708.09359)
+    - Nikki has a preprint for a cross-disciplinary intro to TDA: [time series in dynamical systems](https://arxiv.org/abs/1708.09359)
 
 - regarding preliminaries
 
-	- Nikki bulked up on Riemannian Geometry (cool)
-	- differential geometry, algebra, topology
+    - Nikki bulked up on Riemannian Geometry (cool)
+    - differential geometry, algebra, topology
 
 - after her comprehensive exams she was reading applied topology
 
 - applications
 
-	- efficient algorithms
-	- TDA has different constraints comparatively (it's not manifold learning)
-	- [image analysis](https://youtu.be/GKlcY1bIYDk) Paul Hand's introduction
-	- materials, mining, etc
-	- ice-cap melting
-	- [TDA for an environmental application](https://link.springer.com/chapter/10.1007/978-3-319-30379-6_22)
+    - efficient algorithms
+    - TDA has different constraints comparatively (it's not manifold learning)
+    - [image analysis](https://youtu.be/GKlcY1bIYDk) Paul Hand's introduction
+    - materials, mining, etc
+    - ice-cap melting
+    - [TDA for an environmental application](https://link.springer.com/chapter/10.1007/978-3-319-30379-6_22)
   - [Jim's research in contaminant clean-up](http://amath.colorado.edu/faculty/jdm/research.html#Groundwater)
 
 - collaboration with [Kathryn Hess Bellwald](https://hessbellwald-lab.epfl.ch/HessBellwald)
 
-	- [publications](https://hessbellwald-lab.epfl.ch/publications)
-	- some application to neuro-science, which loops around with potential treatments of MS
-	- blue brain project
+    - [publications](https://hessbellwald-lab.epfl.ch/publications)
+    - some application to neuro-science, which loops around with potential treatments of MS
+    - blue brain project
 
 ### People
 
@@ -70,7 +71,7 @@ The [Multiscale Analysis and Computations](http://www.math.utah.edu/applied-math
 - [stochastic computations](https://www.math.utah.edu/applied-math/stochastic/)
 - [Applied Maths seminar](http://www.math.utah.edu/applied-math/seminar/) 
 
-	- 2017 had Stegner's attempted proof of the Reimann hypothesis (yuck!)
+    - 2017 had Stegner's attempted proof of the Reimann hypothesis (yuck!)
 
 Depending on the culture, I could code PDE solvers (scientific computing).
 
@@ -82,7 +83,12 @@ It seems the math dept works interdisciplinary with computer science and [biolog
 - e.g., the [Alder lab group](http://www.math.utah.edu/~adler/) studies urban ecology
 - understanding complex fluids for biological applications
 
-On the other hand, my abstract research goals could include a better understanding of algebraic geometry (e.g., Dynamics, geometry, and the moduli space of Riemann surfaces). See both the [Algebraic Geometry seminar](https://www.math.utah.edu/agseminar/) (organized by [Katrina Honigs](http://www.math.utah.edu/~honigs/)) and the [math department colloquium](http://www.math.utah.edu/research/colloquia/).
+On the other hand, my abstract research goals could include a better
+understanding of algebraic geometry (e.g., Dynamics, geometry, and the moduli
+space of Riemann surfaces). See both the 
+[Algebraic Geometry seminar](https://www.math.utah.edu/agseminar/) 
+(organized by [Katrina Honigs](http://www.math.utah.edu/~honigs/)) 
+and the [math department colloquium](http://www.math.utah.edu/research/colloquia/).
 
 From [Alex Wright](https://web.stanford.edu/~amwright/)'s [colloquium talk](https://www.youtube.com/watch?v=4mY1k4mBi3s)
 
@@ -95,15 +101,34 @@ From [Alex Wright](https://web.stanford.edu/~amwright/)'s [colloquium talk](http
 > will mention joint works with Alex Eskin, Simion Filip, Curtis McMullen,
 > Maryam Mirzakhani, and Ronen Mukamel.
 
-See quora [what are the differences between ... ?](https://www.quora.com/What-are-the-differences-between-differential-topology-differential-geometry-algebraic-topology-and-algebraic-geometry-In-what-order-does-one-usually-go-about-learning-them) for distinctions between algebraic *topology* and algebraic *geometry*.
+See quora [what are the differences between ... ?](https://www.quora.com/What-are-the-differences-between-differential-topology-differential-geometry-algebraic-topology-and-algebraic-geometry-In-what-order-does-one-usually-go-about-learning-them) for distinctions between algebraic *topology* and algebraic *geometry*. (Note: I loathe quora's material design. The personal bios on that site freak me out.)
 
-> At the most basic level, algebraic geometry is the study of algebraic varieties---sets of solutions to polynomial equations. Modern algebraic geometry, however, is much wider than this innocent statement seems to imply. It is notoriously complex and requires a very deep understanding of a wide variety of disciplines and domains. 
+> At the most basic level, algebraic geometry is the study of algebraic
+> varieties---sets of solutions to polynomial equations. Modern algebraic
+> geometry, however, is much wider than this innocent statement seems to imply.
+> It is notoriously complex and requires a very deep understanding of a wide
+> variety of disciplines and domains. 
 >
-> However you choose to learn algebraic geometry, you would want to have some very, very good grounding in commutative algebra, Galois theory, some number theory (especially algebraic number theory), complex function theory, category theory, and a serving of algebraic topology wouldn't hurt. General topology is sort-of required; algebraic geometry uses the notion of "Zariski topology" but, honestly, this topology is so different from the things most analysts and topologists talk about that it's hard for me to see how a basic course in topology would be of any help.
+> However you choose to learn algebraic geometry, you would want to have some
+> very, very good grounding in commutative algebra, Galois theory, some number
+> theory (especially algebraic number theory), complex function theory,
+> category theory, and a serving of algebraic topology wouldn't hurt. General
+> topology is sort-of required; algebraic geometry uses the notion of "Zariski
+> topology" but, honestly, this topology is so different from the things most
+> analysts and topologists talk about that it's hard for me to see how a basic
+> course in topology would be of any help.
 > 
-> Don't let this deter you. Algebraic Geometry is awe-inspiringly beautiful, and there do exist more gentle approaches to it than Hartshorne or Shafarevich. Fulton's Algebraic Curves ([Page on Umich](http://www.math.lsa.umich.edu/~wfulton/CurveBook.pdf)) is a great starting point.
+> Don't let this deter you. Algebraic Geometry is awe-inspiringly beautiful,
+> and there do exist more gentle approaches to it than Hartshorne or
+> Shafarevich. Fulton's Algebraic Curves 
+> ([Page on Umich](http://www.math.lsa.umich.edu/~wfulton/CurveBook.pdf)) 
+> is a great starting point.
 
-[Drew Johnson]() studied at Utah under Aaron Betram. Drew recommends [Ravi Vakil](http://math.stanford.edu/~vakil/216blog/index.html)'s *The Rising Sea: Foundations of Algebraic Geometry* for introductory notes. Also see the [student algebraic geometry seminar](http://www.math.utah.edu/~filipazz/seminar_fall_2017.html).
+Drew Johnson studied at Utah under Aaron Betram. Drew recommends 
+[Ravi Vakil](http://math.stanford.edu/~vakil/216blog/index.html)'s 
+*The Rising Sea: Foundations of Algebraic Geometry* for introductory notes. 
+Also see the 
+[student algebraic geometry seminar](http://www.math.utah.edu/~filipazz/seminar_fall_2017.html).
 
 The [Park City Mathematics Institute](https://pcmi.ias.edu/) is nearby, with relevance to both applied & pure math.
 

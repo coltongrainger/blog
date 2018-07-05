@@ -12,7 +12,6 @@ gtag	_site/animal-magnetism.html	/^    function gtag(){dataLayer.push(arguments)
 gtag	_site/archive.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/content-creation.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/exposition.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
-gtag	_site/file-taxonomy.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/grad-school-survey.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/granularity.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f
 gtag	_site/groundwater.html	/^    function gtag(){dataLayer.push(arguments)};$/;"	f

@@ -1,7 +1,6 @@
 --- 
 title: moving away from numerical analysis
 author: Colton Grainger 
-date: 2017-09-30
 revised: 2018-01-16 
 belief: somewhat 
 ---
@@ -124,7 +123,13 @@ In 2016, as I applied to MS programs, I wrote
 I had also boiled down cute scenarios for the fulfillment of this
 promise, for example, regarding sediment transport
 
-> In Idaho's Treasure Valley, farmers use a network of reservoirs and canals to suspend and divert the Boise river. To understand how this irrigation regime sweeps up and transports material, I would model water's energy in flood irrigated fields. Constrained by agricultural machinery and topography, I would search for furrow patterns that minimize water's turbidity. As a related project, I would consider canal geometries that interrupt high-velocity flows.
+> In Idaho's Treasure Valley, farmers use a network of reservoirs and canals to
+> suspend and divert the Boise river. To understand how this irrigation regime
+> sweeps up and transports material, I would model water's energy in flood
+> irrigated fields. Constrained by agricultural machinery and topography, I
+> would search for furrow patterns that minimize water's turbidity. As a
+> related project, I would consider canal geometries that interrupt
+> high-velocity flows.
 
 A few months after declaring my intent to implement numerical methods,
 a former mentor mentioned he was concerned I "had quashed my own
@@ -139,8 +144,12 @@ areas to suggest new approaches, then embark again into experimentation.
 
 ### Roseanna Neupauer's [Chaotic Advection and Reaction](http://onlinelibrary.wiley.com/doi/10.1002/2013WR014057/full)
 
-- Studies how Engineered Injection and Extraction (EIE) methods can deform treatment solution emplaced in a contaminated aquifer.
-- Numerical simulation implemented with [MODPATH](https://pubs.usgs.gov/of/1994/0464/report.pdf) (a particle tracking post-processing package for MODFLOW, The U.S. Geological Survey finite-difference ground-water flow model).
+- Studies how Engineered Injection and Extraction (EIE) methods can deform
+  treatment solution emplaced in a contaminated aquifer.
+- Numerical simulation implemented with
+  [MODPATH](https://pubs.usgs.gov/of/1994/0464/report.pdf) (a particle tracking
+  post-processing package for MODFLOW, The U.S. Geological Survey
+  finite-difference ground-water flow model).
 
 Seems like some of the software that would be necessary to fulfill a
 promise I made in 2016 (in terms of modeling contaminants).
