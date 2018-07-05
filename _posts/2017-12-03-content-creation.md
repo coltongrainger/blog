@@ -81,11 +81,11 @@ time, as telemarking a snowed ridge to see the gnarled trunk of a
 > recorded specimen is on the Sawtooth National Forest of Idaho, over 1,270
 > years old.[^169]
 
-[133]: Luckman, B. H.; Jozsa, L. A.; Murphy, P. J. 1984. Living seven-hundred-year-old Picea engelmannii and Pinus albicaulis in the Canadian Rockies. Arctic and Alpine Research. 16(4): 419-422. [1481] 
+[^133]: Luckman, B. H.; Jozsa, L. A.; Murphy, P. J. 1984. Living seven-hundred-year-old Picea engelmannii and Pinus albicaulis in the Canadian Rockies. Arctic and Alpine Research. 16(4): 419-422. [1481] 
 
-[194]: Steele, Robert; Cooper, Stephen V.; Ondov, David M.; Roberts, David W.; Pfister, Robert D. 1983. Forest habitat types of eastern Idaho-western Wyoming. Gen. Tech. Rep. INT-144. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 122 p. [2230]
+[^194]: Steele, Robert; Cooper, Stephen V.; Ondov, David M.; Roberts, David W.; Pfister, Robert D. 1983. Forest habitat types of eastern Idaho-western Wyoming. Gen. Tech. Rep. INT-144. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 122 p. [2230]
 
-[169]: Perkins, Dana L.; Swetnam, Thomas W. 1996. A dendroecological assessment of whitebark pine in the Sawtooth--Salmon River region, Idaho. Canadian Journal of Forest Research. 26: 2123-2133. [27299]
+[^169]: Perkins, Dana L.; Swetnam, Thomas W. 1996. A dendroecological assessment of whitebark pine in the Sawtooth--Salmon River region, Idaho. Canadian Journal of Forest Research. 26: 2123-2133. [27299]
 
 It's *because* long-content is maintained that I understand endeavours
 here to be place-based/spatial rather than temporal.
