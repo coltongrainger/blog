@@ -5,13 +5,7 @@
 
 body {
   font-family: "Fira Sans", sans-serif ;
-  background-color: #fdf6e3;
   color: #333333 ;
-}
-
-select,input,button,textarea,button,legend {
-  font: "Fira Sans", sans-serif;
-  color: #333333;
 }
 
 main, footer {
