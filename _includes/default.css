@@ -14,12 +14,13 @@ select,input,button,textarea,button,legend {
 }
 
 main, footer {
-    line-height: 1.4;
-    margin: auto;
-    max-width: 40rem;
-    text-align: left;
-    width: 93%;
-    word-wrap: break-word;
+  color: #fdf6e3;
+  line-height: 1.4;
+  margin: auto;
+  max-width: 40rem;
+  text-align: left;
+  width: 93%;
+  word-wrap: break-word;
 }
 
 footer { font-size: 80%; }
