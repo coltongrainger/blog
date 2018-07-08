@@ -8,6 +8,11 @@ body {
   color: #333333 ;
 }
 
+select,input,button,textarea,button,legend {
+  font: "Fira Sans", sans-serif;
+  color: #333333;
+}
+
 main, footer {
     line-height: 1.4;
     margin: auto;
@@ -38,7 +43,7 @@ dl#yaml_header_data {
 h1 { text-transform: uppercase; }
 h2 { border-bottom: 1px solid #ccc; }
 h1, h2, h3, h4, h5, h6 { 
-  font-family: sans-serif ;
+  font-family: "fira sans", sans-serif ;
   font-size: 120%;
   font-weight: normal;
 }
