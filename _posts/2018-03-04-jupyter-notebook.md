@@ -4,11 +4,13 @@ author: Colton Grainger
 revised: 2018-07-16
 ---
 
-*Update: while notebooks are rad in their all-together-ness, putting content into the `ipynb` qua `json` format is really the last step in my workflow. Rather than tooling around in a browser, I prefer to open a Jupyter Qt-console, load a data set (thanks to the IPython kernel, will stay "hot in RAM"[^hot]), draft functions in vim, then `%run -i` to bring the defined functions into the kernel. I only create a `*ipynb` file (i) when I am certain I can generalize my sequence of transformations of the data, and (ii) when I am satisfied that the data set is exemplar to lead into exposition. Finally, thanks to [ipynb_notedown](https://github.com/goerz/ipynb_notedown.vim), I can polish my argument in markdown.
+*Update: while notebooks are rad in their all-together-ness, putting content into the `ipynb` qua `json` format is really the last step in my workflow.*
+
+Rather than tooling around in a browser, I prefer to open a Jupyter Qt-console, load a data set (thanks to the IPython kernel, will stay "hot in RAM"[^hot]), draft functions in vim, then `%run -i` to bring the defined functions into the kernel. I only create a `*ipynb` file (i) when I am certain I can generalize my sequence of transformations of the data, and (ii) when I am satisfied that the data set is exemplar to lead into exposition. Finally, thanks to [ipynb_notedown](https://github.com/goerz/ipynb_notedown.vim), I can polish my argument in markdown.
 
 [^hot]: [“Philip Guo - PG Vlog #145 - Python + R Data Analysis Setup”](http://pgbovine.net/PG-Vlog-145-python-r-data-analysis-setup.htm). Retrieved July 16, 2018.
 
-I treat Jupyter notebooks as polished [journal entries](journal-keeping). The remainder of this post outlines my exposure and initial workflow in the IPython kernel as a user of [SageMath](https://en.wikipedia.org/wiki/SageMath).
+I treat Jupyter notebooks as polished [journal entries](journal-keeping). This post outlines my exposure and initial workflow in the IPython kernel as a user of [SageMath](https://en.wikipedia.org/wiki/SageMath).
 
 ## Sage Kernel
 
