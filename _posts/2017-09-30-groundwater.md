@@ -32,7 +32,7 @@ cavities (and so on).
 Persistent homology refers to the persistence of a certain feature (say
 a cavity) through increasing radius for nearest neighbor pairings.
 
-Nanda cites applications including sensor network coverage, granular
+Possible applications: sensor network coverage, granular
 force chains, and protein compressibility.
 
 ### Nicole Sanderson's [Time Series in Dynamical Systems](https://arxiv.org/abs/1708.09359)
@@ -56,7 +56,7 @@ other parameters) how does the homology change?
 
 - PHAT
 
-  - works well with R?
+  - works well with R
 
 ### See Also
 
