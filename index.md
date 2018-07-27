@@ -11,4 +11,4 @@ order: 1
 
 {% endfor %}
 
-*[older posts](/archive)*
+[older posts](/archive)
