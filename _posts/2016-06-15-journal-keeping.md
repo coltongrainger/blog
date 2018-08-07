@@ -189,8 +189,8 @@ cooled to equilibrium some 60 million years ago.
 Deciphering the curling segments of 94.7 MHz electromagnetic radiation, the
 receiver sputters out a kiddo’s question to the panel: “how long will humans
 live in the future? how will their lifespans affect human impacts on the
-environment?” The professor, cheerily answers, “you, dear, may live to the year
-2100. The only pessimistic question is in what physical condition you will be
+environment?” The professor, cheerily answers, “you, dear, may live to the year 2100. 
+The only pessimistic question is in what physical condition you will be
 in at the age.” The audience chuckles. 
 
 I palm the seat with two hands and straighten my posture, Loch Ainort breathes
