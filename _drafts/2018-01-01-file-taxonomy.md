@@ -1,7 +1,7 @@
 ---
-title: Directory Trees and File Taxonomy
+title: file
 author: Colton Grainger
-status: in process 
+status: draft
 belief: possible
 ---
 
@@ -9,17 +9,12 @@ I aim to use a directory tree that is legible, recoverable, and easily secured.
 
 ## questions for now
 
-- What's the standard UNIX directory tree? 
-- Which files should be public? private? somewhere between indiscrete and
-  discrete?
-    - e.g., collaborative documents to be shared with only a working group?
-    - see Matt Might's [CRAPL](http://matt.might.net/articles/crapl) (an
-      academic strength open source license).
-- To use cloud storage?
+- Which files should be public? private? somewhere between indiscrete and discrete?
+    - collaborative documents to be shared only within a working group?
+    - Matt Might's [CRAPL](http://matt.might.net/articles/crapl) (an academic strength open source license).
+- cloud storage?
     - Evernote? (might encourage hoarding)
-    - "a hand rolled wiki"? (preferred, something to learn anyways, and I can
-      always switch to evernote after having the experience of doing it
-      myself.)
+    - "a hand rolled wiki"? (preferred, something to learn anyways, and I can always switch to evernote after having the experience of doing it myself.)
 - What about pairing a directory tree with an established taxonomy?
     - e.g., d'Alembert's taxonomy of knowledge in the Encyclopedie
     - the Math Subject Classification
