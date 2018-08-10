@@ -6,7 +6,7 @@ status: notes
 mathjax: true
 ---
 
-To collect my thoughts on citation styles in different contexts. I'll list the places where I want to cite effectively (and quickly dagnabit!).
+To collect my thoughts on citation styles in different contexts. I'll list the places where I want to cite effectively (and quickly!).
 
 - pandoc markdown
   - notes
@@ -21,7 +21,7 @@ To collect my thoughts on citation styles in different contexts. I'll list the p
 - twitter
   - *[guck mal!](https://german.stackexchange.com/questions/36810/sieh-mal-vs-guck-mal)* moments
   - social bookmarks (this site supplants the need to post technical bookmarks on twitter)
-- $\mathrm{\LaTeX}$
+- $\rm\LaTeX$
   - curriculum vitae
   - letters
   - syllabi

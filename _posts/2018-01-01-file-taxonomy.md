@@ -32,7 +32,7 @@ Update: I made a pretty decent TODO taxonomy summer 2018. It regulates and prior
 
 [^simon]: The broader question, how to group signs and other utterances is still open, and it seems, the answer is only getting further away.
 
-    From Simon Joyner's 2005 *Traint to Crazy Horse*:
+    From Simon Joyner's 2005 *Train to Crazy Horse*:
 
     > Like Saint Augustine in reverse...\
     > I was born as a blessing, but I'll go out as a curse...\
@@ -75,3 +75,5 @@ But, just to sketch an idea of what themes I *would like* to write on, here some
 A subset of the "math" prefixed [arXiv categories](https://arxiv.org/archive/math)
 
 > AG Algebraic Geometry, AT Algebraic Topology, CT Category Theory, CA Classical Analysis and ODEs, CV Complex Variables, DG Differential Geometry, DS Dynamical Systems, FA Functional Analysis, GN General Topology, GT Geometric Topology, HO History and Overview, KT K-Theory and Homology, LO Logic, MP Mathematical Physics, NT number theory, NA numerical Analysis, OC Optimization and Control, PR Probability, ST Statistics Theory, SG Symplectic Geometry
+
+<hr>
