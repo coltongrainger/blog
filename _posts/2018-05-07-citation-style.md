@@ -6,9 +6,7 @@ status: notes
 mathjax: true
 ---
 
-To collect my thoughts on citation styles in different contexts.
-
-I'll list the places where I want to cite effectively (and quickly dagnabit!).
+To collect my thoughts on citation styles in different contexts. I'll list the places where I want to cite effectively (and quickly dagnabit!).
 
 - pandoc markdown
   - notes
@@ -22,38 +20,32 @@ I'll list the places where I want to cite effectively (and quickly dagnabit!).
   - collaborative computation
 - twitter
   - *[guck mal!](https://german.stackexchange.com/questions/36810/sieh-mal-vs-guck-mal)* moments
-  - social bookmarks (this site supplants the need to post technical bookmarks
-	  on twitter)
-- $\rm\LaTeX$
+  - social bookmarks (this site supplants the need to post technical bookmarks on twitter)
+- $\mathrm{\LaTeX}$
   - curriculum vitae
   - letters
   - syllabi
 
 ## makefile strategy 
 
-If I'm citing the same source (e.g. Simon Jones) repeatedly, I'd like just to
-`[@sjones]`, in the [pandoc-citeproc](https://github.com/jgm/pandoc-citeproc)
-style. I'll need a `.bib` bibliography included and also a thorough
-understanding of the compilation process from whatever plain text source to the desired `.pdf` or `.html`. I suspect `pandoc-citeproc` and [CSL citation styles](https://citationstyles.org/)  will become my tools of choice. Maybe even [pandoc-scholar](https://pandoc-scholar.github.io/).
+If I'm citing the same source (e.g. Simon Jones) repeatedly, I'd like just to `[@sjones]`, in the [pandoc-citeproc](https://github.com/jgm/pandoc-citeproc) style. I'll need a `.bib` bibliography included and also a thorough understanding of the compilation process from whatever plain text source to the desired `.pdf` or `.html`. I suspect `pandoc-citeproc` and [CSL citation styles](https://citationstyles.org/)  will become my tools of choice.[^complex]
 
-Kieran Healy models this workflow [here](https://kieranhealy.org/resources/). And I've taken the [Makefile](https://raw.githubusercontent.com/kjhealy/pandoc-templates/master/makefile/Makefile) (see also [discussion here](http://plain-text.co/pull-it-together.html)) from his [pandoc-templates repo](https://github.com/kjhealy/pandoc-templates).
+[^complex]: I imagine I'm going to run into trouble implementing these in gitit.
+
+Kieran Healy models one workflow [here](https://kieranhealy.org/resources/). And I've taken the [Makefile](https://raw.githubusercontent.com/kjhealy/pandoc-templates/master/makefile/Makefile) (see also [discussion here](http://plain-text.co/pull-it-together.html)) from his [pandoc-templates repo](https://github.com/kjhealy/pandoc-templates).
 
 Joseph Reagle gives a stellar example for marking up a curriculum vitae ([markdown](http://reagle.org/joseph/2003/cv/cv.md) and corresponding [html](http://reagle.org/joseph/2003/cv/cv.html)). Reagle opened two relevant issues (which are interesting forums to read for anyone trying to incorporate `.csl` files with a `pandoc-citeproc` workflow):
 
-1. [Including styles with inline-references (instead of bibliography) for
-   publication lists](https://github.com/citation-style-language/styles/issues/1619)
+1. [Including styles with inline-references (instead of bibliography) for publication lists](https://github.com/citation-style-language/styles/issues/1619)
 1. [apa-cv.csl not working with pandoc-citeproc](https://github.com/citation-style-language/styles/issues/1619)
 
 ## citation style languages
 
-In undergrad, I was comfortable using
-[Biber](https://en.wikipedia.org/wiki/Biber_(LaTeX)) and $\rm\LaTeX$ for papers in the [Chicago footnote style](https://tex.stackexchange.com/questions/30287/get-biblatex-chicago-working) and in the [elsarticle.cls](https://tex.stackexchange.com/questions/110515/elsarticle-cls-and-biblatex-incompatibility) document class. I never really moved beyond `\footnote{https://math.dartmouth.edu}` for references in my mathematics problem sets.
+In undergrad, I was comfortable using [Biber](https://en.wikipedia.org/wiki/Biber_(LaTeX)) and $\rm\LaTeX$ for papers in the [Chicago footnote style](https://tex.stackexchange.com/questions/30287/get-biblatex-chicago-working) and in the [elsarticle.cls](https://tex.stackexchange.com/questions/110515/elsarticle-cls-and-biblatex-incompatibility) document class. I never really moved beyond `\footnote{https://math.dartmouth.edu}` for references in my mathematics problem sets. 
 
 And yes, it seems Chicago (as footnotes or inline author-date) for informal writing and "numeric (or mnemonic), with titles, sorted alphabetically"  for mathematical writing remain the best choices for my intended audience.
 
-There're also the 
-[IEEE](https://github.com/citation-style-language/styles/blob/master/ieee.csl)
-and ACM proceedings styles, but these are further out of my scope. (Although I
+There're also the [IEEE](https://github.com/citation-style-language/styles/blob/master/ieee.csl) and ACM proceedings styles, but these are further out of my scope. (Although I
 see the advantage to IEEE in handling mixed media and link rot.)
 
 Now to give examples of different `.csl` styles in (approximate) use.
@@ -63,13 +55,10 @@ Now to give examples of different `.csl` styles in (approximate) use.
 [acm-sig-proceedings.csl](https://github.com/citation-style-language/styles/blob/master/acm-sig-proceedings.csl)
 : N. Polikarpova and J Yang et al., [Enforcing Information Flow Policies with Type-Targeted Program Synthesis](https://arxiv.org/pdf/1607.03445.pdf) (2018).
 
-Note that Polikarpova expanded the reference keys to be more legible,
-which I like quite a bit.
+Note that Polikarpova expanded the reference keys to be more legible, which I like quite a bit.
 
 [acm-sigchi-proceedings.csl](https://github.com/citation-style-language/styles/blob/master/acm-sigchi-proceedings.csl)
-: P. J. Guo, [Non-Native English Speakers Learning Computer Programming:
-Barriers, Desires, and Design
-Opportunities](http://pgbovine.net/publications/non-native-english-speakers-learning-programming_CHI-2018.pdf) (2018).
+: P. J. Guo, [Non-Native English Speakers Learning Computer Programming: Barriers, Desires, and Design Opportunities](http://pgbovine.net/publications/non-native-english-speakers-learning-programming_CHI-2018.pdf) (2018).
 
 ### mathematics
 
@@ -120,27 +109,12 @@ Some Definitive Style Guides
 
 ## meta
 
-Isn't the goal to have internalized key references such that I can just
-prattle off at the appropriate times? 
+Isn't the goal to have internalized key references such that I can just prattle off at the appropriate times? 
 
-Not necessarily to have memorized a series of author-dates but rather to *be
-familiar* with "the field" or "the canon" such that citations are more akin to
-introductions? And as with introductions to be mindful of who is getting to
-know who and the relationship that's therein forged?
+Not necessarily to have memorized a series of author-dates but rather to *be familiar* with "the field" or "the canon" such that citations are more akin to introductions? And as with introductions to be mindful of who is getting to know who and the relationship that's therein forged?
 
-(And also, isn't it curious that mathematicians are using `\bibitem` as opposed
-to curating a bibliography database? Maybe it's just one of those inherited
-quirks, but it also evinces that the mathematical canon, for many
-professionals, develops much slower than the spit-fire developments in, say,
-programming language research. I suspect, also, to lower the signal to noise
-ratio, professional mathematicians might regard parts of the canon as
-immutable.)
+(And also, isn't it curious that mathematicians are using `\bibitem` as opposed to curating a bibliography database? Maybe it's just one of those inherited quirks, but it also evinces that the mathematical canon, for many professionals, develops much slower than the spit-fire developments in, say, programming language research. I suspect, also, to lower the signal to noise ratio, professional mathematicians might regard parts of the canon as immutable.)
 
-I think Rosoff exposed me to Spivak's *Differential Geometry* at a point in my
-life where the text didn't make much sense. I'm grateful for the introduction,
-however, in that I felt I was being pointed towards a parade going by, which
-was compelling enough for me to take Vol. 1 to rehabilitation, set some
-goals there, and build the sort of grit necessary to become a more rigorous
-interlocutor.
+(Aside: Rosoff pointed me to Spivak's *Differential Geometry* at a point in my life where the text didn't make much sense. Still doesn't, but I now get the reference.)
 
 ![spivak-parade](https://images-na.ssl-images-amazon.com/images/I/91L0KVJjGlL.jpg){:width="100%"}
