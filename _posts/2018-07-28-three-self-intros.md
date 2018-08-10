@@ -6,7 +6,7 @@ belief: likely
 
 After a contemplative and absurdly open-ended summer, I wrote three descriptions of myself and my goals for folks who I might look for mentorship from. Given their positive feedback, I'm posting my initial outbound emails.
 
-The first message was intended for the maths department at CU (whom I know I'll have a relationship with), the second was a cursory message sent to the programming languages mentoring workshop (Stephanie Weirich had solicited applications on twitter), and the third was sort of a long-overdue thank you card to Issa Rice.
+The first message was intended for the maths department at CU, the second was a cursory message sent to the programming languages mentoring workshop (Stephanie Weirich had solicited applications on twitter), and the third was sort of a long-overdue thank you card to Issa Rice.
 
 ## CU Boulder maths dept
 
