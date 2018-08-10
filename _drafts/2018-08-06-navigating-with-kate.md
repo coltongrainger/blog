@@ -5,6 +5,69 @@ date: 2018-08-06
 status: notes
 ---
 
+## navigating maths, applied maths, CS, and physics
+
+How can I stay in touch with the neighboring engineering departments?
+
+Right of the bat, either attend colloquia (easy) or register for courses (hard, as I'd need to petition the maths graduate committee).
+
+- APPM
+
+- PHYS
+
+- CS
+
+    - [@bouldertheory](https://twitter.com/bouldertheory)
+    - [Theory Seminar]
+
+What's available as far as non-academic mentoring? (To quell whatever delusions I maintain about the size of industry/academic split.)
+
+    - NCAR
+    - NIST (see summer NISTPER)
+    - NOAA (tours on Tuesday)
+
+Faculty may be engaged in consulting over the summer; during the academic year it's pure nose-to-book grinding (or [tracking rides on strava](https://www.wired.com/story/strava-heat-map-military-bases-fitness-trackers-privacy/)).
+
+Summer internships? REUs?
+
+- teach (8 weeks)
+- REU (8 weeks)
+- outside activity
+
+## NSF graduate fellowship
+
+- attend STEMinar
+
+- pitch TDA proposals
+
+    - presenting own ideas
+    - asking for open problems
+
+- application tips
+
+    - to explain the problem/impact
+    - lie out tools to be used in the approach
+
+- what kind of research? 
+-
+
+## just-in-time review
+
+diagnostic exam very useful
+
+timeline with cohort
+
+inquiry based review
+
+## creative outlets
+
+Get used to standing still and comprehending nothing, brute force.
+
+- Kate: experimental maths visualizing integer sequences
+- Eric Stade: K12 education
+- Richard Green: social media
+
+
 ---
 title: Diagnostic Exams in Algebra and Analysis
 author: Colton Grainger
