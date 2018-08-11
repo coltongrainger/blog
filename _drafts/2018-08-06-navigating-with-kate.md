@@ -1,78 +1,151 @@
 ---
-title: Navigating the CU Boulder Maths department with Kate
+title: Navigating CU Boulder Maths
 author: Colton Grainger
 date: 2018-08-06
 status: notes
 ---
 
-## navigating maths, applied maths, CS, and physics
+This is my attempt to externalize the [inside baseball](https://en.wikipedia.org/wiki/Inside_baseball_(metaphor)) I've been playing this summer. It's a survey of the engineering colleges and links to materials I'm using for a just-in-time review---prior to getting locked into the maths pillar sequences this fall.
 
-How can I stay in touch with the neighboring engineering departments?
+## Maths pillar sequences
 
-Right of the bat, either attend colloquia (easy) or register for courses (hard, as I'd need to petition the maths graduate committee).
+
+Disclaimer: this advice is relevant to the 2018-19 academic year, and, etc, the reader should check with the department for more authoritative advice. Thanks.
+
+From the department chair, [Kate Stange](http://math.colorado.edu/~kstange/):
+
+> Your main task in your first couple years is the required courses and
+> prelim exams.  There are three main fall/spring sequences offered each year:
+> 
+> - algebra 1 & 2
+> - analysis 1 & 2
+> - topology & geometry
+> 
+> and one additional requirement: complex analysis
+> 
+> Each sequence has an associated prelim exam, but you needn't worry about
+> those until you've completed the sequence in most cases.
+> 
+> Your usual course load would be 15 credits, which is 5 courses over the
+> year.  You can do (3 fall / 2 spring) or (2 fall / 3 spring).  I usually
+> recommend taking 2/3, since in fall you'll still be getting your sea legs.
+> (You can also take 3/3 with your tuition credit -- beyond that I think you
+> have to start paying more.)
+> 
+> The normal thing to do would be to take two pillar sequences.  These
+> courses are heavy loads (think of one pillar course as two regular courses
+> in terms of workload hours).  Electives will generally be lighter loads,
+> and in spring you might choose an elective.  However, you might want a fall
+> elective if something particular interests you (3/2).
+>
+> I would go with whatever is most comfortable/familiar to begin.  If you are
+> an algebra type, start with the algebra, etc.  You can also register for
+> all 3 and then perhaps drop one after a week or two.  You can also attend
+> one you aren't registered for for a while, just to see (just mention it to
+> the instructor).
+> 
+> So, in short, my recommendation is to pick two of the three courses listed
+> above, and you will also take Math 5905, our one-credit teaching course.
+> 
+> As far as electives go, just a note:  cross-listed 5000/4000 level courses
+> are sometimes aimed at undergraduates and graduate students from other
+> departments.  Please ask the instructor if it's appropriate for Math PhD
+> students.
+
+## Collaboration with applied maths, CS, and physics
+
+Two ways of getting involved: attend talks (easy) and take courses (have to petition).
 
 - APPM
 
+    - [Applied Maths Seminar](https://calendar.colorado.edu/group/applied_mathematics)
+    - [APPM sequence courses](https://www.colorado.edu/amath/sites/default/files/attached-files/supplement_16-17.pdf)
+
+    APPM | Fall | Spring 
+    --- | --- | ---
+    5380-5390 | Modeling in Applied Maths | Modeling in Maths-Bio
+    5430-5470 | Complex Variables | PDEs and Integral Equations
+    5440-5450 | Applied Analysis 1 | Applied Analysis 2
+    5460-5470 | Dynamical Systems  | PDEs and Integral Equations
+    5470-5480 | PDEs and Integral Equations | Approximation Methods
+    5520-5540 | Intro to Stats | Intro to Time Series
+    5520-5560 | Intro to Stats | Markov Processes
+    5600-5610 | Numerical Analysis 1 | Numerical Analysis 2
+    5590-5380 | Statistical Modeling | Modeling in Applied Maths
+    5590-5520 | Statistical Modeling | Intro to Stats
+    5590-5540 | Statistical Modeling | Intro to Time Series
+    5590-5560 | Statistical Modeling | Markov Processes
+    5590-5580 | Statistical Modeling | Statistical Software
+
+- CSCI
+
+    - [Theory Seminar](https://www.colorado.edu/cs-theory/theory-seminar)
+    - [@bouldertheory](https://twitter.com/bouldertheory)
+    - [CS core courses](https://www.colorado.edu/cs-theory/)
+
+    CSCI | 
+    --- | ---
+    5454 | Algorithms 
+    5444 | Theory of Computation 
+    5654 | Linear and Integer Programming 
+    6564 | Advanced Algorithms 
+    5254 | Convex Optimization
+    7000 | Cryptography and Cryptanalysis 
+
 - PHYS
 
-- CS
+    - [Physics (and related) colloquia](https://www.colorado.edu/physics/events/seminars-and-colloquia)
+    - [PHYS comps 1 courses and electives](https://www.colorado.edu/physics/academics/graduate-students/graduate-course-schedule)
 
-    - [@bouldertheory](https://twitter.com/bouldertheory)
-    - [Theory Seminar]
+    PHYS | 
+    --- | ---
+    5030 | Math Methods 1
+    5040 | Math Methods 2
+    5210 | Mechanics
+    7230 | Stat Mech 1
+    5250 | QM 1
+    5260 | QM 2 
+    7310 | EM 1
+    7320 | EM 2
 
-What's available as far as non-academic mentoring? (To quell whatever delusions I maintain about the size of industry/academic split.)
+### Non-academic mentoring
 
     - NCAR
-    - NIST (see summer NISTPER)
+    - NIST
     - NOAA (tours on Tuesday)
 
-Faculty may be engaged in consulting over the summer; during the academic year it's pure nose-to-book grinding (or [tracking rides on strava](https://www.wired.com/story/strava-heat-map-military-bases-fitness-trackers-privacy/)).
+The maths faculty may be work as "consultants" over the summer (e.g., for cryptography), but during the academic year it's pure nose-to-book grinding (and [tracking rides on strava](https://www.wired.com/story/strava-heat-map-military-bases-fitness-trackers-privacy/)).
 
-Summer internships? REUs?
+### Summer employment options in maths dept
 
 - teach (8 weeks)
 - REU (8 weeks)
-- outside activity
+- outside activity (internship)
+    - see [NIST-PREP](https://www.colorado.edu/physics/nist-prep)
 
-## NSF graduate fellowship
-
-- attend STEMinar
-
-- pitch TDA proposals
-
-    - presenting own ideas
-    - asking for open problems
-
-- application tips
-
-    - to explain the problem/impact
-    - lie out tools to be used in the approach
-
-- what kind of research? 
--
 
 ## just-in-time review
 
 diagnostic exam very useful
-
 timeline with cohort
-
 inquiry based review
 
-## creative outlets
+[“Philip Guo - MIT classes that I have taken”](http://www.pgbovine.net/classes.htm). Retrieved August 11, 2018.
 
-Get used to standing still and comprehending nothing, brute force.
+> - Multivariable Calculus (18.02) 
+> - Differential Equations (18.03) 
+> - Linear Algebra (18.06) 
+> 
+> - Physics I: Mechanics (8.01) 
+> - Physics II: Electricity & Magnetism (8.02)
+> 
+> - Structure and Interpretation of Computer Programs (6.001)
+> - Math for Computer Science (6.042)
 
-- Kate: experimental maths visualizing integer sequences
-- Eric Stade: K12 education
-- Richard Green: social media
 
+### Diagnostic exams in algebra and analysis
 
----
-title: Diagnostic Exams in Algebra and Analysis
-author: Colton Grainger
-date: 2018-04-18
----
+(From 2018-04-18)
 
 Having a comparatively weak undergraduate background, I recognize I need to
 build as much mathematical momentum as possible leading up to my qualifying
@@ -112,7 +185,7 @@ for an initial diagnostic exam in algebra and analysis.
 > semester in which the student passes the Comprehensive Exam, which must happen
 > by the end of the seventh semester.
 
-## Algebra resources
+### Algebra resources
 
 On stack exchange: 
 
@@ -136,7 +209,7 @@ Course”](https://www.extension.harvard.edu/open-learning-initiative/abstract-a
 Harvard Extension School. December 7, 2015. 
 
 
-## Analysis Resources
+### Analysis Resources
 
 On stack exchange:
 
@@ -149,7 +222,7 @@ References:
 - L. Loomis and S. Sternberg[“Advanced Calculus”](http://www.math.harvard.edu/~shlomo/docs/Advanced_Calculus.pdf).
 Retrieved May 1, 2018.
 
-## meta
+### meta
 
 I'm inspired foremost by Michael Pacer, who I understand to have taken up the
 challenge of "producing something of potential worth for others" with gusto in
@@ -202,5 +275,26 @@ One remedy would be to import administrative skill from [Matt
 Might](http://matt.might.net/articles/books-papers-materials-for-graduate-students/).
 
 
-- computational examples?
--
+## Plans to apply for NSF graduate fellowship
+
+- attend STEMinar
+
+- pitch TDA proposals
+
+    - presenting own ideas
+    - asking for open problems
+
+- application tips
+
+    - to explain the problem/impact
+    - lie out tools to be used in the approach
+
+- what kind of research? 
+
+## other creative outlets
+
+Get used to standing still and comprehending nothing, brute force.
+
+- Kate: experimental maths visualizing integer sequences
+- Eric Stade: K12 education
+- Richard Green: social media
