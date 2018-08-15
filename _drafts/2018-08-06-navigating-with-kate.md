@@ -1,11 +1,11 @@
 ---
-title: Navigating CU Boulder Maths
+title: Navigating CU Boulder MATH/CEAS
 author: Colton Grainger
 date: 2018-08-06
 status: notes
 ---
 
-This is my attempt to externalize the [inside baseball](https://en.wikipedia.org/wiki/Inside_baseball_(metaphor)) I've been playing this summer. It's a survey of the engineering colleges and links to materials I'm using for a just-in-time review---prior to getting locked into the maths pillar sequences this fall.
+I survey the Math department, the College of Engineering and Applied Sciences, and link to just-in-time review materials (all before prior to getting locked into the maths pillar sequences this fall)
 
 ## Maths pillar sequences
 
@@ -291,6 +291,35 @@ Might](http://matt.might.net/articles/books-papers-materials-for-graduate-studen
 
 - what kind of research? 
 
+> I just wanted to add a little info about the NSF GRF opportunity.  I
+> encourage students to consider applying (I suggest speaking to your faculty
+> mentor about this).  It is a great honour to receive one and would be
+> valuable in terms of extra research time and flexibility (it would replace
+> teaching as a funding source, and allow travel).
+> 
+> Students who apply must be citizens or permanent residents.  Generally,
+> students can apply only once after they begin their PhD work, either the
+> fall of their first or second year.  The deadline is in mid October, and
+> you need to have 3 letter writers and transcripts organized well before
+> this.
+> 
+> Even more important, you need to submit a research plan.  You can deviate
+> from this plan later (it isn't a contract) but it should give specific
+> problems and specific tools to attack those problems.  Therefore, you
+> almost certainly need a faculty member to help you write the research
+> plan.  This is the main obstacle, but also an opportunity to get to know a
+> potential advisor.  As I said, it doesn't have to be the faculty member you
+> eventually do your thesis with, but it will give you an opportunity to
+> explore possible avenues of research.  The exercise itself is valuable even
+> if the application is not successful.  I encourage faculty to be open to
+> helping with such applications.
+> 
+> Note:  This program is multi-disciplinary, and the design fits well in lab
+> sciences where you have an advisor/topic early.  It doesn't fit the usual
+> mathematical graduate program where students choose an advisor/subject only
+> several years into the program.  The upside is NSF doesn't get as many
+> mathematics applications for this reason.
+ 
 ## other creative outlets
 
 Get used to standing still and comprehending nothing, brute force.
