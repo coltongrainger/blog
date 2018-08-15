@@ -83,7 +83,7 @@ Two ways of getting involved: attend talks (easy) and take courses (have to peti
     - [@bouldertheory](https://twitter.com/bouldertheory)
     - [CS core courses](https://www.colorado.edu/cs-theory/)
 
-    CSCI | 
+    CSCI | course
     --- | ---
     5454 | Algorithms 
     5444 | Theory of Computation 
@@ -97,7 +97,7 @@ Two ways of getting involved: attend talks (easy) and take courses (have to peti
     - [Physics (and related) colloquia](https://www.colorado.edu/physics/events/seminars-and-colloquia)
     - [PHYS comps 1 courses and electives](https://www.colorado.edu/physics/academics/graduate-students/graduate-course-schedule)
 
-    PHYS | 
+    PHYS | course
     --- | ---
     5030 | Math Methods 1
     5040 | Math Methods 2
