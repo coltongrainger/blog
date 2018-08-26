@@ -5,14 +5,13 @@ date: 2018-08-06
 status: notes
 ---
 
-I survey the Math department, the College of Engineering and Applied Sciences, and link to just-in-time review materials (all before prior to getting locked into the maths pillar sequences this fall)
+I survey the Math department, the College of Engineering and Applied Sciences, and link to just-in-time review materials (all before prior to getting locked into the maths pillar sequences this fall).
 
 ## Maths pillar sequences
 
-
 Disclaimer: this advice is relevant to the 2018-19 academic year, and, etc, the reader should check with the department for more authoritative advice. Thanks.
 
-From the department chair, [Kate Stange](http://math.colorado.edu/~kstange/):
+From the department chair, Professor [Kate Stange](http://math.colorado.edu/~kstange/):
 
 > Your main task in your first couple years is the required courses and
 > prelim exams.  There are three main fall/spring sequences offered each year:
@@ -51,6 +50,8 @@ From the department chair, [Kate Stange](http://math.colorado.edu/~kstange/):
 > are sometimes aimed at undergraduates and graduate students from other
 > departments.  Please ask the instructor if it's appropriate for Math PhD
 > students.
+
+- [UPenn Year-by-year](https://www.math.upenn.edu/graduate/yearbyyear)
 
 ## Collaboration with applied maths, CS, and physics
 

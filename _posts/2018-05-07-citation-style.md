@@ -3,7 +3,7 @@ title: Citation Style
 author: Colton Grainger
 date: 2018-05-07
 status: notes
-mathjax: true
+math: true
 ---
 
 To collect my thoughts on citation styles in different contexts. I'll list the places where I want to cite effectively (and quickly!).
