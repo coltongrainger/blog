@@ -3,9 +3,10 @@ title: Navigating CU Boulder
 author: Colton Grainger
 date: 2018-08-06
 status: notes
+toc: true
 ---
 
-My survey of curriculum for first year PhD students in the maths department at CU Boulder, looking at cousin disciplines (e.g., applied maths, physics, computer science) and other Universities' departmental rites of passage between undergrad coursework and doctoral research.
+My survey of curriculum for first year PhD students in the maths department at CU Boulder, looking at cousin disciplines (applied maths, physics, computer science) and other universities.
 
 ## Collaboration with applied maths, CS, and physics
 
@@ -39,7 +40,7 @@ I decided not to take any outside courses, but will certainly attend the [StatOp
 - CSCI
 
     - [Theory Seminar](https://www.colorado.edu/cs-theory/theory-seminar)
-    - [@bouldertheory](https://twitter.com/bouldertheory)
+    - [`@bouldertheory`](https://twitter.com/bouldertheory)
     - [CS core courses](https://www.colorado.edu/cs-theory/)
 
     CSCI | course
@@ -100,7 +101,7 @@ I did have to read around other university's departmental webpages to settle my 
 
 Disclaimer! This advice is relevant to the 2018-19 academic year, and, etc., the reader should contact the department for up-to-date and authoritative guidance.
 
-From [Kate Stange](http://math.colorado.edu/~kstange/):
+From [Kate Stange](http://math.colorado.edu/~kstange/)
 
 > Your main task in your first couple years is the required courses and prelim exams.  There are three main fall/spring sequences offered each year:
 > 
@@ -176,7 +177,7 @@ By hyping myself up with the correct ambition (that is, a *high* ambition) and i
 
 Anyways, the motivation is there. Why race through the preliminary exams? "Because it may come in useful when [I] am doing research."
 
-Two examples from Körner's [unofficial guide to Part III](http://www.dpmms.cam.ac.uk/~twk/PartIII.pdf):
+Two examples from Körner's [unofficial guide to Part III](http://www.dpmms.cam.ac.uk/~twk/PartIII.pdf)
 
 > Most people who come to do Part III enjoy it (not all the time, it is very hard course) and are glad they came. However, each year we get a some students who discover that Part III is not at all what they expected or want. Here are some points that you may wish to bear in mind. Purpose We view Part III as a preparation for a PhD. If you are only interested in doing another year of mathematics you may well find the course too intense and too specialised. The answer to ‘Why are we doing this’ will often be ‘Because it may come in useful when you are doing research’.
 >
@@ -205,7 +206,7 @@ More from Professor Körner.
 
 ## Applying for an NSF graduate fellowship
 
-Again from Prof Stange:
+Again from Prof Stange
 
 > I just wanted to add a little info about the NSF GRF opportunity.  I encourage students to consider applying (I suggest speaking to your faculty mentor about this).  It is a great honour to receive one and would be valuable in terms of extra research time and flexibility (it would replace teaching as a funding source, and allow travel).
 > 
@@ -231,7 +232,7 @@ Again from Prof Stange:
 
 I appreciate `mpacers`'s gusto and tactile sensibility in choosing to treat his preparations for Berkeley's qualifying exams as experimental science, and log reading responses in a collection of 19 field notebooks.
 
-From [“Explaining this collection”](https://mpacer.org/explaining-this-collection/):
+From [“Explaining this collection”](https://mpacer.org/explaining-this-collection/)
 
 > Knowing myself, I knew that I would be more motivated by the idea of producing something that is of potential worth for others than I would be by the mere prospect of perfunctorily checking a bureaucrats' box. However important it may be, filling forms, checking those boxes has never been a particularly appealing prospect.My secret assumption has always been that everyone agrees with me (even the stuffy bureaucrats), but that others are better able to see past the grid into which they are placing themselves to the real purpose of whatever exercise is being conducted. I make the assumption of my own myopathy before I assume that the world truly revels in forcing people to do things that have a tenuous relation to what matters in the long run.
 
