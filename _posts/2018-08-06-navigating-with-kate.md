@@ -3,10 +3,9 @@ title: Navigating CU Boulder
 author: Colton Grainger
 date: 2018-08-06
 status: notes
-toc: true
 ---
 
-My survey of curriculum for first year PhD students in the maths department at CU Boulder, looking at cousin disciplines (applied maths, physics, computer science) and other universities.
+A survey of curriculum for first year PhD students in the maths department at CU Boulder, looking at cousin disciplines (applied maths, physics, computer science) and other universities.
 
 ## Collaboration with applied maths, CS, and physics
 
