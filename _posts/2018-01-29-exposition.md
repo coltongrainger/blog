@@ -33,6 +33,7 @@ I recently got into the metaphor: "research-debt is poorly laid out mountain tra
 - [Economics of scientific collaboration](http://michaelnielsen.org/blog/the-economics-of-scientific-collaboration/)
 - [Towards an exploratory medium for mathematics](http://cognitivemedium.com/emm/emm.html)
 - [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](https://www.dartmouth.edu/~matc/MathDrama/reading/Wigner.html)
+- [ProofWiki style guide](https://proofwiki.org/wiki/Help:Editing/House_Style)
 
 ## meta
 
