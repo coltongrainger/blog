@@ -1,7 +1,6 @@
 ---
 title: archive
-permalink: archive
-order: 2
+order: 1
 ---
 
 {% for post in site.posts %}
