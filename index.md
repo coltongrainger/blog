@@ -1,14 +1,9 @@
 ---
-title: latest
-order: 1
+title: archive
+permalink: archive
+order: 2
 ---
 
-{% for post in site.posts limit:3 %}
-
+{% for post in site.posts %}
 `{{ post.date | date: "%Y-%m-%d" }}` [{{ post.title }}]({{ post.url }})
-
- {{ post.excerpt }}
-
 {% endfor %}
-
-[older posts](/archive)
