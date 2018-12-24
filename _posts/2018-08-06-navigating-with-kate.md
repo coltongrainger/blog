@@ -247,4 +247,4 @@ From [“Productivity”](http://blog.samaltman.com/productivity). Sam Altman. R
 
 I also wrote [one-sided-scan.sh](https://github.com/coltongrainger/dotfiles/blob/master/.local/bin/scripts/one-sided-scan.sh) and a corresponding two sided option to handle the scanning and chronological sorting of notes.[^ape] 
 
-[^ape]: If I'm going to ape Pacer, I want the records to *look good* after the fact. I decided on monochrome scans at 300dpi, be named by their ISO date. I have [TMSU](https://tmsu.org) if I really want to tag the files.
+[^ape]: If I'm going to ape Pacer, I want the records to *look good* after the fact. I decided on monochrome scans at 300dpi, be named by their ISO date. ~~I have [TMSU](https://tmsu.org) if I really want to tag the files.~~
