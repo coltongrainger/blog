@@ -1,5 +1,5 @@
 ---
-title: archive
+title: blog
 order: 1
 ---
 
