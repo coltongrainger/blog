@@ -92,7 +92,7 @@ A few options:
 My initial and (after much deliberation, revision, and subsequent vacillation) final course load for Fall 2018 is comprised of 3 pillar courses at the 6000-level
 
 - Algebra 1
-- ~~Analysis 1~~ (actually, ended up dropped it,
+- ~~Analysis 1~~ (took SOML for credit instead)
 - Topology 1
 
 I did have to read around other university's departmental webpages to settle my decision for what courses to take as a 1st year graduate student. Here's the digest.
