@@ -2,6 +2,7 @@
 title: Navigating CU Boulder
 author: Colton Grainger
 date: 2018-08-06
+revised: 2019-01-18
 status: notes
 ---
 
@@ -9,7 +10,7 @@ A survey of curriculum for first year PhD students in the maths department at CU
 
 ## Collaboration with applied maths, CS, and physics
 
-I see two ways of getting involved. I could attend talks (this is easy) and/or take courses (this would be hard, as I'd have to petition and the courses re outside my focus).
+I see two ways of getting involved. I could attend talks (this is easy) and/or take courses (this would be hard, as I'd have to petition and the courses are outside my focus).
 
 I decided not to take any outside courses, but will certainly attend the [StatOptML](https://sites.google.com/colorado.edu/statoptml/) seminar and the [physics colloquium](https://www.colorado.edu/physics/events/seminars-and-colloquia).
 
@@ -91,7 +92,7 @@ A few options:
 My initial and (after much deliberation, revision, and subsequent vacillation) final course load for Fall 2018 is comprised of 3 pillar courses at the 6000-level
 
 - Algebra 1
-- Analysis 1
+- ~~Analysis 1~~ (actually, ended up dropped it,
 - Topology 1
 
 I did have to read around other university's departmental webpages to settle my decision for what courses to take as a 1st year graduate student. Here's the digest.
@@ -124,25 +125,9 @@ From [Kate Stange](http://math.colorado.edu/~kstange/)
 > 
 > As far as electives go, just a note:  cross-listed 5000/4000 level courses are sometimes aimed at undergraduates and graduate students from other departments.  Please ask the instructor if it's appropriate for Math PhD students.
 
-### UPenn 
-
-[“Graduate Program Year-by-Year, Department of Mathematics”](https://www.math.upenn.edu/graduate/yearbyyear). Retrieved August 27, 2018. 
-
-> Fully-supported Ph.D. students ordinarily receive a fellowship in their first year, during which they have no teaching responsibilities and may take four courses.
-> 
-> Upon arrival in the Ph.D. program, new students take the Masters Preliminary Exam on key undergraduate mathematics; this serves as a placement exam. Those who pass the exam ordinarily take the beginning Ph.D. level courses in algebra (Math 602/603), analysis (Math 608/609), geometry-topology (Math 600/601), and an elective. (Exception: Those who enter with a more advanced background have an opportunity to place out of the beginning courses, and instead to move on to more advanced courses.)
-> 
-> Those students who do not pass the Masters Preliminary Exam upon arrival will ordinarily take the Masters Proseminar (Math 504/505), and possibly one or more of the masters level courses in algebra (Math 502/503), analysis (Math 509/509), and geometry-topology (Math 500/501), instead of the corresponding 600-level courses. These students need to pass the prelim by the end of their first year, to demonstrate their ability to move on to more advanced material.
-> 
-> Students whose native language is not English need to demonstrate their ability to communicate in English, during their first year. Those who cannot do so satisfactorily upon entry will take a special course in their first semester, designed to help them improve their English communication skills.
-> 
-> In addition to attending their courses, first year students are encouraged to attend the Math Department Colloquium, where mathematicians from other universities speak on topics of general mathematical interest, and also the Friday Pizza Seminar, where grad students give the talks and only grad students attend (and during which the Math Department provides pizza and drinks).
-> 
-> Typically first year students spend most of the following summer at Penn, and receive an additional fellowship stipend from the Math Department (with no teaching responsibilities) to enable them to pursue further studies.
-
 ### Northwestern
 
-Aside: Unlike UPenn (and UChicago, etc.) 1st year students are not (generally) protected from teaching responsibilities. Such is the situation at CU Boulder.
+Aside: Unlike UPenn 1st year students are not (generally) protected from teaching responsibilities. Such is the situation at CU Boulder.
 
 [“Teaching Policy: Department of Mathematics - Northwestern University”](https://www.math.northwestern.edu/graduate/handbook/teaching-policy.html). Retrieved August 27, 2018.
 
@@ -166,23 +151,40 @@ Aside: Unlike UPenn (and UChicago, etc.) 1st year students are not (generally) p
 > 
 > - An award is offered at the end of each academic year to the student who has achieved the best performance in the Preliminary Examination. The award is accompanied by a monetary prize.
 
+### UPenn 
+
+[“Graduate Program Year-by-Year, Department of Mathematics”](https://www.math.upenn.edu/graduate/yearbyyear). Retrieved August 27, 2018. 
+
+> Fully-supported Ph.D. students ordinarily receive a fellowship in their first year, during which they have no teaching responsibilities and may take four courses.
+> 
+> Upon arrival in the Ph.D. program, new students take the Masters Preliminary Exam on key undergraduate mathematics; this serves as a placement exam. Those who pass the exam ordinarily take the beginning Ph.D. level courses in algebra (Math 602/603), analysis (Math 608/609), geometry-topology (Math 600/601), and an elective. (Exception: Those who enter with a more advanced background have an opportunity to place out of the beginning courses, and instead to move on to more advanced courses.)
+> 
+> Those students who do not pass the Masters Preliminary Exam upon arrival will ordinarily take the Masters Proseminar (Math 504/505), and possibly one or more of the masters level courses in algebra (Math 502/503), analysis (Math 509/509), and geometry-topology (Math 500/501), instead of the corresponding 600-level courses. These students need to pass the prelim by the end of their first year, to demonstrate their ability to move on to more advanced material.
+> 
+> Students whose native language is not English need to demonstrate their ability to communicate in English, during their first year. Those who cannot do so satisfactorily upon entry will take a special course in their first semester, designed to help them improve their English communication skills.
+> 
+> In addition to attending their courses, first year students are encouraged to attend the Math Department Colloquium, where mathematicians from other universities speak on topics of general mathematical interest, and also the Friday Pizza Seminar, where grad students give the talks and only grad students attend (and during which the Math Department provides pizza and drinks).
+> 
+> Typically first year students spend most of the following summer at Penn, and receive an additional fellowship stipend from the Math Department (with no teaching responsibilities) to enable them to pursue further studies.
+
 ### Tripos Part III (CASM)
 
 Part III of the Cambridge Mathematical Tripos sets some of the "most most selective" standards for passage into research level mathematics.
 
 It's quite possible to reverse engineer a 1st year PhD course load by isolating Part III courses of interest, then seeking out their Part I and II prerequisites. See particularly the [Schedules](https://www.maths.cam.ac.uk/undergrad/course/schedules.pdf) and Form of Examinations for the Mathematical Tripos from [“Undergraduate Mathematics: Course Information”](https://www.maths.cam.ac.uk/undergrad/course). September 23, 2015.)
 
-By hyping myself up with the correct ambition (that is, a *high* ambition) and imagining that I am just finishing Part II and preparing to enter Part III, I think it's feasible for me to alight on the more realistic goal of finishing each of CU Boulder's preliminary exams with an unconditional pass.
+Hyping myself up with *high* ambition by imagining that I am just finishing ~~Part II~~ Part I, more realistically, and preparing to enter ~~Part III~~ Part II, I think it's feasible for me to alight on the goal of ~~finishing each of CU Boulder's preliminary exams with an unconditional pass~~ passing the prelim exams in 1 year, and completing the pillar courses in 2 years.
 
-Anyways, the motivation is there. Why race through the preliminary exams? "Because it may come in useful when [I] am doing research."
+Anyways, the motivation is there. Why race through the preliminary exams? "Because it may come in useful later." Who knew?
 
-Two examples from Körner's [unofficial guide to Part III](http://www.dpmms.cam.ac.uk/~twk/PartIII.pdf)
+Some (more) ambitious commentary from Körner's [unofficial guide to Part III](http://www.dpmms.cam.ac.uk/~twk/PartIII.pdf)
 
 > Most people who come to do Part III enjoy it (not all the time, it is very hard course) and are glad they came. However, each year we get a some students who discover that Part III is not at all what they expected or want. Here are some points that you may wish to bear in mind. Purpose We view Part III as a preparation for a PhD. If you are only interested in doing another year of mathematics you may well find the course too intense and too specialised. The answer to ‘Why are we doing this’ will often be ‘Because it may come in useful when you are doing research’.
 >
 > I said earlier that it does not matter if you do not know a particular theorem or fact which your lecturer makes use of since the lecturer will be happy to help. It does, however, matter if you do not have the same kind of background as the rest of your class. The Cambridge students in your class will have followed courses whose syllabuses (and examination papers for the last few years) are given on the Faculty web site. Typically, they will have good control over all the courses in Part 1A, all the appropriate courses in Part 1B (that is the pure courses for pure students and the applied course for the applied students) and about six course in Part II. Thus, for example, if you attend a course in Quantum Mechanics the Cambridge students may have done 56 hours of courses. If you have done 40 hours and different topics you will probably still have the kind of general background required but, if you have only done one course of 24 hours, then the gap may be too great. 
 >
 > The lecturer’s Part III syllabus will often give prerequisites in sufficient detail to enable you to see whether you can tackle them. Frequently these show that some undergraduate course is not required. For example, there are undergraduate courses in General Relativity and Differential Geometry but the corresponding Part III courses often start from scratch. You should, however, expect such course to go quite fast and some general preliminary reading would be useful. 
+>
 > Most people are prepared to accept that Part III is a very hard course and that they will have to work very hard once it starts. It is also helpful to work quite hard before it starts. It is a good idea to discuss the Part III courses you intend to take with your present professors and ask their advice on preliminary reading. If you have a choice of final year courses, choose the ones which are most appropriate for your future plans.
 >
 > Look at the old Cambridge Part II papers in the topics you intend to pursue and work through some of the questions. (Note that you are not preparing for an exam. Do the questions slowly, consulting the appropriate textbooks and thinking about the questions after you have done them.) If, in spite of your good intentions, you find that you are not doing as much as you should, remember that some preparation is better than none and persevere.
