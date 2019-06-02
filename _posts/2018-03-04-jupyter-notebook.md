@@ -4,9 +4,9 @@ author: Colton Grainger
 revised: 2018-07-16
 ---
 
-*Update: while notebooks usefully package code, kernel, and exposition, putting content into the `ipynb` qua `json` format is the last step in my workflow.*
+*Update: while notebooks usefully package code, kernel, and exposition, putting content into the `ipynb` qua `json` format is (or should be) the last step in my workflow.*
 
-Why? Rather than tooling around in a browser, I prefer to open a Jupyter Qt-console, load a data set (which, thanks to the IPython kernel, will stay "hot in RAM"[^hot]), draft functions in vim, then `%run -i` to bring the defined functions into the kernel. I only create a `*ipynb` file (i) when I am certain I can generalize my sequence of transformations of the data, and (ii) when I am satisfied that the data set is exemplar to lead into exposition. Finally, thanks to [ipynb_notedown](https://github.com/goerz/ipynb_notedown.vim), I can polish my argument in markdown.
+Why? Rather than tooling around in a browser, I prefer to open a Jupyter Qt-console^[Always a nightmare to setup. Presently, I have qtconsole installed at `$HOME/.local/lib/python3.7/site-packages/qtconsole`. For whatever reason, I usually forget this, then install qtconsole for python 2.7 or python 3.6, then get stuck with cryptic error messages.], load a data set (which, thanks to the IPython kernel, will stay "hot in RAM"[^hot]), draft functions in vim, then `%run -i` to bring the defined functions into the kernel. I only create a `*ipynb` file (i) when I am certain I can generalize my sequence of transformations of the data, and (ii) when I am satisfied that the data set is exemplar to lead into exposition. Finally, thanks to [ipynb_notedown](https://github.com/goerz/ipynb_notedown.vim), I can polish my argument in markdown.
 
 [^hot]: [“Philip Guo - PG Vlog #145 - Python + R Data Analysis Setup”](http://pgbovine.net/PG-Vlog-145-python-r-data-analysis-setup.htm). Retrieved July 16, 2018.
 
