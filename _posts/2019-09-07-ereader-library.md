@@ -8,7 +8,7 @@ revised:
 
 Today, I biked to Longmont, got stood up by a craigslist seller, and decided to buy a Kindle. 
 
-Here's the rooster of pdf files that I'm going to keep on the Kindle.
+Here's the roster of pdf files that I'm going to keep on the Kindle.
 
 - `1965-milnor-topology-from-the-differentiable-viewpoint.pdf`
 - `1974-guillemin-pollack-Differential-Topology.pdf`
