@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>Citation Style (Colton Grainger)</title>
+  
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ], 
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+
+    MathJax.Hub.Queue(function() {
+    // Fix <code> tags after MathJax finishes running. This is a
+    // hack to overcome a shortcoming of Markdown. Discussion at
+    // https://github.com/mojombo/jekyll/issues/199
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js">
+</script>
+
+
+  <style type="text/css">
+    /* License: CC0 */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  font-family: "Fira Sans", sans-serif ;
+  color: #333333 ;
+}
+
+main, footer {
+  line-height: 1.4;
+  margin: auto;
+  max-width: 40rem;
+  text-align: left;
+  width: 93%;
+  word-wrap: break-word;
+}
+
+footer { font-size: 80%; }
+
+nav#site_navigation {
+    font-size: 80%;
+    /* See http://stackoverflow.com/a/324553 ; this ensures that the
+     navigation links (left side) and search bar (right side) play
+     nicely */
+    overflow: hidden;
+}
+
+div#toc {
+    font-size: 80%;
+}
+
+dl#yaml_header_data {
+    font-size: 80%;
+}
+
+h1 { text-transform: uppercase; }
+h2 { border-bottom: 1px solid #ccc; }
+h1, h2, h3, h4, h5, h6 { 
+  font-family: "fira sans", sans-serif ;
+  font-size: 120%;
+  font-weight: normal;
+}
+
+a { color: BlueViolet; text-decoration: none; }
+a:visited { color: #b58900; }
+a:hover, a:active { text-decoration:underline; }
+a.anchorjs-link:hover, a.anchorjs-link:active { text-decoration: none; }
+
+blockquote {
+    border-left: 0.25em solid #ccc;
+    margin: 0px;
+    padding-left: 1.5em;
+}
+
+code {
+    font-family: "Inconsolata",monospace;
+    color: #586e75;
+    background-color: #f6f6f6;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    word-wrap: normal;
+    border-radius: 0.2em;
+}
+
+pre code {
+    display: block;
+    line-height: 1.2;
+    max-height: 400px;
+    overflow: auto;
+    padding: 0.5em;
+}
+
+pre {
+    font-family: inherit;
+    line-height: 1.4;
+}
+
+table {
+    border-bottom: 2px solid #333;
+    border-collapse: collapse;
+    border-top: 2px solid #333;
+    margin: 0px auto; /* center table */
+}
+
+table th {
+    border-bottom: 1px solid #333;
+    font-weight: normal;
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+table td {
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em; 
+}
+
+@media screen and (max-width: 40rem) {
+    html { 
+      font-size: 80%; 
+    }
+    main { 
+      padding-left: 5px ;
+      padding-right: 5px ;
+    }
+    body { 
+      padding: 0px; 
+    }
+}
+
+    .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #586e75;
+}
+.highlight .err {
+  color: #002b36;
+  background-color: #dc322f;
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #657b83;
+}
+.highlight .cp {
+  color: #b58900;
+}
+.highlight .nt {
+  color: #b58900;
+}
+.highlight .o, .highlight .ow {
+  color: #93a1a1;
+}
+.highlight .p, .highlight .pi {
+  color: #93a1a1;
+}
+.highlight .gi {
+  color: #859900;
+}
+.highlight .gd {
+  color: #dc322f;
+}
+.highlight .gh {
+  color: #268bd2;
+  background-color: #002b36;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #6c71c4;
+}
+.highlight .kc {
+  color: #cb4b16;
+}
+.highlight .kt {
+  color: #cb4b16;
+}
+.highlight .kd {
+  color: #cb4b16;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #859900;
+}
+.highlight .sr {
+  color: #2aa198;
+}
+.highlight .si {
+  color: #d33682;
+}
+.highlight .se {
+  color: #d33682;
+}
+.highlight .nn {
+  color: #b58900;
+}
+.highlight .nc {
+  color: #b58900;
+}
+.highlight .no {
+  color: #b58900;
+}
+.highlight .na {
+  color: #268bd2;
+}
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #859900;
+}
+.highlight .ss {
+  color: #859900;
+}
+
+  </style>
+</head>
+
+<body>
+<nav id="site_navigation">
+  <!--
+    See
+      http://stackoverflow.com/questions/37103/css-make-divs-align-horizontally
+    for how the div elements are managed.
+  -->
+   <div style="float:left;">
+     <a href="https://coltongrainger.com">about</a>
+       
+      
+     | <a 
+         
+          href="/">blog</a> 
+      
+     | <a href="https://journal.coltongrainger.com">journal</a>
+     | <a href="https://raw.githubusercontent.com/coltongrainger/blog/master/_posts/2018-05-07-citation-style.md">source</a>
+     | <a href="https://github.com/coltongrainger/blog/commits/master/_posts/2018-05-07-citation-style.md">history</a>
+  </div>
+  <div style="float:right;">
+    <!--
+      See
+        - http://stackoverflow.com/a/13379065/3422337
+        - http://kaspars.net/blog/wordpress/how-to-add-google-site-search
+        - http://www.vanderbilt.edu/searchsupport/code-samples.php
+    -->
+    <form name="google-search" action="https://google.com/search" method="get">
+      <fieldset style="border:0;">
+        <input type="hidden" name="sitesearch" value="https://coltongrainger.com" />
+        <input name="q" type="text" />
+        <input type="submit" name="btnG" value="search" />
+      </fieldset>
+    </form>
+  </div>
+</nav>
+
+  <script src="/assets/js/anchor.min.js"></script>
+  <main>
+
+  <h1> Citation Style </h1>
+  <dl id="yaml_header_data">
+    
+      <dt>date: 2018-05-07</dt>
+    
+
+    
+
+    
+
+    
+      <dt>status: notes</dt>
+    
+  </dl>
+
+  <p>To collect my thoughts on citation styles in different contexts. I’ll list the places where I want to cite effectively (and quickly!).</p>
+
+<ul>
+  <li>pandoc markdown
+    <ul>
+      <li>notes</li>
+      <li>blog posts</li>
+      <li>informal letters</li>
+      <li>problem sets</li>
+    </ul>
+  </li>
+  <li>mediawiki
+    <ul>
+      <li>articles</li>
+    </ul>
+  </li>
+  <li>jupyter notebooks
+    <ul>
+      <li>data wrangling!</li>
+      <li>collaborative computation</li>
+    </ul>
+  </li>
+  <li>twitter
+    <ul>
+      <li><em><a href="https://german.stackexchange.com/questions/36810/sieh-mal-vs-guck-mal">guck mal!</a></em> moments</li>
+      <li>social bookmarks (this site supplants the need to post technical bookmarks on twitter)</li>
+    </ul>
+  </li>
+  <li>$\rm\LaTeX$
+    <ul>
+      <li>curriculum vitae</li>
+      <li>letters</li>
+      <li>syllabi</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="makefile-strategy">makefile strategy</h2>
+
+<p>If I’m citing the same source (e.g. Simon Jones) repeatedly, I’d like just to <code class="highlighter-rouge">[@sjones]</code>, in the <a href="https://github.com/jgm/pandoc-citeproc">pandoc-citeproc</a> style. I’ll need a <code class="highlighter-rouge">.bib</code> bibliography included and also a thorough understanding of the compilation process from whatever plain text source to the desired <code class="highlighter-rouge">.pdf</code> or <code class="highlighter-rouge">.html</code>. I suspect <code class="highlighter-rouge">pandoc-citeproc</code> and <a href="https://citationstyles.org/">CSL citation styles</a>  will become my tools of choice.<sup id="fnref:complex"><a href="#fn:complex" class="footnote">1</a></sup></p>
+
+<p>Kieran Healy models one workflow <a href="https://kieranhealy.org/resources/">here</a>. And I’ve taken the <a href="https://raw.githubusercontent.com/kjhealy/pandoc-templates/master/makefile/Makefile">Makefile</a> (see also <a href="http://plain-text.co/pull-it-together.html">discussion here</a>) from his <a href="https://github.com/kjhealy/pandoc-templates">pandoc-templates repo</a>.</p>
+
+<p>Joseph Reagle gives a stellar example for marking up a curriculum vitae (<a href="http://reagle.org/joseph/2003/cv/cv.md">markdown</a> and corresponding <a href="http://reagle.org/joseph/2003/cv/cv.html">html</a>). Reagle opened two relevant issues (which are interesting forums to read for anyone trying to incorporate <code class="highlighter-rouge">.csl</code> files with a <code class="highlighter-rouge">pandoc-citeproc</code> workflow):</p>
+
+<ol>
+  <li><a href="https://github.com/citation-style-language/styles/issues/1619">Including styles with inline-references (instead of bibliography) for publication lists</a></li>
+  <li><a href="https://github.com/citation-style-language/styles/issues/1619">apa-cv.csl not working with pandoc-citeproc</a></li>
+</ol>
+
+<h2 id="citation-style-languages">citation style languages</h2>
+
+<p>In undergrad, I was comfortable using <a href="https://en.wikipedia.org/wiki/Biber_(LaTeX)">Biber</a> and $\rm\LaTeX$ for papers in the <a href="https://tex.stackexchange.com/questions/30287/get-biblatex-chicago-working">Chicago footnote style</a> and in the <a href="https://tex.stackexchange.com/questions/110515/elsarticle-cls-and-biblatex-incompatibility">elsarticle.cls</a> document class. I never really moved beyond <code class="highlighter-rouge">\footnote{https://math.dartmouth.edu}</code> for references in my mathematics problem sets.</p>
+
+<p>And yes, it seems Chicago (as footnotes or inline author-date) for informal writing and “numeric (or mnemonic), with titles, sorted alphabetically”  for mathematical writing remain the best choices for my intended audience.</p>
+
+<p>There’re also the <a href="https://github.com/citation-style-language/styles/blob/master/ieee.csl">IEEE</a> and ACM proceedings styles, but these are further out of my scope. (Although I
+see the advantage to IEEE in handling mixed media and link rot.)</p>
+
+<p>Now to give examples of different <code class="highlighter-rouge">.csl</code> styles in (approximate) use.</p>
+
+<h3 id="computer-science">computer science</h3>
+
+<dl>
+  <dt><a href="https://github.com/citation-style-language/styles/blob/master/acm-sig-proceedings.csl">acm-sig-proceedings.csl</a></dt>
+  <dd>N. Polikarpova and J Yang et al., <a href="https://arxiv.org/pdf/1607.03445.pdf">Enforcing Information Flow Policies with Type-Targeted Program Synthesis</a> (2018).</dd>
+</dl>
+
+<p>Note that Polikarpova expanded the reference keys to be more legible, which I like quite a bit.</p>
+
+<dl>
+  <dt><a href="https://github.com/citation-style-language/styles/blob/master/acm-sigchi-proceedings.csl">acm-sigchi-proceedings.csl</a></dt>
+  <dd>P. J. Guo, <a href="http://pgbovine.net/publications/non-native-english-speakers-learning-programming_CHI-2018.pdf">Non-Native English Speakers Learning Computer Programming: Barriers, Desires, and Design Opportunities</a> (2018).</dd>
+</dl>
+
+<h3 id="mathematics">mathematics</h3>
+
+<dl>
+  <dt><a href="https://github.com/citation-style-language/styles/blob/master/elsevier-with-titles-alphabetical.csl">elsevier-with-tiles-alphabetical.csl</a> (i.e., numeric)</dt>
+  <dd>T. Tao, <a href="https://arxiv.org/pdf/math/0702396.pdf">What is good mathematics?</a> (2007).</dd>
+  <dt>Mnemonic</dt>
+  <dd>M. Mirzakhani and A. Wright, <a href="https://web.stanford.edu/~amwright/FullRank.pdf">Full Rank Affine Invariant Submanifolds</a> (2018).</dd>
+</dl>
+
+<p>I fear, in general, mnemonic bibliographies are formatted by hand. For example,
+from the front matter of <a href="https://arxiv.org/abs/1801.07530">“[1801.07530] A Guide for Computing Stable Homotopy Groups”</a>, we find</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>% \MRhref is called by the amsart/book/proc definition of \MR.
+\begin{thebibliography}{EKMM97}
+
+\bibitem[Ada58]{adams_cohomology}
+J.~F. Adams, \emph{On the structure and applications of the {S}teenrod
+  algebra}, Comment. Math. Helv. \textbf{32} (1958), 180--214. \MR{0096219}
+
+\bibitem[Ada60]{adams_hopf_inv_one}
+\bysame, \emph{On the non-existence of elements of {H}opf invariant one}, Ann.
+  of Math. (2) \textbf{72} (1960), 20--104. \MR{0141119}
+
+% and so on
+</code></pre>
+</div>
+
+<p>which, unfortunately, matches the colloquial instructions given in math departments and recapitulated here:</p>
+
+<ul>
+  <li><a href="https://faculty.math.illinois.edu/~hildebr/tex/bibliographies.html">LaTeX Tips: Bibliographies</a>. Retrieved May 8, 2018.</li>
+</ul>
+
+<p>Some Definitive Style Guides</p>
+
+<ul>
+  <li><a href="https://www.ams.org/publications/authors/AMS-StyleGuide-print.pdf">AMS Style Guide</a>. Retrieved May 7, 2018.</li>
+  <li><a href="https://www.maa.org/sites/default/files/pdf/pubs/Ref_Guide.pdf">MAA Reference Guide</a>. Retrieved May 7, 2018.</li>
+  <li><a href="https://www.siam.org/journals/pdf/stylemanual.pdf">SIAM Style Manual: For Journals and Books</a>. Retrieved May 8, 2018.</li>
+</ul>
+
+<h2 id="trivia">trivia</h2>
+
+<p><em>But how do I manage my citation collection?</em> <a href="http://www.citeulike.org/">CiteULike</a> subsumes MathSciNet for bibtex records, which is helpful for citing papers across traditional discipline boundaries. (See also <a href="https://tex.stackexchange.com/questions/143/what-are-good-sites-to-find-citations-in-bibtex-format/153">“What are good sites to find citations in BibTex format?”</a>. TeX - LaTeX Stack Exchange. Retrieved May 9, 2018.)</p>
+
+<p><em>Don’t confound file extensions!</em></p>
+
+<ul>
+  <li><code class="highlighter-rouge">.cls</code> for <a href="https://tex.stackexchange.com/questions/7770/file-extensions-related-to-latex-etc">LaTeX document class</a>
+    <ul>
+      <li><a href="https://www.elsevier.com/__data/assets/pdf_file/0008/56843/elsdoc-1.pdf">elsarticle.cls</a></li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">.csl</code> for <a href="https://github.com/citation-style-language/styles">citation style language</a>
+    <ul>
+      <li><a href="https://github.com/jgm/pandoc-citeproc/blob/master/tests/chicago-note-bibliography.csl">chicago-note-bibliography.csl</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="meta">meta</h2>
+
+<p>Isn’t the goal to have internalized key references such that I can just prattle off at the appropriate times?</p>
+
+<p>Not necessarily to have memorized a series of author-dates but rather to <em>be familiar</em> with “the field” or “the canon” such that citations are more akin to introductions? And as with introductions to be mindful of who is getting to know who and the relationship that’s therein forged?</p>
+
+<p>(And also, isn’t it curious that mathematicians are using <code class="highlighter-rouge">\bibitem</code> as opposed to curating a bibliography database? Maybe it’s just one of those inherited quirks, but it also evinces that the mathematical canon, for many professionals, develops much slower than the spit-fire developments in, say, programming language research. I suspect, also, to lower the signal to noise ratio, professional mathematicians might regard parts of the canon as immutable.)</p>
+
+<p>(Aside: Rosoff pointed me to Spivak’s <em>Differential Geometry</em> at a point in my life where the text didn’t make much sense. Still doesn’t, but I now get the reference.)</p>
+
+<p><img src="https://images-na.ssl-images-amazon.com/images/I/91L0KVJjGlL.jpg" alt="spivak-parade" width="100%" /></p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:complex">
+      <p>I imagine I’m going to run into trouble implementing these in gitit.&nbsp;<a href="#fnref:complex" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+  </main>
+
+<footer>
+<p align="right" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  Licensed as 
+  <a href="https://en.wikipedia.org/wiki/Creative%20Commons" title="Wikipedia: Creative Commons">Creative Commons</a> 
+  <a href="http://creativecommons.org/about/cc0">public domain (CC-0)</a> by Colton Grainger.
+</p>
+</footer> <script>
+    anchors.add();
+  </script>
+</body>
+</html>
+

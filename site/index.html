@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>blog (Colton Grainger)</title>
+  
+
+  <style type="text/css">
+    /* License: CC0 */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  font-family: "Fira Sans", sans-serif ;
+  color: #333333 ;
+}
+
+main, footer {
+  line-height: 1.4;
+  margin: auto;
+  max-width: 40rem;
+  text-align: left;
+  width: 93%;
+  word-wrap: break-word;
+}
+
+footer { font-size: 80%; }
+
+nav#site_navigation {
+    font-size: 80%;
+    /* See http://stackoverflow.com/a/324553 ; this ensures that the
+     navigation links (left side) and search bar (right side) play
+     nicely */
+    overflow: hidden;
+}
+
+div#toc {
+    font-size: 80%;
+}
+
+dl#yaml_header_data {
+    font-size: 80%;
+}
+
+h1 { text-transform: uppercase; }
+h2 { border-bottom: 1px solid #ccc; }
+h1, h2, h3, h4, h5, h6 { 
+  font-family: "fira sans", sans-serif ;
+  font-size: 120%;
+  font-weight: normal;
+}
+
+a { color: BlueViolet; text-decoration: none; }
+a:visited { color: #b58900; }
+a:hover, a:active { text-decoration:underline; }
+a.anchorjs-link:hover, a.anchorjs-link:active { text-decoration: none; }
+
+blockquote {
+    border-left: 0.25em solid #ccc;
+    margin: 0px;
+    padding-left: 1.5em;
+}
+
+code {
+    font-family: "Inconsolata",monospace;
+    color: #586e75;
+    background-color: #f6f6f6;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    word-wrap: normal;
+    border-radius: 0.2em;
+}
+
+pre code {
+    display: block;
+    line-height: 1.2;
+    max-height: 400px;
+    overflow: auto;
+    padding: 0.5em;
+}
+
+pre {
+    font-family: inherit;
+    line-height: 1.4;
+}
+
+table {
+    border-bottom: 2px solid #333;
+    border-collapse: collapse;
+    border-top: 2px solid #333;
+    margin: 0px auto; /* center table */
+}
+
+table th {
+    border-bottom: 1px solid #333;
+    font-weight: normal;
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+table td {
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em; 
+}
+
+@media screen and (max-width: 40rem) {
+    html { 
+      font-size: 80%; 
+    }
+    main { 
+      padding-left: 5px ;
+      padding-right: 5px ;
+    }
+    body { 
+      padding: 0px; 
+    }
+}
+
+    .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #586e75;
+}
+.highlight .err {
+  color: #002b36;
+  background-color: #dc322f;
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #657b83;
+}
+.highlight .cp {
+  color: #b58900;
+}
+.highlight .nt {
+  color: #b58900;
+}
+.highlight .o, .highlight .ow {
+  color: #93a1a1;
+}
+.highlight .p, .highlight .pi {
+  color: #93a1a1;
+}
+.highlight .gi {
+  color: #859900;
+}
+.highlight .gd {
+  color: #dc322f;
+}
+.highlight .gh {
+  color: #268bd2;
+  background-color: #002b36;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #6c71c4;
+}
+.highlight .kc {
+  color: #cb4b16;
+}
+.highlight .kt {
+  color: #cb4b16;
+}
+.highlight .kd {
+  color: #cb4b16;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #859900;
+}
+.highlight .sr {
+  color: #2aa198;
+}
+.highlight .si {
+  color: #d33682;
+}
+.highlight .se {
+  color: #d33682;
+}
+.highlight .nn {
+  color: #b58900;
+}
+.highlight .nc {
+  color: #b58900;
+}
+.highlight .no {
+  color: #b58900;
+}
+.highlight .na {
+  color: #268bd2;
+}
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #859900;
+}
+.highlight .ss {
+  color: #859900;
+}
+
+  </style>
+</head>
+
+<body>
+<nav id="site_navigation">
+  <!--
+    See
+      http://stackoverflow.com/questions/37103/css-make-divs-align-horizontally
+    for how the div elements are managed.
+  -->
+   <div style="float:left;">
+     <a href="https://coltongrainger.com">about</a>
+       
+      
+     | <a 
+         
+          style="font-weight:bold" 
+         
+          href="/">blog</a> 
+      
+     | <a href="https://journal.coltongrainger.com">journal</a>
+     | <a href="https://raw.githubusercontent.com/coltongrainger/blog/master/index.md">source</a>
+     | <a href="https://github.com/coltongrainger/blog/commits/master/index.md">history</a>
+  </div>
+  <div style="float:right;">
+    <!--
+      See
+        - http://stackoverflow.com/a/13379065/3422337
+        - http://kaspars.net/blog/wordpress/how-to-add-google-site-search
+        - http://www.vanderbilt.edu/searchsupport/code-samples.php
+    -->
+    <form name="google-search" action="https://google.com/search" method="get">
+      <fieldset style="border:0;">
+        <input type="hidden" name="sitesearch" value="https://coltongrainger.com" />
+        <input name="q" type="text" />
+        <input type="submit" name="btnG" value="search" />
+      </fieldset>
+    </form>
+  </div>
+</nav>
+
+
+  <main>
+
+  
+<p><code class="highlighter-rouge">2018-12-31</code> <a href="/status-and-overhead">Status and Overhead</a></p>
+
+<p><code class="highlighter-rouge">2018-08-06</code> <a href="/navigating-with-kate">Navigating CU Boulder</a></p>
+
+<p><code class="highlighter-rouge">2018-07-28</code> <a href="/three-self-intros">Three self-intros</a></p>
+
+<p><code class="highlighter-rouge">2018-05-19</code> <a href="/android">Android</a></p>
+
+<p><code class="highlighter-rouge">2018-05-07</code> <a href="/citation-style">Citation Style</a></p>
+
+<p><code class="highlighter-rouge">2018-04-02</code> <a href="/prioritizing">Prioritizing problems to work on</a></p>
+
+<p><code class="highlighter-rouge">2018-03-04</code> <a href="/jupyter-notebook">Jupyter Notebook Configuration</a></p>
+
+<p><code class="highlighter-rouge">2018-01-29</code> <a href="/exposition">aids to exposition</a></p>
+
+<p><code class="highlighter-rouge">2018-01-23</code> <a href="/see-also">See also (influences)</a></p>
+
+<p><code class="highlighter-rouge">2018-01-20</code> <a href="/music">Music I’ve been into</a></p>
+
+<p><code class="highlighter-rouge">2018-01-13</code> <a href="/math-428">Numerical Methods</a></p>
+
+<p><code class="highlighter-rouge">2018-01-01</code> <a href="/math-451">Probability Theory</a></p>
+
+<p><code class="highlighter-rouge">2018-01-01</code> <a href="/math-310">Ordinary Differential Equations</a></p>
+
+<p><code class="highlighter-rouge">2018-01-01</code> <a href="/file-taxonomy">Directory Trees and File Taxonomy</a></p>
+
+<p><code class="highlighter-rouge">2017-12-27</code> <a href="/undergrad-paper-trail">Undergrad paper trail</a></p>
+
+<p><code class="highlighter-rouge">2017-12-19</code> <a href="/abandoned-art">Abandoned Art</a></p>
+
+<p><code class="highlighter-rouge">2017-12-03</code> <a href="/content-creation">Content Creation</a></p>
+
+<p><code class="highlighter-rouge">2017-11-28</code> <a href="/personal-statement">Personal statement for grad apps</a></p>
+
+<p><code class="highlighter-rouge">2017-11-25</code> <a href="/security">Security and Data Recovery</a></p>
+
+<p><code class="highlighter-rouge">2017-11-21</code> <a href="/software">Software</a></p>
+
+<p><code class="highlighter-rouge">2017-11-02</code> <a href="/granularity">Case Notes and Granular Categories</a></p>
+
+<p><code class="highlighter-rouge">2017-10-18</code> <a href="/grad-school-survey">Survey of Grad Schools in the Northwest US</a></p>
+
+<p><code class="highlighter-rouge">2017-09-30</code> <a href="/groundwater">moving away from numerical analysis</a></p>
+
+<p><code class="highlighter-rouge">2017-09-27</code> <a href="/stumbleupon">Learning StumbleUpon</a></p>
+
+<p><code class="highlighter-rouge">2017-09-22</code> <a href="/analysis-paralysis">Analysis Paralysis</a></p>
+
+<p><code class="highlighter-rouge">2017-09-17</code> <a href="/richard-hamming">Richard Hamming quotes</a></p>
+
+<p><code class="highlighter-rouge">2017-07-20</code> <a href="/jupyter-notes">Jupyter webinar</a></p>
+
+<p><code class="highlighter-rouge">2017-07-15</code> <a href="/texas-service">Texas Episcopal Service Corps</a></p>
+
+<p><code class="highlighter-rouge">2016-06-15</code> <a href="/journal-keeping">Journal Keeping</a></p>
+
+<p><code class="highlighter-rouge">2015-12-15</code> <a href="/superstition">Superstition</a></p>
+
+<p><code class="highlighter-rouge">2014-05-31</code> <a href="/animal-magnetism">Animal Magnetism</a></p>
+
+
+
+  </main>
+
+<footer>
+<p align="right" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  Licensed as 
+  <a href="https://en.wikipedia.org/wiki/Creative%20Commons" title="Wikipedia: Creative Commons">Creative Commons</a> 
+  <a href="http://creativecommons.org/about/cc0">public domain (CC-0)</a> by Colton Grainger.
+</p>
+</footer> <script>
+    anchors.add();
+  </script>
+</body>
+</html>
+

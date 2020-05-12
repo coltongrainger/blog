@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>Survey of Grad Schools in the Northwest US (Colton Grainger)</title>
+  
+
+  <style type="text/css">
+    /* License: CC0 */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  font-family: "Fira Sans", sans-serif ;
+  color: #333333 ;
+}
+
+main, footer {
+  line-height: 1.4;
+  margin: auto;
+  max-width: 40rem;
+  text-align: left;
+  width: 93%;
+  word-wrap: break-word;
+}
+
+footer { font-size: 80%; }
+
+nav#site_navigation {
+    font-size: 80%;
+    /* See http://stackoverflow.com/a/324553 ; this ensures that the
+     navigation links (left side) and search bar (right side) play
+     nicely */
+    overflow: hidden;
+}
+
+div#toc {
+    font-size: 80%;
+}
+
+dl#yaml_header_data {
+    font-size: 80%;
+}
+
+h1 { text-transform: uppercase; }
+h2 { border-bottom: 1px solid #ccc; }
+h1, h2, h3, h4, h5, h6 { 
+  font-family: "fira sans", sans-serif ;
+  font-size: 120%;
+  font-weight: normal;
+}
+
+a { color: BlueViolet; text-decoration: none; }
+a:visited { color: #b58900; }
+a:hover, a:active { text-decoration:underline; }
+a.anchorjs-link:hover, a.anchorjs-link:active { text-decoration: none; }
+
+blockquote {
+    border-left: 0.25em solid #ccc;
+    margin: 0px;
+    padding-left: 1.5em;
+}
+
+code {
+    font-family: "Inconsolata",monospace;
+    color: #586e75;
+    background-color: #f6f6f6;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    word-wrap: normal;
+    border-radius: 0.2em;
+}
+
+pre code {
+    display: block;
+    line-height: 1.2;
+    max-height: 400px;
+    overflow: auto;
+    padding: 0.5em;
+}
+
+pre {
+    font-family: inherit;
+    line-height: 1.4;
+}
+
+table {
+    border-bottom: 2px solid #333;
+    border-collapse: collapse;
+    border-top: 2px solid #333;
+    margin: 0px auto; /* center table */
+}
+
+table th {
+    border-bottom: 1px solid #333;
+    font-weight: normal;
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+table td {
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em; 
+}
+
+@media screen and (max-width: 40rem) {
+    html { 
+      font-size: 80%; 
+    }
+    main { 
+      padding-left: 5px ;
+      padding-right: 5px ;
+    }
+    body { 
+      padding: 0px; 
+    }
+}
+
+    .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #586e75;
+}
+.highlight .err {
+  color: #002b36;
+  background-color: #dc322f;
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #657b83;
+}
+.highlight .cp {
+  color: #b58900;
+}
+.highlight .nt {
+  color: #b58900;
+}
+.highlight .o, .highlight .ow {
+  color: #93a1a1;
+}
+.highlight .p, .highlight .pi {
+  color: #93a1a1;
+}
+.highlight .gi {
+  color: #859900;
+}
+.highlight .gd {
+  color: #dc322f;
+}
+.highlight .gh {
+  color: #268bd2;
+  background-color: #002b36;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #6c71c4;
+}
+.highlight .kc {
+  color: #cb4b16;
+}
+.highlight .kt {
+  color: #cb4b16;
+}
+.highlight .kd {
+  color: #cb4b16;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #859900;
+}
+.highlight .sr {
+  color: #2aa198;
+}
+.highlight .si {
+  color: #d33682;
+}
+.highlight .se {
+  color: #d33682;
+}
+.highlight .nn {
+  color: #b58900;
+}
+.highlight .nc {
+  color: #b58900;
+}
+.highlight .no {
+  color: #b58900;
+}
+.highlight .na {
+  color: #268bd2;
+}
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #859900;
+}
+.highlight .ss {
+  color: #859900;
+}
+
+  </style>
+</head>
+
+<body>
+<nav id="site_navigation">
+  <!--
+    See
+      http://stackoverflow.com/questions/37103/css-make-divs-align-horizontally
+    for how the div elements are managed.
+  -->
+   <div style="float:left;">
+     <a href="https://coltongrainger.com">about</a>
+       
+      
+     | <a 
+         
+          href="/">blog</a> 
+      
+     | <a href="https://journal.coltongrainger.com">journal</a>
+     | <a href="https://raw.githubusercontent.com/coltongrainger/blog/master/_posts/2017-10-18-grad-school-survey.md">source</a>
+     | <a href="https://github.com/coltongrainger/blog/commits/master/_posts/2017-10-18-grad-school-survey.md">history</a>
+  </div>
+  <div style="float:right;">
+    <!--
+      See
+        - http://stackoverflow.com/a/13379065/3422337
+        - http://kaspars.net/blog/wordpress/how-to-add-google-site-search
+        - http://www.vanderbilt.edu/searchsupport/code-samples.php
+    -->
+    <form name="google-search" action="https://google.com/search" method="get">
+      <fieldset style="border:0;">
+        <input type="hidden" name="sitesearch" value="https://coltongrainger.com" />
+        <input name="q" type="text" />
+        <input type="submit" name="btnG" value="search" />
+      </fieldset>
+    </form>
+  </div>
+</nav>
+
+  <script src="/assets/js/anchor.min.js"></script>
+  <main>
+
+  <h1> Survey of Grad Schools in the Northwest US </h1>
+  <dl id="yaml_header_data">
+    
+      <dt>date: 2017-10-18</dt>
+    
+
+    
+      <dt>revised: 2018-01-15</dt>
+    
+
+    
+
+    
+      <dt>status: finished</dt>
+    
+  </dl>
+
+  <p>My notes on grad schools (all but one in the Northwest US) and their faculty’s
+research. I aim to get a feel for each school’s academic environment, then
+narrow down a list of people I would like to work with. I’ve focused on folks
+involved in computational topology, algebraic topology, and numerical analysis.</p>
+
+<h2 id="cu-boulder">CU Boulder</h2>
+
+<p>Finished speaking with <a href="nikkisanderson.wordpress.com">Nikki Sanderson</a>. Here’s
+the bullet list.</p>
+
+<ul>
+  <li>
+    <p>What’s in a PhD?</p>
+
+    <ul>
+      <li>for Jim Meiss, 2 papers</li>
+      <li>for Liz Bradley, the PhD is an organic experience</li>
+      <li>When do I know that I have done enough work?</li>
+    </ul>
+  </li>
+  <li>members of the research community need to communicate</li>
+  <li>
+    <p>is data science collaborative? not really?</p>
+  </li>
+  <li>
+    <p>dept &amp; cultural differences</p>
+
+    <ul>
+      <li>Nikki has a preprint for a cross-disciplinary intro to TDA: <a href="https://arxiv.org/abs/1708.09359">time series in dynamical systems</a></li>
+    </ul>
+  </li>
+  <li>
+    <p>regarding preliminaries</p>
+
+    <ul>
+      <li>Nikki bulked up on Riemannian Geometry (cool)</li>
+      <li>differential geometry, algebra, topology</li>
+    </ul>
+  </li>
+  <li>
+    <p>after her comprehensive exams she was reading applied topology</p>
+  </li>
+  <li>
+    <p>applications</p>
+
+    <ul>
+      <li>efficient algorithms</li>
+      <li>TDA has different constraints comparatively (it’s not manifold learning)</li>
+      <li><a href="https://youtu.be/GKlcY1bIYDk">image analysis</a> Paul Hand’s introduction</li>
+      <li>materials, mining, etc</li>
+      <li>ice-cap melting</li>
+      <li><a href="https://link.springer.com/chapter/10.1007/978-3-319-30379-6_22">TDA for an environmental application</a></li>
+      <li><a href="http://amath.colorado.edu/faculty/jdm/research.html#Groundwater">Jim’s research in contaminant clean-up</a></li>
+    </ul>
+  </li>
+  <li>
+    <p>collaboration with <a href="https://hessbellwald-lab.epfl.ch/HessBellwald">Kathryn Hess Bellwald</a></p>
+
+    <ul>
+      <li><a href="https://hessbellwald-lab.epfl.ch/publications">publications</a></li>
+      <li>some application to neuro-science, which loops around with potential treatments of MS</li>
+      <li>blue brain project</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="people">People</h3>
+
+<ul>
+  <li><a href="http://amath.colorado.edu/faculty/jdm/">Jim Meiss</a></li>
+  <li><a href="http://www.cs.colorado.edu/~lizb/">Liz Bradley</a></li>
+  <li><a href="https://sites.google.com/view/agnesbeaudry">Agnes Beadury</a></li>
+</ul>
+
+<h2 id="university-of-utah">University of Utah</h2>
+
+<p>Here’s their <a href="https://www.math.utah.edu/research/research_groups.php">research group overview</a>.</p>
+
+<p>My prospective applied research goals could include reducing contaminant dispersion, designing sustainable industrial processes, or promoting biomimicry in architecture.</p>
+
+<p>The <a href="http://www.math.utah.edu/applied-math/">Multiscale Analysis and Computations</a> (MAC) research group contains smaller projects (I assume which depend on funding, faculty and student interest).</p>
+
+<ul>
+  <li><a href="https://www.math.utah.edu/applied-math/na/">numerical analysis and scientific computing</a></li>
+  <li><a href="https://www.math.utah.edu/applied-math/composites/">material sciences</a></li>
+  <li><a href="https://www.math.utah.edu/applied-math/fluids/">fluid dynamics</a></li>
+  <li><a href="https://www.math.utah.edu/applied-math/stochastic/">stochastic computations</a></li>
+  <li>
+    <p><a href="http://www.math.utah.edu/applied-math/seminar/">Applied Maths seminar</a></p>
+
+    <ul>
+      <li>2017 had Stegner’s attempted proof of the Reimann hypothesis (yuck!)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Depending on the culture, I could code PDE solvers (scientific computing).</p>
+
+<ul>
+  <li><a href="http://www.math.utah.edu/~vshankar/">Varun Shankar</a></li>
+  <li><a href="http://www.sci.utah.edu/~akil/research.html">Akil Narayan</a></li>
+</ul>
+
+<p>It seems the math dept works interdisciplinary with computer science and <a href="https://www.math.utah.edu/research/mathbio/">biology</a>.</p>
+
+<ul>
+  <li>e.g., the <a href="http://www.math.utah.edu/~adler/">Alder lab group</a> studies urban ecology</li>
+  <li>understanding complex fluids for biological applications</li>
+</ul>
+
+<p>On the other hand, my abstract research goals could include a better
+understanding of algebraic geometry (e.g., Dynamics, geometry, and the moduli
+space of Riemann surfaces). See both the 
+<a href="https://www.math.utah.edu/agseminar/">Algebraic Geometry seminar</a> 
+(organized by <a href="http://www.math.utah.edu/~honigs/">Katrina Honigs</a>) 
+and the <a href="http://www.math.utah.edu/research/colloquia/">math department colloquium</a>.</p>
+
+<p>From <a href="https://web.stanford.edu/~amwright/">Alex Wright</a>’s <a href="https://www.youtube.com/watch?v=4mY1k4mBi3s">colloquium talk</a></p>
+
+<blockquote>
+  <p>The moduli space of Riemann surfaces of fixed genus is one of the hubs of
+modern mathematics and physics. We will tell the story of how simple sounding
+problems about polygons, some of which arose as toy models in physics, became
+intertwined with problems about the geometry of moduli space, and how the
+study of these problems in Teichmuller dynamics lead to connections with
+homogeneous spaces, algebraic geometry, dynamics, and other areas. The talk
+will mention joint works with Alex Eskin, Simion Filip, Curtis McMullen,
+Maryam Mirzakhani, and Ronen Mukamel.</p>
+</blockquote>
+
+<p>See quora <a href="https://www.quora.com/What-are-the-differences-between-differential-topology-differential-geometry-algebraic-topology-and-algebraic-geometry-In-what-order-does-one-usually-go-about-learning-them">what are the differences between … ?</a> for distinctions between algebraic <em>topology</em> and algebraic <em>geometry</em>. (Note: I loathe quora’s material design. The personal bios on that site freak me out.)</p>
+
+<blockquote>
+  <p>At the most basic level, algebraic geometry is the study of algebraic
+varieties—sets of solutions to polynomial equations. Modern algebraic
+geometry, however, is much wider than this innocent statement seems to imply.
+It is notoriously complex and requires a very deep understanding of a wide
+variety of disciplines and domains.</p>
+
+  <p>However you choose to learn algebraic geometry, you would want to have some
+very, very good grounding in commutative algebra, Galois theory, some number
+theory (especially algebraic number theory), complex function theory,
+category theory, and a serving of algebraic topology wouldn’t hurt. General
+topology is sort-of required; algebraic geometry uses the notion of “Zariski
+topology” but, honestly, this topology is so different from the things most
+analysts and topologists talk about that it’s hard for me to see how a basic
+course in topology would be of any help.</p>
+
+  <p>Don’t let this deter you. Algebraic Geometry is awe-inspiringly beautiful,
+and there do exist more gentle approaches to it than Hartshorne or
+Shafarevich. Fulton’s Algebraic Curves 
+(<a href="http://www.math.lsa.umich.edu/~wfulton/CurveBook.pdf">Page on Umich</a>) 
+is a great starting point.</p>
+</blockquote>
+
+<p>Drew Johnson studied at Utah under Aaron Betram. Drew recommends 
+<a href="http://math.stanford.edu/~vakil/216blog/index.html">Ravi Vakil</a>’s 
+<em>The Rising Sea: Foundations of Algebraic Geometry</em> for introductory notes. 
+Also see the 
+<a href="http://www.math.utah.edu/~filipazz/seminar_fall_2017.html">student algebraic geometry seminar</a>.</p>
+
+<p>The <a href="https://pcmi.ias.edu/">Park City Mathematics Institute</a> is nearby, with relevance to both applied &amp; pure math.</p>
+
+<ul>
+  <li><a href="https://pcmi.ias.edu/archives">yearly archive of topics</a></li>
+  <li><a href="http://bookstore.ams.org/pcms-23/~~FreeAttachments/pcms-23-toc.pdf">2016 lectures: materials</a></li>
+</ul>
+
+<h3 id="people-1">People</h3>
+
+<p>Here’re the applied faculty</p>
+
+<ul>
+  <li><a href="http://www.math.utah.edu/~epshteyn/">Yekaterina Epshteyn</a></li>
+  <li><a href="http://www.math.utah.edu/~choheneg/">Christel Hohenegger</a></li>
+  <li><a href="https://www.math.utah.edu/~fogelson/research.html">Aaron Folgeson</a></li>
+  <li><a href="http://www.math.utah.edu/~cherk/">Andrej Cherkaev</a></li>
+</ul>
+
+<p>Here’re the algebraic geometry faculty</p>
+
+<ul>
+  <li><a href="http://www.math.utah.edu/~yplee/research/#area">Y.P. Lee</a></li>
+  <li><a href="http://www.math.utah.edu/~bertram/">Aaron Betram</a></li>
+  <li><a href="http://www.math.utah.edu/~schwede/">Karl Schwede</a></li>
+  <li><a href="http://www.math.utah.edu/~hacon/">Christopher Hacon</a></li>
+</ul>
+
+<p>And the interdisciplinary folks.</p>
+
+<ul>
+  <li><a href="http://www.sci.utah.edu/~beiwang/">Bei Wang Phillips</a>, in <a href="http://www.sci.utah.edu/~beiwang/teaching/cs6170-spring-2017/Lecture01.pdf">Topological Data Analysis: The Frontier of Data Science</a></li>
+  <li>Matt Might’s ghost echo</li>
+  <li><a href="https://visionlab.ece.utah.edu/">Neda Netagh</a> in computer vision</li>
+</ul>
+
+<h2 id="washington-state-university">Washington State University</h2>
+
+<p>WSU has two campuses, in Pullman and in Vancouver.</p>
+
+<p><a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1661348">NSF grant DBI-1661348</a> funds an <a href="http://tdaphenomics.eecs.wsu.edu/">interdepartmental project</a> to study (tda)<a href="http://tdaphenomics.eecs.wsu.edu/">phenomics</a>. The “deluge” of data associated with <a href="https://news.wsu.edu/2017/08/07/big-data-and-crops/">corn crops</a> motivates “find[ing] possible hypotheses out of a large amount of data, and conduct[ing] tests in a more targeted fashion.”</p>
+
+<p>Not that I love corn.</p>
+
+<ul>
+  <li>PI <a href="http://eecs.wsu.edu/~ananth/">Ananth Kalyanaraman</a> studies “data-intensive problems in computational genomics and proteomics”</li>
+  <li><a href="http://www.sci.utah.edu/~beiwang/">Bei Wang</a> at the University of Utah collaborates for visualization. (Wang studied under <a href="http://pub.ist.ac.at/~edels/">Edelsbrunner</a>.)</li>
+  <li><a href="http://www.math.wsu.edu/math/faculty/bkrishna/">Bala Krishnamoorthy</a> handles the algebraic topology?</li>
+</ul>
+
+<p>Seems like Vancouver has the computational topology classes. I might need to travel to Pullman to start/finish the degree.</p>
+
+<p>Krishnamoorthy also works with “landmarks” to speed up computation. For example, from the abstract of <a href="https://arxiv.org/pdf/1410.3198.pdf">Topological Features in Cancer Gene Expression Data</a>,</p>
+
+<blockquote>
+  <p>Our method selects a small relevant subset from tens of thousands of genes while simultaneously identifying nontrivial higher order topological features, i.e., holes, in the data. We first circumvent the problem of high dimensionality by dualizing the data, i.e., by studying genes as points in the sample space. Then we select a small subset of the genes as <em>landmarks</em> to construct topological structures that capture persistent, i.e., topologically significant, features of the data set in its first homology group.</p>
+</blockquote>
+
+<h3 id="people-2">People</h3>
+
+<ul>
+  <li>
+    <p><a href="http://geometricanalysis.org/KevinVixie">Kevin Vixie</a> (too flashy)</p>
+
+    <ul>
+      <li>runs an <a href="http://geometricanalysis.org/KevinVixie/WSUAnalysisSeminar">analysis seminar</a></li>
+      <li>Vixie advised <a href="http://geometricanalysis.org/SharifIbrahim">Sharif Ibrahim</a>, who’s dissertation addresses <a href="https://arxiv.org/pdf/1408.5954.pdf">geometric measure theory</a> between <a href="https://en.wikipedia.org/wiki/Simplicial_complex">simplical complexes</a></li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="http://www.math.wsu.edu/faculty/tasaki/">Tom Asaki</a></p>
+
+    <ul>
+      <li>works in derivative free optimization</li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="http://www.math.wsu.edu/faculty/schwartz/">Elissa Schwartz</a></p>
+
+    <ul>
+      <li>epidemiology</li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="http://www.math.wsu.edu/faculty/khapala/">Alexander Khapalov</a></p>
+
+    <ul>
+      <li>applied analysis, control theory for linear and nonlinear PDEs</li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="http://www.math.wsu.edu/math/faculty/bkrishna/">Bala Krishnamoorthy</a></p>
+
+    <ul>
+      <li>computational topology</li>
+      <li>completed <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1064600">NSF grant DBI-1064600</a> to develop algorithms for persistent homology</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="university-of-rochester">University of Rochester</h2>
+
+<p>I logged into a question-answer webinar with Jonathan Pakianathan, Professor of Mathematics at the University of Rochester. Here’s the summary.</p>
+
+<p>UR is medium sized private school, 6k undergrad and 4k grad student population. Strengths in optics, music, some film industry. 9 Nobel prizes from alumni/faculty, with Thaler winning the Nobel prize this year for behavioral economics.</p>
+
+<p>The mathematics department has 21 tenure track faculty, with 3 undergrad education permanent staff. It’s a mathematically oriented campus, with 9/10 freshman taking math courses and 1/10 undergrads with a math major. Hence, they offer a full selection of topics in undergrad, which benefits the graduate program in terms of teaching.</p>
+
+<h3 id="research">Research</h3>
+
+<p>Start with the <a href="https://web.math.rochester.edu/research/">research overview</a>. I’ll focus on <a href="https://web.math.rochester.edu/research/analysis/">Analysis</a>, <a href="https://web.math.rochester.edu/research/probability/">Probability</a>, and <a href="https://web.math.rochester.edu/research/topology/">Topology</a>.</p>
+
+<p>Analysis</p>
+
+<ul>
+  <li>
+    <p><a href="https://web.math.rochester.edu/people/faculty/dangeba/">Dan-Andrei Geba</a><sup id="fnref:webmaster"><a href="#fn:webmaster" class="footnote">1</a></sup></p>
+
+    <ul>
+      <li>Partial differential equations, mathematical physics (wave maps, Einstein equations)</li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="http://web.math.rochester.edu/people/faculty/iosevich/cvweb.html#Research">Alex Iosevich</a></p>
+
+    <ul>
+      <li>Harmonic analysis, geometric measure theory, geometric combinatorics, analytic number theory.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Probability</p>
+
+<ul>
+  <li>
+    <p><a href="https://web.math.rochester.edu/people/faculty/akrish11/">Arjun Krishnan</a><sup id="fnref:webmaster:1"><a href="#fn:webmaster" class="footnote">1</a></sup></p>
+
+    <ul>
+      <li>“classical” probability and statistical physics</li>
+      <li><a href="http://web.math.rochester.edu/people/faculty/akrish11//fpp/polymers/2015/10/18/variational-formula.html">probabilistic models for fluid flow through a porous medium</a></li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://web.math.rochester.edu/people/faculty/cmlr/">Carl Mueller</a></p>
+
+    <ul>
+      <li>Ido integrals, stochastic PDEs</li>
+      <li><a href="https://web.math.rochester.edu/people/faculty/cmlr/advice.md">advice column</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Topology (strong in homotopy theory)</p>
+
+<ul>
+  <li>
+    <p>Fred Cohen</p>
+
+    <ul>
+      <li>algebraic topology, specifically homotopy theory.</li>
+      <li>cohomology of groups.</li>
+      <li>braid groups, function spaces, simplicial groups, configuration spaces and interconnections.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Jonathan Pakianathan<sup id="fnref:webmaster:2"><a href="#fn:webmaster" class="footnote">1</a></sup></p>
+
+    <ul>
+      <li>group actions on complexes. cohomology of groups. Lie groups and Lie algebras.</li>
+      <li>Hochschild cohomology of blocks and modular representations. braid groups and configuration spaces.</li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://web.math.rochester.edu/people/faculty/doug/">Doug Ravenel</a></p>
+
+    <ul>
+      <li>algebraic topology specifically problems related to homotopy groups of spheres, the Adams-Novikov spectral sequence, and its connections with number theory.</li>
+      <li><em>Complex Cobordism and Stable Homotopy Groups of Spheres</em></li>
+      <li><em>Nilpotence and Periodicity in Stable Homotopy Theory</em></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="time-line">Time Line</h3>
+
+<p>Most people get a PhD in 5–6 years (4–7 range). There’s  support for 5 years at a 18k stipend with full tuition.</p>
+
+<p>There are 8 required courses (completed by end of Year 2).</p>
+
+<ul>
+  <li>real analysis</li>
+  <li>complex analysis</li>
+  <li>alg I</li>
+  <li>alg II</li>
+  <li>gen topology</li>
+  <li>manifolds</li>
+  <li>alg topology</li>
+  <li>func analysis</li>
+</ul>
+
+<p>I should also attend seminars, develop a research interest, and choose an advisor by the end of Year 2.</p>
+
+<p>After the required courses, faculty randomly offer 5 topic courses each semester.</p>
+
+<p>In Year 3, I should give a qualifying talk about my research interest, then, in Years 4 and 5, complete substantial research towards a dissertation. I’d defend my PhD before a general audience at the end of Year 5.</p>
+
+<h3 id="webinar-questions">Webinar Questions</h3>
+
+<p>Q: Can you explain more about the collaboration between math and CS?</p>
+
+<p>A: Brownian sheets. Computer networks with various connections, build a network. Propagation of problems in computer network.</p>
+
+<p>Q: What applications are the topology group currently working on? Any topological data analysis?</p>
+
+<p>A: Persistent homology was popular. Faculty no longer interested. Many grad students to do joint work with CompSci for TDA. Lizz Maduer, postdoc. A little in flux. No permanent tenure faculty. All interested. Do a little work. Some courses. It would be joint work. New Data Analysis center ==&gt; Data Analysis. Data science.</p>
+
+<p>Q: You mentioned many people in the department doing mathematical physics. To what degree does the mathematics department seek out people with strong physics backgrounds?</p>
+
+<p>A: Many folks move from Physics to Mathematics. Common transition. Surprisingly large number of analysts have backgrounds in physics. Lee Theory &amp; Lee Algebras. Schrodinger Eqns. String theory. Joint work. Strong Icing model &amp; statistical mechanics. Mathematical Physics seminar. No formal connection.</p>
+
+<p>Q: Enrollment requirements?</p>
+
+<p>A:</p>
+
+<ul>
+  <li>.2 on subject GRE</li>
+  <li>.2 on undergrad GPA</li>
+  <li>.2 on recommendations</li>
+  <li>.2 on past experiences in mathematics</li>
+  <li>.2 other (overall application)</li>
+</ul>
+
+<p>Q: Expected background?</p>
+
+<p>A:</p>
+
+<ul>
+  <li>group theory</li>
+  <li>solid calc</li>
+  <li>linear algebra</li>
+  <li>gen topology</li>
+  <li>some analysis</li>
+  <li>basic familiarity for logical analysis &amp; proofs</li>
+  <li>some students admitted with physics</li>
+  <li><em>do take</em> the subject GRE (600 &amp; above)</li>
+</ul>
+
+<p>Q: Some physical intuition?</p>
+
+<p>A: Topology developed separately, but now comes back. Geometry does come from physics, but feeds back?</p>
+
+<p>Q: How many folks apply? How many accepted?</p>
+
+<p>A: Relatively small, 6–8 students accepted. Sometimes, we accept a larger pool.</p>
+
+<p>Q: How about publications on average per PhD student to make a competitive thesis defense?</p>
+
+<p>A: in areas like alg top or alg geometry, you don’t even need <em>one</em>! It’s excepted that the stuff gets written up in a postdoc. (WHAT? This seems like a horrible idea. No iteration?) … The abstract side of the research takes a f-ing long time to learn. OTOH, with combinatorics, it’s good to have at least 2 or 3 publications. Advisors will help. Alg Top has a <em>very high</em> build up (~0 publications). We want at least one paper submitted regarding thesis material for summer prior to graduation. Then the job search is easier (well, duh!).</p>
+
+<p>Q: How often are outside speakers brought in to give talks for the department as a whole on current research topics?</p>
+
+<p>A: Speakers every 2 weeks. 6 seminars, 1 for each research group. 1 monthly colloquium, for larger topics. The Wing lectures in applied mathematics have 4 major speakers each year. Math in industry. Mathematics in Pixar’s animation industry = 2000 folks in auditorium. General applied math in lectures.</p>
+
+<p>Q: How do you consider industry work experience in a technical industry (software development, biotechnology etc.) vs. mathematical research experience in an REU or similar?</p>
+
+<p>A: Experience is pretty good. Industry experience shows initiative. What math REUs are useful? Well, the REUs are directly corresponding. What’s the weighting factor? We like most all experiences.</p>
+
+<p>Q: What about funding for grad students to go to research conferences?</p>
+
+<p>A: Small fund, but the advisors and students can apply for grants. $500 per student per month.</p>
+
+<p>Q: Do you have an idea of what your PhD students end up doing? I’m thinking primarily academia vs industry.</p>
+
+<p>A: look on alumni page. mostly 50/50.</p>
+
+<p>Q: What computer algebra software is incorporated in the undergraduate curriculum? I’m thinking in terms of a TA-ship. Python? SAGE?</p>
+
+<p>A: With regards to CompSci, the math dept only teaches discrete mathematics. However, WebWork was invented at UR. Some students use MATLAB &amp; Mathematica, basically for free. Perl, Python, and Sage are used as needed. For example, we’ll generate fractals with numerical methods. We tend to concentrate more on the mathematics.</p>
+
+<p>Q: What other schools do you see students most commonly collaborating with, if at all? I ask because RIT, where I currently am, loves to promote their relationships with other schools, especially UoR.</p>
+
+<p>A: usually amongst individual folks.</p>
+
+<p>Q: How close do graduate students tend to live to campus and how do they get around?</p>
+
+<p>A: Eastman school of music downtown. We have a free shuttle from main campus to downtown. Most students live on campus. We also have</p>
+
+<p>Q: What is the average ratio of domestic students to international students?</p>
+
+<p>A: It’s 50/50. It used to be further 70/30 international. Students mostly apply from China, India, Japan and Turkey.</p>
+
+<p>Q: In this train of thought, do you have many students from the Buffalo/Rochester area?</p>
+
+<p>A: a few.</p>
+
+<p>Q: Role teaching and TA-ship?</p>
+
+<p>A: If you have the std tuition waiver, 10 hours work/week as a TA or GA. 3 recitations each week. Some grading of exams. Prep for recitations, grading, and teaching/tutoring should come to about 10 hours/week. Folks who get good TA evals can enter good courses earlier. It’s competitive during the semester. It’s important that every grad student gets some teaching exp. Will be scheduled to teach a course <em>in the summer</em>. Summer courses are paid extra 2,800 per summer course (w00t extra money). We require students to have some teaching experience. We actively set each student up. We want to outline a program so that by the time.</p>
+
+<p>Q: How does already having a math MS affect admission chances?</p>
+
+<p>A: Great. Any mathematical Master’s work up to 30 credits will transfer. BTW, you’ll need 90 credits of course work. 4 credits a course. 8 courses. 32 required credits. The rest are from reading courses &amp; seminars. If you’ve already taken real analysis, we could waive it. Additionally, the final exams of the courses of the req are <em>prelims</em>. The prelims are additionally offered. Students need to complete prelims for the req’d subjects. Welcome to sit in for the courses. 6 main courses. 6 exams for the courses to be passed by the end of the 2nd year.</p>
+
+<h2 id="university-of-oregon">University of Oregon</h2>
+
+<h3 id="people-3">People</h3>
+
+<ul>
+  <li>
+    <p><a href="http://pages.uoregon.edu/lipshitz/">Robert Lipshitz</a></p>
+
+    <ul>
+      <li>Geometric Topology</li>
+      <li>Floer homology</li>
+      <li><a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1642067">DMS-1642067</a></li>
+    </ul>
+
+    <blockquote>
+      <p>Heegaard Floer homology is family of invariants of objects studied in
+low-dimensional topology, including closed 3-manifolds, 4-dimensional
+cobordisms, knots and links in 3-manifolds, and contact structures on
+3-manifolds. Bordered Heegaard Floer homology is an extension of Heegaard
+Floer homology to 3-manifolds with boundary, with good gluing properties.
+(Roughly, Heegaard Floer homology forms a (3+1)-dimensional topological
+field theory, and bordered Heegaard Floer homology is a (2+1+1)-dimensional
+extension of this field theory.) This project seeks to further develop
+bordered Heegaard Floer homology. The ultimate goals are to find practical
+ways of computing Heegaard Floer homology (and the Seiberg-Witten
+invariant); an axiomatic characterization of Heegaard Floer theory; and
+variants on Heegaard Floer theory capable of answering other topological
+questions.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><a href="http://pages.uoregon.edu/ddugger/">Daniel Dugger</a></p>
+  </li>
+  <li>
+    <p><a href="http://pages.uoregon.edu/sadofsky/">Hal Sadofsky</a></p>
+  </li>
+  <li>
+    <p><a href="http://pages.uoregon.edu/dps">Dev Prakash Sinha</a></p>
+
+    <ul>
+      <li>advised <a href="https://scholarsbank.uoregon.edu/xmlui/handle/1794/20728">Safia Chettih</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="meta">Meta</h2>
+
+<ul>
+  <li><a href="http://pgbovine.net/PG-Podcast-14-Carrie-Cai.htm">Carrie Cai on pivoting into CS after college</a></li>
+</ul>
+<div class="footnotes">
+  <ol>
+    <li id="fn:webmaster">
+      <p>They’re the “page owner” for their research group. (I believe anyone who’s updating a website has already made an serious investment of time to recruit new students).&nbsp;<a href="#fnref:webmaster" class="reversefootnote">&#8617;</a>&nbsp;<a href="#fnref:webmaster:1" class="reversefootnote">&#8617;<sup>2</sup></a>&nbsp;<a href="#fnref:webmaster:2" class="reversefootnote">&#8617;<sup>3</sup></a></p>
+    </li>
+  </ol>
+</div>
+
+
+  </main>
+
+<footer>
+<p align="right" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  Licensed as 
+  <a href="https://en.wikipedia.org/wiki/Creative%20Commons" title="Wikipedia: Creative Commons">Creative Commons</a> 
+  <a href="http://creativecommons.org/about/cc0">public domain (CC-0)</a> by Colton Grainger.
+</p>
+</footer> <script>
+    anchors.add();
+  </script>
+</body>
+</html>
+
