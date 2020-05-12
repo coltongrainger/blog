@@ -32,6 +32,8 @@ nothing. But, in all seriousness, aside from successfully implementing a RESTful
 I would need to "book up", but I could also use:
 `C`, `Java`, and Amazon Web Services.
 
+## notes
+
 [^fair-use]: Gotta give credit where credit is due. Beyond that, I interpret the definition of fair use in [17 U.S. Code Sec. 107](https://www.law.cornell.edu/uscode/text/17/107) rather broadly. 
 
 [^tom]: Tom can be contacted at [tcram@ucar.edu](mailto:tcram@ucar.edu). <https://staff.ucar.edu/users/tcram>.
