@@ -4,13 +4,12 @@ author: Colton Grainger
 date: 2020-05-12
 ---
 
-In light of COVID-19, and, because I want to contribute to a community of creative individuals in my hometown, Boise, I intend to pivot in my career trajectory to take a position at *developing software and manipulating exotic datasets* beginning Summer 2020, rather than returning to graduate school in the Fall.
+In light of COVID-19, and, because I want to contribute to a community of creative individuals in my hometown, Boise, I intend to pivot in my career trajectory to take a engineering-track position *developing software and manipulating exotic datasets*, in lieu of returning to graduate school this Fall.
 
 My immediate qualifications include
 
-1. a year of professional **software engineering** experience at the National Center for Atmospheric Research;
-2. background in **mathematics and data science** that drives me to produce high-quality software; and
-3. domain-specific enthusiasm for exotic data, copyright law and **the distribution of creative works**.
+1. a year of professional **software engineering** experience at the National Center for Atmospheric Research and
+2. background in **mathematics and data science** that drives me to produce high-quality software.
 
 **While I am well-equipped to work independently, I am new to software engineering as a collaborative process.**
 
