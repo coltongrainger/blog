@@ -1,5 +1,5 @@
 ---
-title: "Pivoting into Software Engineering (for employers)"
+title: "Software Engineering Personal Statement (for potential employers)"
 author: Colton Grainger
 date: 2020-05-12
 ---
