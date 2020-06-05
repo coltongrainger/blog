@@ -1,5 +1,5 @@
 ---
-title: "Software Engineering Personal Statement (for potential employers)"
+title: Why Software Engineering?
 author: Colton Grainger
 date: 2020-05-12
 ---
