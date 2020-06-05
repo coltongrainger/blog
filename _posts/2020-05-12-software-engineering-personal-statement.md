@@ -1,10 +1,10 @@
 ---
-title: Software Engineering Personal Statement 
+title: "Pivoting into Software Engineering (for employers)"
 author: Colton Grainger
 date: 2020-05-12
 ---
 
-In light of COVID-19, and, because I want to contribute to a community of creative individuals in my hometown, Boise, I intend to pivot in my career trajectory to take a engineering-track position *developing software and manipulating exotic datasets*, in lieu of returning to graduate school this Fall.
+Because I want to contribute to a community of creative individuals in my hometown, Boise, I intend to pivot in my career trajectory to take a engineering-track position *developing software and manipulating exotic datasets*, rather than returning to graduate school at CU Boulder this Fall.
 
 My immediate qualifications include
 
@@ -23,5 +23,4 @@ For example, I am confident that I could (i) quickly assimilate technical domain
 
 **To be explicit**. A subset of the technical tools I am confident using looks like: 
 `apache`, `bash`, `git`, `debian`, `Excel`, `gcloud`, `pickle`, `MongoDB`, `MySQL`, `nginx`, `numpy`, `pandas`, `PostgreSQL`, `python3`, `scipy`, `statistics`, `SQLAlchemy`, and `unittest`. 
-I would need to "book up", but I could also quickly be proficient in:
-`GAAP`, `SAP`, Amazon Web Services, `Java`, or `C`.
+I would need to "book up", but I could also quickly be proficient with Amazon Web Services, `Java`, or `C` dialects.
