@@ -4,7 +4,7 @@ author: Colton Grainger
 date: 2020-05-12
 ---
 
-Because I want to contribute to a community of creative individuals in my hometown, Boise, I intend to pivot in my career trajectory to take a engineering-track position *developing software and manipulating exotic datasets*, rather than returning to graduate school at CU Boulder this Fall.
+Because I want to contribute to a community of creative individuals in my hometown, Boise, I intend to pivot in my career trajectory to take an engineering position *developing software and manipulating exotic datasets*, rather than returning to graduate school at CU Boulder this Fall.
 
 My immediate qualifications include
 
