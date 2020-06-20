@@ -1,5 +1,5 @@
 ---
-title: Three self-intros
+title: Three Self-Introductions
 author: Colton Grainger
 belief: likely
 ---

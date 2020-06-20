@@ -1,5 +1,5 @@
 ---
-title: Navigating CU Boulder
+title: Navigating Courses at CU Boulder
 author: Colton Grainger
 date: 2018-08-06
 revised: 2019-01-18

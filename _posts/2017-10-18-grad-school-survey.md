@@ -1,5 +1,5 @@
 ---
-title: Survey of Grad Schools in the Northwest US 
+title: Grad Schools in the Western USA
 author: Colton Grainger
 revised: 2018-01-15
 status: finished

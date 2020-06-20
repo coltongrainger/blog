@@ -1,5 +1,5 @@
 ---
-title: Abandoned Art
+title: Art I've Been into
 author: Colton Grainger
 belief: likely
 ---

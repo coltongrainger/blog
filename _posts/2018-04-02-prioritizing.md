@@ -1,5 +1,5 @@
 ---
-title: Prioritizing problems to work on
+title: Prioritizing Problems to Work on
 author: Colton Grainger
 status: notes
 ---

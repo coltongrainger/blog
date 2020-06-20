@@ -1,5 +1,5 @@
 ---
-title: Richard Hamming quotes
+title: Richard Hamming Quotes
 author: Colton Grainger
 ---
 

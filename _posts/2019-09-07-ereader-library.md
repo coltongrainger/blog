@@ -1,5 +1,5 @@
 ---
-title: ereader library
+title: "What's on my Kindle?"
 author: Colton Grainger
 date: 2019-09-07
 revised:

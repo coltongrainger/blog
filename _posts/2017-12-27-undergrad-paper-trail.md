@@ -1,5 +1,5 @@
 ---
-title: Undergrad paper trail
+title: Undergraduate Bibliography
 author: Colton Grainger
 belief: log
 ---

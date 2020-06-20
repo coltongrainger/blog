@@ -1,5 +1,5 @@
 ---
-title: bang expressions on DuckDuckGo
+title: Bang Expressions on DuckDuckGo
 author: Colton Grainger
 date: 2018-08-12
 ---

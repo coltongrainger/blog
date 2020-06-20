@@ -1,5 +1,5 @@
 ---
-title: Directory Trees and File Taxonomy
+title: File Taxonomy
 author: Colton Grainger
 status: notes
 revised: 2018-08-10

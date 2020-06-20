@@ -21,15 +21,6 @@
   -->
    <div style="float:left;">
      <a href="https://coltongrainger.com">about</a>
-      {% assign sorted_pages = site.html_pages | sort:"order" %} 
-      {% for p in sorted_pages %}
-     | <a 
-        {% if p.url == page.url %} 
-          style="font-weight:bold" 
-        {% endif %} 
-          href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a> 
-      {% endfor %}
-     | <a href="https://journal.coltongrainger.com">journal</a>
      | <a href="https://raw.githubusercontent.com/coltongrainger/blog/master/{{ page.path }}">source</a>
      | <a href="https://github.com/coltongrainger/blog/commits/master/{{ page.path }}">history</a>
   </div>

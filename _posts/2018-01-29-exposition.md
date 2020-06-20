@@ -1,5 +1,5 @@
 ---
-title: aids to exposition
+title: Aids to Exposition
 author: Colton Grainger
 status: notes
 belief: plausible 

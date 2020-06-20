@@ -1,5 +1,5 @@
 --- 
-title: moving away from numerical analysis
+title: Survey of Math Research Topics
 author: Colton Grainger 
 revised: 2018-01-16 
 belief: somewhat 

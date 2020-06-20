@@ -1,5 +1,5 @@
 ---
-title: Jupyter webinar
+title: Why Use Jupyter Notebooks?
 author: Colton Grainger
 ---
 

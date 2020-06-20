@@ -1,5 +1,5 @@
 ---
-title: Personal statement for grad apps
+title: Grad School Personal Statement
 author: Colton Grainger
 revised: 2018-03-21
 status: finished
