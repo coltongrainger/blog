@@ -351,9 +351,30 @@ From this summer with Sam.
 
 Visited my folks in Idaho. Stopped going to classes once I got back to Boulder.
 
+
+## 2019-11-07
+
+I am working as a student visitor for [DECS](https://web.archive.org/web/20191221123926/https://staff.ucar.edu/browse/orgs/DECS) at NCAR.
+
+## 2019-10-28
+
+I present on the Research Data Archive's [image repository](https://github.com/coltongrainger/rda-image-archive/) for the [CU STEMinar](https://web.archive.org/save/https://www.colorado.edu/csl/steminar/fall-2019-steminar-schedule).
+
+## 2019-09-24
+
+I present on [Lazard's](http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf) [theorem](http://www.math.harvard.edu/~lurie/252xnotes/Lecture3.pdf) for the [CU topology seminar](https://math.colorado.edu/seminars/?date=2019-09-24).
+
 ## 2020-09-01
 
 Pretty sure I failed some prelims. Opps. Quit vaping.
+
+## 2019-08-25
+
+I am teaching [Math 2510-001 Introduction to Statistics](https://math2510.coltongrainger.com) this fall.
+
+## 2019-07-31
+
+I present [Towards Categorical Metadata](https://www.youtube.com/watch?v=wURNDpfBS4Q) for SIParCS at NCAR.
 
 ## 2019-07-04
 
