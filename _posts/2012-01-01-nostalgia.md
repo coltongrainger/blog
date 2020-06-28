@@ -5,8 +5,6 @@ date: 2012-01-01
 revised: 2020-06-21
 ---
 
-Retroactively moving photos here from tumblr.
-
 ![](attached/2012-tumblr-15.jpg)
 
 ![](attached/2012-tumblr-14.jpg)
