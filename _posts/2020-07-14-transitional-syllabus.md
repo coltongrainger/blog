@@ -93,7 +93,7 @@ This is my adaptation of John Regehr's "wish-list for self-study" (<https://blog
     - <https://jakevdp.github.io/PythonDataScienceHandbook>
 - Graphviz (directed graphs)
     - <https://graphviz.readthedocs.io>
-- \LaTeX's TikZ, Xy-pic (commutative diagrams)
+- $\LaTeX$'s TikZ, Xy-pic (commutative diagrams)
     - <http://presheaf.com>
     - <https://en.wikibooks.org/wiki/LaTeX/Xy-pic>
 
@@ -101,7 +101,7 @@ This is my adaptation of John Regehr's "wish-list for self-study" (<https://blog
 
 - Jupyter notebooks with RISE extension 
     - <https://rise.readthedocs.io>
-- \LaTeX\ beamer package
+- $\LaTeX\ $ beamer package
 - Pandoc
     - <https://pandoc.org/demo/SLIDES>
 
