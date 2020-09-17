@@ -131,9 +131,9 @@ you will see how the full-size keyboard can be concentrated
 ```
 (paraphrased from <https://tex.com.tw/pages/back-to-the-future>)
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/05/TORU_docking_system.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/0/05/TORU_docking_system.jpg){:width="100%"}
 
-![](https://upload.wikimedia.org/wikipedia/commons/b/b9/Wikimania_hackathon_1.JPG)
+![](https://upload.wikimedia.org/wikipedia/commons/b/b9/Wikimania_hackathon_1.JPG){:width="100%"}
 
 ### a windowing system
 
