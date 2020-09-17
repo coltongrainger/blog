@@ -131,6 +131,10 @@ you will see how the full-size keyboard can be concentrated
 ```
 (paraphrased from <https://tex.com.tw/pages/back-to-the-future>)
 
+I just did not realize how totally useless I was using any other keyboard until like a year into painfully operating vim on a MacBook for work. I just don't know where the keys are. Finally, the *most frustrating* aspect of a MacBook is that the *modifier keys* (e.g., alt-b) don't do what they should when I'm editing shell commands! 
+
+Thinkpads are in space! Right now!
+
 ![](https://upload.wikimedia.org/wikipedia/commons/0/05/TORU_docking_system.jpg){:width="100%"}
 
 ![](https://upload.wikimedia.org/wikipedia/commons/b/b9/Wikimania_hackathon_1.JPG){:width="100%"}
