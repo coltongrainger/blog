@@ -2,7 +2,7 @@
 title: Computer Science Transitional Syllabus
 author: Colton Grainger
 date: 2020-07-14
-revised:
+revised: 2020-09-17
 math: true
 ---
 
@@ -39,6 +39,9 @@ This is my adaptation of John Regehr's "wish-list for self-study" (<https://blog
 - bash 
     - <https://wiki.bash-hackers.org>
     - <https://www.seas.upenn.edu/~cis191>
+
+- fish 
+    - <https://jvns.ca/blog/2017/04/23/the-fish-shell-is-awesome/>
 
 ### a generic build system
 
@@ -108,12 +111,41 @@ This is my adaptation of John Regehr's "wish-list for self-study" (<https://blog
 
 ## Secondary Tools
 
+### a programmer's keyboard
+
+```
+not only our dream but also many thinkpad users' dream
+    to be able to use the 7-row keyboard once again
+
+reborn as thinkpad anniversary edition 25
+    but it is just that, the one and only
+
+like the shooting star soared through the darkest night
+    so bright but so short
+
+after using the 7-row keyboard
+    you will see thinkpad's unique insights on keyboards
+
+you will see how the full-size keyboard can be concentrated
+    it has been 1991 days since the beginning
+```
+(paraphrased from <https://tex.com.tw/pages/back-to-the-future>)
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/05/TORU_docking_system.jpg)
+
+![](https://upload.wikimedia.org/wikipedia/commons/b/b9/Wikimania_hackathon_1.JPG)
+
+### a windowing system
+
+- xmonad
+- paperWM
+
 ### a browser language 
 
-- JavaScript/TypeScript (TODO) 
+- JavaScript (TODO) 
     - <https://www.seas.upenn.edu/~cis197/>
 
-### a cloud-based testing service 
+### a CI/CD pipeline
 
 - GitLab (TODO) 
     - <https://docs.gitlab.com>
