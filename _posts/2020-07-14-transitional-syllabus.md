@@ -111,7 +111,7 @@ This is my adaptation of John Regehr's "wish-list for self-study" (<https://blog
 
 ## Secondary Tools
 
-### a programmer's keyboard
+### a refurbished X220 (or T420) thinkpad 
 
 ```
 not only our dream but also many thinkpad users' dream
@@ -131,7 +131,7 @@ you will see how the full-size keyboard can be concentrated
 ```
 (paraphrased from <https://tex.com.tw/pages/back-to-the-future>)
 
-I just did not realize how totally useless I was using any other keyboard until like a year into painfully operating vim on a MacBook for work. I just don't know where the keys are. Finally, the *most frustrating* aspect of a MacBook is that the *modifier keys* (e.g., alt-b) don't do what they should when I'm editing shell commands! 
+I just did not realize how totally useless I was typing on any other keyboard until like a year into painfully operating vim on a MacBook for work. I want a keyboard I can *get mad at!* Perhaps the *most self-destructive* aspect of a MacBook is that the *modifier keys* (e.g., `alt-b`) don't do what they should when I'm editing shell commands!
 
 Thinkpads are in space! Right now!
 
