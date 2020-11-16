@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>Status and Overhead (Colton Grainger)</title>
+  
+
+  <style type="text/css">
+    /* License: CC0 */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  font-family: "Fira Sans", sans-serif ;
+  color: #333333 ;
+}
+
+main, footer {
+  line-height: 1.4;
+  margin: auto;
+  max-width: 40rem;
+  text-align: left;
+  width: 93%;
+  word-wrap: break-word;
+}
+
+footer { font-size: 80%; }
+
+nav#site_navigation {
+    font-size: 80%;
+    /* See http://stackoverflow.com/a/324553 ; this ensures that the
+     navigation links (left side) and search bar (right side) play
+     nicely */
+    overflow: hidden;
+}
+
+div#toc {
+    font-size: 80%;
+}
+
+dl#yaml_header_data {
+    font-size: 80%;
+}
+
+h1 { text-transform: uppercase; }
+h2 { border-bottom: 1px solid #ccc; }
+h1, h2, h3, h4, h5, h6 { 
+  font-family: "fira sans", sans-serif ;
+  font-size: 120%;
+  font-weight: normal;
+}
+
+a { color: BlueViolet; text-decoration: none; }
+a:visited { color: #b58900; }
+a:hover, a:active { text-decoration:underline; }
+a.anchorjs-link:hover, a.anchorjs-link:active { text-decoration: none; }
+
+blockquote {
+    border-left: 0.25em solid #ccc;
+    margin: 0px;
+    padding-left: 1.5em;
+}
+
+code {
+    font-family: "Inconsolata",monospace;
+    color: #586e75;
+    background-color: #f6f6f6;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    word-wrap: normal;
+    border-radius: 0.2em;
+}
+
+pre code {
+    display: block;
+    line-height: 1.2;
+    max-height: 400px;
+    overflow: auto;
+    padding: 0.5em;
+}
+
+pre {
+    font-family: inherit;
+    line-height: 1.4;
+}
+
+table {
+    border-bottom: 2px solid #333;
+    border-collapse: collapse;
+    border-top: 2px solid #333;
+    margin: 0px auto; /* center table */
+}
+
+table th {
+    border-bottom: 1px solid #333;
+    font-weight: normal;
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+table td {
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em; 
+}
+
+@media screen and (max-width: 40rem) {
+    html { 
+      font-size: 80%; 
+    }
+    main { 
+      padding-left: 5px ;
+      padding-right: 5px ;
+    }
+    body { 
+      padding: 0px; 
+    }
+}
+
+    .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #586e75;
+}
+.highlight .err {
+  color: #002b36;
+  background-color: #dc322f;
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #657b83;
+}
+.highlight .cp {
+  color: #b58900;
+}
+.highlight .nt {
+  color: #b58900;
+}
+.highlight .o, .highlight .ow {
+  color: #93a1a1;
+}
+.highlight .p, .highlight .pi {
+  color: #93a1a1;
+}
+.highlight .gi {
+  color: #859900;
+}
+.highlight .gd {
+  color: #dc322f;
+}
+.highlight .gh {
+  color: #268bd2;
+  background-color: #002b36;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #6c71c4;
+}
+.highlight .kc {
+  color: #cb4b16;
+}
+.highlight .kt {
+  color: #cb4b16;
+}
+.highlight .kd {
+  color: #cb4b16;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #859900;
+}
+.highlight .sr {
+  color: #2aa198;
+}
+.highlight .si {
+  color: #d33682;
+}
+.highlight .se {
+  color: #d33682;
+}
+.highlight .nn {
+  color: #b58900;
+}
+.highlight .nc {
+  color: #b58900;
+}
+.highlight .no {
+  color: #b58900;
+}
+.highlight .na {
+  color: #268bd2;
+}
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #859900;
+}
+.highlight .ss {
+  color: #859900;
+}
+
+  </style>
+</head>
+
+<body>
+<nav id="site_navigation">
+  <!--
+    See
+      http://stackoverflow.com/questions/37103/css-make-divs-align-horizontally
+    for how the div elements are managed.
+  -->
+   <div style="float:left;">
+     <a href="https://coltongrainger.com">about</a>
+     | <a href="https://raw.githubusercontent.com/coltongrainger/blog/master/_posts/2018-12-31-status-and-overhead.md">source</a>
+     | <a href="https://github.com/coltongrainger/blog/commits/master/_posts/2018-12-31-status-and-overhead.md">history</a>
+  </div>
+  <div style="float:right;">
+    <!--
+      See
+        - http://stackoverflow.com/a/13379065/3422337
+        - http://kaspars.net/blog/wordpress/how-to-add-google-site-search
+        - http://www.vanderbilt.edu/searchsupport/code-samples.php
+    -->
+    <form name="google-search" action="https://google.com/search" method="get">
+      <fieldset style="border:0;">
+        <input type="hidden" name="sitesearch" value="https://coltongrainger.com" />
+        <input name="q" type="text" />
+        <input type="submit" name="btnG" value="search" />
+      </fieldset>
+    </form>
+  </div>
+</nav>
+
+  <script src="/assets/js/anchor.min.js"></script>
+  <main>
+
+  <h1> Status and Overhead </h1>
+  <dl id="yaml_header_data">
+    
+      <dt>date: 2018-12-31</dt>
+    
+
+    
+
+    
+      <dt>belief: <a href = "https://www.gwern.net/About#confidence-tags">emotional</a></dt>
+    
+
+    
+      <dt>status: notes</dt>
+    
+  </dl>
+
+  <p>Since August, I have been overly concerned with status and overhead. I’m taken up with status, I think, because it’s new to me. Prior to Boulder, I was in Olympia, and I didn’t interact with anyone (in person, at least) who actually <em>put me into rank</em>.</p>
+
+<p>I’m newly stressed out by “overhead”: both in the sense of labor-time and in the sense of being plainly confused.</p>
+
+<p>(Perhaps I should have taken more rigorous prerequisite courses? Or exerted myself more diligently over the summer prior to graduate school?)</p>
+
+<p>Here’s a skeleton argument to dismiss both concerns as frivolous and distracting:</p>
+
+<ul>
+  <li>
+    <p>Status</p>
+
+    <ul>
+      <li>It’s just culture shock. Olympia is a backwoods compared to Boulder, and certainly Boulder is a backwoods compared to larger metropolitan areas.</li>
+      <li>It encourages me to over-commit. For example, I botched the neural network podcast. But why did I feel like I should I have gotten involved in the first place?</li>
+      <li>It’s timocratical. Just a love of honor. What sort of motivation is that?</li>
+      <li>It’s foolish. For example, I broke my hand while biking without enough sleep.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Overhead</p>
+
+    <ul>
+      <li>It’s inevitable: I  will always have less technical knowledge than is good for me.</li>
+      <li>It’s easily dealt with by being modest.</li>
+      <li>It’s required. For example, TA-ing is a condition of my studies.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Each of the 5 days before finals I felt decent: I could work all day, I was competing directly with myself, and I wasn’t responsible for new material. I also settled into a paper-based workflow. I carried around a few notebooks with as many practice exams as I needed, and I stopped updating quamash.net.</p>
+
+
+  </main>
+
+<footer>
+<p align="right" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  Licensed as 
+  <a href="https://en.wikipedia.org/wiki/Creative%20Commons" title="Wikipedia: Creative Commons">Creative Commons</a> 
+  <a href="http://creativecommons.org/about/cc0">public domain (CC-0)</a> by Colton Grainger.
+</p>
+</footer> <script>
+    anchors.add();
+  </script>
+</body>
+</html>
+

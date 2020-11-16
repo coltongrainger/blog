@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>Dropping out of Grad School (Colton Grainger)</title>
+  
+
+  <style type="text/css">
+    /* License: CC0 */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  font-family: "Fira Sans", sans-serif ;
+  color: #333333 ;
+}
+
+main, footer {
+  line-height: 1.4;
+  margin: auto;
+  max-width: 40rem;
+  text-align: left;
+  width: 93%;
+  word-wrap: break-word;
+}
+
+footer { font-size: 80%; }
+
+nav#site_navigation {
+    font-size: 80%;
+    /* See http://stackoverflow.com/a/324553 ; this ensures that the
+     navigation links (left side) and search bar (right side) play
+     nicely */
+    overflow: hidden;
+}
+
+div#toc {
+    font-size: 80%;
+}
+
+dl#yaml_header_data {
+    font-size: 80%;
+}
+
+h1 { text-transform: uppercase; }
+h2 { border-bottom: 1px solid #ccc; }
+h1, h2, h3, h4, h5, h6 { 
+  font-family: "fira sans", sans-serif ;
+  font-size: 120%;
+  font-weight: normal;
+}
+
+a { color: BlueViolet; text-decoration: none; }
+a:visited { color: #b58900; }
+a:hover, a:active { text-decoration:underline; }
+a.anchorjs-link:hover, a.anchorjs-link:active { text-decoration: none; }
+
+blockquote {
+    border-left: 0.25em solid #ccc;
+    margin: 0px;
+    padding-left: 1.5em;
+}
+
+code {
+    font-family: "Inconsolata",monospace;
+    color: #586e75;
+    background-color: #f6f6f6;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    word-wrap: normal;
+    border-radius: 0.2em;
+}
+
+pre code {
+    display: block;
+    line-height: 1.2;
+    max-height: 400px;
+    overflow: auto;
+    padding: 0.5em;
+}
+
+pre {
+    font-family: inherit;
+    line-height: 1.4;
+}
+
+table {
+    border-bottom: 2px solid #333;
+    border-collapse: collapse;
+    border-top: 2px solid #333;
+    margin: 0px auto; /* center table */
+}
+
+table th {
+    border-bottom: 1px solid #333;
+    font-weight: normal;
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+table td {
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em; 
+}
+
+@media screen and (max-width: 40rem) {
+    html { 
+      font-size: 80%; 
+    }
+    main { 
+      padding-left: 5px ;
+      padding-right: 5px ;
+    }
+    body { 
+      padding: 0px; 
+    }
+}
+
+    .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #586e75;
+}
+.highlight .err {
+  color: #002b36;
+  background-color: #dc322f;
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #657b83;
+}
+.highlight .cp {
+  color: #b58900;
+}
+.highlight .nt {
+  color: #b58900;
+}
+.highlight .o, .highlight .ow {
+  color: #93a1a1;
+}
+.highlight .p, .highlight .pi {
+  color: #93a1a1;
+}
+.highlight .gi {
+  color: #859900;
+}
+.highlight .gd {
+  color: #dc322f;
+}
+.highlight .gh {
+  color: #268bd2;
+  background-color: #002b36;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #6c71c4;
+}
+.highlight .kc {
+  color: #cb4b16;
+}
+.highlight .kt {
+  color: #cb4b16;
+}
+.highlight .kd {
+  color: #cb4b16;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #859900;
+}
+.highlight .sr {
+  color: #2aa198;
+}
+.highlight .si {
+  color: #d33682;
+}
+.highlight .se {
+  color: #d33682;
+}
+.highlight .nn {
+  color: #b58900;
+}
+.highlight .nc {
+  color: #b58900;
+}
+.highlight .no {
+  color: #b58900;
+}
+.highlight .na {
+  color: #268bd2;
+}
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #859900;
+}
+.highlight .ss {
+  color: #859900;
+}
+
+  </style>
+</head>
+
+<body>
+<nav id="site_navigation">
+  <!--
+    See
+      http://stackoverflow.com/questions/37103/css-make-divs-align-horizontally
+    for how the div elements are managed.
+  -->
+   <div style="float:left;">
+     <a href="https://coltongrainger.com">about</a>
+     | <a href="https://raw.githubusercontent.com/coltongrainger/blog/master/_posts/2020-06-20-dropping-out-of-grad-school.md">source</a>
+     | <a href="https://github.com/coltongrainger/blog/commits/master/_posts/2020-06-20-dropping-out-of-grad-school.md">history</a>
+  </div>
+  <div style="float:right;">
+    <!--
+      See
+        - http://stackoverflow.com/a/13379065/3422337
+        - http://kaspars.net/blog/wordpress/how-to-add-google-site-search
+        - http://www.vanderbilt.edu/searchsupport/code-samples.php
+    -->
+    <form name="google-search" action="https://google.com/search" method="get">
+      <fieldset style="border:0;">
+        <input type="hidden" name="sitesearch" value="https://coltongrainger.com" />
+        <input name="q" type="text" />
+        <input type="submit" name="btnG" value="search" />
+      </fieldset>
+    </form>
+  </div>
+</nav>
+
+  <script src="/assets/js/anchor.min.js"></script>
+  <main>
+
+  <h1> Dropping out of Grad School </h1>
+  <dl id="yaml_header_data">
+    
+      <dt>date: 2020-06-20</dt>
+    
+
+    
+
+    
+
+    
+      <dt>status: emotional</dt>
+    
+  </dl>
+
+  <h2 id="summary">Summary</h2>
+
+<p>After 1.5 years in CU Boulder’s math PhD program, I had “too many fish to fry” (a conflagration of conflicting commitments!), and signed papers to take an indefinite leave of absence.</p>
+
+<p>I’m glad to have now discerned that, after all, I won’t go back to the math department (as much as I would love to enroll in classes) on a teaching assistantship, because would rather “<a href="https://mariedavidson.bandcamp.com/track/work-it">work to be a winner, baby</a>” by breaking into the world as a “<a href="https://candor.co/">tech professional</a>”.</p>
+
+<p>The following folks were instrumental in helping me realize that I could (and in fact should) pivot in my career trajectory: Agnès, Richard, Peter, Divya, Sam, JQ, Yu.</p>
+
+<p>I don’t really owe anyone an explanation, but since I might later be curious why I’m pivoting, I’ve compiled the following reverse chronological entries from a “working journal” I started in the style of Philip Guo, Issa Rice, and Nadia Egbhal between 0.5 and 2 years’ time in grad school.</p>
+
+<h2 id="2020-05-28">2020-05-28</h2>
+
+<p>Have a phone interview today with <a href="https://www.crunchbase.com/organization/jelli">Jelli</a>.</p>
+
+<p>Following the advice of <a href="https://candor.co/interview-prep/how-to-not-suck-at-behavioral-interviews">https://candor.co/interview-prep/how-to-not-suck-at-behavioral-interviews</a>, I’m preparing answers to the following ten “very basic interview questions that come up all the time”, relative to my application for an entry-level software engineering position at Jelli.</p>
+
+<h2 id="2020-04-20">2020-04-20</h2>
+
+<p>I moved to Boise, Idaho, my hometown, after <a href="https://en.wikipedia.org/wiki/Mescaline">getting the bad idea</a> to leave Olympia and try to live in Tacoma.</p>
+
+<h2 id="2020-03-31">2020-03-31</h2>
+
+<p>Found out yesterday I didn’t get the NSF
+GRF for 2020 (<a href="https://github.com/coltongrainger/fy20nsf">application documents</a>).</p>
+
+<p>Reflecting on this news (rather early in the morning):</p>
+
+<ol>
+  <li>
+    <p>I think have been avoiding certain life tasks for want of superficial reward.</p>
+  </li>
+  <li>
+    <p>Had I gotten the GRF, I would’ve leveraged this funding to exacerbate power struggles in my “vertical” relationships (namely avoiding TA duties), rather than building horizontal relationships (what Alder describes as ‘community feeling’).</p>
+  </li>
+  <li>
+    <p>Now, since I am no longer tied to Boulder, I have freedom to choose where I want to live: and I want to live in Houston, TX.</p>
+  </li>
+</ol>
+
+<p>Here’re sections of texts I read to mull over my (vocational) tasks as distinct from the tasks of others.</p>
+
+<h3 id="tao-te-ching-lyric-9-translated-by-aleister-crowley">Tao Te Ching, lyric 9, translated by Aleister Crowley</h3>
+
+<p>(Originally quoted to me by Dave Spring 2014 after poorly passing Differential Equations.)</p>
+
+<p>Fill not a vessel, lest it spill in carrying. Meddle not with a sharpened point
+by feeling it constantly, or it will soon become blunted.</p>
+
+<p>Gold and jade endanger the house of their possessor. Wealth and honors lead to
+arrogance and envy, and bring ruin. Is they way famous and thy name becoming
+distinguished? Withdraw, thy work once done, into obscurity; this is the way of
+Heaven.</p>
+
+<h3 id="bhagavad-gita-verses-327335-paraphrased-from-edgarton-franklin">Bhagavad Gita, verses 3.27–3.35, paraphrased from Edgarton Franklin</h3>
+
+<p>Material nature’s Strands perform all actions. And one whose soul is deluded by ego imagines: ‘I am the agent behind these actions.’</p>
+
+<p>Yet one who knows the truth, O mighty Arjuna, — ‘The Strands act upon the Strands’ — is not attached to actions.</p>
+
+<p>Bewildered by material nature’s Strands, many attach their Self to these Strands’ actions. But those of complete knowledge cannot disturb these dull folks of incomplete knowledge.</p>
+
+<p>So Arjuna, surrendering all your activities unto Me, fixing your mind on your highest self, being free from longing and selfishness, cast lethargy aside and fight!</p>
+
+<p>Those who follow this doctrine of Mine, full of faith and not murmuring, are released from their karma bondage.</p>
+
+<p>But those who — murmuring against it —  do not follow my doctrine, are deluded in all their knowledge; know that these fools are lost.</p>
+
+<p>One acts according to their own material nature — even the wise — as all beings follow their nature; what can repression accomplish?</p>
+
+<p>Of every sense, upon the objects of that sense, longing and loathing are fixed. But one should not fall under their power, as both are foes.</p>
+
+<p>Better one’s own duty, (tho) imperfect, than another’s duty well performed.
+Better death while performing one’s own duty — another’s duty brings danger.</p>
+
+<h3 id="the-courage-to-be-disliked-page-186-ichiro-kishimi-and-fumitame-koga">The Courage to Be Disliked, page 186, Ichiro Kishimi and Fumitame Koga</h3>
+
+<p>(Recommended to me by Scott this last Winter.)</p>
+
+<p>Youth: But! When one is praised by another person, one becomes truly aware of
+one’s ability and regains one’s courage. Please do not be stubborn about this
+point — just acknowledge the necessity of giving praise.</p>
+
+<p>Philosopher: No, I will not acknowledge that.</p>
+
+<p>Youth: Why not?</p>
+
+<p>Philosopher: The reason is clear. Being praised is what leads people to form the
+belief that they have no ability.</p>
+
+<p>Youth: What did you say?</p>
+
+<p>Philosopher: Shall I repeat myself? The more one is praised by another, the more
+one forms the belief that one has no ability. Please do your best to remember
+this.</p>
+
+<p>Youth: Do such foolish people even exist? It’s got to be the other way around!
+It is as a result of being praised that one becomes truly aware of one’s
+ability: isn’t that obvious?</p>
+
+<p>Philosopher: You are wrong. Even if you do derive joy from being praised, it is
+the same as being dependent on relationships to your perceived superiors, and
+implicitly conceding that you have no ability. Because giving praise is a
+judgement that is passed by a person of ability onto a person without.</p>
+
+<p>Youth: I just cannot agree with that.</p>
+
+<p>Philosopher: When receiving praise becomes one’s goal, one is choosing a way of
+living that is in line with another person’s system of values. Looking at your
+life until now, aren’t you tired of trying to live up to your superior’s
+expectations?</p>
+
+<p>Youth: Um, well, I guess so.</p>
+
+<p>Philosopher: First, do the separation of tasks. Then, while accepting each
+other’s difference, build equal horizontal relationships. Encouragement is the
+approach that comes next.</p>
+
+<p>Youth: So, concretely speaking, how does one go about this? One cannot praise,
+and one cannot rebuke. What other words and choices are there?</p>
+
+<h2 id="2020-03-17">2020-03-17</h2>
+
+<p>Happy belated Pi Day! I have spent the last month or so learning how to “write idiomatic python programs” by studying notes from Jake Vanderplas [@Van16], Wes McKinney [@McK17], Michael Eichberg [@Eic18], John Guttag [@Gut16], and others [@Sha17]. Here’s a bibliography.</p>
+
+<h3 id="project-development">Project Development</h3>
+
+<p>A summary of [@Eic18].</p>
+
+<blockquote>
+  <p>The goal [of these notes] is to enable you to systematically carry out small(er) commercial or open-source software projects.</p>
+</blockquote>
+
+<blockquote>
+  <p>Basic knowledge of object-oriented programming concepts is necessary.</p>
+</blockquote>
+
+<p>A summary of [@Sha17].</p>
+
+<blockquote>
+  <p>Just write down what you think your process is and
+what problems you seem to have. At this stage you might have no idea how you
+work because you aren’t very experienced. To help you I’ve compiled a list of
+questions:</p>
+
+  <ul>
+    <li>Do you tend to make defective code with no idea why?</li>
+    <li>Do you keep piling code on top of code until there’s just a huge mess?</li>
+    <li>Do you get past the first implementation of your project and have no idea how to take it further?</li>
+    <li>Do you feel inferior or like a fraud who will get caught?</li>
+  </ul>
+</blockquote>
+
+<h3 id="idiomatic-python">“Idiomatic” Python</h3>
+
+<p>A summary of [@Gut16].</p>
+
+<blockquote>
+  <p>When you have finished this book you should have […] learned a systematic approach to <em>organizing, writing, and debugging medium-sized programs</em>.</p>
+</blockquote>
+
+<p>A summary of [@Van16].</p>
+
+<blockquote>
+  <p><em>A Whirlwind Tour of Python</em> is a fast-paced introduction to <em>essential features [e.g., errors and exceptions, modules and packages]</em> of the Python language, aimed at researchers and developers who are already familiar with programming in another language.</p>
+</blockquote>
+
+<p>A summary of [@McK17].</p>
+
+<blockquote>
+  <p>This book is concerned with the nuts and bolts of <em>manipulating, processing, cleaning,
+and crunching data in Python.</em> My goal is to offer a guide to the parts of the Python
+programming language and its data-oriented library ecosystem and tools that will
+equip you to become an effective data analyst.</p>
+</blockquote>
+
+<h3 id="pythonic-sql">“Pythonic” SQL</h3>
+
+<p>From the introduction to [@Cop15].</p>
+
+<blockquote>
+  <p>SQL is a powerful language for querying and manipulating data in a database,
+but sometimes it’s tough to integrate it with the rest of your application.
+You may have used string manipulation to generate queries to run over an
+ODBC interface, or used a DB API as a Python programmer. While those can be
+effective ways to handle data, they can make security and database changes
+very difficult.</p>
+
+  <p>This book is about a very powerful and flexible Python library named
+SQLAlchemy that bridges the gap between relational databases and traditional
+programming. While SQLAlchemy allows you to “drop down” into raw SQL to
+execute your queries, it encourages higher-level thinking through a more
+“Pythonic” and friendly approach to database queries and updates. It
+supplies the tools that let you map your application’s classes and objects
+to database tables once and then to “forget about it,” or to return to
+your model again and again to fine-tune performance.</p>
+
+  <p>SQLAlchemy is powerful and flexible, but it can also be a little daunting.
+SQLAlchemy tutorials expose only a fraction of what’s available in this
+excellent library, and though the online documentation is extensive, it is
+often better as a reference than as a way to learn the library initially. This
+book is meant as a learning tool and a handy reference for when you’re in
+“implementation mode” and need an answer fast.</p>
+
+  <p>This book is intended for those who want to learn more about how to use relational
+databases in their Python programs, or have heard about SQLAlchemy and want
+more information on it. To get the most out of this book, the reader should have
+intermediate Python skills and at least moderate exposure to SQL databases. […] If you are new to SQL and databases, check out <em>Learning SQL</em> by Alan
+Beaulieu [@Bea20]. These will fill in any missing gaps as you work through this book.</p>
+</blockquote>
+
+<h2 id="2020-02-05">2020-02-05</h2>
+
+<p>MWE for the image archive. <a href="https://blog.coltongrainger.com/attached/2020-02-05-mwe.tar.gz">https://blog.coltongrainger.com/attached/2020-02-05-mwe.tar.gz</a></p>
+
+<h2 id="2020-01-21">2020-01-21</h2>
+
+<p>In <code class="highlighter-rouge">ncar_pylib</code>, there’s no module <code class="highlighter-rouge">MySQLdb</code> nor module <code class="highlighter-rouge">pymysql</code>. But SQLAlchemy can still connect via the connection string (c.f. <a href="https://docs.sqlalchemy.org/en/13/dialects/mysql.html#module-sqlalchemy.dialects.mysql.mysqlconnector">https://docs.sqlalchemy.org/en/13/dialects/mysql.html#module-sqlalchemy.dialects.mysql.mysqlconnector</a>)</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>mysql+mysqlconnector://&lt;user&gt;:&lt;password&gt;@&lt;host&gt;[:&lt;port&gt;]/&lt;dbname&gt;
+</code></pre>
+</div>
+
+<p>through <code class="highlighter-rouge">mysql-connector</code>, which <em>is</em> available.</p>
+
+<h2 id="2020-01-20">2020-01-20</h2>
+
+<p>At least in <code class="highlighter-rouge">B-tree</code> indexes and in group theory, a “transversal” refers to a unique set of “class” representatives.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>[ad. L. transvers-us turned or directed across, pa. pple. of transvertĕre: see
+transvert. Cf. F. transverse (16th c.).]
+</code></pre>
+</div>
+
+<h2 id="2020-01-18">2020-01-18</h2>
+
+<p>I found Philip’s sample images on the SIParCS google drive and feel like a straight fool for not knowing they were there. I now have 7.4 GB of raw images to use as a test image database.</p>
+
+<p>Moreover, I should also include the logbooks of the USS Jeanette.</p>
+
+<ul>
+  <li><a href="https://research.archives.gov/id/6919191">https://research.archives.gov/id/6919191</a></li>
+  <li><a href="https://research.archives.gov/id/6919192">https://research.archives.gov/id/6919192</a></li>
+  <li><a href="https://research.archives.gov/id/6919193">https://research.archives.gov/id/6919193</a></li>
+  <li><a href="https://research.archives.gov/id/6919194">https://research.archives.gov/id/6919194</a></li>
+</ul>
+
+<p>Well, I’d at least better be able to connect to</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>rda-db.ucar.edu
+</code></pre>
+</div>
+
+<p>but I can’t even seem to do this with</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>globalprotect connect --portal gp.ucar.edu
+</code></pre>
+</div>
+
+<p>Erg! But there’s hope, if I shell into Casper first (or maybe just use my work laptop) then I can access</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>mysql -h rda-db.ucar.edu -u &lt;user&gt; -p&lt;password&gt; images 
+</code></pre>
+</div>
+<p>with no problem. Moreover</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>MySQL [images]&gt; show grants for dssdb@localhost;
+
+GRANT ALL PRIVILEGES ON `images`.* TO 'dssdb'@'localhost'
+</code></pre>
+</div>
+
+<p>so that if I create the user <code class="highlighter-rouge">dssdb</code> on my local mysql server, and am able to inject metadata there, porting over to Casper shouldn’t be too difficult.</p>
+
+<p>I have through MLK day to do it. Yikes!</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>-bash-4.2$ mysql -h rda-db.ucar.edu -u dssdb -p -V
+mysql  Ver 15.1 Distrib 5.5.56-MariaDB, for Linux (x86_64) using readline 5.1
+</code></pre>
+</div>
+
+<h2 id="2020-01-17">2020-01-17</h2>
+
+<p>What do I need for yoga during the next couple of months? Christina lists:</p>
+
+<ol>
+  <li>An open mind and a commitment to learning.</li>
+  <li>A journal.</li>
+  <li>A notebook and pen.</li>
+  <li>A good mat, a mat towel.</li>
+  <li>Layers and clean clothing.</li>
+  <li>Eating utensils, snacks, packed lunches.</li>
+  <li>Consider dropping or reducing caffeine, sugar, smoking, social media, etc.</li>
+  <li>Extra support. We encourage other modalities (i.e. therapy, acupuncture, massage, etc.) to complement yoga.</li>
+  <li>A light heart.</li>
+</ol>
+
+<h2 id="2020-01-13">2020-01-13</h2>
+
+<h3 id="bibliography">Bibliography</h3>
+
+<p>Here’s a bibliography for some “<a href="attached/1984-iyengar-ymca.jpg">gymnastics</a>” that I’m getting into.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>1966-iyengar-light-on-yoga
+2014-hansen-netters-anatomy-coloring-book
+1997-ellis-clinical-anatomy
+
+2002-iyengar-light-on-the-yoga-sutras-of-patanjali
+2010-freeman-the-mirror-of-yoga
+2009-adele-the-yamas-and-niyamas-exploring-yoga-as-ethical-practice
+
+2000-rothschild-the-body-remembers
+2004-naparstek-invisible-heroes
+2004-vanderkolk-the-body-keeps-score
+
+2015-rose-untangled
+2017-sherman-alexie-you-dont-have-to-say-you-love-me
+2006-tharp-the-creative-habit
+2012-cope-the-great-work-of-your-life
+2000-rothschild-the-body-remembers-casebook
+
+2004-alter-yoga-in-modern-india
+2005-de-michelis-elizabeth-history-of-modern-yoga
+2010-singleton-yoga-body-the-origins-of-modern-posture-practice
+2017-mallinson-singleton-the-roots-of-modern-yoga
+
+2018-cohen-the-upanishads-routeledge
+2016-ithamar-exploring-the-bhagavad-gita
+
+2000-snyder-reader-prose-poetry-and-translations
+2010-snyder-the-practice-of-the-wild
+
+2000-desalvo-writing-as-a-way-of-healing
+2014-snyder-martin-nobody-home-writing-buddhism-and-living-in-places
+</code></pre>
+</div>
+
+<h2 id="2020-01-10">2020-01-10</h2>
+
+<p><a href="http://blog.inechi.com/2019/11/2019.html"><img src="attached/2019-03-inechii-introspection.jpg" width="400" /></a></p>
+
+<p>From Inés Estrada, March 2019.</p>
+
+<h2 id="2020-01-04">2020-01-04</h2>
+
+<p>I might be motivated to work <em>for a particular person</em> rather than on <em>a specific project</em>.</p>
+
+<p>This style of motivation is appropriate because I’ve given up on logging time for myself.</p>
+
+<p>From my experience with kan-ban and without a cell phone over the last 3 months (since failing two prelims this Fall), I recognize I just shouldn’t <em>actively</em> track myself when I’m “working on myself”. (I have some <em>passive trackers</em>, e.g., time series data for my heartrate, my sleep, and my approximate location. But I don’t have to remember do anything to collect this data, and I get to analyze it post hoc.)</p>
+
+<p>At the same time, I <em>would like</em> to actively track myself, so I’m trying to be attentive (when I’m working) to <em>whom</em> I feel I am working for, rather than fretting to much about <em>what</em> I am doing.</p>
+
+<ul>
+  <li>chores for myself</li>
+  <li>rdai docs for Matt</li>
+  <li>rdai database for Tom</li>
+  <li>topology notes for Agnès</li>
+  <li>algebra notes for Peter</li>
+  <li>analysis notes for Sergei</li>
+</ul>
+
+<h2 id="2020-01-01">2020-01-01</h2>
+
+<p><img src="attached/donuts.jpg" alt="Donuts at the Boise Art Museum with Sam" width="500" /></p>
+
+<p>From this summer with Sam.</p>
+
+<h2 id="2019-11-28">2019-11-28</h2>
+
+<p>Visited my folks in Idaho. Stopped going to classes once I got back to Boulder.</p>
+
+<h2 id="2019-11-07">2019-11-07</h2>
+
+<p>I am working as a student visitor for <a href="https://web.archive.org/web/20191221123926/https://staff.ucar.edu/browse/orgs/DECS">DECS</a> at NCAR.</p>
+
+<h2 id="2019-10-28">2019-10-28</h2>
+
+<p>I present on the Research Data Archive’s <a href="https://github.com/coltongrainger/rda-image-archive/">image repository</a> for the <a href="https://web.archive.org/save/https://www.colorado.edu/csl/steminar/fall-2019-steminar-schedule">CU STEMinar</a>.</p>
+
+<h2 id="2019-09-24">2019-09-24</h2>
+
+<p>I present on <a href="http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf">Lazard’s</a> <a href="http://www.math.harvard.edu/~lurie/252xnotes/Lecture3.pdf">theorem</a> for the <a href="https://math.colorado.edu/seminars/?date=2019-09-24">CU topology seminar</a>.</p>
+
+<h2 id="2020-09-01">2020-09-01</h2>
+
+<p>Pretty sure I failed some prelims. Opps. Quit vaping.</p>
+
+<h2 id="2019-08-25">2019-08-25</h2>
+
+<p>I am teaching <a href="https://math2510.coltongrainger.com">Math 2510-001 Introduction to Statistics</a> this fall.</p>
+
+<h2 id="2019-07-31">2019-07-31</h2>
+
+<p>I present <a href="https://www.youtube.com/watch?v=wURNDpfBS4Q">Towards Categorical Metadata</a> for SIParCS at NCAR.</p>
+
+<h2 id="2019-07-04">2019-07-04</h2>
+
+<p>Fourth of July BBQ with Janet and the SIParCS cohort. Janet and Ian left town to visit their folks, leaving me alone at 858 9th St for about a month.</p>
+
+<h2 id="2019-06-04">2019-06-04</h2>
+
+<p>Since I’m liable to forget, I’ll describe my current “PIM schema” by cataloging</p>
+
+<ul>
+  <li>my <code class="highlighter-rouge">$HOME</code> directory,</li>
+  <li>what I have on paper, and</li>
+  <li>software I subscribe to for managing projects.</li>
+</ul>
+
+<h3 id="home"><code class="highlighter-rouge">$HOME</code></h3>
+
+<p>I have a Lenovo T420, whose name is <code class="highlighter-rouge">lobster</code>. My home directory looks something like</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>colton@lobster:~$ tree -L 1
+.
+├── art
+├── blog
+├── coltongrainger.bib
+├── cv
+├── Dropbox
+├── fy
+├── journal
+├── lec
+├── lit
+├── mus
+├── pho
+├── raw
+├── README.md
+├── rec
+├── rote
+└── wiki
+</code></pre>
+</div>
+
+<p>During “fiscal year 2019” (i.e., Jun 2018 to May 2019), I commonly worked commonly in</p>
+
+<ul>
+  <li><code class="highlighter-rouge">fy</code> (projects for the “fiscal year”)</li>
+  <li><code class="highlighter-rouge">wiki</code> (materials for <a href="https://quamash.net">https://quamash.net</a>)</li>
+  <li><code class="highlighter-rouge">raw</code> (scanned handwritten notes, hence <code class="highlighter-rouge">raw</code>) and</li>
+  <li><code class="highlighter-rouge">rote</code> (tab separated files for mnemosyne).</li>
+</ul>
+
+<p>The previous two years (modulo a few details) look like</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>colton@lobster:~$ tree -L 1 fy/18
+fy/18
+├── 2017-09-job-apps
+├── 2018-04-16-offer-letter-cu-boulder.pdf
+├── 2018-04-27-picklebric-application.txt
+├── 2018-06-18-tutoring
+├── bulma-0.7.1
+├── coding-with-kids
+├── cogr-webpage
+├── coq
+├── data-management-plan
+├── diagnostic
+├── dishwashing
+├── eo
+├── fscss-interviews
+├── fscss-private
+├── fscss-wiki
+├── fscss-work
+├── grad-apps
+├── grad-funding
+├── grap-apps.bak
+├── hakyll
+├── leading-lesson
+├── logos
+├── mentoring
+├── mnep-script
+├── notedown
+├── num
+├── odes
+├── PreTeXt-mathbook
+├── prob
+├── py
+├── PythonDataScienceHandbook
+├── rcf
+├── spoken-word
+└── tex-templates
+</code></pre>
+</div>
+
+<p>and</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>colton@lobster:~$ tree -L 1 fy/19
+fy/19
+├── 2018-06-alg1-top1-ana1.pdf
+├── 2018-06-until-2019-02.pdf
+├── 2019-03-topology-seminars.pdf
+├── 2019-05-11-top2-omnibus.pdf
+├── alg1
+├── alg2
+├── clothing
+├── cu3d
+├── diffgeo1
+├── dircolors-solarized
+├── examples
+├── internships
+├── mitschriebwiki
+├── napkin-outline
+├── neural-network
+├── orientation
+├── prelims
+├── prob1
+├── project-ideas
+├── records-and-old-todo
+├── ripser
+├── RISE
+├── safe
+├── slow-pitch
+├── soml
+├── stylefiles
+├── summer-review
+├── ta
+├── TDAstats
+├── top1
+├── top2
+├── tripos-course-guides
+├── unicode.sh
+├── vim-tex-fold
+└── yst
+</code></pre>
+</div>
+
+<p>About 75% of repositories I have on github (for lack of a better name) are prefixed with, e.g., <code class="highlighter-rouge">fy00</code>, to indicate that they are locally saved under, e.g., <code class="highlighter-rouge">$HOME/fy/00/</code>.</p>
+
+<p>I only have digital directories under <code class="highlighter-rouge">fy</code> back to (about) 2009–2010, when I was spending quite a bit of time after school with “kdawg wangalicous” and the policy debate topic was</p>
+
+<blockquote>
+  <p>Resolved: The United States federal government should substantially increase social services for persons living in poverty in the United States.</p>
+</blockquote>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>colton@lobster:~/fy/10$ tree
+.
+├── 2009-apology-to-davidson.txt
+├── 2009-GDI-Nietzsche-K.pdf
+├── 2009-GDI-Objectivism.pdf
+├── 2009-UTNIF-Carceral-Archipelago-K.pdf
+├── 2009-UTNIF-Marxism-K.pdf
+├── 2009-UTNIF-Standpoint-Epistemology-Critique.pdf
+├── 2010-ecopanda-behemoth.pptx
+├── 2010-ganatos-nary-slender-script.txt
+└── 2010-mein-lieblingsplatz.txt
+</code></pre>
+</div>
+
+<p>This coming year looks like</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>colton@lobster:~$ tree -L 1 fy/20
+fy/20
+├── aiwatch
+├── analysis
+├── applied-analysis
+├── nsf-grf
+├── pandas
+├── rda-image-archive
+├── siparcs
+└── topology-prelim
+</code></pre>
+</div>
+
+<p>Last year, I used my dropbox to sync notes (written in Notability on my tablet) and pdfs.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>colton@lobster:~$ tree -L 1 Dropbox/
+Dropbox/
+├── Crypted
+├── Downloads
+├── export
+├── import
+└── todo.txt
+</code></pre>
+</div>
+
+<p>This year, I plan to keep pdfs in google drive and designate dropbox as my download folder. (I have an SD card for torrent files &gt;2GB.)</p>
+
+<h3 id="paper">Paper</h3>
+
+<p>I am abandoning <em>taking notes</em> on my tablet, because the generated pdfs were large (~100MB) and I realized that Notability was just another (however sleek) WYSIWYG editor in which I wasted my time and was often frustrated with formatting. The alternatives look like</p>
+
+<ul>
+  <li>notes in <code class="highlighter-rouge">latex</code> or <code class="highlighter-rouge">markdown</code> on my laptop</li>
+  <li>notes in a (chronological) series of 13x21 cm, un-ruled, <a href="https://web.archive.org/web/20190516162841/https://us.moleskine.com/cahier-journal-brown/p0408">cahier journals</a></li>
+  <li>notes on paper, scanned as dated pdfs to <code class="highlighter-rouge">raw</code></li>
+</ul>
+
+<p>I may scan the cahier journals pages (as done by mpacer here <a href="https://mpacer.org/qualifying-exam-materials/#/qualifying-exam-written-portion/">https://mpacer.org/qualifying-exam-materials/#/qualifying-exam-written-portion/</a>). Primarily however, in leaving the tablet for paper, I’m following <a href="https://usesthis.com/interviews/jeremy.kun/">https://usesthis.com/interviews/jeremy.kun/</a>:</p>
+
+<blockquote>
+  <p>… I have specificity for writing implements on par with my vim configuration. I use a very specific kind of notepad—unruled, cheap, abundant, low-weight stock—and similarly specific notebooks—small, unruled. I can never use paper or a notebook that I feel is too fancy to house my unendingly bad ideas and egregious mistakes. The only good paper is paper for which, when you throw it on the ground and grab a new sheet to start over, you don’t feel bad. Lined paper is hell. I prefer 0.9 mm lead mechanical pencils, though more often than not a 0.7 mm Bic is what I have handy.</p>
+</blockquote>
+
+<p>At the same time, I will keep <em>books</em> and lecture notes that are <em>polished and proofread</em> on my tablet, to save weight and leave room in my backpack for plenty of snacks.</p>
+
+<h3 id="software">Software</h3>
+
+<p>Tersely, I subscribe to use the following software.</p>
+
+<ul>
+  <li>trello
+    <ul>
+      <li>for a single todo list,</li>
+      <li>and a single reading list.</li>
+    </ul>
+  </li>
+  <li>pinboard</li>
+  <li>zotero</li>
+  <li>github</li>
+</ul>
+
+<p>Each week, I put ~15 links in pinboard, ~30 cards in trello, and ~3 citations in zotero.</p>
+
+<p>I abandoned emacs org-mode for my TODO list because</p>
+
+<ul>
+  <li>I didn’t find any use for clocking my time,</li>
+  <li>my use was too ephemeral to properly learn org-mode’s chording,</li>
+  <li>I suffered through 2 weeks of “emacs configuration bankruptcy” in May 2018</li>
+  <li>I couldn’t stand to edit my TODO.org file on my phone.</li>
+</ul>
+
+<p>I listen to music off my phone (connected to a Marshall Woburn Bluetooth speaker) via</p>
+
+<ul>
+  <li>google play music, or</li>
+  <li>the hype machine.</li>
+</ul>
+
+<h2 id="2019-04-19">2019-04-19</h2>
+
+<p>Here’s a viscerally boring design problem.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>lecture notes</td>
+      <td>laptop or notebook</td>
+    </tr>
+    <tr>
+      <td>reading scribbles</td>
+      <td>iPad or scratch</td>
+    </tr>
+    <tr>
+      <td>problem sets</td>
+      <td>laptop or iPad</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="2019-04-08">2019-04-08</h2>
+
+<p>My bibliography has gotten out of control. Leo told me to stop shopping around. But how?</p>
+
+<blockquote>
+  <p>Ask for advice?</p>
+</blockquote>
+
+<h2 id="2019-03-23">2019-03-23</h2>
+
+<p>Took a hiatus from updates to focus on coursework.</p>
+
+<p>Trivial news: I’ve transitioned my notes and reading material to <a href="https://www.gingerlabs.com/">Notability</a> for the iPad. As a result, most of my workflow is once again offline.</p>
+
+<p>By working from an iPad, however, I am happily meeting some immediate goals. These include:</p>
+
+<ul>
+  <li>reading broadly for prelims,</li>
+  <li>integrating my lecture notes with my reading notes, and</li>
+  <li>frequently grinding through exercises.</li>
+</ul>
+
+<h2 id="2019-02-01">2019-02-01</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>alg2</td>
+      <td>free modules, feedback on written work, e.g., avoid vague notation such as “Let $\phi \in \mathrm{Hom}$” [@DF04 ch. 10.3]</td>
+    </tr>
+    <tr>
+      <td>diffgeo1</td>
+      <td>manifolds with boundary, defining smooth maps, equivalent characterizations of smoothness [@Lee03, pp. 24–35]</td>
+    </tr>
+    <tr>
+      <td>top2</td>
+      <td>relative chain complexes, pairs of topological spaces, tensor product review, cohomology with coefficients in $G$ [@Bre03, section IV.5]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="2019-01-31">2019-01-31</h2>
+
+<p>TA-ing. Not much math.</p>
+
+<h2 id="2019-01-30">2019-01-30</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>alg2</td>
+      <td>subobjects, direct sums, freely generated modules [@DF04 ch. 10.3]</td>
+    </tr>
+    <tr>
+      <td>diffgeo1</td>
+      <td>smooth manifold chart lemma, Grassmannians [@Lee03, pp. 21–22]</td>
+    </tr>
+    <tr>
+      <td>top2</td>
+      <td>presentations from problem sets; handling edge cases for the first homology group</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Presentations were a bit nerve-racking when I realized that I had too heavy-handedly abelianized an infinite product. (See <a href="https://mathoverflow.net/questions/35397">https://mathoverflow.net/questions/35397</a>.) Ulrich and I found a counter example where $[\prod G_i, \prod G_i] \subsetneq \prod [G_i, G_i]$. I was then incensed to straighten out <em>which</em> (co)products exist in <em>which</em> concrete categories I’m usually working in.</p>
+
+<h2 id="2019-01-29">2019-01-29</h2>
+
+<ul>
+  <li>Revised some module theoretic arguments for Green into two-column proofs.</li>
+  <li>Caught up on basic (topological) properties of manifolds.</li>
+  <li>Prepared for <a href="https://github.com/coltongrainger/fy19top2/blob/master/2019-01-30-intro-homology.pdf">presentations</a> in top2.</li>
+</ul>
+
+<p>I was glad to attend the organizational meeting for the <a href="https://sites.google.com/view/cutopology/spring-2019?authuser=0">topology seminar</a>. From Beaudry’s introduction:</p>
+
+<blockquote>
+  <p>This semester, we will cover some of the topics in homotopy theory that make an appearance in the work of Freed–Hopkins–Teleman on topological phases of matter. This seminar will be parallel to the Mathematical Physics seminar (Wednesdays from 3-4 pm in MATH 350) but will be for the most part independent. This seminar will be about topology: To understand the connections to physics, you’ll have to read on your own or go the other seminar. We have an ambitious schedule (see plan). It’s not a bad idea to read up a bit on the topics before the talks since we’ll be covering material fast.</p>
+</blockquote>
+
+<p>The <a href="https://math.colorado.edu/seminars/">math-physics</a> seminar is co-organized with Prof <a href="https://spot.colorado.edu/~hermele/">Hermele</a>, whose research is in theoretical condensed matter physics.</p>
+
+<h2 id="2019-01-28">2019-01-28</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>alg2</td>
+      <td>finitely generated modules [@DF04, ch. 10.3]</td>
+    </tr>
+    <tr>
+      <td>diffgeo1</td>
+      <td>smooth structures, transition maps [@Lee03, pp. 10–16]; spheres, level sets [@Lee03, pp. 17–23]</td>
+    </tr>
+    <tr>
+      <td>top2</td>
+      <td>exact sequences of chain complexes, the <a href="https://en.wikipedia.org/wiki/Bockstein_homomorphism">Bockstein homomorphism</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="2019-01-27">2019-01-27</h2>
+
+<p>Notes from Clelland. Basic examples of smooth manifolds. Finished modules problem set from [@DF04, ch. 10.2].</p>
+
+<h2 id="2019-01-26">2019-01-26</h2>
+
+<p>Notes from Green on modules.</p>
+
+<h2 id="2019-01-25">2019-01-25</h2>
+
+<p>Lectures. In top2, Beaudry mentioned that “if we didn’t like that game” [forcing maps defined out of the cycle group $Z_1(X)$ to descend to the quotient $H_1(X)$] “then we would like it soon because we were about to play it <em>hard.</em>” Lol.</p>
+
+<p>In the afternoon, I set up definitions for functor categories and generally the category of quivers (directed graphs).</p>
+
+<p>Talked a bit with Ulrich about duality and Gelfand–Naimark, which motivated me to try and rope the content in alg2 and diffgeo1 closer together. (Ulrich also suggested that I push to do homological algebra sooner than later.)</p>
+
+<h2 id="2019-01-24">2019-01-24</h2>
+
+<p>In prob1, we defined random variables and set up results to guarantee the existence of a random variable that’s equal in distribution to whatever probability measure we have chosen. Also defined cdfs, pdfs, and pmfs, with reference to the Lebesgue decomposition theorem.</p>
+
+<p>I spent the rest of the day TA-ing. I decided to <a href="https://prooflogger.quamash.net">abandon</a> prooflogger since only a third of the sections had anything to do with it. I was brought to my senses by Ulrich, after he mentioned that he only attended recitations in Trondheim to drop off homework.</p>
+
+<h2 id="2019-01-23">2019-01-23</h2>
+
+<p>Lectures.</p>
+
+<ul>
+  <li>In top2, we set out to prove Hurewicz’s theorem.</li>
+  <li>In alg2, we defined module homomorphisms and started to construct some sort of chain of $F[x]$-modules.</li>
+  <li>In diffgeo1, we stated topological properties of manifolds [@Lee03, pages 5–9] and exhibited spheres, products, and projective spaces as manifolds with charts.</li>
+</ul>
+
+<h2 id="2019-01-22">2019-01-22</h2>
+
+<p>I spent the day solidifying my argument for <a href="https://quamash.net/diffgeo1#banach-spaces-and-the-smooth-chain-rule">the smooth chain rule in Banach spaces</a>. Also finished [@DF04, section 10.1].</p>
+
+<h2 id="2019-01-21">2019-01-21</h2>
+
+<p>Went through Lang’s introduction [@Lan99, ch. 1] to topological vector spaces.</p>
+
+<h2 id="2019-01-20">2019-01-20</h2>
+
+<p>I translated Folland’s “first look” at functional relations into intuition for the dimension and symmetric properties of repeated Fréchet derivatives.</p>
+
+<p>I surveyed proofs for inverse function theorems and implicit function theorems [@Fol02, ch. 3.1], [@HH15, ch. 2.10], [@Lee03, no. C.34].</p>
+
+<h2 id="2019-01-19">2019-01-19</h2>
+
+<p>Worked through the motivating historical calculus in Massey’s <a href="https://www.springer.com/us/book/9781468492330">Singular Homology Theory</a> [@Mas80, chapter 1]. (Massey develops homology theory with $n$-cubes rather than simplices—why? To have oriented $n$-cubes available as integrands? Does some argument/limiting process fail when working with an infinitesmally thickening mesh of simplices?)</p>
+
+<p>I struggled with notation for repeated applications of the Fréchet derivative. Got distracted in considering repeated linear transformations as vectors spaces themselves in the category of topological vector spaces. Skimmed related results in I.3 of Lang’s <a href="https://www.springer.com/us/book/9780387985930">Fundamentals of Differential Geometry</a> [@Lan99, chapter 1].</p>
+
+<p>In Folland, I gladly found two problems that matched gaps in my knowledge: one to do with Lagrange multipliers and the spectral theorem, the other to do with setting up a meaningful definition of higher Fréchet derivatives.</p>
+
+<blockquote>
+  <p>Let $A$ be a symmetric $n \times n$ matrix, and let $f(\vec{x}) = (A \vec x) \cdot \vec x$ for $\vec x \in \mathbf{R}^n$. Show that the maximum and minimum of $f$ on the unit sphere ${ \vec x : \lvert\vec x\rvert = 1}$ are the largest and smallest eigenvalues of $A$. [@Fol02, number 2.9.19]</p>
+</blockquote>
+
+<blockquote>
+  <p>Suppose $f \colon \mathbf{R}^n \to \mathbf{R}$ is of class $C^2$; then $\nabla f$ is a $C^1$ mapping from $\mathbf{R}^n$ to itself. Show that $D(\nabla f)$ is the Hessian matrix of $f$. [@Fol02, number 2.10.6]</p>
+</blockquote>
+
+<h2 id="2019-01-18">2019-01-18</h2>
+
+<p>Lectures.</p>
+
+<ul>
+  <li>Alg2: In the category of modules, we defined homomorphisms, kernels, quotients, and began to state a series of familiar isomorphism theorems [@DF04, chapter 10.2].</li>
+  <li>Diffgeo1: Stated the implicit function theorem [@Lee03, chapter C], and defined a topological manifold [@Lee03, chapter 1].</li>
+  <li>Top2: Reasoned about long exact/non-exact sequences of abelian groups.</li>
+</ul>
+
+<p>I found out that I conditionally passed the algebra prelim, and so, made a haphazard sketch of work to do.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>term</th>
+      <th>workload</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>He18</td>
+      <td>Algebra 1, Topology 1, StatOptML (algebra prelim)</td>
+    </tr>
+    <tr>
+      <td>Fr19</td>
+      <td>Algebra 2, Topology 2, DiffGeo1 (topology prelim)</td>
+    </tr>
+    <tr>
+      <td>So19</td>
+      <td>SIParCS, CU MRE, NSF apps</td>
+    </tr>
+    <tr>
+      <td>He19</td>
+      <td>Algebra (Green, Wise, Casalaina-Martin), Analysis 1, Numerics (Bradley, Meiss, Becker, Raf)</td>
+    </tr>
+    <tr>
+      <td>Fr20</td>
+      <td>Analysis 2, Complex Analysis, Algebraic Topology (Pflaum, Beaudry)</td>
+    </tr>
+    <tr>
+      <td>So20</td>
+      <td>Talbot, more NSF apps, teaching</td>
+    </tr>
+    <tr>
+      <td>He20</td>
+      <td>topic proposal, advisors in MATH/APPM/CS</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>(I have 90% confidence that I will stave off probability until next year.)</p>
+
+<p>(Update: Maybe quantum physics with Hermele next year?)</p>
+
+<h2 id="2019-01-17">2019-01-17</h2>
+
+<p>Mostly teaching, then munging surveys I had put out to the calculus sections. I went to the first meeting for a reading course in probability/measure theory. (I then had about 0.3 confidence I would drop.)</p>
+
+<p>I reviewed the chain rule in Folland’s <a href="http://www.math.ucla.edu/~iacoley/32H.pdf">Advanced Calculus</a> [@Fol99, chapter 2.3], and derivatives in several variables as linear transformations in Hubbard’s <a href="http://matrixeditions.com/5thUnifiedApproach.html">A Unified Approach</a> [@HH15, chapter 1.7–1.9].</p>
+
+<h2 id="2019-01-16">2019-01-16</h2>
+
+<p>Lectures again, worked to flesh out definitions for modules and simplices. Made progress in defining <em>two</em> functors:</p>
+
+<ul>
+  <li>$\Delta ( - )\colon \mathsf{Top} \to \mathsf{Ch}$ (by moving from graded abelian groups to chain complexes), and</li>
+  <li>the correspondence ‘tween $F[x]$-modules and $F$-vector spaces $V$ with a chosen endomorphism $V \to V$.</li>
+</ul>
+
+<h2 id="2019-01-15">2019-01-15</h2>
+
+<p>Attended offices hours for top2. Asked how to distinguish the monodromy action from action of the group of deck transformations. Got permission to stop reviewing top1 (woot!) and pass onto homology.</p>
+
+<p>Thought about morphisms of vector spaces from a categorical perspective. Skimmed Breezer’s <a href="http://linear.ups.edu/html/fcla.html">FCLA</a> (elementary matrices as transformations, 4 subspaces, similar and diagonal matrices). Worked through examples (especially notation) in PCM I.3.4. Slowly began to understand why one would want eigenvector bases to study subspaces “stable” under linear transformation.</p>
+
+<p>Also spent an upsetting amount of time configuring pandoc on my laptop and server. Gross. I don’t even see how the software is held together. Way beyond me.</p>
+
+<h2 id="2019-01-14">2019-01-14</h2>
+
+<p>Started lecture notes for <a href="https://quamash.net/top2">Topology 2</a> (top2), <a href="https://quamash.net/diffgeo1">Differential Geometry 1</a> (diffgeo1), and <a href="https://quamash.net/alg2">Algebra 2</a> (alg2). Linearity is 4sure the unifying theme of the week. Notably, diffgeo1 made a whirlwind tour of Appendix B in Lee’s <em>Introduction to Smooth Manifolds</em>.</p>
+
+<h2 id="2019-01-13">2019-01-13</h2>
+
+<p>I previewed syllabi and reading for the next 2 weeks.</p>
+
+<ul>
+  <li>Homology in Hatcher, Bredon, and May;</li>
+  <li>Modules in Dummit &amp; Foote;</li>
+  <li>Linear Algebra/Calculus review in Lee.</li>
+</ul>
+
+<p>I also setup <a href="https://cu3d.github.io">https://cu3d.github.io</a>, a catalog of 3D-printed models, for the MARC.</p>
+
+<h2 id="2019-01-12">2019-01-12</h2>
+
+<p>Errands. Odds &amp; ends from last semester’s <code class="highlighter-rouge">todo.org</code>. I had a lengthy, meandering conversation with two older grad students (TK &amp; Carly) about faculty transitions at CU in the last 6 years. I realized how convenient <a href="https://aiwatch.issarice.com">https://aiwatch.issarice.com</a> was for summarizing rank/career changes. Not much math.</p>
+
+<h2 id="2019-01-11">2019-01-11</h2>
+
+<p>More teacher training. Finished my <a href="https://github.com/coltongrainger/internships/blob/master/statements/siparcs-climate-models.md">SIParCS application</a>. Mnemosyne.</p>
+
+<h2 id="2019-01-10">2019-01-10</h2>
+
+<p>Attended teacher training. Finished transcribing an <a href="https://github.com/coltongrainger/neural-network/blob/master/posts/2018-09-10-leah-buechley.md">interview with Leah Buechley</a>. Setup duplicity with google cloud platform. Defragmented my gmail archive.</p>
+
+<h2 id="2019-01-09">2019-01-09</h2>
+
+<p>Took the topology prelim. Answered 3 of 6 questions in point-set and algebraic topology.</p>
+
+<ul>
+  <li>separation properties</li>
+  <li>applications of Seifert van-Kampen</li>
+  <li>homotopy groups of real projective space</li>
+</ul>
+
+<p>Talked to TK: what to review for differential geometry?</p>
+
+<ul>
+  <li>multilinear forms up to the definition of a tensor product</li>
+  <li>implicit and inverse function theorems</li>
+</ul>
+
+<h2 id="2019-01-08">2019-01-08</h2>
+
+<p>More chores, etc. I installed KeePassX.</p>
+
+<h2 id="2019-01-07">2019-01-07</h2>
+
+<p>As a chore and measure of progress, I attempted the algebra prelim.</p>
+
+<ul>
+  <li>
+    <p>I struggled to understand possible group actions of $Q_8$ on ${1, \ldots, n}$. In a dilemma, I wrote out a treacherously long table of conjugacy classes for $S_n$, $n = 4, \ldots, 7$ and made a confusing argument about normal subgroups as unions of conjugacy classes.</p>
+  </li>
+  <li>
+    <p>Afterwards, Andre and I discovered a one-liner to show “$Q_8 \le S_n$” is absurd for these cases.</p>
+
+    <blockquote>
+      <p>When $Q_8$ acts on $I_n$ for $n &lt; 8$, the stabilizer of any point in $I_n$ contains $-1$, whence $-1$ is in the kernel of the action.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>Also afterwards, when I needed to determine which primes in $\mathbf{Z}$ were also Gaussian primes, I found myself impressed with Weissstein’s <a href="https://en.wikipedia.org/wiki/MathWorld">MathWorld</a>.</p>
+  </li>
+  <li>
+    <p>I expect the Slack channel Chris and I were using to study will soon be defunct.</p>
+  </li>
+  <li>
+    <p>To shift gears for topology, I passed over a survey: <a href="http://catdir.loc.gov/catdir/toc/ecip0818/2008020450.html">PCM IV.10</a>.</p>
+  </li>
+</ul>
+
+<h2 id="2019-01-06">2019-01-06</h2>
+
+<p>Chris and I ran through Micky’s group theory notes. I discovered Zassenhaus’ <a href="https://books.google.com/books?id=_lOycgz7bQYC">The Theory of Groups</a> and skimmed through chapter IV on $p$-groups and Sylow $p$-groups.</p>
+
+<p>To de-stress before the prelim, I browsed the OED for historical uses of <code class="highlighter-rouge">morphism</code>, <code class="highlighter-rouge">quaternion</code>, <code class="highlighter-rouge">group</code>, <code class="highlighter-rouge">ring</code>, <code class="highlighter-rouge">field</code>. (I found Zassenhaus under <code class="highlighter-rouge">quaternions</code>.)</p>
+
+<h2 id="2019-01-05">2019-01-05</h2>
+
+<p>I continued to atomicize mnemosyne cards by expanding “naive” procedural topics from the GRE. I went through a proof of Sylow’s theorems and thought about the conjugation and left translation action of a group $G$ on its $p$-groups.</p>
+
+<!--
+I set up a [fact sheet for internship applications](https://github.com/coltongrainger/internships) this summer.
+-->
+
+<h2 id="2019-01-04">2019-01-04</h2>
+
+<p>Chris and I sat for a timed <a href="https://github.com/coltongrainger/fy19alg1/blob/master/2019-01-04-algebra-sep-practice.md">practice exam</a>, adapted from Ed Dummit’s 2014 <a href="https://sites.google.com/a/wisc.edu/math-intranet/home/quals">algebra summer enhancement program</a>. I feel silly taking the exam before I know what I’m doing, but</p>
+
+<ul>
+  <li>there’s a timeline, and</li>
+  <li>our dept chair emphasizes <a href="http://math.colorado.edu/~kstange/gradstudy.pdf">“trusting oneself”</a> to seek out “new challenges and novel contexts”.</li>
+</ul>
+
+<p>Her accompanying advice is, of course, to “doubt oneself” and “build what you know”, which I look forward to reverting to after next week.</p>
+
+<p>I compiled Micky Steinberg’s <a href="https://www.math.wisc.edu/~micky/grouptheory.pdf">2014 group theory notes</a> into a <a href="https://github.com/coltongrainger/fy19alg1/blob/master/2019-01-05-algebra-micky-practice.md">light-hearted practice exam</a> for tomorrow.</p>
+
+<h2 id="2019-01-03">2019-01-03</h2>
+
+<p>Chris talked me through problems 1–3 on CU’s <a href="https://github.com/coltongrainger/prelims/blob/master/2008-01-15-cu-algebra-prelim.pdf">Jan 2008 algebra prelim</a>, which I didn’t understand. For prob 2, we needed to make a recursive argument to find a nontrivial abelian normal subgroup of prime power order in a finite solvable group. Ian also mentioned this problem (with enthusiasm) before break, so I might revisit it.</p>
+
+<p>I started reviewing from <a href="http://matrixeditions.com/5thUnifiedApproach.html">Hubbard</a>, following the <a href="https://canvas.harvard.edu/courses/45219/pages/weekly-schedule">week 1</a> schedule for Paul Bamberg’s <a href="https://canvas.harvard.edu/courses/45219/files/6701269/download?verifier=Yvcu1AARsTzhWbCTmjtM2cT0BWA4sCCxBS3VftOE&amp;wrap=1">Math 23a</a>. (The supplemental materials for math 23a are great, and I think I’ll exhaust most of my free time before Jan 14 going over these.)</p>
+
+<p>Lastly, I went through exercises in I.1 Fields from Halmos’s <a href="https://www.springer.com/us/book/9780387900933">Finite Dimensional Vector Spaces</a>, which is admittedly out of date. I’m going through Halmos, however, because</p>
+
+<ul>
+  <li>I found a hardcopy in the math dept’s reading room, and</li>
+  <li>I was impressed when I skimmed <a href="https://news.ycombinator.com/item?id=16829440">Halmos’s and Steenrod’s</a> 1973 <em>How to Write Mathematics</em>.</li>
+</ul>
+
+<h2 id="2019-01-02">2019-01-02</h2>
+
+<p>Distracted today: I setup yst to compile yaml data into a <a href="https://coltongrainger.com/cv">CV</a>, as per Dom Moritz’s <a href="https://domoritz.de/cv/">https://domoritz.de/cv/</a>. Dom’s job-hunting stress thoroughly dosed me (by proxy) with timeline stress, and, incidentally, I spent the day “signalling”.</p>
+
+<h2 id="2019-01-01">2019-01-01</h2>
+
+<p>I revised cards on introductory measure theory, also group actions. I continued through a backlog of reviews I owed mnemosyne from last semester.</p>
+
+<p>(Oddly as well, I flicked through photos from 2018 back to the beginning of 2016, when I was skiing a bit and preparing to graduate. From my undergraduate coursework, maybe I’m only interested to mnemo-fy notes from electricity and magnetism? from ordinary differential equations?)</p>
+
+<h2 id="2019-12-31">2019-12-31</h2>
+
+<p>I spent some time convincing myself that “chunking mathematical concepts” would be more rewarding “completing prerequisites in a satisfactory order” after reading Michael Nielsen’s <a href="http://augmentingcognition.com/ltm.html">essay on anki</a>. I reactivated <a href="https://quamash.net/maths-GRE">mnemosyne cards</a> I had made studying for the math GRE.</p>
+
+<p>While revising cards I had starred for typos, I began to recognize I’d been trying to chunk concepts that were too complex for a first pass. (I found a particularly bad batch of measure theory cards—should delete these or just atomicize them?)</p>
+
+<!---
+I finally setup a bitcoin wallet and skimmed [bitcoin is worse is better](https://www.gwern.net/Bitcoin-is-Worse-is-Better).
+--->
+
+<h2 id="2018-12-30">2018-12-30</h2>
+
+<p>I finished <a href="https://prooflogger.quamash.net">https://prooflogger.quamash.net</a>, which I hope Lee will allow me to force some of the calculus sections to use. <a href="https://quamash.net/math1300#participation">Here</a> is an outline I’d give students. I aim to game students into presenting proofs to each other and providing constructive oral feedback.</p>
+
+<h2 id="2018-12-29">2018-12-29</h2>
+
+<p>I thought about social support networks while travelling from Idaho back to Boulder, e.g., <a href="http://www.pgbovine.net/PG-Vlog-252-cohort-effects.htm">the cohort effect</a>.</p>
+
+<h2 id="2018-12-27">2018-12-27</h2>
+
+<p>Following <a href="https://nadiaeghbal.com/notes">https://nadiaeghbal.com/notes</a>, <a href="https://issarice.wordpress.com/">https://issarice.wordpress.com/</a>, and <a href="https://youtu.be/M2pGiBrw-Ns?t=422">https://youtu.be/M2pGiBrw-Ns?t=422</a> I’m starting a working journal with a broad scope: early graduate school in the mathematics department at CU Boulder.</p>
+
+<p>This journal supersedes my now obsolete <a href="https://blog.coltongrainger.com">blog</a>.</p>
+
+<p>I haven’t gotten permission to emulate any one of the above authors, so I’m sort of planning to write in a manner that oscillates between each’s style. In spite of the common medium (~daily entries) it seems each author’s motivation is tangential to the other two’s: writing for exploration, for transparency, for reflection.</p>
+
+<p>I imagine I will be keeping this journal</p>
+
+<ul>
+  <li>to narrate what I’ve been working on in a chronological fashion,</li>
+  <li>to give myself encouragement by tracking progress through my coursework,</li>
+  <li>to urge myself on (as in ski-racing, where we’d often yell at each other “up up up!”).</li>
+</ul>
+
+<p>I think it would be appropriate to include characteristic quotes, which motivate this journal.</p>
+
+<p>Nadia Eghbal (<a href="https://nadiaeghbal.com/notes/">notes</a>)</p>
+
+<blockquote>
+  <p>11/26/18</p>
+
+  <p>Realizing that I love to be alone, like in a physically low-stimulation environment, but I still think of myself as socially oriented even in that context. I still like texting/FaceTiming friends. And: I only want to be alone to work on ideas that I eventually take back to others. Like, if I were just writing for the sake of writing and not publishing it out, I’d probably get pretty bored and antsy</p>
+</blockquote>
+
+<blockquote>
+  <p>11/26/18</p>
+
+  <p>Amplification vs. exploration: Usually I say that I prefer writing to talks/interviews bc I can think better through writing over speaking. But I think another big reason is bc people often want you to talk about stuff you’ve already done, which is not that interesting to me. Whereas with blog posts, it’s my blog, I don’t really care if you read it or not, I’m just putting stuff out there and hopefully connecting with a few ppl who feel the same way. To me, writing is pushing to the edges, exploring the limits of my identity and what I’m comfortable sharing in public. Whereas any other form of communicating ideas feels performative: I’m rehashing things I already know, and that you know me for. Also why I had to get off Medium (bc it made blogging feel performative)</p>
+</blockquote>
+
+<p>Issa Rice (<a href="https://issarice.wordpress.com/2018/12/01/a-note-on-scope-of-updates/">a note on scope of updates</a>)</p>
+
+<blockquote>
+  <p>As I stated at the beginning, this blog came about because I wanted to make available information about “what I’m up to” in cases where “what I’m up to” doesn’t naturally lead to public updates. So I think it’s not so important to record things on here when the same information can be obtained through other sources (i.e. my public activity on other websites).</p>
+
+  <p>However, I also want to have some kind of conceptual coherence about this blog. And since the overlap between “my activity that doesn’t naturally lead to public updates but where I would like to make public updates available” and “my AI safety learning” is nearly perfect, I think I will track the former by writing about the latter.</p>
+</blockquote>
+
+<p>Philip Guo (<a href="https://youtu.be/M2pGiBrw-Ns?t=272">vlog transcript, talking about his journal</a>)</p>
+
+<blockquote>
+  <p>anyways so when I started my postdoc I thought of this idea I don’t know how I thought of it but I thought this idea that I would just keep a running diary of anything that I’ve encountered that to work-related that I felt like writing down. so it was very simple. I created a text file. this is my first one (reading it) this is really funny I’m just reading this. this is July 2013, my first month as a postdoc.</p>
+
+  <blockquote>
+    <p>July 2013 I’m going to start a rough weekly work diary reflecting on my thoughts about life as a young academic. I need to focus more on how I feel rather than what I did since it’s easy to later reconstruct what I did from other artifacts but it’s hard to recreate old feelings. this diary is gonna be quite rough and I don’t want to hold myself to a strict writing schedule. let’s keep this fairly freeform and low-key.</p>
+  </blockquote>
+
+  <p>once again in parentheses I said: focus on how I feel rather than just what I did</p>
+</blockquote>
+
+
+
+  </main>
+
+<footer>
+<p align="right" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  Licensed as 
+  <a href="https://en.wikipedia.org/wiki/Creative%20Commons" title="Wikipedia: Creative Commons">Creative Commons</a> 
+  <a href="http://creativecommons.org/about/cc0">public domain (CC-0)</a> by Colton Grainger.
+</p>
+</footer> <script>
+    anchors.add();
+  </script>
+</body>
+</html>
+

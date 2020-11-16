@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>Navigating Courses at CU Boulder (Colton Grainger)</title>
+  
+
+  <style type="text/css">
+    /* License: CC0 */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  font-family: "Fira Sans", sans-serif ;
+  color: #333333 ;
+}
+
+main, footer {
+  line-height: 1.4;
+  margin: auto;
+  max-width: 40rem;
+  text-align: left;
+  width: 93%;
+  word-wrap: break-word;
+}
+
+footer { font-size: 80%; }
+
+nav#site_navigation {
+    font-size: 80%;
+    /* See http://stackoverflow.com/a/324553 ; this ensures that the
+     navigation links (left side) and search bar (right side) play
+     nicely */
+    overflow: hidden;
+}
+
+div#toc {
+    font-size: 80%;
+}
+
+dl#yaml_header_data {
+    font-size: 80%;
+}
+
+h1 { text-transform: uppercase; }
+h2 { border-bottom: 1px solid #ccc; }
+h1, h2, h3, h4, h5, h6 { 
+  font-family: "fira sans", sans-serif ;
+  font-size: 120%;
+  font-weight: normal;
+}
+
+a { color: BlueViolet; text-decoration: none; }
+a:visited { color: #b58900; }
+a:hover, a:active { text-decoration:underline; }
+a.anchorjs-link:hover, a.anchorjs-link:active { text-decoration: none; }
+
+blockquote {
+    border-left: 0.25em solid #ccc;
+    margin: 0px;
+    padding-left: 1.5em;
+}
+
+code {
+    font-family: "Inconsolata",monospace;
+    color: #586e75;
+    background-color: #f6f6f6;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    word-wrap: normal;
+    border-radius: 0.2em;
+}
+
+pre code {
+    display: block;
+    line-height: 1.2;
+    max-height: 400px;
+    overflow: auto;
+    padding: 0.5em;
+}
+
+pre {
+    font-family: inherit;
+    line-height: 1.4;
+}
+
+table {
+    border-bottom: 2px solid #333;
+    border-collapse: collapse;
+    border-top: 2px solid #333;
+    margin: 0px auto; /* center table */
+}
+
+table th {
+    border-bottom: 1px solid #333;
+    font-weight: normal;
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+table td {
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em; 
+}
+
+@media screen and (max-width: 40rem) {
+    html { 
+      font-size: 80%; 
+    }
+    main { 
+      padding-left: 5px ;
+      padding-right: 5px ;
+    }
+    body { 
+      padding: 0px; 
+    }
+}
+
+    .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #586e75;
+}
+.highlight .err {
+  color: #002b36;
+  background-color: #dc322f;
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #657b83;
+}
+.highlight .cp {
+  color: #b58900;
+}
+.highlight .nt {
+  color: #b58900;
+}
+.highlight .o, .highlight .ow {
+  color: #93a1a1;
+}
+.highlight .p, .highlight .pi {
+  color: #93a1a1;
+}
+.highlight .gi {
+  color: #859900;
+}
+.highlight .gd {
+  color: #dc322f;
+}
+.highlight .gh {
+  color: #268bd2;
+  background-color: #002b36;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #6c71c4;
+}
+.highlight .kc {
+  color: #cb4b16;
+}
+.highlight .kt {
+  color: #cb4b16;
+}
+.highlight .kd {
+  color: #cb4b16;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #859900;
+}
+.highlight .sr {
+  color: #2aa198;
+}
+.highlight .si {
+  color: #d33682;
+}
+.highlight .se {
+  color: #d33682;
+}
+.highlight .nn {
+  color: #b58900;
+}
+.highlight .nc {
+  color: #b58900;
+}
+.highlight .no {
+  color: #b58900;
+}
+.highlight .na {
+  color: #268bd2;
+}
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #859900;
+}
+.highlight .ss {
+  color: #859900;
+}
+
+  </style>
+</head>
+
+<body>
+<nav id="site_navigation">
+  <!--
+    See
+      http://stackoverflow.com/questions/37103/css-make-divs-align-horizontally
+    for how the div elements are managed.
+  -->
+   <div style="float:left;">
+     <a href="https://coltongrainger.com">about</a>
+     | <a href="https://raw.githubusercontent.com/coltongrainger/blog/master/_posts/2018-08-06-navigating-with-kate.md">source</a>
+     | <a href="https://github.com/coltongrainger/blog/commits/master/_posts/2018-08-06-navigating-with-kate.md">history</a>
+  </div>
+  <div style="float:right;">
+    <!--
+      See
+        - http://stackoverflow.com/a/13379065/3422337
+        - http://kaspars.net/blog/wordpress/how-to-add-google-site-search
+        - http://www.vanderbilt.edu/searchsupport/code-samples.php
+    -->
+    <form name="google-search" action="https://google.com/search" method="get">
+      <fieldset style="border:0;">
+        <input type="hidden" name="sitesearch" value="https://coltongrainger.com" />
+        <input name="q" type="text" />
+        <input type="submit" name="btnG" value="search" />
+      </fieldset>
+    </form>
+  </div>
+</nav>
+
+  <script src="/assets/js/anchor.min.js"></script>
+  <main>
+
+  <h1> Navigating Courses at CU Boulder </h1>
+  <dl id="yaml_header_data">
+    
+      <dt>date: 2018-08-06</dt>
+    
+
+    
+      <dt>revised: 2019-01-18</dt>
+    
+
+    
+
+    
+      <dt>status: notes</dt>
+    
+  </dl>
+
+  <p>A survey of curriculum for first year PhD students in the maths department at CU Boulder, looking at cousin disciplines (applied maths, physics, computer science) and other universities.</p>
+
+<h2 id="collaboration-with-applied-maths-cs-and-physics">Collaboration with applied maths, CS, and physics</h2>
+
+<p>I see two ways of getting involved. I could attend talks (this is easy) and/or take courses (this would be hard, as I’d have to petition and the courses are outside my focus).</p>
+
+<p>I decided not to take any outside courses, but will certainly attend the <a href="https://sites.google.com/colorado.edu/statoptml/">StatOptML</a> seminar and the <a href="https://www.colorado.edu/physics/events/seminars-and-colloquia">physics colloquium</a>.</p>
+
+<h3 id="external-courses-and-seminars">External courses and seminars</h3>
+
+<ul>
+  <li>
+    <p>APPM</p>
+
+    <ul>
+      <li><a href="https://calendar.colorado.edu/group/applied_mathematics">Applied Maths Seminar</a></li>
+      <li><a href="https://www.colorado.edu/amath/sites/default/files/attached-files/supplement_16-17.pdf">APPM sequence courses</a></li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>APPM</th>
+          <th>Fall</th>
+          <th>Spring</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>5380-5390</td>
+          <td>Modeling in Applied Maths</td>
+          <td>Modeling in Maths-Bio</td>
+        </tr>
+        <tr>
+          <td>5430-5470</td>
+          <td>Complex Variables</td>
+          <td>PDEs and Integral Equations</td>
+        </tr>
+        <tr>
+          <td>5440-5450</td>
+          <td>Applied Analysis 1</td>
+          <td>Applied Analysis 2</td>
+        </tr>
+        <tr>
+          <td>5460-5470</td>
+          <td>Dynamical Systems</td>
+          <td>PDEs and Integral Equations</td>
+        </tr>
+        <tr>
+          <td>5470-5480</td>
+          <td>PDEs and Integral Equations</td>
+          <td>Approximation Methods</td>
+        </tr>
+        <tr>
+          <td>5520-5540</td>
+          <td>Intro to Stats</td>
+          <td>Intro to Time Series</td>
+        </tr>
+        <tr>
+          <td>5520-5560</td>
+          <td>Intro to Stats</td>
+          <td>Markov Processes</td>
+        </tr>
+        <tr>
+          <td>5600-5610</td>
+          <td>Numerical Analysis 1</td>
+          <td>Numerical Analysis 2</td>
+        </tr>
+        <tr>
+          <td>5590-5380</td>
+          <td>Statistical Modeling</td>
+          <td>Modeling in Applied Maths</td>
+        </tr>
+        <tr>
+          <td>5590-5520</td>
+          <td>Statistical Modeling</td>
+          <td>Intro to Stats</td>
+        </tr>
+        <tr>
+          <td>5590-5540</td>
+          <td>Statistical Modeling</td>
+          <td>Intro to Time Series</td>
+        </tr>
+        <tr>
+          <td>5590-5560</td>
+          <td>Statistical Modeling</td>
+          <td>Markov Processes</td>
+        </tr>
+        <tr>
+          <td>5590-5580</td>
+          <td>Statistical Modeling</td>
+          <td>Statistical Software</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p>CSCI</p>
+
+    <ul>
+      <li><a href="https://www.colorado.edu/cs-theory/theory-seminar">Theory Seminar</a></li>
+      <li><a href="https://twitter.com/bouldertheory"><code class="highlighter-rouge">@bouldertheory</code></a></li>
+      <li><a href="https://www.colorado.edu/cs-theory/">CS core courses</a></li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>CSCI</th>
+          <th>course</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>5454</td>
+          <td>Algorithms</td>
+        </tr>
+        <tr>
+          <td>5444</td>
+          <td>Theory of Computation</td>
+        </tr>
+        <tr>
+          <td>5654</td>
+          <td>Linear and Integer Programming</td>
+        </tr>
+        <tr>
+          <td>6564</td>
+          <td>Advanced Algorithms</td>
+        </tr>
+        <tr>
+          <td>5254</td>
+          <td>Convex Optimization</td>
+        </tr>
+        <tr>
+          <td>7000</td>
+          <td>Cryptography and Cryptanalysis</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <p>PHYS</p>
+
+    <ul>
+      <li><a href="https://www.colorado.edu/physics/events/seminars-and-colloquia">Physics (and related) colloquia</a></li>
+      <li><a href="https://www.colorado.edu/physics/academics/graduate-students/graduate-course-schedule">PHYS comps 1 courses and electives</a></li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>PHYS</th>
+          <th>course</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>5030</td>
+          <td>Math Methods 1</td>
+        </tr>
+        <tr>
+          <td>5040</td>
+          <td>Math Methods 2</td>
+        </tr>
+        <tr>
+          <td>5210</td>
+          <td>Mechanics</td>
+        </tr>
+        <tr>
+          <td>7230</td>
+          <td>Stat Mech 1</td>
+        </tr>
+        <tr>
+          <td>5250</td>
+          <td>QM 1</td>
+        </tr>
+        <tr>
+          <td>5260</td>
+          <td>QM 2</td>
+        </tr>
+        <tr>
+          <td>7310</td>
+          <td>EM 1</td>
+        </tr>
+        <tr>
+          <td>7320</td>
+          <td>EM 2</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<h2 id="non-academic-mentoring">Non-academic mentoring</h2>
+
+<p>In the Boulder area:</p>
+
+<ul>
+  <li>NCAR</li>
+  <li>NIST</li>
+  <li>NOAA</li>
+</ul>
+
+<p>Maths faculty occasionally work as consultants over the summer (e.g., in cryptography). During the academic year I am warned such applied involvement is rare. From September to May most faculty are grinding their noses into books (else <a href="https://www.wired.com/story/strava-heat-map-military-bases-fitness-trackers-privacy/">tracking rides on strava</a>).</p>
+
+<h2 id="summer-employment">Summer employment</h2>
+
+<p>A few options:</p>
+
+<ul>
+  <li>teach (8 weeks)</li>
+  <li>REU (8 weeks)</li>
+  <li>outside internship
+    <ul>
+      <li>e.g., <a href="https://www.colorado.edu/physics/nist-prep">NIST-PREP</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="maths-pillar-sequences">Maths pillar sequences</h2>
+
+<p>My initial and (after much deliberation, revision, and subsequent vacillation) final course load for Fall 2018 is comprised of 3 pillar courses at the 6000-level</p>
+
+<ul>
+  <li>Algebra 1</li>
+  <li><del>Analysis 1</del> (took SOML for credit instead)</li>
+  <li>Topology 1</li>
+</ul>
+
+<p>I did have to read around other university’s departmental webpages to settle my decision for what courses to take as a 1st year graduate student. Here’s the digest.</p>
+
+<h3 id="cu-boulder">CU Boulder</h3>
+
+<p>Disclaimer! This advice is relevant to the 2018-19 academic year, and, etc., the reader should contact the department for up-to-date and authoritative guidance.</p>
+
+<p>From <a href="http://math.colorado.edu/~kstange/">Kate Stange</a></p>
+
+<blockquote>
+  <p>Your main task in your first couple years is the required courses and prelim exams.  There are three main fall/spring sequences offered each year:</p>
+
+  <ul>
+    <li>algebra 1 &amp; 2</li>
+    <li>analysis 1 &amp; 2</li>
+    <li>topology &amp; geometry</li>
+  </ul>
+
+  <p>and one additional requirement:</p>
+
+  <ul>
+    <li>complex analysis</li>
+  </ul>
+
+  <p>Each sequence has an associated prelim exam, but you needn’t worry about those until you’ve completed the sequence in most cases.</p>
+
+  <p>Your usual course load would be 15 credits, which is 5 courses over the year.  You can do (3 fall / 2 spring) or (2 fall / 3 spring).  I usually recommend taking 2/3, since in fall you’ll still be getting your sea legs. (You can also take 3/3 with your tuition credit – beyond that I think you have to start paying more.)</p>
+
+  <p>The normal thing to do would be to take two pillar sequences.  These courses are heavy loads (think of one pillar course as two regular courses in terms of workload hours).  Electives will generally be lighter loads, and in spring you might choose an elective.  However, you might want a fall elective if something particular interests you (3/2).</p>
+
+  <p>I would go with whatever is most comfortable/familiar to begin.  If you are an algebra type, start with the algebra, etc.  You can also register for all 3 and then perhaps drop one after a week or two.  You can also attend one you aren’t registered for for a while, just to see (just mention it to the instructor).</p>
+
+  <p>So, in short, my recommendation is to pick two of the three courses listed above, and you will also take Math 5905, our one-credit teaching course.</p>
+
+  <p>As far as electives go, just a note:  cross-listed 5000/4000 level courses are sometimes aimed at undergraduates and graduate students from other departments.  Please ask the instructor if it’s appropriate for Math PhD students.</p>
+</blockquote>
+
+<h3 id="northwestern">Northwestern</h3>
+
+<p>Aside: Unlike UPenn 1st year students are not (generally) protected from teaching responsibilities. Such is the situation at CU Boulder.</p>
+
+<p><a href="https://www.math.northwestern.edu/graduate/handbook/teaching-policy.html">“Teaching Policy: Department of Mathematics - Northwestern University”</a>. Retrieved August 27, 2018.</p>
+
+<blockquote>
+  <p>Teaching experience is considered to be an integral part of the training of all graduate students, and is required each year of all students, with the exception of students in their final year of study.</p>
+
+  <p>First-year students usually fulfill this requirement by assisting with grading. Upper-level students fulfill this requirement by serving as a teaching assistant for at least one course in an academic year.</p>
+
+  <p>The work of teaching assistants varies with the course and the faculty member who has primary responsibility but generally includes answering questions about homework problems in the recitation section (which meets weekly for each course), grading homework, and proctoring and grading quizzes, mid-terms, and final exams. The faculty member teaching the course makes specific arrangements with his/her teaching assistants concerning their duties. Recitation sections meet on Tuesday or Thursday; the lectures are on Monday, Wednesday and Friday, although there may be occasional departures from this model. Classes begin on the hour and last for 50 minutes.</p>
+</blockquote>
+
+<p><a href="https://www.math.northwestern.edu/graduate/prelims/">“Preliminary Examination: Department of Mathematics - Northwestern University”</a>. Retrieved August 27, 2018.</p>
+
+<blockquote>
+  <p>All students must pass the Preliminary Examination in order to continue with the program.</p>
+
+  <ul>
+    <li>The Preliminary Examination consists of written examinations in the following three subjects: algebra, analysis, and geometry/topology.</li>
+    <li>Incoming students are invited and encouraged to take the Preliminary Examination upon entrance. There is no penalty for failing to pass a preliminary examination taken upon entrance to the program.</li>
+    <li>
+      <p>Incoming students will be required to take the first-year course in each of the prelim subjects they do not pass upon entrance, unless they submit documentation of having passed a comparable course at another institution (or other compelling evidence of familiarity with a subject).</p>
+    </li>
+    <li>
+      <p>The Preliminary Examination is given during New Student Week in September and at the end of the academic year (typically June).</p>
+    </li>
+    <li>
+      <p>Graduate students must take the Preliminary Examination in all three subjects by the end of their first academic year. Students who do not pass the Preliminary Examination by the end of their first year must pass a make-up examination in September of their second year in order to continue in the program beyond the first quarter of the second year. In the presence of strong evidence of other mathematical accomplishment, this rule may be modified or waived with the approval of the Graduate Committee.</p>
+    </li>
+    <li>An award is offered at the end of each academic year to the student who has achieved the best performance in the Preliminary Examination. The award is accompanied by a monetary prize.</li>
+  </ul>
+</blockquote>
+
+<h3 id="upenn">UPenn</h3>
+
+<p><a href="https://www.math.upenn.edu/graduate/yearbyyear">“Graduate Program Year-by-Year, Department of Mathematics”</a>. Retrieved August 27, 2018.</p>
+
+<blockquote>
+  <p>Fully-supported Ph.D. students ordinarily receive a fellowship in their first year, during which they have no teaching responsibilities and may take four courses.</p>
+
+  <p>Upon arrival in the Ph.D. program, new students take the Masters Preliminary Exam on key undergraduate mathematics; this serves as a placement exam. Those who pass the exam ordinarily take the beginning Ph.D. level courses in algebra (Math 602/603), analysis (Math 608/609), geometry-topology (Math 600/601), and an elective. (Exception: Those who enter with a more advanced background have an opportunity to place out of the beginning courses, and instead to move on to more advanced courses.)</p>
+
+  <p>Those students who do not pass the Masters Preliminary Exam upon arrival will ordinarily take the Masters Proseminar (Math 504/505), and possibly one or more of the masters level courses in algebra (Math 502/503), analysis (Math 509/509), and geometry-topology (Math 500/501), instead of the corresponding 600-level courses. These students need to pass the prelim by the end of their first year, to demonstrate their ability to move on to more advanced material.</p>
+
+  <p>Students whose native language is not English need to demonstrate their ability to communicate in English, during their first year. Those who cannot do so satisfactorily upon entry will take a special course in their first semester, designed to help them improve their English communication skills.</p>
+
+  <p>In addition to attending their courses, first year students are encouraged to attend the Math Department Colloquium, where mathematicians from other universities speak on topics of general mathematical interest, and also the Friday Pizza Seminar, where grad students give the talks and only grad students attend (and during which the Math Department provides pizza and drinks).</p>
+
+  <p>Typically first year students spend most of the following summer at Penn, and receive an additional fellowship stipend from the Math Department (with no teaching responsibilities) to enable them to pursue further studies.</p>
+</blockquote>
+
+<h3 id="tripos-part-iii-casm">Tripos Part III (CASM)</h3>
+
+<p>Part III of the Cambridge Mathematical Tripos sets some of the “most most selective” standards for passage into research level mathematics.</p>
+
+<p>It’s quite possible to reverse engineer a 1st year PhD course load by isolating Part III courses of interest, then seeking out their Part I and II prerequisites. See particularly the <a href="https://www.maths.cam.ac.uk/undergrad/course/schedules.pdf">Schedules</a> and Form of Examinations for the Mathematical Tripos from <a href="https://www.maths.cam.ac.uk/undergrad/course">“Undergraduate Mathematics: Course Information”</a>. September 23, 2015.)</p>
+
+<p>Hyping myself up with <em>high</em> ambition by imagining that I am just finishing <del>Part II</del> Part I, more realistically, and preparing to enter <del>Part III</del> Part II, I think it’s feasible for me to alight on the goal of <del>finishing each of CU Boulder’s preliminary exams with an unconditional pass</del> passing the prelim exams in 1 year, and completing the pillar courses in 2 years.</p>
+
+<p>Anyways, the motivation is there. Why race through the preliminary exams? “Because it may come in useful later.” Who knew?</p>
+
+<p>Some (more) ambitious commentary from Körner’s <a href="http://www.dpmms.cam.ac.uk/~twk/PartIII.pdf">unofficial guide to Part III</a></p>
+
+<blockquote>
+  <p>Most people who come to do Part III enjoy it (not all the time, it is very hard course) and are glad they came. However, each year we get a some students who discover that Part III is not at all what they expected or want. Here are some points that you may wish to bear in mind. Purpose We view Part III as a preparation for a PhD. If you are only interested in doing another year of mathematics you may well find the course too intense and too specialised. The answer to ‘Why are we doing this’ will often be ‘Because it may come in useful when you are doing research’.</p>
+
+  <p>I said earlier that it does not matter if you do not know a particular theorem or fact which your lecturer makes use of since the lecturer will be happy to help. It does, however, matter if you do not have the same kind of background as the rest of your class. The Cambridge students in your class will have followed courses whose syllabuses (and examination papers for the last few years) are given on the Faculty web site. Typically, they will have good control over all the courses in Part 1A, all the appropriate courses in Part 1B (that is the pure courses for pure students and the applied course for the applied students) and about six course in Part II. Thus, for example, if you attend a course in Quantum Mechanics the Cambridge students may have done 56 hours of courses. If you have done 40 hours and different topics you will probably still have the kind of general background required but, if you have only done one course of 24 hours, then the gap may be too great.</p>
+
+  <p>The lecturer’s Part III syllabus will often give prerequisites in sufficient detail to enable you to see whether you can tackle them. Frequently these show that some undergraduate course is not required. For example, there are undergraduate courses in General Relativity and Differential Geometry but the corresponding Part III courses often start from scratch. You should, however, expect such course to go quite fast and some general preliminary reading would be useful.</p>
+
+  <p>Most people are prepared to accept that Part III is a very hard course and that they will have to work very hard once it starts. It is also helpful to work quite hard before it starts. It is a good idea to discuss the Part III courses you intend to take with your present professors and ask their advice on preliminary reading. If you have a choice of final year courses, choose the ones which are most appropriate for your future plans.</p>
+
+  <p>Look at the old Cambridge Part II papers in the topics you intend to pursue and work through some of the questions. (Note that you are not preparing for an exam. Do the questions slowly, consulting the appropriate textbooks and thinking about the questions after you have done them.) If, in spite of your good intentions, you find that you are not doing as much as you should, remember that some preparation is better than none and persevere.</p>
+</blockquote>
+
+<p>More from Professor Körner.</p>
+
+<blockquote>
+  <p>A […] psychological point.</p>
+
+  <p>Let me recall a well known story.</p>
+
+  <blockquote>
+    <p>One evening, about the time when bananas were first being imported in Britain, Lord Leconfield was dining in his stately home with a friend. His guest observed that nobody really knew how good a banana could be unless he had tasted one straight off the tree.</p>
+
+    <p>Lord Leconfield said nothing at the time, but next morning he sent for his head gardener. ‘Go’, he told him tersely, ‘to Kew. Find out how to grow a banana. Come back here and grow one.’</p>
+
+    <p>Off went the head gardener. A special greenhouse was constructed. The banana tree was splendid. Lord Leconfield took a lively interest in in its progress until it fructified. ‘I will have the banana for dinner tonight,’ he said as soon as the banana was ripe. And so he did — amid a deadly hush. The head gardener himself was there, concealed behind a screen.</p>
+
+    <p>The banana was brought in on a splendid dish. Lord Leconfield peeled it with a golden knife. He then cut a sliver off and, with a golden fork, put it in his mouth and carefully tasted it. Whereupon he flung dish, plate, knife, fork and banana on to the floor and shouted ‘Oh God, it tastes like any other damn banana!’ Banana tree and all were ordered to be destroyed.</p>
+  </blockquote>
+
+  <p>The Cambridge Mathematics Departments are just mathematics departments like any other damn mathematics departments. If you did not enjoy the course at your previous institution you will probably not enjoy the course</p>
+</blockquote>
+
+<h2 id="applying-for-an-nsf-graduate-fellowship">Applying for an NSF graduate fellowship</h2>
+
+<p>Again from Prof Stange</p>
+
+<blockquote>
+  <p>I just wanted to add a little info about the NSF GRF opportunity.  I encourage students to consider applying (I suggest speaking to your faculty mentor about this).  It is a great honour to receive one and would be valuable in terms of extra research time and flexibility (it would replace teaching as a funding source, and allow travel).</p>
+
+  <p>Students who apply must be citizens or permanent residents.  Generally, students can apply only once after they begin their PhD work, either the fall of their first or second year.  The deadline is in mid October, and you need to have 3 letter writers and transcripts organized well before this.</p>
+
+  <p>Even more important, you need to submit a research plan.  You can deviate from this plan later (it isn’t a contract) but it should give specific problems and specific tools to attack those problems.  Therefore, you almost certainly need a faculty member to help you write the research plan.  This is the main obstacle, but also an opportunity to get to know a potential advisor.  As I said, it doesn’t have to be the faculty member you eventually do your thesis with, but it will give you an opportunity to explore possible avenues of research.  The exercise itself is valuable even if the application is not successful.  I encourage faculty to be open to helping with such applications.</p>
+
+  <p>Note:  This program is multi-disciplinary, and the design fits well in lab sciences where you have an advisor/topic early.  It doesn’t fit the usual mathematical graduate program where students choose an advisor/subject only several years into the program.  The upside is NSF doesn’t get as many mathematics applications for this reason.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>attend STEMinar, Physics colloquium, StatOptML seminar</p>
+  </li>
+  <li>
+    <p>pitch proposals in algebraic topology</p>
+
+    <ul>
+      <li>presenting own ideas</li>
+      <li>asking for open problems</li>
+    </ul>
+  </li>
+  <li>
+    <p>application tips</p>
+
+    <ul>
+      <li>to explain the problem/impact</li>
+      <li>lie out tools to be used in the approach</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="notetaking">Notetaking</h2>
+
+<p>I appreciate <code class="highlighter-rouge">mpacers</code>’s gusto and tactile sensibility in choosing to treat his preparations for Berkeley’s qualifying exams as experimental science, and log reading responses in a collection of 19 field notebooks.</p>
+
+<p>From <a href="https://mpacer.org/explaining-this-collection/">“Explaining this collection”</a></p>
+
+<blockquote>
+  <p>Knowing myself, I knew that I would be more motivated by the idea of producing something that is of potential worth for others than I would be by the mere prospect of perfunctorily checking a bureaucrats’ box. However important it may be, filling forms, checking those boxes has never been a particularly appealing prospect.My secret assumption has always been that everyone agrees with me (even the stuffy bureaucrats), but that others are better able to see past the grid into which they are placing themselves to the real purpose of whatever exercise is being conducted. I make the assumption of my own myopathy before I assume that the world truly revels in forcing people to do things that have a tenuous relation to what matters in the long run.</p>
+</blockquote>
+
+<p><img src="https://static1.squarespace.com/static/5415d6d6e4b09de883251c2f/541faed5e4b0ff88564851a0/541fb487e4b09194f7694010/1411363991191/Splitting+the+cost+of+thought+47.png?format=750w" alt="" width="100%" /></p>
+
+<p><img src="https://static1.squarespace.com/static/5415d6d6e4b09de883251c2f/542105a7e4b042b085c88779/542124ece4b0462bd0f5b7b3/1411458298501/Cracken+the+Hull+03.png?format=750w" alt="" width="100%" /></p>
+
+<p>Following their lead (and knowing how much I like notetaking by hand), I purchased a portable duplexing scanner (50-page capacity) to drop my notes into at the end of each day.</p>
+
+<p>From <a href="http://blog.samaltman.com/productivity">“Productivity”</a>. Sam Altman. Retrieved August 27, 2018.</p>
+
+<blockquote>
+  <p>I prefer lists written down on paper.  It’s easy to add and remove tasks.  I can access them during meetings without feeling rude.</p>
+</blockquote>
+
+<p>I also wrote <a href="https://github.com/coltongrainger/dotfiles/blob/master/.local/bin/scripts/one-sided-scan.sh">one-sided-scan.sh</a> and a corresponding two sided option to handle the scanning and chronological sorting of notes.<sup id="fnref:ape"><a href="#fn:ape" class="footnote">1</a></sup></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:ape">
+      <p>If I’m going to ape Pacer, I want the records to <em>look good</em> after the fact. I decided on monochrome scans at 300dpi, be named by their ISO date. <del>I have <a href="https://tmsu.org">TMSU</a> if I really want to tag the files.</del>&nbsp;<a href="#fnref:ape" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+  </main>
+
+<footer>
+<p align="right" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  Licensed as 
+  <a href="https://en.wikipedia.org/wiki/Creative%20Commons" title="Wikipedia: Creative Commons">Creative Commons</a> 
+  <a href="http://creativecommons.org/about/cc0">public domain (CC-0)</a> by Colton Grainger.
+</p>
+</footer> <script>
+    anchors.add();
+  </script>
+</body>
+</html>
+

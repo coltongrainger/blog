@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>Content Creation (Colton Grainger)</title>
+  
+
+  <style type="text/css">
+    /* License: CC0 */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  font-family: "Fira Sans", sans-serif ;
+  color: #333333 ;
+}
+
+main, footer {
+  line-height: 1.4;
+  margin: auto;
+  max-width: 40rem;
+  text-align: left;
+  width: 93%;
+  word-wrap: break-word;
+}
+
+footer { font-size: 80%; }
+
+nav#site_navigation {
+    font-size: 80%;
+    /* See http://stackoverflow.com/a/324553 ; this ensures that the
+     navigation links (left side) and search bar (right side) play
+     nicely */
+    overflow: hidden;
+}
+
+div#toc {
+    font-size: 80%;
+}
+
+dl#yaml_header_data {
+    font-size: 80%;
+}
+
+h1 { text-transform: uppercase; }
+h2 { border-bottom: 1px solid #ccc; }
+h1, h2, h3, h4, h5, h6 { 
+  font-family: "fira sans", sans-serif ;
+  font-size: 120%;
+  font-weight: normal;
+}
+
+a { color: BlueViolet; text-decoration: none; }
+a:visited { color: #b58900; }
+a:hover, a:active { text-decoration:underline; }
+a.anchorjs-link:hover, a.anchorjs-link:active { text-decoration: none; }
+
+blockquote {
+    border-left: 0.25em solid #ccc;
+    margin: 0px;
+    padding-left: 1.5em;
+}
+
+code {
+    font-family: "Inconsolata",monospace;
+    color: #586e75;
+    background-color: #f6f6f6;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    word-wrap: normal;
+    border-radius: 0.2em;
+}
+
+pre code {
+    display: block;
+    line-height: 1.2;
+    max-height: 400px;
+    overflow: auto;
+    padding: 0.5em;
+}
+
+pre {
+    font-family: inherit;
+    line-height: 1.4;
+}
+
+table {
+    border-bottom: 2px solid #333;
+    border-collapse: collapse;
+    border-top: 2px solid #333;
+    margin: 0px auto; /* center table */
+}
+
+table th {
+    border-bottom: 1px solid #333;
+    font-weight: normal;
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+table td {
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em; 
+}
+
+@media screen and (max-width: 40rem) {
+    html { 
+      font-size: 80%; 
+    }
+    main { 
+      padding-left: 5px ;
+      padding-right: 5px ;
+    }
+    body { 
+      padding: 0px; 
+    }
+}
+
+    .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #586e75;
+}
+.highlight .err {
+  color: #002b36;
+  background-color: #dc322f;
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #657b83;
+}
+.highlight .cp {
+  color: #b58900;
+}
+.highlight .nt {
+  color: #b58900;
+}
+.highlight .o, .highlight .ow {
+  color: #93a1a1;
+}
+.highlight .p, .highlight .pi {
+  color: #93a1a1;
+}
+.highlight .gi {
+  color: #859900;
+}
+.highlight .gd {
+  color: #dc322f;
+}
+.highlight .gh {
+  color: #268bd2;
+  background-color: #002b36;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #6c71c4;
+}
+.highlight .kc {
+  color: #cb4b16;
+}
+.highlight .kt {
+  color: #cb4b16;
+}
+.highlight .kd {
+  color: #cb4b16;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #859900;
+}
+.highlight .sr {
+  color: #2aa198;
+}
+.highlight .si {
+  color: #d33682;
+}
+.highlight .se {
+  color: #d33682;
+}
+.highlight .nn {
+  color: #b58900;
+}
+.highlight .nc {
+  color: #b58900;
+}
+.highlight .no {
+  color: #b58900;
+}
+.highlight .na {
+  color: #268bd2;
+}
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #859900;
+}
+.highlight .ss {
+  color: #859900;
+}
+
+  </style>
+</head>
+
+<body>
+<nav id="site_navigation">
+  <!--
+    See
+      http://stackoverflow.com/questions/37103/css-make-divs-align-horizontally
+    for how the div elements are managed.
+  -->
+   <div style="float:left;">
+     <a href="https://coltongrainger.com">about</a>
+     | <a href="https://raw.githubusercontent.com/coltongrainger/blog/master/_posts/2017-12-03-content-creation.md">source</a>
+     | <a href="https://github.com/coltongrainger/blog/commits/master/_posts/2017-12-03-content-creation.md">history</a>
+  </div>
+  <div style="float:right;">
+    <!--
+      See
+        - http://stackoverflow.com/a/13379065/3422337
+        - http://kaspars.net/blog/wordpress/how-to-add-google-site-search
+        - http://www.vanderbilt.edu/searchsupport/code-samples.php
+    -->
+    <form name="google-search" action="https://google.com/search" method="get">
+      <fieldset style="border:0;">
+        <input type="hidden" name="sitesearch" value="https://coltongrainger.com" />
+        <input name="q" type="text" />
+        <input type="submit" name="btnG" value="search" />
+      </fieldset>
+    </form>
+  </div>
+</nav>
+
+  <script src="/assets/js/anchor.min.js"></script>
+  <main>
+
+  <h1> Content Creation </h1>
+  <dl id="yaml_header_data">
+    
+      <dt>date: 2017-12-03</dt>
+    
+
+    
+      <dt>revised: 2018-07-04</dt>
+    
+
+    
+      <dt>belief: <a href = "https://www.gwern.net/About#confidence-tags">likely</a></dt>
+    
+
+    
+      <dt>status: in process</dt>
+    
+  </dl>
+
+  <p>Two schools of thought on the creative process: who am I chasing after? (Or, do
+I need a wiki or a blog?)</p>
+
+<p>Inés Estrada, aka <a href="http://inechi.com/">inechi</a>, reps the “I do it for myself”
+perspective.</p>
+
+<blockquote>
+  <p><em>There’s been some recent discussion about balancing art and business,
+which when you talked about not compromising your art, I was reminded of.
+What are your objectives? Do you have an audience in mind, and think about
+sale-ability, or does that come second-after production?</em></p>
+
+  <p>I make art because I need to, it’s something I do for fun and also for
+release. If people like it, that’s very rewarding, but in the end the only
+person I try to please with it is myself. I love the idea of making money
+out of what I do (and I’m lucky to be able to) but I don’t plan my comics
+considering my audience as customers. I feel like, for me, it’s mostly worked
+out not because I think “I should do shit that sells” but more like “How do I
+sell this shit I just did?!”</p>
+</blockquote>
+
+<p>One the other hand, <a href="http://pgbovine.net/writings.htm">Philip Guo</a> reps “make it
+new”:</p>
+
+<blockquote>
+  <p>One heuristic I use when deciding what to write is to ask myself: <em>Will at
+least 100 people care about this topic three years from now?</em></p>
+
+  <p>The following don’t qualify, so I rarely write about them: commentary on news
+events or fads, reactions to someone else’s article, personal notes that only
+my friends would care about. Also, if I see many people writing about a
+topic, then I avoid it unless I have a drastically different perspective.</p>
+</blockquote>
+
+<p>If I know where I stood on this spectrum, I’d have nothing more to say. 
+In fact, if 
+<a href="https://en.wikipedia.org/wiki/The_medium_is_the_message">the message is the medium</a>, 
+then this blog should err towards Philip’s conservative heuristic.<sup id="fnref:tie"><a href="#fn:tie" class="footnote">1</a></sup></p>
+
+<p>But as Inés gives 
+<a href="http://gatosaurio.com/">such compelling counter-examples</a>—florid 
+.gif art, self-declaration of intent, and apparent <em>success</em> as an
+artist—I am motivated to draw a comparison.</p>
+
+<h2 id="applied-to-long-content">Applied to long content</h2>
+
+<p>If I wrote conservatively, I wouldn’t need to worry about “severe edits”
+(deletion, name changes, and other means of abandoning my identity).</p>
+
+<p><a href="http://blog.inechi.com/2017/10/end-of-year-shows.html">inechi</a> describes</p>
+
+<blockquote>
+  <p>The internet can be overwhelming, specially when you manage different pages
+and social media things. Sometimes I don’t want to have to interact with a
+post any more and I delete it. The faster the internet becomes, and the more
+social media tries to emulate quotidianity and the feeling of “hanging out”
+with other people, the more necessary it becomes for part of the information
+to be ephemeral. Not everything is relevant enough to be saved permanently in
+your world wide registry.</p>
+</blockquote>
+
+<p>Here’s an alternative. <a href="https://issarice.com/long-content">Issa Rice</a> defines</p>
+
+<blockquote>
+  <p>Long Content is a style of content creation where one has “perpetual drafts”
+that one improves over time. This is in contrast to a style where one
+publishes once and in the long term does not come back to edit/maintain the
+content.</p>
+</blockquote>
+
+<p>But ironically, I prefer to approach long content without regard for passing
+time, as telemarking a snowed ridge to see the gnarled trunk of a 
+<a href="https://en.wikipedia.org/wiki/Pinus_albicaulis">whitebark pine</a>).</p>
+
+<blockquote>
+  <p>Whitebark pines at high elevations often attain extreme age. Stands in the
+Wind River Range, Wyoming, and Jasper National Park, Alberta, have been aged
+at greater than 600 and 700 years, respectively.<sup id="fnref:133"><a href="#fn:133" class="footnote">2</a></sup><sup id="fnref:194"><a href="#fn:194" class="footnote">3</a></sup> The oldest
+recorded specimen is on the Sawtooth National Forest of Idaho, over 1,270
+years old.<sup id="fnref:169"><a href="#fn:169" class="footnote">4</a></sup></p>
+</blockquote>
+
+<p>It’s <em>because</em> long-content is maintained that I understand endeavours
+here to be place-based/spatial rather than temporal.</p>
+
+<p>Another resonant metaphor, from 
+<a href="https://wiki.haskell.org/Xmonad/Config_archive/John_Goerzen%27s_Configuration">John Goerzen</a>
+is that tending content is wiki-gardening:</p>
+
+<blockquote>
+  <p>The author in reality does not use this ‘comma first’ style. However, since
+it is the style used in xmonad, xmonad-contrib and most all xmonad.hs files,
+he has kindly consented to allow your friendly wiki gardeners to convert the
+original Haskell from ‘comma last’ style.</p>
+</blockquote>
+
+<p>Continuing, Issa quotes 
+<a href="http://www.personal.kent.edu/~rmuhamma/Philosophy/RBwritings/howWrite.htm">Bertrand Russell</a>
+in defense of <em>not</em> rewriting</p>
+
+<blockquote>
+  <p>I conscientiously tried [to rewrite], but found that my first draft was
+almost always better than my second. This discovery has saved me an immense
+amount of time. I do not, of course, apply it to the substance, but only to
+the form. When I discover an error of an important kind I re-write the whole.
+What I do not find is that I can improve a sentence when I am satisfied with
+what it means.</p>
+</blockquote>
+
+<p>But I’m usually coming at writing/rewriting from an ecological perspective—akin
+to Gary Synder’s “<a href="https://terebess.hu/zen/mesterek/The-Practice-of-the-Wild-by-Gary-Snyder.pdf">writing as tracks</a>
+rather than gwern’s “<a href="https://www.gwern.net/About">writing as convergence</a>”.
+And I still dig (as Roger Peng puts it) “your average hot take on the
+internet” because hot takes lend themselves to a practice of writing (e.g.,
+to build mechanical skill, for animal pleasure).</p>
+
+<h2 id="on-publishing">On publishing</h2>
+
+<p>So what’s at stake? Why not commit to more relentless publication and,
+consequently, transparency and personal disclosure? Why focus on advancing new
+ideas (rather than signing karaoke on the old ones)?</p>
+
+<ul>
+  <li>
+    <p>thinking ecologically, where I stand wrt the <a href="https://en.wikipedia.org/wiki/Ecosystem_services#Redundancy_hypothesis">redundancy hyphothesis</a></p>
+
+    <ul>
+      <li>species redundancy enhances ecosystem resilience</li>
+      <li>deletion/link-rot/dying in an abundance ecosystem is legit</li>
+      <li>other players fill my niche, producing a “variation on a theme”</li>
+      <li>relieves anxiety, pressure to “save face”/”defend my ego”</li>
+    </ul>
+  </li>
+  <li>
+    <p>commitment to an identity</p>
+
+    <ul>
+      <li>Paul Graham’s <a href="http://www.paulgraham.com/identity.html">Keep Your Identity Small</a></li>
+    </ul>
+  </li>
+  <li>
+    <p>the duration of my conscious experience</p>
+
+    <ul>
+      <li>Peter Theil’s anti-aging vs. Snyder’s constellation painting</li>
+      <li>wanting to die obscure</li>
+      <li>theological considerations(?)</li>
+    </ul>
+  </li>
+  <li>
+    <p>writing/rewriting could <em>either</em> converge or diverge</p>
+
+    <ul>
+      <li>why not assume convergence?</li>
+      <li>or <a href="http://www.meltingasphalt.com/prickles-and-goo/">coarsen up the metric</a> to guarantee convergence?</li>
+    </ul>
+  </li>
+  <li>
+    <p>why converge at all?</p>
+
+    <ul>
+      <li>to be respectful of other people’s time?</li>
+      <li>why not <em>just give a disclaimer</em>: “I’m not doing anything”, “This is going nowhere”.</li>
+      <li>maybe that’s self-defeating</li>
+      <li>or maybe, convergence is sort of praiseworthy</li>
+    </ul>
+  </li>
+  <li>
+    <p>how I feel about <a href="http://inechi.com/Media/">inechi’s art</a></p>
+
+    <ul>
+      <li>“don’t touch me”</li>
+      <li>“don’t care”</li>
+      <li>“no more humans”</li>
+    </ul>
+  </li>
+  <li>
+    <p>fear that writing is shameful</p>
+
+    <ul>
+      <li>how is content evaluated by an implied reader?</li>
+      <li>worthless (philosophically)</li>
+      <li>inappropriate (socially, culturally)</li>
+      <li>poisonous (materially, linguistically)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>From <a href="https://www.google.com/search?q=Gold+and+jade+endanger+the+house+of+their+possessor">The Way of Reticence</a>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Gold and jade endanger the house of their possessor. 
+Wealth and honors lead to arrogance and envy, and bring ruin. 
+Is thy way famous and thy name becoming distinguished? 
+Withdraw, thy work once done, into obscurity; 
+for this is the way of Heaven.
+</code></pre>
+</div>
+
+<h2 id="choice-of-venue">Choice of venue</h2>
+
+<p>I’m <em>also</em> cautious of personal websites as isolated repositories. (If it
+wasn’t for the learning curve (and fun) in getting onto the independent web,
+I’d be more interested in posting to Wikipedia.) But, again, <em>this is not a
+blog</em>, it’s a set of notes (and an exercise in categorization).</p>
+
+<p>UPDATE: it’s a blog! Turns out that I’m an animal outside my draconian
+ontologies, and I won’t put up with self-censorship.</p>
+
+<p>Although blogs do violate both of Paul Halmos’ rules:</p>
+
+<blockquote>
+  <ol>
+    <li>Do organize content.</li>
+    <li>Do not distract the reader.[^halmos]</li>
+  </ol>
+</blockquote>
+
+<p>From <a href="https://issarice.com/egoism-of-personal-websites">Issa Rice</a>:</p>
+
+<blockquote>
+  <p>In general I prefer openness, and an attitude of having “nothing to hide”
+rather than a standard of secrecy about one’s thoughts.</p>
+
+  <p>There is some content that can be justified being sorted chronologically (as
+in a blog), though I think there should be a presumption in favor of
+topic-centric organization.
+Likewise I think it can be justified to collect content by author of the piece
+(as in a personal site or CV), though again by the presumption in favor of
+topic-centric organization of content, it would be more useful <em>in a larger
+number of cases</em> to have topic-specific sites instead.</p>
+
+  <p>What are some possible publishing venues?</p>
+
+  <ul>
+    <li>Wikipedia, for general overviews of topics (but also see pages like <a href="http://groupprops.subwiki.org/wiki/Groupprops:Groupprops_versus_Wikipedia">this one</a>)</li>
+    <li>wikiHow, for how-to guides</li>
+    <li>LessWrong</li>
+    <li>reddit, which has a wiki feature for some subreddits now</li>
+    <li>EA Forum</li>
+    <li>Facebook</li>
+    <li>Quora, Stack Exchange sites</li>
+    <li>Topic-specific sites</li>
+    <li>discussion forums? – and more ephemeral forms of communication …</li>
+    <li>there are some other content creation sites, like erowid and everything2.</li>
+    <li>personal site, for everything else</li>
+  </ul>
+</blockquote>
+
+<p>I don’t know. Maybe reddit. Again, the UI of Quora stresses me out. It’s stack
+exchange’s inappropriate and prying cousin.</p>
+
+<h2 id="necrobumping">Necrobumping</h2>
+
+<p>Taken from the <a href="https://bbs.archlinux.org/viewtopic.php?id=47795">Arch Linux Wiki</a></p>
+
+<blockquote>
+  <blockquote>
+    <p>This is still the top search result for this problem, so resurrecting for the benefit of others:</p>
+
+    <p>[redacted]</p>
+  </blockquote>
+
+  <p>Please don’t do that. The wiki should be updated if need be, dead threads should be left in peace.</p>
+
+  <p><a href="https://wiki.archlinux.org/index.php/Forum_etiquette#Old_threads.2F.22necro-bumping.22">https://wiki.archlinux.org/index.php/Forum_etiquette#Old_threads.2F.22necro-bumping.22</a></p>
+
+  <p>Closing.</p>
+</blockquote>
+
+<p>Yet outside forum threads, necrobumping can be honorable. From <a href="http://www.cirosantilli.com/projects/">Ciro Santilli</a></p>
+
+<blockquote>
+  <p>I like to answer important questions, for which none of the answers satisfied
+me, and close duplicates.</p>
+
+  <p>Necromancer is my favorite badge. If you consider that a meaningful metric,
+which implies that you are insane, then I was one of the top 2 users as of
+June 2016.</p>
+</blockquote>
+
+<h2 id="organizational-principles">Organizational principles</h2>
+
+<ul>
+  <li><a href="https://indieweb.org/principles">https://indieweb.org/principles</a></li>
+  <li><a href="https://indieweb.org/Category:building-blocks">https://indieweb.org/Category:building-blocks</a></li>
+  <li><a href="https://indieweb.org/POSSE">https://indieweb.org/POSSE</a></li>
+  <li><a href="http://contentcreation.issarice.com/standardized-sections/">http://contentcreation.issarice.com/standardized-sections/</a></li>
+</ul>
+
+<h2 id="data-management-plans">Data Management Plans</h2>
+
+<ul>
+  <li><a href="http://www.interpares.org/ip2/book.cfm">International Research on Permanent Authentic Records in Electronic Systems</a></li>
+  <li><a href="https://libraries.mit.edu/data-management/files/2014/05/file-organization-july2014.pdf">Research Data Management: File Organization</a></li>
+</ul>
+<div class="footnotes">
+  <ol>
+    <li id="fn:tie">
+      <p>Depending on my mood, Philip’s criterion can also be a creative limitation. 
+    I vacillate: <a href="https://www.youtube.com/watch?v=y3Xp_9EGz2c">“Tie me up! Untie me!”</a>&nbsp;<a href="#fnref:tie" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:133">
+      <p>Luckman, B. H.; Jozsa, L. A.; Murphy, P. J. 1984. Living seven-hundred-year-old Picea engelmannii and Pinus albicaulis in the Canadian Rockies. Arctic and Alpine Research. 16(4): 419-422. [1481]&nbsp;<a href="#fnref:133" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:194">
+      <p>Steele, Robert; Cooper, Stephen V.; Ondov, David M.; Roberts, David W.; Pfister, Robert D. 1983. Forest habitat types of eastern Idaho-western Wyoming. Gen. Tech. Rep. INT-144. Ogden, UT: U.S. Department of Agriculture, Forest Service, Intermountain Forest and Range Experiment Station. 122 p. [2230]&nbsp;<a href="#fnref:194" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:169">
+      <p>Perkins, Dana L.; Swetnam, Thomas W. 1996. A dendroecological assessment of whitebark pine in the Sawtooth–Salmon River region, Idaho. Canadian Journal of Forest Research. 26: 2123-2133. [27299]&nbsp;<a href="#fnref:169" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+  </main>
+
+<footer>
+<p align="right" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  Licensed as 
+  <a href="https://en.wikipedia.org/wiki/Creative%20Commons" title="Wikipedia: Creative Commons">Creative Commons</a> 
+  <a href="http://creativecommons.org/about/cc0">public domain (CC-0)</a> by Colton Grainger.
+</p>
+</footer> <script>
+    anchors.add();
+  </script>
+</body>
+</html>
+

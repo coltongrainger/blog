@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>Superstition (Colton Grainger)</title>
+  
+
+  <style type="text/css">
+    /* License: CC0 */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  font-family: "Fira Sans", sans-serif ;
+  color: #333333 ;
+}
+
+main, footer {
+  line-height: 1.4;
+  margin: auto;
+  max-width: 40rem;
+  text-align: left;
+  width: 93%;
+  word-wrap: break-word;
+}
+
+footer { font-size: 80%; }
+
+nav#site_navigation {
+    font-size: 80%;
+    /* See http://stackoverflow.com/a/324553 ; this ensures that the
+     navigation links (left side) and search bar (right side) play
+     nicely */
+    overflow: hidden;
+}
+
+div#toc {
+    font-size: 80%;
+}
+
+dl#yaml_header_data {
+    font-size: 80%;
+}
+
+h1 { text-transform: uppercase; }
+h2 { border-bottom: 1px solid #ccc; }
+h1, h2, h3, h4, h5, h6 { 
+  font-family: "fira sans", sans-serif ;
+  font-size: 120%;
+  font-weight: normal;
+}
+
+a { color: BlueViolet; text-decoration: none; }
+a:visited { color: #b58900; }
+a:hover, a:active { text-decoration:underline; }
+a.anchorjs-link:hover, a.anchorjs-link:active { text-decoration: none; }
+
+blockquote {
+    border-left: 0.25em solid #ccc;
+    margin: 0px;
+    padding-left: 1.5em;
+}
+
+code {
+    font-family: "Inconsolata",monospace;
+    color: #586e75;
+    background-color: #f6f6f6;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    word-wrap: normal;
+    border-radius: 0.2em;
+}
+
+pre code {
+    display: block;
+    line-height: 1.2;
+    max-height: 400px;
+    overflow: auto;
+    padding: 0.5em;
+}
+
+pre {
+    font-family: inherit;
+    line-height: 1.4;
+}
+
+table {
+    border-bottom: 2px solid #333;
+    border-collapse: collapse;
+    border-top: 2px solid #333;
+    margin: 0px auto; /* center table */
+}
+
+table th {
+    border-bottom: 1px solid #333;
+    font-weight: normal;
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+table td {
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+li {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em; 
+}
+
+@media screen and (max-width: 40rem) {
+    html { 
+      font-size: 80%; 
+    }
+    main { 
+      padding-left: 5px ;
+      padding-right: 5px ;
+    }
+    body { 
+      padding: 0px; 
+    }
+}
+
+    .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight, .highlight .w {
+  color: #586e75;
+}
+.highlight .err {
+  color: #002b36;
+  background-color: #dc322f;
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #657b83;
+}
+.highlight .cp {
+  color: #b58900;
+}
+.highlight .nt {
+  color: #b58900;
+}
+.highlight .o, .highlight .ow {
+  color: #93a1a1;
+}
+.highlight .p, .highlight .pi {
+  color: #93a1a1;
+}
+.highlight .gi {
+  color: #859900;
+}
+.highlight .gd {
+  color: #dc322f;
+}
+.highlight .gh {
+  color: #268bd2;
+  background-color: #002b36;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #6c71c4;
+}
+.highlight .kc {
+  color: #cb4b16;
+}
+.highlight .kt {
+  color: #cb4b16;
+}
+.highlight .kd {
+  color: #cb4b16;
+}
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+  color: #859900;
+}
+.highlight .sr {
+  color: #2aa198;
+}
+.highlight .si {
+  color: #d33682;
+}
+.highlight .se {
+  color: #d33682;
+}
+.highlight .nn {
+  color: #b58900;
+}
+.highlight .nc {
+  color: #b58900;
+}
+.highlight .no {
+  color: #b58900;
+}
+.highlight .na {
+  color: #268bd2;
+}
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+  color: #859900;
+}
+.highlight .ss {
+  color: #859900;
+}
+
+  </style>
+</head>
+
+<body>
+<nav id="site_navigation">
+  <!--
+    See
+      http://stackoverflow.com/questions/37103/css-make-divs-align-horizontally
+    for how the div elements are managed.
+  -->
+   <div style="float:left;">
+     <a href="https://coltongrainger.com">about</a>
+     | <a href="https://raw.githubusercontent.com/coltongrainger/blog/master/_posts/2015-12-15-superstition.md">source</a>
+     | <a href="https://github.com/coltongrainger/blog/commits/master/_posts/2015-12-15-superstition.md">history</a>
+  </div>
+  <div style="float:right;">
+    <!--
+      See
+        - http://stackoverflow.com/a/13379065/3422337
+        - http://kaspars.net/blog/wordpress/how-to-add-google-site-search
+        - http://www.vanderbilt.edu/searchsupport/code-samples.php
+    -->
+    <form name="google-search" action="https://google.com/search" method="get">
+      <fieldset style="border:0;">
+        <input type="hidden" name="sitesearch" value="https://coltongrainger.com" />
+        <input name="q" type="text" />
+        <input type="submit" name="btnG" value="search" />
+      </fieldset>
+    </form>
+  </div>
+</nav>
+
+  <script src="/assets/js/anchor.min.js"></script>
+  <main>
+
+  <h1> Superstition </h1>
+  <dl id="yaml_header_data">
+    
+      <dt>date: 2015-12-15</dt>
+    
+
+    
+      <dt>revised: 2017-07-30</dt>
+    
+
+    
+      <dt>belief: <a href = "https://www.gwern.net/About#confidence-tags">fiction</a></dt>
+    
+
+    
+      <dt>status: poetry</dt>
+    
+  </dl>
+
+  <p>An excerpt of verse for Dr. Eric Spencer’s <em>English Renaissance Literature</em>.</p>
+
+<pre>
+In 1572, Tycho Brahe observed 
+a sudden and continuous rain of light 
+emanating from the celestial realm of Cassiopeia. 
+
+After a number of weeks, he noted that 
+this new source of light failed to shift 
+in position relative to the fixed heavenly sphere.
+
+The source lacked parallax 
+and must then have been located upon the surface 
+of the celestial realm. 
+
+He published De Nova Stella in 1573, 
+claiming a new star had come into existence 
+above the sublunary realm 
+with the expressed conviction that 
+the world was hastening to its end.
+
+Tycho's new star is known today 
+to have been the electromagnetic trace of SN 1572.
+
+a star under enormous pressure 
+whereby the free electrons of the stellar interior
+were forcibly melded with protons to create 
+a single giant atomic nucleus
+imploded violently with exterior plasma collapsing 
+only to rebound gallantly outwards
+
+50 years later, proper time, 
+with the publication of the Novum Organum,
+Francis Bacon proclaimed 
+the newness of a method available to human thought, 
+by which the species might establish 
+progressive stages of certainty.
+
+Bacon differentiates his inductive method from Socratic midwifery 
+in that Bacon retains the senses, 
+helped and guided 
+by a certain process of correction.
+
+However, Bacon's method is new 
+because he rejects 
+the mental operation 
+that follows an act of sense.
+
+From Socrates:
+
+"my art of midwifery is in most respects like theirs; 
+but differs, in that I attend men and not women; 
+and look after their souls when they are in labour, 
+and not after their bodies: 
+
+"and the triumph of my art is 
+in thoroughly examining 
+whether the thought which the mind of the young man 
+brings forth is a false idol or a noble and true birth.
+
+"Take a look round, then, 
+and see that none of the uninitiated are listening.
+
+"Now by the uninitiated I mean: 
+the people who believe in nothing 
+but what they can grasp in their hands, 
+and who will not allow 
+that action or generation 
+or anything invisible 
+can have real existence.
+
+"Yes, indeed, Socrates, 
+they are very hard and impenetrable mortals. 
+
+"Yes, my boy, outer barbarians.
+Far more ingenious 
+are the brethren whose mysteries 
+I am about to reveal to you.
+
+Bacon identifies that 
+in superstition arguments are fitted to practice 
+in a reversed order.
+
+Where the doctrine of schoolmen bare great sway
+the schoolmen were like the astronomers,
+which did feign eccentrics and epicycles 
+and such engines of orbs to save the phenomena, 
+though they knew there were no such things.
+
+Superstition is
+when things are either abhord or obserued
+with a zealous or fearefull
+but erroneous relation to God.
+
+1. A tendency to fly up 
+   too quickly to generalizations
+
+2. A tendency to identify its own sense of order 
+   with the cosmic order
+
+3. A tendency to ignore or suppress 
+   whatever does not accord
+
+4. A tendency to assent 
+   to forms---
+   logical, 
+   rhythmical, 
+   syntactical
+</pre>
+
+<p><em><a href="/attached/superstition.pdf">sources</a></em></p>
+
+
+  </main>
+
+<footer>
+<p align="right" xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  Licensed as 
+  <a href="https://en.wikipedia.org/wiki/Creative%20Commons" title="Wikipedia: Creative Commons">Creative Commons</a> 
+  <a href="http://creativecommons.org/about/cc0">public domain (CC-0)</a> by Colton Grainger.
+</p>
+</footer> <script>
+    anchors.add();
+  </script>
+</body>
+</html>
+
