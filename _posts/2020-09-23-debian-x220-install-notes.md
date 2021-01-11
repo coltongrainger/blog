@@ -5,6 +5,8 @@ date: 2020-09-23
 revised:
 ---
 
+note: I threw this laptop across the road in the snow (from the Flying M towards my apartment building in Boise) on December 28th, 2020 & shattered the screen. Guess it's not a cell phone. 
+
 set the mood with [“Future's 'High Off Life' Album (2020)”](https://www.youtube.com/playlist?list=PL9tY0BWXOZFvtPSkcmehO175eN5PU5XMs) 
 
 ## old laptop
