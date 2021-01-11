@@ -5,7 +5,7 @@ date: 2012-01-01
 revised: 2020-06-21
 ---
 
-Photos from an old tumblr.
+Photos from tumblr in ye olde days.
 
 ![](attached/2012-tumblr-15.jpg)
 
